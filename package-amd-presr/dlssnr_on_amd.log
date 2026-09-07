@@ -410,3 +410,75 @@ network job 3 done in 15 ms (8.4 ms waiting for the capture; history on, zero-co
 inline: spin used 40691 iterations for a 15 ms job (~40070 iter/ms), cap 72125131
 network job 3 done in 0 ms (8.4 ms waiting for the capture; history on, zero-copy)
 inline: spin used 41915 iterations for a 0 ms job (~48797 iter/ms), cap 87834672
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 192x192 dxgi 10 (pix 0, tonemap 1); motion 192x192 dxgi 34; depth 192x192 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 192x192 dxgi 10 (pix 0, tonemap 1); motion 192x192 dxgi 34; depth 192x192 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 192x192 dxgi 10 (pix 0, tonemap 1); motion 192x192 dxgi 34; depth 192x192 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.572 -> exposure 0.6762
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.573 -> exposure 0.6746
+network job 1 done in 15 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.573 -> exposure 0.6727
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 0 ms (8.7 ms waiting for the capture; history on, zero-copy)
+network job 2 done in 16 ms (8.6 ms waiting for the capture; history on, zero-copy)
+network job 2 done in 15 ms (10.6 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.078% (healthy)
+network job 3 done in 16 ms (-0.0 ms waiting for the capture; history on, zero-copy)
+inline: spin used 40137 iterations for a 16 ms job (~34556 iter/ms), cap 62200404
+self-check: pre-block zero bytes 0.079% (healthy)
+network job 3 done in 0 ms (0.8 ms waiting for the capture; history on, zero-copy)
+inline: spin used 41164 iterations for a 0 ms job (~41164 iter/ms), cap 74095200
+self-check: pre-block zero bytes 0.076% (healthy)
+network job 3 done in 16 ms (3.0 ms waiting for the capture; history on, zero-copy)
+inline: spin used 54948 iterations for a 16 ms job (~11264 iter/ms), cap 20274873
+staging ready: colour 160x160 dxgi 10 (pix 0, tonemap 1); motion 160x160 dxgi 34; depth 160x160 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 160x160 dxgi 10 (pix 0, tonemap 1); motion 160x160 dxgi 34; depth 160x160 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 160x160 dxgi 10 (pix 0, tonemap 1); motion 160x160 dxgi 34; depth 160x160 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 15 ms (8.8 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 0 ms (10.8 ms waiting for the capture; history off, zero-copy)
+network job 3 done in 0 ms (8.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 36601 iterations for a 0 ms job (~36601 iter/ms), cap 65881800
+network job 3 done in 16 ms (8.4 ms waiting for the capture; history on, zero-copy)
+inline: spin used 39788 iterations for a 16 ms job (~44339 iter/ms), cap 79809816
+network job 3 done in 15 ms (10.4 ms waiting for the capture; history on, zero-copy)
+inline: spin used 52383 iterations for a 15 ms job (~48845 iter/ms), cap 87921287
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 192x192 dxgi 10 (pix 0, tonemap 1); motion 192x192 dxgi 34; depth 192x192 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.572 -> exposure 0.6762
+network job 1 done in 16 ms (0.1 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 15 ms (8.8 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.078% (healthy)
+network job 3 done in 16 ms (1.0 ms waiting for the capture; history on, zero-copy)
+inline: spin used 41360 iterations for a 16 ms job (~5457 iter/ms), cap 9822745
+staging ready: colour 160x160 dxgi 10 (pix 0, tonemap 1); motion 160x160 dxgi 34; depth 160x160 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 16 ms (8.9 ms waiting for the capture; history off, zero-copy)
+network job 3 done in 15 ms (8.9 ms waiting for the capture; history on, zero-copy)
+inline: spin used 36128 iterations for a 15 ms job (~35921 iter/ms), cap 64657585

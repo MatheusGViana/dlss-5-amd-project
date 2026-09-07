@@ -1,4 +1,4 @@
-param([string]$PackageName='OptiScaler-AMD-PreSR-Multipass-v1.1')
+param([string]$PackageName='OptiScaler-AMD-PreSR-Multipass-v1.2')
 $ErrorActionPreference='Stop'
 $source=Join-Path $PSScriptRoot 'OptiScaler-DLSSNR-PreSR-Multipass-main'
 $stage=Join-Path $PSScriptRoot $PackageName
@@ -21,6 +21,7 @@ foreach($entry in @(@('external/xess/LICENSE.txt','XeSS_LICENSE.txt'),@('externa
     Copy-Item -LiteralPath (Join-Path $source $entry[0]) -Destination (Join-Path $stage ('Licenses/'+$entry[1])) -Force
 }
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'analysis/INSTALAR_AMD.ps1'),(Join-Path $PSScriptRoot 'analysis/LEIA-ME-AMD.md') -Destination $stage -Force
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'analysis/DIAGNOSTICO_AMD.ps1') -Destination $stage -Force
 $ini=Get-Content -LiteralPath (Join-Path $source 'OptiScaler.ini') -Raw
 $ini=$ini -replace '(?m)^Dx12Upscaler=.*$','Dx12Upscaler=ffx'
 $ini=$ini -replace '(?m)^LogToFile=.*$','LogToFile=true'

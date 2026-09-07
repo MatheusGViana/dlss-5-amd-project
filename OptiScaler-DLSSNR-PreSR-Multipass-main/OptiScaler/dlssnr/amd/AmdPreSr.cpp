@@ -144,6 +144,7 @@ struct Backend::Impl
     std::atomic<bool> failed { false };
     std::atomic<UINT64> completion { 0 };
     UINT64 frames = 0, serial = 0;
+    UINT64 lastSubmitted = 0;
     UINT width = 0, height = 0, activePasses = 0, lastPasses = 0;
     HipSetFn hipSet = nullptr;
     int hipDevice = -1;
@@ -160,21 +161,30 @@ struct Backend::Impl
             return;
         HMODULE hip = LoadLibraryExW(L"amdhip64_7.dll", nullptr, LOAD_LIBRARY_SEARCH_DEFAULT_DIRS);
         if (!hip)
-            throw std::runtime_error("amdhip64_7.dll not found");
+            throw std::runtime_error("Cannot load amdhip64_7.dll; Windows error=" + std::to_string(GetLastError()) +
+                                     ". Install the compatible AMD HIP 7 runtime; HIP 6 alone is insufficient.");
+        wchar_t hipPath[MAX_PATH] {};
+        GetModuleFileNameW(hip, hipPath, MAX_PATH);
+        Log("HIP runtime: " + std::filesystem::path(hipPath).string());
         auto count = reinterpret_cast<int (*)(int*)>(GetProcAddress(hip, "hipGetDeviceCount"));
         auto props = reinterpret_cast<int (*)(void*, int)>(GetProcAddress(hip, "hipGetDevicePropertiesR0600"));
         hipSet = reinterpret_cast<HipSetFn>(GetProcAddress(hip, "hipSetDevice"));
         if (!count || !props || !hipSet)
             throw std::runtime_error("HIP R0600 API unavailable");
         int n = 0;
-        if (count(&n) != 0)
-            throw std::runtime_error("HIP device enumeration failed");
+        int countResult = count(&n);
+        if (countResult != 0 || n == 0)
+            throw std::runtime_error("HIP device enumeration failed: code=" + std::to_string(countResult) +
+                                     " devices=" + std::to_string(n));
         auto luid = device->GetAdapterLuid();
         for (int i = 0; i < n; ++i)
         {
             // R0600 prefix: name[256], uuid[16], luid[8]. Oversized aligned storage.
             alignas(16) std::array<unsigned char, 8192> p {};
-            if (props(p.data(), i) == 0 && std::memcmp(p.data() + 272, &luid, 8) == 0)
+            int propResult = props(p.data(), i);
+            Log("HIP candidate " + std::to_string(i) + " code=" + std::to_string(propResult) +
+                " name=" + std::string(reinterpret_cast<char*>(p.data())));
+            if (propResult == 0 && std::memcmp(p.data() + 272, &luid, 8) == 0)
             {
                 hipDevice = i;
                 Log("HIP adapter: " + std::string(reinterpret_cast<char*>(p.data())));
@@ -514,7 +524,7 @@ ID3D12Resource* Backend::Record(ID3D12GraphicsCommandList* cmd, const Frame& f, 
 void Backend::Submitted(ID3D12CommandQueue* queue, UINT n, ID3D12CommandList* const* lists)
 {
     auto pending = p->pending.load(std::memory_order_acquire);
-    if (!pending || queue != p->queue.Get())
+    if (!pending || !queue)
         return;
     bool found = false;
     for (UINT i = 0; i < n; ++i)
@@ -524,6 +534,24 @@ void Backend::Submitted(ID3D12CommandQueue* queue, UINT n, ID3D12CommandList* co
     std::lock_guard guard(p->lock);
     if (p->pending.load() != pending)
         return;
+    // Match the recorded list, not the swapchain's presentation queue. FG can
+    // replace the latter, and the renderer may also migrate between queues.
+    // Only one frame is outstanding, so the prior completion fence has retired
+    // before Record permits this frame to use the shared runtime resources.
+    if (queue != p->queue.Get())
+    {
+        for (auto h : p->runtime)
+            if (h)
+            {
+                auto old = At<ID3D12CommandQueue*>(h, 0x764d0);
+                queue->AddRef();
+                At<ID3D12CommandQueue*>(h, 0x764d0) = queue;
+                if (old)
+                    old->Release();
+            }
+        p->queue = queue;
+        p->Log("Render submission queue changed; AMD pre-SR remains enabled");
+    }
     for (UINT i = 0; i < p->activePasses; ++i)
     {
         auto h = p->runtime[i];
@@ -551,13 +579,17 @@ void Backend::Submitted(ID3D12CommandQueue* queue, UINT n, ID3D12CommandList* co
     }
     p->completion.store(value);
     p->pending.store(nullptr, std::memory_order_release);
-    if (!p->failed && p->frames <= 3)
+    p->lastSubmitted = GetTickCount64();
+    if (!p->failed && (p->frames <= 3 || p->frames % 120 == 0))
         p->Log("Completed AMD pre-SR passes=" + std::to_string(p->activePasses) + " at " + std::to_string(p->width) +
                "x" + std::to_string(p->height));
 }
 std::string Backend::Status() const
 {
     std::lock_guard guard(p->lock);
+    if (!p->failed && p->lastSubmitted)
+        return p->status + " | completed frames=" + std::to_string(p->frames) + " last completion " +
+               std::to_string((GetTickCount64() - p->lastSubmitted) / 1000) + "s ago";
     return p->status;
 }
 UINT64 Backend::RecordedFrames() const { return p->frames; }

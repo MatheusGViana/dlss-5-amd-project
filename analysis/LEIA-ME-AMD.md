@@ -1,8 +1,12 @@
-# OptiScaler AMD Pre-SR Multipass — build local v1.1
+# OptiScaler AMD Pre-SR Multipass — build local v1.2
 
 Esta build usa o runtime AMD v0.2.14 da `version.dll` fornecida e o fork OptiScaler-DLSSNR-PreSR-Multipass. O fluxo implementado é:
 
 `cor na resolução interna → NR AMD/HIP (1–3 passagens) → FSR → saída do jogo`
+
+A versão 1.2 identifica a submissão pelo command list processado, em vez de exigir a fila de apresentação inicial. Isso corrige a rejeição quando o FG troca a fila do swapchain e permite acompanhar mudanças na fila que executa o render. O hook usa a implementação da fila do dispositivo para evitar depender de proxies de apresentação. O painel informa quantos quadros foram processados e a idade da última conclusão. A configuração de FG permanece sob controle do jogo/usuário.
+
+Teste: ative o FG pelo jogo e confira se `completed frames` continua aumentando. Depois teste o multiframe pelo OptiScaler separadamente. Os testes sintéticos alternaram filas reais D3D12 com uma fila de apresentação separada, três passagens, mudança de resolução e profundidade D32S8. **FG nativo e multiframe ainda precisam de confirmação em jogo com a versão 1.2.**
 
 A versão 1.1 acrescenta conversão de profundidade com shader para R32_FLOAT, incluindo texturas typeless de depth-stencil D16, D24S8, D32 e D32S8 com leitura por shader permitida. A versão 1 rejeitava qualquer recurso com ALLOW_DEPTH_STENCIL. O log agora registra dimensões, formato e flags da cor, movimento e profundidade para distinguir as causas de incompatibilidade. A captura do Cyberpunk mostrou o erro genérico da versão 1; a causa exata e a execução em jogo ainda precisam ser confirmadas no novo log.
 
@@ -40,7 +44,7 @@ O código do OptiScaler foi compilado em Release x64. O mesmo adaptador AMD foi 
 - Saídas testadas sem NaN/Inf; inspeção das mensagens de erro D3D12 quando a camada de debug está disponível.
 - Encerramento dos workers fora do loader lock validado pelo teste.
 
-O usuário confirmou funcionamento da versão 1 no Onimusha. A versão 1.1 passou nos testes sintéticos com profundidade D16, D24S8, D32 e D32S8, recorte, mudança de resolução e reset, além da regressão com R32_FLOAT. **O Cyberpunk ainda precisa ser testado com esta atualização.** O teste sintético confirma a inferência e a sincronização do adaptador, mas não cobre as particularidades de integração de cada jogo. Seus tempos não são um benchmark de desempenho em jogo.
+O usuário confirmou funcionamento da versão 1 no Onimusha e da versão 1.1 no Cyberpunk sem FG. A versão 1.1 passou nos testes sintéticos com profundidade D16, D24S8, D32 e D32S8, recorte, mudança de resolução e reset, além da regressão com R32_FLOAT. O teste sintético confirma a inferência e a sincronização do adaptador, mas não cobre as particularidades de integração de cada jogo. Seus tempos não são um benchmark de desempenho em jogo.
 
 ## Diagnóstico
 
@@ -52,9 +56,13 @@ Na pasta do jogo:
 
 Compare a dimensão em `amd_presr.log` ao trocar Quality/Performance. Ela deve acompanhar a resolução interna, enquanto a resolução de saída permanece a mesma. Esse é o teste direto do pre-SR.
 
+Em outra máquina, execute `powershell -ExecutionPolicy Bypass -File .\DIAGNOSTICO_AMD.ps1 -GameDir "C:\pasta\do\jogo" > diagnostico-amd.txt` a partir do pacote e compartilhe o relatório para investigar falhas. O script somente lê arquivos, versões e informações das GPUs; o relatório inclui caminhos locais. A DLL original importa `amdhip64_7.dll`: HIP 6 sozinho não atende essa dependência. A build registra o caminho do HIP carregado e códigos de erro de enumeração/carregamento. Não copie DLLs de sistema avulsas entre computadores.
+
+A RX 9060 XT usa gfx1200, enquanto a RX 9070/9070 XT usa gfx1201, conforme a documentação AMD: https://rocm.docs.amd.com/projects/install-on-windows/en/latest/reference/system-requirements.html . O runtime fornecido contém código para ambos os alvos; testes locais foram feitos somente na RX 9060 XT. Falhas relatadas em outras máquinas ainda exigem logs para diagnóstico.
+
 ## Limites conhecidos
 
-Somente uma queue de renderização e uma avaliação pendente são aceitas. Uma chamada enquanto a anterior ainda está pendente é ignorada, sem substituir a entrada do upscaler. O callback após ExecuteCommandLists libera cada passagem em ordem, porque o runtime usa o stream HIP padrão. Essa primeira implementação prioriza correção; o custo da espera CPU também precisa ser medido no jogo.
+Somente uma avaliação pendente é aceita. A fila de renderização pode mudar entre avaliações, depois da conclusão da anterior. Uma chamada enquanto a anterior ainda está pendente é ignorada, sem substituir a entrada do upscaler. O callback após ExecuteCommandLists libera cada passagem em ordem, porque o runtime usa o stream HIP padrão. O custo da espera CPU também precisa ser medido no jogo.
 
 Motion vectors em resolução de exibição com dimensões diferentes da entrada, origem de cor diferente de zero, MSAA, profundidade sem leitura por shader e formatos de profundidade fora da lista acima não são suportados por esta build. Um erro de backend é registrado e requer reiniciar o jogo. Frame generation, DX11 e Vulkan não receberam validação em jogo.
 

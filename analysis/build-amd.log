@@ -1,4 +1,4 @@
-Compilação de 07/09/2026 03:57:09 iniciada.
+Compilação de 07/09/2026 07:58:48 iniciada.
 O detalhamento do log está definido como: Normal.
      1>Projeto "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler.sln" no nó 1 (Build destino(s)).
      1>ValidateSolutionConfiguration:
@@ -26,17 +26,17 @@ O detalhamento do log está definido como: Normal.
        Link:
          Todas as saídas estão atualizadas.
          dlssnr_forwarder.vcxproj -> C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\a\nvngx.dll_dlssnr.dll
-     2>ClCompile:
-         Todas as saídas estão atualizadas.
-     3>FinalizeBuildStatus:
+       FinalizeBuildStatus:
          Excluindo o arquivo "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\dlssnr_forwarder\dlssnr_forwarder.tlog\unsuccessfulbuild".
          Tocando "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\dlssnr_forwarder\dlssnr_forwarder.tlog\dlssnr_forwarder.lastbuildstate".
      3>Projeto de compilação pronto "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\dlssnr\forwarder\dlssnr_forwarder.vcxproj" (destinos padrão).
      2>ClCompile:
+         Todas as saídas estão atualizadas.
          F:\build\VC\Tools\MSVC\14.41.34120\bin\HostX86\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /MP /O2 /Ot /GL /D NDEBUG /D _DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR /D _WINDOWS /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:queue /w34996 dlssnr\amd\AmdPreSr.cpp
          AmdPreSr.cpp
-         F:\build\VC\Tools\MSVC\14.41.34120\bin\HostX86\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /MP /O2 /Ot /GL /D NDEBUG /D _DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR /D _WINDOWS /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Yu"pch.h" /Fp"x64\Release\OptiScaler.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:queue /w34996 dllmain.cpp hooks\D3D12_Hooks.cpp hooks\LibraryLoad_Hooks.cpp inputs\FG\FSR3_Dx12_FG.cpp inputs\FSR2_Dx11.cpp inputs\FSR2_Dx12.cpp inputs\FSR2_Vk.cpp inputs\FSR3_Dx12.cpp inputs\FfxApiExe_Dx12.cpp inputs\FfxApi_Dx12.cpp inputs\FfxApi_Vk.cpp inputs\NVNGX_DLSS_Vk.cpp inputs\XeSS_Common.cpp inputs\XeSS_Dx11.cpp inputs\XeSS_Dx12.cpp inputs\XeSS_Vulkan.cpp menu\menu_common.cpp menu\menu_dx_base.cpp menu\menu_overlay_base.cpp upscalers\FeatureProvider_Dx11.cpp upscalers\FeatureProvider_Dx12.cpp upscalers\FeatureProvider_Vk.cpp upscalers\xess\XeSSFeature.cpp upscalers\xess\XeSSFeature_Dx11.cpp upscalers\xess\XeSSFeature_Dx11on12.cpp upscalers\xess\XeSSFeature_Dx12.cpp upscalers\xess\XeSSFeature_Vk.cpp version_check.cpp
+         F:\build\VC\Tools\MSVC\14.41.34120\bin\HostX86\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /MP /O2 /Ot /GL /D NDEBUG /D _DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR /D _WINDOWS /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Yu"pch.h" /Fp"x64\Release\OptiScaler.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:queue /w34996 dllmain.cpp dlssnr\amd\AmdBridge.cpp hooks\D3D12_Hooks.cpp hooks\LibraryLoad_Hooks.cpp inputs\FG\FSR3_Dx12_FG.cpp inputs\FSR2_Dx11.cpp inputs\FSR2_Dx12.cpp inputs\FSR2_Vk.cpp inputs\FSR3_Dx12.cpp inputs\FfxApiExe_Dx12.cpp inputs\FfxApi_Dx12.cpp inputs\FfxApi_Vk.cpp inputs\NVNGX_DLSS_Vk.cpp inputs\XeSS_Common.cpp inputs\XeSS_Dx11.cpp inputs\XeSS_Dx12.cpp inputs\XeSS_Vulkan.cpp menu\menu_common.cpp menu\menu_dx_base.cpp menu\menu_overlay_base.cpp upscalers\FeatureProvider_Dx11.cpp upscalers\FeatureProvider_Dx12.cpp upscalers\FeatureProvider_Vk.cpp upscalers\xess\XeSSFeature.cpp upscalers\xess\XeSSFeature_Dx11.cpp upscalers\xess\XeSSFeature_Dx11on12.cpp upscalers\xess\XeSSFeature_Dx12.cpp upscalers\xess\XeSSFeature_Vk.cpp version_check.cpp
          dllmain.cpp
+         AmdBridge.cpp
          D3D12_Hooks.cpp
          LibraryLoad_Hooks.cpp
          FSR3_Dx12_FG.cpp
@@ -393,9 +393,9 @@ O detalhamento do log está definido como: Normal.
             Criando biblioteca C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\OptiScaler.lib e objeto C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\OptiScaler.exp
      2>LINK : warning LNK4098: defaultlib 'LIBCMT' conflita com uso de outras bibliotecas; use /NODEFAULTLIB:library [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
          Gerando código
-         35 of 37712 functions (<0.1%) were compiled, the rest were copied from previous compilation.
-           2 functions were new in current compilation
-           302 functions had inline decision re-evaluated but remain unchanged
+         65 of 37712 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           301 functions had inline decision re-evaluated but remain unchanged
          Finalizada a geraçao de código
          OptiScaler.vcxproj -> C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\OptiScaler.dll
        FinalizeBuildStatus:
@@ -444,4 +444,4 @@ Compilação com êxito.
     26 Aviso(s)
     0 Erro(s)
 
-Tempo Decorrido 00:00:28.84
+Tempo Decorrido 00:00:26.69

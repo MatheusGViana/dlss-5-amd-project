@@ -27,6 +27,7 @@ int wmain(int argc, wchar_t **argv) {
     UINT size = argc > 3 ? _wtoi(argv[3]) : 128;
     UINT active = argc > 4 ? _wtoi(argv[4]) : size;
     UINT depthBits = argc > 5 ? _wtoi(argv[5]) : 0;
+    bool queueChanges = argc > 6 && _wtoi(argv[6]) != 0;
     if (size < 64 || size > 2048 || active < 64 || active > size)
       return 2;
     ComPtr<ID3D12Debug> debug;
@@ -50,6 +51,9 @@ int wmain(int argc, wchar_t **argv) {
     ComPtr<ID3D12CommandQueue> queue;
     D3D12_COMMAND_QUEUE_DESC qd{};
     ck(device->CreateCommandQueue(&qd, IID_PPV_ARGS(&queue)));
+    ComPtr<ID3D12CommandQueue> secondQueue, presentQueue;
+    ck(device->CreateCommandQueue(&qd, IID_PPV_ARGS(&secondQueue)));
+    ck(device->CreateCommandQueue(&qd, IID_PPV_ARGS(&presentQueue)));
     ComPtr<ID3D12CommandAllocator> alloc;
     ck(device->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT,
                                       IID_PPV_ARGS(&alloc)));
@@ -156,7 +160,7 @@ int wmain(int argc, wchar_t **argv) {
     auto colour = tex(DXGI_FORMAT_R16G16B16A16_FLOAT, 0);
     auto motion = tex(DXGI_FORMAT_R16G16_FLOAT, 1);
     auto depth = tex(DXGI_FORMAT_R32_FLOAT, 2);
-    auto backend = new AmdPreSr::Backend(device.Get(), queue.Get(), argv[1]);
+    auto backend = new AmdPreSr::Backend(device.Get(), queueChanges ? presentQueue.Get() : queue.Get(), argv[1]);
     AmdPreSr::Frame frame{};
     frame.colour = colour.Get();
     frame.motion = motion.Get();
@@ -200,11 +204,14 @@ int wmain(int argc, wchar_t **argv) {
       ck(cmd->Close());
       ID3D12CommandList *lists[]{cmd.Get()};
       auto start = GetTickCount64();
-      queue->ExecuteCommandLists(1, lists);
-      backend->Submitted(queue.Get(), 1, lists);
+      auto submitQueue = queueChanges && (iteration % 4 >= 2) ? secondQueue.Get() : queue.Get();
+      // An unrelated presentation submission must not publish our HIP job.
+      backend->Submitted(presentQueue.Get(), 0, nullptr);
+      submitQueue->ExecuteCommandLists(1, lists);
+      backend->Submitted(submitQueue, 1, lists);
       ComPtr<ID3D12Fence> fence;
       ck(device->CreateFence(0, D3D12_FENCE_FLAG_NONE, IID_PPV_ARGS(&fence)));
-      ck(queue->Signal(fence.Get(), 1));
+      ck(submitQueue->Signal(fence.Get(), 1));
       HANDLE event = CreateEventW(nullptr, FALSE, FALSE, nullptr);
       ck(fence->SetEventOnCompletion(1, event));
       if (WaitForSingleObject(event, 15000) != WAIT_OBJECT_0)
