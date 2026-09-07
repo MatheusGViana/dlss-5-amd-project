@@ -28,6 +28,10 @@ int wmain(int argc, wchar_t **argv) {
     UINT active = argc > 4 ? _wtoi(argv[4]) : size;
     UINT depthBits = argc > 5 ? _wtoi(argv[5]) : 0;
     bool queueChanges = argc > 6 && _wtoi(argv[6]) != 0;
+    bool resizeEveryFrame = argc > 7 && _wtoi(argv[7]) != 0;
+    bool forceTimeout = argc > 8 && _wtoi(argv[8]) != 0;
+    bool delayedNotification = argc > 9 && _wtoi(argv[9]) != 0;
+    bool varySettings = argc > 10 && _wtoi(argv[10]) != 0;
     if (size < 64 || size > 2048 || active < 64 || active > size)
       return 2;
     ComPtr<ID3D12Debug> debug;
@@ -173,15 +177,38 @@ int wmain(int argc, wchar_t **argv) {
     settings.passes = passes;
     size_t badFrames = 0;
     for (int iteration = 0; iteration < 8; ++iteration) {
-      if (iteration == 4 && active >= 128) {
+      if (varySettings) {
+        settings.passes = 1 + iteration % passes;
+        settings.tone = iteration % 2 ? 0.5f : 0.0f;
+        settings.structure = iteration % 2 ? 0.75f : 1.0f;
+      }
+      if (resizeEveryFrame) {
+        active = iteration % 2 == 0 ? size : size / 2;
+        frame.width = active;
+        frame.height = active;
+      } else if (iteration == 4 && active >= 128) {
         active -= 32;
         frame.width = active;
         frame.height = active;
       }
       frame.reset = (iteration == 5);
+      if (iteration == 3) backend->InvalidateHistory();
       auto out = backend->Record(cmd.Get(), frame, settings);
+      if (!out && forceTimeout && backend->Status().find("retry in 1s") != std::string::npos) {
+        std::cout << "Cooldown observed; waiting to test recovery" << std::endl;
+        Sleep(1100);
+        out = backend->Record(cmd.Get(), frame, settings);
+      }
       if (!out)
         throw std::runtime_error(backend->Status());
+      if (varySettings || iteration == 3) {
+        for (UINT pass = 1; pass <= settings.passes; ++pass) {
+          auto name = L"dlssnr_amd_pass" + std::to_wstring(pass) + L".dll";
+          auto base = reinterpret_cast<unsigned char*>(GetModuleHandleW(name.c_str()));
+          if (!base || *(base + 0x765f8) != 0)
+            throw std::runtime_error("Temporal history was not invalidated before the next job");
+        }
+      }
       auto desc = out->GetDesc();
       D3D12_PLACED_SUBRESOURCE_FOOTPRINT fp{};
       UINT64 bytes;
@@ -205,9 +232,35 @@ int wmain(int argc, wchar_t **argv) {
       ID3D12CommandList *lists[]{cmd.Get()};
       auto start = GetTickCount64();
       auto submitQueue = queueChanges && (iteration % 4 >= 2) ? secondQueue.Get() : queue.Get();
+      const bool forced = forceTimeout && iteration == 2;
+      if (forced && !delayedNotification) {
+        // Inject the recovered watchdog abort word, without changing its code.
+        for (UINT pass = 1; pass <= settings.passes; ++pass) {
+          auto name = L"dlssnr_amd_pass" + std::to_wstring(pass) + L".dll";
+          auto base = reinterpret_cast<unsigned char*>(GetModuleHandleW(name.c_str()));
+          if (!base) throw std::runtime_error("Test runtime not loaded");
+          auto abortWord = *reinterpret_cast<volatile LONG**>(base + 0x76c68);
+          auto job = *reinterpret_cast<UINT*>(base + 0x76d74);
+          if (!abortWord) throw std::runtime_error("Watchdog test word unavailable");
+          InterlockedExchange(abortWord, static_cast<LONG>(job));
+        }
+      }
       // An unrelated presentation submission must not publish our HIP job.
+      backend->Submitting(presentQueue.Get(), 0, nullptr);
       backend->Submitted(presentQueue.Get(), 0, nullptr);
+      if (!(forced && delayedNotification)) backend->Submitting(submitQueue, 1, lists);
       submitQueue->ExecuteCommandLists(1, lists);
+      if (forced && delayedNotification) {
+        ComPtr<ID3D12Fence> boundedFence;
+        ck(device->CreateFence(0, D3D12_FENCE_FLAG_NONE, IID_PPV_ARGS(&boundedFence)));
+        ck(submitQueue->Signal(boundedFence.Get(), 1));
+        HANDLE done = CreateEventW(nullptr, FALSE, FALSE, nullptr);
+        ck(boundedFence->SetEventOnCompletion(1, done));
+        auto result = WaitForSingleObject(done, 1500);
+        CloseHandle(done);
+        if (result != WAIT_OBJECT_0) throw std::runtime_error("GPU did not exit bounded wait without notification");
+        std::cout << "GPU completed before worker notification in " << GetTickCount64()-start << "ms" << std::endl;
+      } else if (forced) Sleep(100);
       backend->Submitted(submitQueue, 1, lists);
       ComPtr<ID3D12Fence> fence;
       ck(device->CreateFence(0, D3D12_FENCE_FLAG_NONE, IID_PPV_ARGS(&fence)));
@@ -241,11 +294,11 @@ int wmain(int argc, wchar_t **argv) {
       raw.close();
       read->Unmap(0, nullptr);
       std::cout << "frame=" << iteration << " active=" << active
-                << " passes=" << passes << " changed_pixels=" << changed
+                << " passes=" << settings.passes << " changed_pixels=" << changed
                 << " nonfinite=" << invalid
                 << " elapsed_ms=" << GetTickCount64() - start
                 << " status=" << backend->Status() << std::endl;
-      badFrames += (changed == 0 || invalid > 0);
+      badFrames += ((forced ? changed != 0 : changed == 0) || invalid > 0);
       if (iteration < 7) {
         ck(alloc->Reset());
         ck(cmd->Reset(alloc.Get(), nullptr));

@@ -1,0 +1,539 @@
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\; log C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\dlssnr_on_amd.log; settings C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 1920x1080 dxgi 10 (pix 0, tonemap 1); motion 1920x1080 dxgi 10; depth 1920x1080 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.997 -> exposure 0.2500
+network job 1 done in 110 ms (4.4 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 31 ms (26.3 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.043% (healthy)
+network job 3 done in 31 ms (6.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 207410 iterations for a 31 ms job (~39473 iter/ms), cap 71050616
+auto-exposure: encoded mean 0.500 -> exposure 0.0270
+network job 100 done in 15 ms (26.4 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.500 -> exposure 0.0270
+network job 200 done in 31 ms (27.2 ms waiting for the capture; history on, zero-copy)
+inline: spin used 161139 iterations for a 31 ms job (~149725 iter/ms), cap 269505793
+staging ready: colour 2560x1440 dxgi 10 (pix 0, tonemap 1); motion 2560x1440 dxgi 10; depth 2560x1440 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 3218 ms (-1.1 ms waiting for the capture; history off, zero-copy)
+FAULT: exception 0x80000003 at 00007FF747B73F4B (C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe + 0x2a43f4b) thread 10960, last job 1
+CRASH: exception 0x80000003 at 00007FF747B73F4B in C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe (thread 10960, last job 1, mode inline)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\; log C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\dlssnr_on_amd.log; settings C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 2560x1440 dxgi 10 (pix 0, tonemap 1); motion 2560x1440 dxgi 10; depth 2560x1440 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.997 -> exposure 0.2500
+network job 1 done in 62 ms (0.9 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 47 ms (45.7 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.041% (healthy)
+network job 3 done in 47 ms (7.2 ms waiting for the capture; history on, zero-copy)
+inline: spin used 282091 iterations for a 47 ms job (~215324 iter/ms), cap 387583816
+auto-exposure: encoded mean 0.500 -> exposure 0.0252
+network job 100 done in 46 ms (48.5 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.500 -> exposure 0.0252
+network job 200 done in 47 ms (47.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 286715 iterations for a 47 ms job (~286715 iter/ms), cap 400000000
+auto-exposure: encoded mean 0.500 -> exposure 0.0252
+network job 300 done in 47 ms (48.0 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.500 -> exposure 0.0252
+network job 400 done in 62 ms (48.2 ms waiting for the capture; history on, zero-copy)
+inline: spin used 280962 iterations for a 62 ms job (~260471 iter/ms), cap 400000000
+auto-exposure: encoded mean 0.500 -> exposure 0.0252
+network job 500 done in 46 ms (47.9 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.500 -> exposure 0.1882
+network job 600 done in 47 ms (48.2 ms waiting for the capture; history on, zero-copy)
+inline: spin used 276981 iterations for a 47 ms job (~276981 iter/ms), cap 400000000
+auto-exposure: encoded mean 0.517 -> exposure 2.3124
+network job 700 done in 63 ms (56.0 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.503 -> exposure 2.2688
+network job 800 done in 62 ms (54.9 ms waiting for the capture; history on, zero-copy)
+inline: spin used 284712 iterations for a 62 ms job (~264398 iter/ms), cap 400000000
+staging ready: colour 1920x1080 dxgi 10 (pix 0, tonemap 1); motion 1920x1080 dxgi 10; depth 1920x1080 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 32 ms (0.3 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 32 ms (29.2 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.076% (healthy)
+network job 3 done in 31 ms (7.8 ms waiting for the capture; history on, zero-copy)
+inline: spin used 173656 iterations for a 31 ms job (~257859 iter/ms), cap 400000000
+auto-exposure: encoded mean 0.488 -> exposure 2.6398
+network job 100 done in 31 ms (30.0 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.501 -> exposure 2.8484
+network job 200 done in 31 ms (28.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 160474 iterations for a 31 ms job (~157680 iter/ms), cap 283823566
+auto-exposure: encoded mean 0.496 -> exposure 2.8661
+network job 300 done in 31 ms (29.1 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.502 -> exposure 2.9751
+network job 400 done in 31 ms (28.0 ms waiting for the capture; history on, zero-copy)
+inline: spin used 163144 iterations for a 31 ms job (~144920 iter/ms), cap 260856486
+auto-exposure: encoded mean 0.495 -> exposure 2.9986
+network job 500 done in 31 ms (30.2 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.491 -> exposure 3.0043
+network job 600 done in 15 ms (29.3 ms waiting for the capture; history on, zero-copy)
+inline: spin used 159316 iterations for a 15 ms job (~159316 iter/ms), cap 286768800
+staging ready: colour 1920x1080 dxgi 10 (pix 0, tonemap 1); motion 1920x1080 dxgi 34; depth 1920x1080 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 31 ms (5.3 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 32 ms (29.2 ms waiting for the capture; history on, zero-copy)
+network job 3 done in 47 ms (32.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 171287 iterations for a 47 ms job (~156708 iter/ms), cap 282073513
+job 100 motion: mean |mv| = (0.000, 0.000) x scale (1920.0, 1080.0), depth on, exposure 2.840
+auto-exposure: encoded mean 0.500 -> exposure 2.8408
+network job 100 done in 31 ms (2.0 ms waiting for the capture; history on, zero-copy)
+job 200 motion: mean |mv| = (0.026, 0.027) x scale (1920.0, 1080.0), depth on, exposure 2.909
+auto-exposure: encoded mean 0.509 -> exposure 2.8748
+network job 200 done in 15 ms (2.1 ms waiting for the capture; history on, zero-copy)
+inline: spin used 164778 iterations for a 15 ms job (~156701 iter/ms), cap 282061412
+job 300 motion: mean |mv| = (0.009, 0.013) x scale (1920.0, 1080.0), depth on, exposure 3.080
+auto-exposure: encoded mean 0.501 -> exposure 3.0749
+network job 300 done in 31 ms (2.7 ms waiting for the capture; history on, zero-copy)
+job 400 motion: mean |mv| = (0.008, 0.013) x scale (1920.0, 1080.0), depth on, exposure 2.680
+auto-exposure: encoded mean 0.506 -> exposure 2.6578
+network job 400 done in 31 ms (2.8 ms waiting for the capture; history on, zero-copy)
+inline: spin used 167188 iterations for a 31 ms job (~161406 iter/ms), cap 290530800
+job 500 motion: mean |mv| = (0.000, 0.000) x scale (1920.0, 1080.0), depth on, exposure 2.272
+auto-exposure: encoded mean 0.501 -> exposure 2.2685
+network job 500 done in 32 ms (2.7 ms waiting for the capture; history on, zero-copy)
+job 600 motion: mean |mv| = (0.000, 0.000) x scale (1920.0, 1080.0), depth on, exposure 2.282
+auto-exposure: encoded mean 0.501 -> exposure 2.2800
+network job 600 done in 31 ms (2.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 168691 iterations for a 31 ms job (~153050 iter/ms), cap 275490098
+job 700 motion: mean |mv| = (0.000, 0.000) x scale (1920.0, 1080.0), depth on, exposure 2.260
+auto-exposure: encoded mean 0.500 -> exposure 2.2602
+network job 700 done in 32 ms (3.1 ms waiting for the capture; history on, zero-copy)
+job 800 motion: mean |mv| = (0.000, 0.000) x scale (1920.0, 1080.0), depth on, exposure 2.229
+auto-exposure: encoded mean 0.499 -> exposure 2.2314
+network job 800 done in 31 ms (2.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 173677 iterations for a 31 ms job (~157412 iter/ms), cap 283340769
+job 900 motion: mean |mv| = (0.000, 0.000) x scale (1920.0, 1080.0), depth on, exposure 2.242
+auto-exposure: encoded mean 0.499 -> exposure 2.2433
+network job 900 done in 47 ms (3.3 ms waiting for the capture; history on, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\; log C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\dlssnr_on_amd.log; settings C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 1920x1080 dxgi 10 (pix 0, tonemap 1); motion 1920x1080 dxgi 34; depth 1920x1080 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.371 -> exposure 2.1350
+network job 1 done in 47 ms (0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 31 ms (26.3 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.080% (healthy)
+network job 3 done in 31 ms (3.9 ms waiting for the capture; history on, zero-copy)
+inline: spin used 181851 iterations for a 31 ms job (~37687 iter/ms), cap 67836233
+job 1000 motion: mean |mv| = (0.000, 0.000) x scale (1920.0, 1080.0), depth on, exposure 2.217
+auto-exposure: encoded mean 0.499 -> exposure 2.2210
+network job 1000 done in 47 ms (2.8 ms waiting for the capture; history on, zero-copy)
+inline: spin used 166597 iterations for a 47 ms job (~148642 iter/ms), cap 267555049
+job 100 motion: mean |mv| = (0.000, 0.000) x scale (1920.0, 1080.0), depth on, exposure 2.259
+auto-exposure: encoded mean 0.502 -> exposure 2.2538
+network job 100 done in 16 ms (-0.0 ms waiting for the capture; history on, zero-copy)
+job 1100 motion: mean |mv| = (0.000, 0.000) x scale (1920.0, 1080.0), depth on, exposure 2.228
+auto-exposure: encoded mean 0.500 -> exposure 2.2270
+network job 1100 done in 31 ms (2.7 ms waiting for the capture; history on, zero-copy)
+job 1200 motion: mean |mv| = (0.000, 0.000) x scale (1920.0, 1080.0), depth on, exposure 2.609
+auto-exposure: encoded mean 0.500 -> exposure 2.6103
+network job 1200 done in 31 ms (2.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 167271 iterations for a 31 ms job (~159530 iter/ms), cap 287154221
+job 1300 motion: mean |mv| = (0.018, 0.010) x scale (1920.0, 1080.0), depth on, exposure 2.713
+auto-exposure: encoded mean 0.501 -> exposure 2.7078
+network job 1300 done in 32 ms (2.5 ms waiting for the capture; history on, zero-copy)
+staging ready: colour 1280x720 dxgi 10 (pix 0, tonemap 1); motion 1280x720 dxgi 34; depth 1280x720 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (-0.1 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 16 ms (12.4 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.091% (healthy)
+network job 3 done in 15 ms (6.1 ms waiting for the capture; history on, zero-copy)
+inline: spin used 89274 iterations for a 15 ms job (~158864 iter/ms), cap 285954835
+job 100 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 3.046
+auto-exposure: encoded mean 0.500 -> exposure 3.0463
+network job 100 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 200 motion: mean |mv| = (0.001, 0.005) x scale (1280.0, 720.0), depth on, exposure 2.739
+auto-exposure: encoded mean 0.494 -> exposure 2.7609
+network job 200 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 83077 iterations for a 16 ms job (~73436 iter/ms), cap 132184846
+job 300 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.559
+auto-exposure: encoded mean 0.501 -> exposure 2.5555
+network job 300 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 400 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.535
+auto-exposure: encoded mean 0.500 -> exposure 2.5343
+network job 400 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 86645 iterations for a 16 ms job (~66784 iter/ms), cap 120211283
+job 500 motion: mean |mv| = (0.001, 0.001) x scale (1280.0, 720.0), depth on, exposure 2.543
+auto-exposure: encoded mean 0.499 -> exposure 2.5457
+network job 500 done in 0 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 600 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.570
+auto-exposure: encoded mean 0.501 -> exposure 2.5673
+network job 600 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 84192 iterations for a 16 ms job (~76075 iter/ms), cap 136934400
+job 700 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.579
+auto-exposure: encoded mean 0.500 -> exposure 2.5808
+network job 700 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 800 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.584
+auto-exposure: encoded mean 0.500 -> exposure 2.5833
+network job 800 done in 16 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 80366 iterations for a 16 ms job (~72735 iter/ms), cap 130923571
+job 900 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.666
+auto-exposure: encoded mean 0.501 -> exposure 2.6636
+network job 900 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 1000 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.608
+auto-exposure: encoded mean 0.500 -> exposure 2.6073
+network job 1000 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 82447 iterations for a 15 ms job (~73093 iter/ms), cap 131567118
+job 1100 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.604
+auto-exposure: encoded mean 0.500 -> exposure 2.6037
+network job 1100 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 1200 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.772
+auto-exposure: encoded mean 0.500 -> exposure 2.7722
+network job 1200 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 81787 iterations for a 16 ms job (~78072 iter/ms), cap 140529060
+job 1300 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.550
+auto-exposure: encoded mean 0.501 -> exposure 2.5481
+network job 1300 done in 15 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 1400 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.597
+auto-exposure: encoded mean 0.500 -> exposure 2.5984
+network job 1400 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 82703 iterations for a 16 ms job (~69648 iter/ms), cap 125366435
+job 1500 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.566
+auto-exposure: encoded mean 0.500 -> exposure 2.5653
+network job 1500 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 1600 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.626
+auto-exposure: encoded mean 0.500 -> exposure 2.6250
+network job 1600 done in 0 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 84693 iterations for a 0 ms job (~84693 iter/ms), cap 152447400
+job 1700 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.572
+auto-exposure: encoded mean 0.500 -> exposure 2.5731
+network job 1700 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 1800 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.573
+auto-exposure: encoded mean 0.501 -> exposure 2.5711
+network job 1800 done in 0 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 80078 iterations for a 0 ms job (~80078 iter/ms), cap 144140400
+job 1900 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.603
+auto-exposure: encoded mean 0.500 -> exposure 2.6027
+network job 1900 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 2000 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.550
+auto-exposure: encoded mean 0.499 -> exposure 2.5515
+network job 2000 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 80927 iterations for a 15 ms job (~73520 iter/ms), cap 132336489
+job 2100 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.561
+auto-exposure: encoded mean 0.500 -> exposure 2.5605
+network job 2100 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 2200 motion: mean |mv| = (0.001, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.474
+auto-exposure: encoded mean 0.498 -> exposure 2.4815
+network job 2200 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 83967 iterations for a 16 ms job (~67077 iter/ms), cap 120738076
+job 2300 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.602
+auto-exposure: encoded mean 0.501 -> exposure 2.5985
+network job 2300 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 2400 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.647
+auto-exposure: encoded mean 0.501 -> exposure 2.6446
+network job 2400 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 80972 iterations for a 16 ms job (~75148 iter/ms), cap 135267048
+job 2500 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.644
+auto-exposure: encoded mean 0.500 -> exposure 2.6430
+network job 2500 done in 15 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 2600 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.574
+auto-exposure: encoded mean 0.500 -> exposure 2.5744
+network job 2600 done in 15 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 83291 iterations for a 15 ms job (~74754 iter/ms), cap 134557514
+job 2700 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.728
+auto-exposure: encoded mean 0.500 -> exposure 2.7286
+network job 2700 done in 16 ms (0.8 ms waiting for the capture; history on, zero-copy)
+job 2800 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.667
+auto-exposure: encoded mean 0.501 -> exposure 2.6648
+network job 2800 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 83985 iterations for a 16 ms job (~74688 iter/ms), cap 134437968
+job 2900 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.594
+auto-exposure: encoded mean 0.500 -> exposure 2.5919
+network job 2900 done in 15 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 3000 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.695
+auto-exposure: encoded mean 0.500 -> exposure 2.6952
+network job 3000 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 86880 iterations for a 16 ms job (~68414 iter/ms), cap 123144301
+job 3100 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.655
+auto-exposure: encoded mean 0.499 -> exposure 2.6569
+network job 3100 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+staging ready: colour 1280x720 dxgi 10 (pix 0, tonemap 1); motion 1280x720 dxgi 34; depth 1280x720 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 0 ms (14.3 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.099% (healthy)
+network job 3 done in 15 ms (2.0 ms waiting for the capture; history on, zero-copy)
+inline: spin used 97308 iterations for a 15 ms job (~153152 iter/ms), cap 275674326
+job 3200 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.661
+auto-exposure: encoded mean 0.501 -> exposure 2.6592
+network job 3200 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 83616 iterations for a 16 ms job (~75051 iter/ms), cap 135092412
+job 100 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.650
+auto-exposure: encoded mean 0.500 -> exposure 2.6507
+network job 100 done in 0 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 3300 motion: mean |mv| = (0.003, 0.005) x scale (1280.0, 720.0), depth on, exposure 2.869
+auto-exposure: encoded mean 0.503 -> exposure 2.8568
+network job 3300 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 200 motion: mean |mv| = (0.010, 0.011) x scale (1280.0, 720.0), depth on, exposure 2.932
+auto-exposure: encoded mean 0.496 -> exposure 2.9502
+network job 200 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 90399 iterations for a 15 ms job (~83607 iter/ms), cap 150491990
+job 3400 motion: mean |mv| = (0.005, 0.010) x scale (1280.0, 720.0), depth on, exposure 2.536
+auto-exposure: encoded mean 0.495 -> exposure 2.5535
+network job 3400 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 81891 iterations for a 16 ms job (~74452 iter/ms), cap 134012844
+job 300 motion: mean |mv| = (0.003, 0.002) x scale (1280.0, 720.0), depth on, exposure 3.080
+auto-exposure: encoded mean 0.498 -> exposure 3.0888
+network job 300 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 3500 motion: mean |mv| = (0.016, 0.016) x scale (1280.0, 720.0), depth on, exposure 2.685
+auto-exposure: encoded mean 0.509 -> exposure 2.6533
+network job 3500 done in 15 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 400 motion: mean |mv| = (0.011, 0.015) x scale (1280.0, 720.0), depth on, exposure 2.867
+auto-exposure: encoded mean 0.501 -> exposure 2.8631
+network job 400 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 83738 iterations for a 15 ms job (~92618 iter/ms), cap 166711875
+job 3600 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.631
+auto-exposure: encoded mean 0.510 -> exposure 2.5965
+network job 3600 done in 15 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 85118 iterations for a 15 ms job (~75656 iter/ms), cap 136180800
+job 500 motion: mean |mv| = (0.003, 0.001) x scale (1280.0, 720.0), depth on, exposure 2.832
+auto-exposure: encoded mean 0.497 -> exposure 2.8423
+network job 500 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 3700 motion: mean |mv| = (0.029, 0.031) x scale (1280.0, 720.0), depth on, exposure 2.526
+auto-exposure: encoded mean 0.503 -> exposure 2.5148
+network job 3700 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 600 motion: mean |mv| = (0.004, 0.005) x scale (1280.0, 720.0), depth on, exposure 2.871
+auto-exposure: encoded mean 0.492 -> exposure 2.9041
+network job 600 done in 0 ms (-0.0 ms waiting for the capture; history on, zero-copy)
+inline: spin used 94015 iterations for a 0 ms job (~91824 iter/ms), cap 165283339
+job 3800 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.913
+auto-exposure: encoded mean 0.501 -> exposure 2.9105
+network job 3800 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 82053 iterations for a 16 ms job (~76176 iter/ms), cap 137116114
+job 700 motion: mean |mv| = (0.001, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.898
+auto-exposure: encoded mean 0.501 -> exposure 2.8941
+network job 700 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 3900 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.757
+auto-exposure: encoded mean 0.499 -> exposure 2.7586
+network job 3900 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 800 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.744
+auto-exposure: encoded mean 0.500 -> exposure 2.7424
+network job 800 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 85742 iterations for a 16 ms job (~82961 iter/ms), cap 149330227
+job 4000 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.720
+auto-exposure: encoded mean 0.500 -> exposure 2.7212
+network job 4000 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 81701 iterations for a 16 ms job (~71518 iter/ms), cap 128733272
+job 900 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.728
+auto-exposure: encoded mean 0.500 -> exposure 2.7270
+network job 900 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 4100 motion: mean |mv| = (0.000, 0.001) x scale (1280.0, 720.0), depth on, exposure 2.978
+auto-exposure: encoded mean 0.502 -> exposure 2.9696
+network job 4100 done in 0 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 1000 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.772
+auto-exposure: encoded mean 0.499 -> exposure 2.7742
+network job 1000 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 88770 iterations for a 16 ms job (~88082 iter/ms), cap 158548320
+job 4200 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.734
+auto-exposure: encoded mean 0.500 -> exposure 2.7334
+network job 4200 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 82906 iterations for a 16 ms job (~78160 iter/ms), cap 140688419
+job 1100 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.768
+auto-exposure: encoded mean 0.500 -> exposure 2.7679
+network job 1100 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 4300 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.703
+auto-exposure: encoded mean 0.499 -> exposure 2.7058
+network job 4300 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 1200 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.737
+auto-exposure: encoded mean 0.500 -> exposure 2.7366
+network job 1200 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 96161 iterations for a 16 ms job (~95317 iter/ms), cap 171569952
+job 4400 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.703
+auto-exposure: encoded mean 0.500 -> exposure 2.7043
+network job 4400 done in 16 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 86410 iterations for a 16 ms job (~72429 iter/ms), cap 130372974
+job 1300 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.775
+auto-exposure: encoded mean 0.498 -> exposure 2.7821
+network job 1300 done in 15 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 4500 motion: mean |mv| = (0.002, 0.001) x scale (1280.0, 720.0), depth on, exposure 2.754
+auto-exposure: encoded mean 0.500 -> exposure 2.7551
+network job 4500 done in 15 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 1400 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.920
+auto-exposure: encoded mean 0.500 -> exposure 2.9195
+network job 1400 done in 0 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 85873 iterations for a 0 ms job (~85873 iter/ms), cap 154571400
+job 4600 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.804
+auto-exposure: encoded mean 0.500 -> exposure 2.8034
+network job 4600 done in 0 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 84880 iterations for a 0 ms job (~84880 iter/ms), cap 152784000
+job 1500 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.803
+auto-exposure: encoded mean 0.501 -> exposure 2.8006
+network job 1500 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 4700 motion: mean |mv| = (0.006, 0.002) x scale (1280.0, 720.0), depth on, exposure 2.465
+auto-exposure: encoded mean 0.500 -> exposure 2.4668
+network job 4700 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 1600 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.581
+auto-exposure: encoded mean 0.500 -> exposure 2.5808
+network job 1600 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 92683 iterations for a 16 ms job (~87930 iter/ms), cap 158273136
+job 4800 motion: mean |mv| = (0.002, 0.001) x scale (1280.0, 720.0), depth on, exposure 2.591
+auto-exposure: encoded mean 0.493 -> exposure 2.6151
+network job 4800 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 83284 iterations for a 16 ms job (~70414 iter/ms), cap 126744520
+job 1700 motion: mean |mv| = (0.004, 0.002) x scale (1280.0, 720.0), depth on, exposure 2.758
+auto-exposure: encoded mean 0.503 -> exposure 2.7473
+network job 1700 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 4900 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.584
+auto-exposure: encoded mean 0.500 -> exposure 2.5845
+network job 4900 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 1800 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.737
+auto-exposure: encoded mean 0.499 -> exposure 2.7419
+network job 1800 done in 15 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 94652 iterations for a 15 ms job (~83059 iter/ms), cap 149505814
+job 5000 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.633
+auto-exposure: encoded mean 0.500 -> exposure 2.6325
+network job 5000 done in 15 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 86621 iterations for a 15 ms job (~76350 iter/ms), cap 137430785
+job 1900 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.700
+auto-exposure: encoded mean 0.496 -> exposure 2.7143
+network job 1900 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\; log C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\dlssnr_on_amd.log; settings C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 1280x720 dxgi 10 (pix 0, tonemap 1); motion 1280x720 dxgi 34; depth 1280x720 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.343 -> exposure 2.5554
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 31 ms (21.8 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.088% (healthy)
+network job 3 done in 15 ms (2.8 ms waiting for the capture; history on, zero-copy)
+inline: spin used 83474 iterations for a 15 ms job (~9752 iter/ms), cap 17554359
+job 5100 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.801
+auto-exposure: encoded mean 0.500 -> exposure 2.7998
+network job 5100 done in 15 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 5200 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.596
+auto-exposure: encoded mean 0.500 -> exposure 2.5958
+network job 5200 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 81535 iterations for a 15 ms job (~76844 iter/ms), cap 138318517
+self-check: pre-block zero bytes 0.074% (healthy)
+self-check: pre-block zero bytes 0.082% (healthy)
+job 5300 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.813
+auto-exposure: encoded mean 0.499 -> exposure 2.8154
+network job 5300 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 5400 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.555
+auto-exposure: encoded mean 0.500 -> exposure 2.5544
+network job 5400 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 84963 iterations for a 16 ms job (~72063 iter/ms), cap 129713003
+job 5500 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.621
+auto-exposure: encoded mean 0.499 -> exposure 2.6244
+network job 5500 done in 16 ms (0.5 ms waiting for the capture; history on, zero-copy)
+job 5600 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.706
+auto-exposure: encoded mean 0.500 -> exposure 2.7058
+network job 5600 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 87030 iterations for a 15 ms job (~72663 iter/ms), cap 130793122
+job 5700 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.630
+auto-exposure: encoded mean 0.501 -> exposure 2.6286
+network job 5700 done in 15 ms (0.7 ms waiting for the capture; history on, zero-copy)
+job 5800 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.714
+auto-exposure: encoded mean 0.501 -> exposure 2.7115
+network job 5800 done in 15 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 84823 iterations for a 15 ms job (~76151 iter/ms), cap 137071620
+job 5900 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.597
+auto-exposure: encoded mean 0.499 -> exposure 2.6011
+network job 5900 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 6000 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.653
+auto-exposure: encoded mean 0.499 -> exposure 2.6555
+network job 6000 done in 16 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 86283 iterations for a 16 ms job (~71351 iter/ms), cap 128431280
+job 6100 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.745
+auto-exposure: encoded mean 0.500 -> exposure 2.7452
+network job 6100 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 6200 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.614
+auto-exposure: encoded mean 0.500 -> exposure 2.6143
+network job 6200 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 84999 iterations for a 15 ms job (~79480 iter/ms), cap 143063927
+job 6300 motion: mean |mv| = (0.000, 0.000) x scale (1280.0, 720.0), depth on, exposure 2.606
+auto-exposure: encoded mean 0.501 -> exposure 2.6024
+network job 6300 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 6400 motion: mean |mv| = (0.006, 0.007) x scale (1280.0, 720.0), depth on, exposure 2.689
+auto-exposure: encoded mean 0.499 -> exposure 2.6922
+network job 6400 done in 0 ms (0.5 ms waiting for the capture; history on, zero-copy)
+inline: spin used 85033 iterations for a 0 ms job (~85033 iter/ms), cap 153059400
+staging ready: colour 1506x847 dxgi 10 (pix 0, tonemap 1); motion 1506x847 dxgi 34; depth 1506x847 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 31 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 32 ms (32.3 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.090% (healthy)
+network job 3 done in 47 ms (9.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 109865 iterations for a 47 ms job (~100510 iter/ms), cap 180917604
+job 100 motion: mean |mv| = (0.000, 0.000) x scale (1506.0, 847.0), depth on, exposure 2.519
+auto-exposure: encoded mean 0.500 -> exposure 2.5198
+network job 100 done in 16 ms (0.7 ms waiting for the capture; history on, zero-copy)
+job 200 motion: mean |mv| = (0.001, 0.000) x scale (1506.0, 847.0), depth on, exposure 2.618
+auto-exposure: encoded mean 0.500 -> exposure 2.6169
+network job 200 done in 31 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 108511 iterations for a 31 ms job (~97222 iter/ms), cap 175000158
+job 300 motion: mean |mv| = (0.065, 0.021) x scale (1506.0, 847.0), depth on, exposure 2.912
+auto-exposure: encoded mean 0.509 -> exposure 2.8777
+network job 300 done in 15 ms (0.7 ms waiting for the capture; history on, zero-copy)
+job 400 motion: mean |mv| = (0.022, 0.011) x scale (1506.0, 847.0), depth on, exposure 2.699
+auto-exposure: encoded mean 0.498 -> exposure 2.7060
+network job 400 done in 16 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 106509 iterations for a 16 ms job (~95027 iter/ms), cap 171047716
+job 500 motion: mean |mv| = (0.011, 0.009) x scale (1506.0, 847.0), depth on, exposure 3.075
+auto-exposure: encoded mean 0.499 -> exposure 3.0793
+network job 500 done in 16 ms (0.7 ms waiting for the capture; history on, zero-copy)
+job 600 motion: mean |mv| = (0.005, 0.003) x scale (1506.0, 847.0), depth on, exposure 2.578
+auto-exposure: encoded mean 0.500 -> exposure 2.5784
+network job 600 done in 16 ms (0.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 105966 iterations for a 16 ms job (~101335 iter/ms), cap 182402892
+job 700 motion: mean |mv| = (0.008, 0.004) x scale (1506.0, 847.0), depth on, exposure 2.603
+auto-exposure: encoded mean 0.504 -> exposure 2.5887
+network job 700 done in 16 ms (0.7 ms waiting for the capture; history on, zero-copy)
+job 800 motion: mean |mv| = (0.034, 0.013) x scale (1506.0, 847.0), depth on, exposure 2.537
+auto-exposure: encoded mean 0.506 -> exposure 2.5155
+network job 800 done in 16 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 109434 iterations for a 16 ms job (~95868 iter/ms), cap 172562723
+job 900 motion: mean |mv| = (0.009, 0.007) x scale (1506.0, 847.0), depth on, exposure 2.392
+auto-exposure: encoded mean 0.502 -> exposure 2.3858
+network job 900 done in 15 ms (0.6 ms waiting for the capture; history on, zero-copy)
+job 1000 motion: mean |mv| = (0.001, 0.001) x scale (1506.0, 847.0), depth on, exposure 2.437
+auto-exposure: encoded mean 0.497 -> exposure 2.4468
+network job 1000 done in 15 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 106744 iterations for a 15 ms job (~96729 iter/ms), cap 174112092
+job 1100 motion: mean |mv| = (0.000, 0.000) x scale (1506.0, 847.0), depth on, exposure 2.191
+auto-exposure: encoded mean 0.500 -> exposure 2.1902
+network job 1100 done in 16 ms (0.7 ms waiting for the capture; history on, zero-copy)
+job 1200 motion: mean |mv| = (0.000, 0.000) x scale (1506.0, 847.0), depth on, exposure 2.192
+auto-exposure: encoded mean 0.501 -> exposure 2.1898
+network job 1200 done in 15 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 105784 iterations for a 15 ms job (~95107 iter/ms), cap 171191718
+job 1300 motion: mean |mv| = (0.000, 0.000) x scale (1506.0, 847.0), depth on, exposure 2.062
+auto-exposure: encoded mean 0.500 -> exposure 2.0629
+network job 1300 done in 15 ms (0.7 ms waiting for the capture; history on, zero-copy)
+job 1400 motion: mean |mv| = (0.000, 0.000) x scale (1506.0, 847.0), depth on, exposure 2.177
+auto-exposure: encoded mean 0.500 -> exposure 2.1780
+network job 1400 done in 16 ms (0.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 103584 iterations for a 16 ms job (~96167 iter/ms), cap 173101020
+job 1500 motion: mean |mv| = (0.000, 0.000) x scale (1506.0, 847.0), depth on, exposure 2.384
+auto-exposure: encoded mean 0.499 -> exposure 2.3888
+network job 1500 done in 16 ms (0.8 ms waiting for the capture; history on, zero-copy)
+staging ready: colour 1920x1080 dxgi 10 (pix 0, tonemap 1); motion 1920x1080 dxgi 34; depth 1920x1080 dxgi 41 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 47 ms (0.4 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 63 ms (52.5 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.077% (healthy)
+network job 3 done in 62 ms (16.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 170248 iterations for a 62 ms job (~96269 iter/ms), cap 173283435
+job 100 motion: mean |mv| = (0.000, 0.001) x scale (1920.0, 1080.0), depth on, exposure 2.203
+auto-exposure: encoded mean 0.500 -> exposure 2.2039
+network job 100 done in 15 ms (2.3 ms waiting for the capture; history on, zero-copy)
+SPIKE: job 189 took 2032 ms (typical 29 ms; 2030 ms of it waiting for the game's capture); submitted 189 inlineDone 188 frames 0 skipped 0 timeouts 0 spin cap 287741986
+inline: 1 GPU wait timeouts so far (host watchdog after 255 iterations, cap 287741986, budget 600 ms, job 2032 ms, ~159857 iter/ms, host watchdog fired 1 times); previous residual shown; budget now 457 ms
+SPIKE: job 190 took 3453 ms (typical 229 ms; 3453 ms of it waiting for the game's capture); submitted 190 inlineDone 189 frames 0 skipped 0 timeouts 1 spin cap 287741986
+FAULT: exception 0x80000003 at 00007FF747B73F4B (C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe + 0x2a43f4b) thread 14776, last job 35
+FAULT: exception 0x80000003 at 00007FF747B73F4B (C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe + 0x2a43f4b) thread 14776, last job 1955
+FAULT: exception 0x80000003 at 00007FF747B73F4B (C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe + 0x2a43f4b) thread 14776, last job 190
+CRASH: exception 0x80000003 at 00007FF747B73F4B in C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe (thread 14776, last job 35, mode inline)

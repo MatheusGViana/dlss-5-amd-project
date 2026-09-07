@@ -1,0 +1,2 @@
+frame=0 active=256 passes=1 changed_pixels=65536 nonfinite=0 elapsed_ms=15 status=Completed AMD pre-SR passes=1 at 256x256 | completed frames=1 last completion 0s ago
+AMD pass rejected frame: 1

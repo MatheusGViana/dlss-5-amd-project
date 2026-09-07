@@ -482,3 +482,609 @@ network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-
 network job 2 done in 16 ms (8.9 ms waiting for the capture; history off, zero-copy)
 network job 3 done in 15 ms (8.9 ms waiting for the capture; history on, zero-copy)
 inline: spin used 36128 iterations for a 15 ms job (~35921 iter/ms), cap 64657585
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.605 -> exposure 0.5683
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.605 -> exposure 0.5683
+network job 1 done in 0 ms (0.2 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.1 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.605 -> exposure 0.5683
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.605 -> exposure 0.5685
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.604 -> exposure 0.5706
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 192x192 dxgi 10 (pix 0, tonemap 1); motion 192x192 dxgi 34; depth 192x192 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.572 -> exposure 0.6762
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 15 ms (8.9 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.081% (healthy)
+network job 3 done in 0 ms (0.9 ms waiting for the capture; history on, zero-copy)
+inline: 1 GPU wait timeouts so far (host watchdog after 255 iterations, cap 10910964, budget 600 ms, job 0 ms, ~6062 iter/ms, host watchdog fired 0 times); current input kept     ; budget now 50 ms
+inline: spin used 255 iterations for a 0 ms job (~6062 iter/ms), cap 10910964
+staging ready: colour 160x160 dxgi 10 (pix 0, tonemap 1); motion 160x160 dxgi 34; depth 160x160 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 15 ms (8.9 ms waiting for the capture; history off, zero-copy)
+inline: 2 GPU wait timeouts so far (host watchdog after 255 iterations, cap 5496900, budget 50 ms, job 15 ms, ~36646 iter/ms, host watchdog fired 0 times); current input kept     ; budget stays 50 ms
+network job 3 done in 0 ms (8.8 ms waiting for the capture; history off, zero-copy)
+inline: 3 GPU wait timeouts so far (host watchdog after 255 iterations, cap 5496900, budget 50 ms, job 0 ms, ~36646 iter/ms, host watchdog fired 0 times); current input kept     ; budget stays 50 ms
+inline: spin used 255 iterations for a 0 ms job (~36646 iter/ms), cap 5496900
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 192x192 dxgi 10 (pix 0, tonemap 1); motion 192x192 dxgi 34; depth 192x192 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.572 -> exposure 0.6762
+network job 1 done in 15 ms (0.1 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 0 ms (8.5 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.081% (healthy)
+network job 3 done in 16 ms (1.0 ms waiting for the capture; history on, zero-copy)
+inline: 1 GPU wait timeouts so far (host watchdog after 255 iterations, cap 68472000, budget 600 ms, job 16 ms, ~38040 iter/ms, host watchdog fired 0 times); current input kept     ; budget now 50 ms
+inline: spin used 255 iterations for a 16 ms job (~38040 iter/ms), cap 68472000
+staging ready: colour 160x160 dxgi 10 (pix 0, tonemap 1); motion 160x160 dxgi 34; depth 160x160 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 0 ms (9.0 ms waiting for the capture; history off, zero-copy)
+inline: 0 GPU wait timeouts so far (host watchdog after 35865 iterations, cap 5480042, budget 50 ms, job 0 ms, ~36534 iter/ms, host watchdog fired 0 times); current input kept     ; budget stays 50 ms
+network job 3 done in 0 ms (8.9 ms waiting for the capture; history on, zero-copy)
+inline: spin used 35362 iterations for a 0 ms job (~35803 iter/ms), cap 5370441
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 192x192 dxgi 10 (pix 0, tonemap 1); motion 192x192 dxgi 34; depth 192x192 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 192x192 dxgi 10 (pix 0, tonemap 1); motion 192x192 dxgi 34; depth 192x192 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 192x192 dxgi 10 (pix 0, tonemap 1); motion 192x192 dxgi 34; depth 192x192 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.572 -> exposure 0.6762
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.573 -> exposure 0.6746
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.573 -> exposure 0.6727
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 16 ms (8.7 ms waiting for the capture; history on, zero-copy)
+network job 2 done in 0 ms (-0.0 ms waiting for the capture; history on, zero-copy)
+network job 2 done in 16 ms (8.4 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.081% (healthy)
+network job 3 done in 0 ms (1.0 ms waiting for the capture; history on, zero-copy)
+inline: 1 GPU wait timeouts so far (host watchdog after 255 iterations, cap 8830342, budget 600 ms, job 0 ms, ~4906 iter/ms, host watchdog fired 0 times); current input kept     ; budget now 50 ms
+inline: spin used 255 iterations for a 0 ms job (~4906 iter/ms), cap 8830342
+self-check: pre-block zero bytes 0.077% (healthy)
+network job 3 done in 16 ms (-0.0 ms waiting for the capture; history on, zero-copy)
+inline: 1 GPU wait timeouts so far (host watchdog after 255 iterations, cap 73831533, budget 600 ms, job 16 ms, ~41018 iter/ms, host watchdog fired 0 times); current input kept     ; budget now 50 ms
+inline: spin used 255 iterations for a 16 ms job (~41018 iter/ms), cap 73831533
+self-check: pre-block zero bytes 0.075% (healthy)
+network job 3 done in 15 ms (0.9 ms waiting for the capture; history on, zero-copy)
+inline: 1 GPU wait timeouts so far (host watchdog after 255 iterations, cap 9836996, budget 600 ms, job 15 ms, ~5465 iter/ms, host watchdog fired 0 times); current input kept     ; budget now 50 ms
+inline: spin used 255 iterations for a 15 ms job (~5465 iter/ms), cap 9836996
+staging ready: colour 160x160 dxgi 10 (pix 0, tonemap 1); motion 160x160 dxgi 34; depth 160x160 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 160x160 dxgi 10 (pix 0, tonemap 1); motion 160x160 dxgi 34; depth 160x160 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 160x160 dxgi 10 (pix 0, tonemap 1); motion 160x160 dxgi 34; depth 160x160 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 16 ms (8.9 ms waiting for the capture; history off, zero-copy)
+inline: 0 GPU wait timeouts so far (host watchdog after 36634 iterations, cap 4988298, budget 50 ms, job 16 ms, ~33255 iter/ms, host watchdog fired 0 times); current input kept     ; budget stays 50 ms
+network job 2 done in 0 ms (8.8 ms waiting for the capture; history off, zero-copy)
+inline: 0 GPU wait timeouts so far (host watchdog after 38606 iterations, cap 5908983, budget 50 ms, job 0 ms, ~39393 iter/ms, host watchdog fired 0 times); current input kept     ; budget stays 50 ms
+network job 2 done in 0 ms (9.0 ms waiting for the capture; history off, zero-copy)
+inline: 0 GPU wait timeouts so far (host watchdog after 40252 iterations, cap 6037800, budget 50 ms, job 0 ms, ~40252 iter/ms, host watchdog fired 0 times); current input kept     ; budget stays 50 ms
+network job 3 done in 16 ms (9.0 ms waiting for the capture; history on, zero-copy)
+inline: spin used 36452 iterations for a 16 ms job (~32590 iter/ms), cap 4888532
+network job 3 done in 0 ms (8.9 ms waiting for the capture; history on, zero-copy)
+inline: spin used 37693 iterations for a 0 ms job (~38605 iter/ms), cap 5790804
+network job 3 done in 0 ms (11.1 ms waiting for the capture; history on, zero-copy)
+inline: spin used 48334 iterations for a 0 ms job (~48334 iter/ms), cap 7250100
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.605 -> exposure 0.5683
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.605 -> exposure 0.5685
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.604 -> exposure 0.5706
+network job 1 done in 15 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.605 -> exposure 0.5683
+network job 1 done in 15 ms (0.2 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.605 -> exposure 0.5685
+network job 1 done in 0 ms (-0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.604 -> exposure 0.5706
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.1 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.3 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 192x192 dxgi 10 (pix 0, tonemap 1); motion 192x192 dxgi 34; depth 192x192 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.572 -> exposure 0.6762
+network job 1 done in 15 ms (0.3 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 0 ms (-0.0 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.081% (healthy)
+network job 3 done in 16 ms (0.9 ms waiting for the capture; history on, zero-copy)
+inline: 1 GPU wait timeouts so far (host watchdog after 262144 iterations, cap 63346906, budget 600 ms, job 16 ms, ~35193 iter/ms, host watchdog fired 0 times); current input kept     ; budget now 50 ms
+inline: spin used 262144 iterations for a 16 ms job (~35193 iter/ms), cap 63346906
+staging ready: colour 160x160 dxgi 10 (pix 0, tonemap 1); motion 160x160 dxgi 34; depth 160x160 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 0 ms (9.0 ms waiting for the capture; history off, zero-copy)
+inline: 0 GPU wait timeouts so far (host watchdog after 36320 iterations, cap 5396517, budget 50 ms, job 0 ms, ~35977 iter/ms, host watchdog fired 0 times); current input kept     ; budget stays 50 ms
+network job 3 done in 15 ms (-0.0 ms waiting for the capture; history on, zero-copy)
+inline: spin used 35842 iterations for a 15 ms job (~35257 iter/ms), cap 5288586
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.605 -> exposure 0.5683
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.538 -> exposure 0.8126
+network job 1 done in 15 ms (0.1 ms waiting for the capture; history off, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.2 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.604 -> exposure 0.5689
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 15 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.1 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 0 ms (7.6 ms waiting for the capture; history off, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.605 -> exposure 0.5683
+network job 1 done in 15 ms (0.2 ms waiting for the capture; history off, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.538 -> exposure 0.8126
+network job 1 done in 0 ms (0.5 ms waiting for the capture; history off, zero-copy)
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\; log C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\package-amd-presr\dlssnr_on_amd.ini
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+residual apply pipeline ready
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.604 -> exposure 0.5689
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (0.1 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 16 ms (8.8 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 15 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 0 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.0 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 256x256 dxgi 10 (pix 0, tonemap 1); motion 256x256 dxgi 34; depth 256x256 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (0.1 ms waiting for the capture; history off, zero-copy)
+staging ready: colour 128x128 dxgi 10 (pix 0, tonemap 1); motion 128x128 dxgi 34; depth 128x128 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 16 ms (-0.0 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 0 ms (7.4 ms waiting for the capture; history off, zero-copy)

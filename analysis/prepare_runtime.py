@@ -1,5 +1,5 @@
 """Create private backends without modifying the supplied version.dll."""
-import hashlib, json, pathlib, sys
+import hashlib, json, pathlib, sys, re
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / '.analysis-tools'))
 import pefile
 root = pathlib.Path(__file__).resolve().parents[1]
@@ -21,6 +21,32 @@ for rva, before, after, reason in [
     assert original[off:off+len(old)] == old, f'Unexpected instructions at {rva:x}'
     patched[off:off+len(old)] = new
     changes.append(dict(rva=hex(rva), offset=hex(off), before=before, after=after, reason=reason))
+# The embedded shader is compiled by the runtime. On timeout it must leave
+# the current colour untouched rather than applying an unwarped old residual.
+for old, replacement, reason in [
+    (b'if (flags.Load(12) != 0) d = prev[id.xy].rgb;',
+     b'if (flags.Load(12) != 0) return;', 'timeout keeps current input instead of stale residual'),
+    (b'previous residual shown', b'current input kept', 'report the new timeout fallback accurately'),
+]:
+    assert original.count(old) == 1, 'Unexpected embedded shader/log text'
+    assert len(replacement) <= len(old)
+    off = original.index(old)
+    new = replacement.ljust(len(old), b' ')
+    patched[off:off+len(old)] = new
+    changes.append(dict(offset=hex(off), before=old.hex(), after=new.hex(), reason=reason))
+# Bound the GPU spin even if submission notification is delayed or lost.
+# Preserve string size because the binary supplies a fixed compilation length.
+prefix = b'\ngloballycoherent RWByteAddressBuffer flags : register(u0);'
+assert original.count(prefix) == 1
+off = original.index(prefix)
+end = original.index(b'\0', off)
+old = original[off:end]
+assert old.count(b'i < maxIter') == 1
+new = re.sub(rb'//[^\n]*', b'', old).replace(b'i < maxIter', b'i < min(maxIter, 262144u)')
+assert len(new) <= len(old)
+new = new.ljust(len(old), b' ')
+patched[off:end] = new
+changes.append(dict(offset=hex(off), before=old.hex(), after=new.hex(), reason='bound GPU wait shader to 262144 iterations'))
 out = root / 'package-amd-presr'
 out.mkdir(exist_ok=True)
 for i in range(1, 4):

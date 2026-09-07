@@ -1,0 +1,77 @@
+[
+  {
+    "File": "winmm.dll",
+    "Existed": false,
+    "InstalledSHA256": "5C3395588FDA9895D7F27DE23C96C408215F38E30101E29184DCDB5DB311F879"
+  },
+  {
+    "File": "OptiScaler.ini",
+    "Existed": false,
+    "InstalledSHA256": "9FF29486BA1B7AAEA56D184BBEC1CFB22170457E1B2B37712BCC7D7FE95E6164"
+  },
+  {
+    "File": "dlssnr_amd_pass1.dll",
+    "Existed": false,
+    "InstalledSHA256": "FE96F5897861602D0B06FE07F7D56AD643A9B963A891E7F60D6A3C1971A21F75"
+  },
+  {
+    "File": "dlssnr_amd_pass2.dll",
+    "Existed": false,
+    "InstalledSHA256": "FE96F5897861602D0B06FE07F7D56AD643A9B963A891E7F60D6A3C1971A21F75"
+  },
+  {
+    "File": "dlssnr_amd_pass3.dll",
+    "Existed": false,
+    "InstalledSHA256": "FE96F5897861602D0B06FE07F7D56AD643A9B963A891E7F60D6A3C1971A21F75"
+  },
+  {
+    "File": "dlssnr_on_amd_weights.bin",
+    "Existed": false,
+    "InstalledSHA256": "6BF8DC931EF3CCFFE18C82DE26AB374156E7F19539FFCF8EABAA25DCA5CF15AB"
+  },
+  {
+    "File": "OptiScaler\\amd_fidelityfx_framegeneration_dx12.dll",
+    "Existed": false,
+    "InstalledSHA256": "02297BEEDD285E822D3A64F314CF00FAF378DCEC0EDC47FF0C4DD71B3A8C2F18"
+  },
+  {
+    "File": "OptiScaler\\amd_fidelityfx_loader_dx12.dll",
+    "Existed": false,
+    "InstalledSHA256": "E2D85AA05A9BD9ED8B38935FDF5199372CCA6F74C12015143BB6F945EE1608AA"
+  },
+  {
+    "File": "OptiScaler\\amd_fidelityfx_upscaler_dx12.dll",
+    "Existed": false,
+    "InstalledSHA256": "D0DCCCC74A43C44BA435B7A369B456E0970D8A4464E4BD683119B374F2C9FB46"
+  },
+  {
+    "File": "OptiScaler\\amd_fidelityfx_vk.dll",
+    "Existed": false,
+    "InstalledSHA256": "A1624CC4238FEF046F30C4D80CE3F47BE63FC5F5373F49E3EE9EDB9960F54C78"
+  },
+  {
+    "File": "OptiScaler\\libxell.dll",
+    "Existed": false,
+    "InstalledSHA256": "D2030DCD694FDA8F2EC7E044B13E6DB8F0B56D4BA9113A5EFAD334E3F3DED8C7"
+  },
+  {
+    "File": "OptiScaler\\libxess_dx11.dll",
+    "Existed": false,
+    "InstalledSHA256": "C7CFE86F0C9D94E4FB3696D3CD5035E2BBB6A8B1B0572F8B7395A4CDFD0C625E"
+  },
+  {
+    "File": "OptiScaler\\libxess_fg.dll",
+    "Existed": false,
+    "InstalledSHA256": "EC5E0C65E075570C6EDE72618BB666D0BE0C2E10B2EA9762C0FE8CB8E375AB27"
+  },
+  {
+    "File": "OptiScaler\\libxess.dll",
+    "Existed": false,
+    "InstalledSHA256": "251659DD84A3E84DE67C886A4186E01F3ECA49B00641906FE38BB6B807E5D5B7"
+  },
+  {
+    "File": "OptiScaler\\D3D12_OptiScaler\\D3D12Core.dll",
+    "Existed": false,
+    "InstalledSHA256": "07D286C306F8117321422AFFD9E6388C12D0FB4BE1C7FC689D9E899324FEEB24"
+  }
+]
