@@ -1,0 +1,8 @@
+frame=0 active=192 passes=3 changed_pixels=36864 nonfinite=0 elapsed_ms=46 status=Completed AMD pre-SR passes=3 at 192x192
+frame=1 active=192 passes=3 changed_pixels=36864 nonfinite=0 elapsed_ms=32 status=Completed AMD pre-SR passes=3 at 192x192
+frame=2 active=192 passes=3 changed_pixels=36864 nonfinite=0 elapsed_ms=31 status=Completed AMD pre-SR passes=3 at 192x192
+frame=3 active=192 passes=3 changed_pixels=36864 nonfinite=0 elapsed_ms=31 status=Completed AMD pre-SR passes=3 at 192x192
+frame=4 active=160 passes=3 changed_pixels=25600 nonfinite=0 elapsed_ms=32 status=Recorded pre-SR 160x160 passes=3
+frame=5 active=160 passes=3 changed_pixels=25600 nonfinite=0 elapsed_ms=31 status=Recorded pre-SR 160x160 passes=3
+frame=6 active=160 passes=3 changed_pixels=25600 nonfinite=0 elapsed_ms=31 status=Recorded pre-SR 160x160 passes=3
+frame=7 active=160 passes=3 changed_pixels=25600 nonfinite=0 elapsed_ms=31 status=Recorded pre-SR 160x160 passes=3

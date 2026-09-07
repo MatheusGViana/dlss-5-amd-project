@@ -1,0 +1,101 @@
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Program Files (x86)\Steam\steamapps\common\OnimushaWotS_Demo\; log C:\Program Files (x86)\Steam\steamapps\common\OnimushaWotS_Demo\dlssnr_on_amd.log; settings C:\Program Files (x86)\Steam\steamapps\common\OnimushaWotS_Demo\dlssnr_on_amd.ini
+hooked ID3D12CommandQueue::ExecuteCommandLists
+hooked IDXGIFactory2::CreateSwapChainForHwnd
+hooked IDXGIFactory::CreateSwapChain
+hooked IDXGISwapChain::Present
+hooked IDXGISwapChain1::Present1
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Program Files (x86)\Steam\steamapps\common\OnimushaWotS_Demo\; log C:\Program Files (x86)\Steam\steamapps\common\OnimushaWotS_Demo\dlssnr_on_amd.log; settings C:\Program Files (x86)\Steam\steamapps\common\OnimushaWotS_Demo\dlssnr_on_amd.ini
+hooked ID3D12CommandQueue::ExecuteCommandLists
+hooked IDXGIFactory2::CreateSwapChainForHwnd
+hooked IDXGIFactory::CreateSwapChain
+hooked IDXGISwapChain::Present
+hooked IDXGISwapChain1::Present1
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Program Files (x86)\Steam\steamapps\common\OnimushaWotS_Demo\; log C:\Program Files (x86)\Steam\steamapps\common\OnimushaWotS_Demo\dlssnr_on_amd.log; settings C:\Program Files (x86)\Steam\steamapps\common\OnimushaWotS_Demo\dlssnr_on_amd.ini
+hooked ID3D12CommandQueue::ExecuteCommandLists
+hooked IDXGIFactory2::CreateSwapChainForHwnd
+hooked IDXGIFactory::CreateSwapChain
+hooked IDXGISwapChain::Present
+hooked IDXGISwapChain1::Present1
+swapchain 000001E416B134C0 created on queue 000001E3A25ECE30 (device 000001E3EFE9F970)
+device 000001E3EFE9F970 (from the first presented swapchain)
+env: windows 10.0.26100, game exe C:\Program Files (x86)\Steam\steamapps\common\OnimushaWotS_Demo\OnimushaWotS_Demo.exe
+env: swapchain 1920x1080 format 24, 3 buffers, swap effect 4, windowed
+env: adapter 0: AMD Radeon RX 9060 XT (vendor 0x1002, device 0x7590, 16189 MB, luid 00000000-00010019, driver 32.0.31041.3013)
+env: adapter 1: Microsoft Basic Render Driver (vendor 0x1414, device 0x008c, 0 MB, luid 00000000-00012250, driver 10.0.26100.7019)
+env: d3d12 device yes; d3d11 device no
+env: HIP: 1 device(s), driver 70260201, runtime 70260201; kernels in this build: gfx1201,gfx1200,gfx1100,gfx1101,gfx1102,gfx11-generic,gfx10-3-generic,gfx9-generic
+env: HIP device 0: AMD Radeon RX 9060 XT, arch gfx1200, 16 CUs, 16304 MB  <- the adapter the game renders on
+env: using HIP device 0 (matches the game's D3D12 adapter): AMD Radeon RX 9060 XT, arch gfx1200, 16 CUs, 16304 MB
+queue alignment mode [env (present thread, init)]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+engine init ok
+hooked amd_fidelityfx_dx12.dll!ffxDispatch (file version 1.0.1.41314)
+hooked amd_fidelityfx_dx12.dll!ffxCreateContext (file version 1.0.1.41314)
+ffxCreateContext: flags 0x19 -> depth inverted 1, display-res MVs 0
+first ffxDispatch type 0x10001
+residual apply pipeline ready
+staging ready: colour 2560x1080 dxgi 67 (pix 6, tonemap 1); motion 2560x1080 dxgi 34; depth 2560x1080 dxgi 41 (inverted 1); exposure yes; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 109 ms (1.8 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 94 ms (86.8 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.134% (healthy)
+network job 3 done in 78 ms (15.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 405386 iterations for a 78 ms job (~53939 iter/ms), cap 97089738
+overlay shown (ready 1, queue 000001E3A25ECE30, enabled 1)
+overlay cannot draw (ready 1, queue 000001E3A25ECE30, enabled 1)
+overlay shown (ready 1, queue 000001E3A25ECE30, enabled 1)
+job 100 motion: mean |mv| = (0.000, 0.000) x scale (2560.0, 1080.0), depth on, exposure 19.585
+network job 100 done in 63 ms (3.4 ms waiting for the capture; history on, zero-copy)
+overlay cannot draw (ready 1, queue 000001E3A25ECE30, enabled 1)
+job 200 motion: mean |mv| = (0.000, 0.000) x scale (2560.0, 1080.0), depth on, exposure 17.558
+network job 200 done in 63 ms (2.8 ms waiting for the capture; history on, zero-copy)
+inline: spin used 394331 iterations for a 63 ms job (~411252 iter/ms), cap 400000000
+job 300 motion: mean |mv| = (0.000, 0.000) x scale (2560.0, 1080.0), depth on, exposure 17.444
+network job 300 done in 78 ms (2.5 ms waiting for the capture; history on, zero-copy)
+frames 600 dispatches 327 (0.55/frame) submitted 327 ready 326 skipped 0 (+0) timeouts 0 route fsr
+overlay shown (ready 1, queue 000001E3A25ECE30, enabled 1)
+job 400 motion: mean |mv| = (0.000, 0.000) x scale (2560.0, 1080.0), depth on, exposure 18.355
+network job 400 done in 63 ms (3.0 ms waiting for the capture; history on, zero-copy)
+inline: spin used 398973 iterations for a 63 ms job (~384762 iter/ms), cap 400000000
+overlay cannot draw (ready 1, queue 000001E3A25ECE30, enabled 0)
+overlay shown (ready 1, queue 000001E3A25ECE30, enabled 0)
+self-check: pre-block zero bytes 0.122% (healthy)
+overlay cannot draw (ready 1, queue 000001E3A25ECE30, enabled 1)
+job 500 motion: mean |mv| = (0.000, 0.000) x scale (2560.0, 1080.0), depth on, exposure 17.459
+network job 500 done in 62 ms (5.0 ms waiting for the capture; history on, zero-copy)
+overlay shown (ready 1, queue 000001E3A25ECE30, enabled 1)
+overlay cannot draw (ready 1, queue 000001E3A25ECE30, enabled 0)
+overlay shown (ready 1, queue 000001E3A25ECE30, enabled 0)
+job 600 motion: mean |mv| = (0.000, 0.000) x scale (2560.0, 1080.0), depth on, exposure 17.402
+network job 600 done in 79 ms (11.7 ms waiting for the capture; history on, zero-copy)
+inline: spin used 409832 iterations for a 79 ms job (~376454 iter/ms), cap 400000000
+self-check: pre-block zero bytes 0.214% (healthy)
+self-check: pre-block zero bytes 0.219% (healthy)
+self-check: pre-block zero bytes 0.216% (healthy)
+job 700 motion: mean |mv| = (0.000, 0.000) x scale (2560.0, 1080.0), depth on, exposure 0.010
+network job 700 done in 62 ms (9.2 ms waiting for the capture; history off, zero-copy)
+self-check: pre-block zero bytes 0.217% (healthy)
+self-check: pre-block zero bytes 0.202% (healthy)
+self-check: pre-block zero bytes 0.206% (healthy)
+staging re-created (settings change)
+staging ready: colour 2560x1080 dxgi 67 (pix 6, tonemap 1); motion 2560x1080 dxgi 34; depth 2560x1080 dxgi 41 (inverted 1); exposure yes; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode async (residual from an earlier frame)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 109 ms (0.0 ms waiting for the capture; history on, zero-copy)
+network job 2 done in 125 ms (0.0 ms waiting for the capture; history on, zero-copy)
+network job 3 done in 125 ms (0.0 ms waiting for the capture; history on, zero-copy)
+staging re-created (settings change)
+staging ready: colour 2560x1080 dxgi 67 (pix 6, tonemap 1); motion 2560x1080 dxgi 34; depth 2560x1080 dxgi 41 (inverted 1); exposure yes; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 78 ms (8.5 ms waiting for the capture; history on, zero-copy)
+network job 2 done in 78 ms (71.8 ms waiting for the capture; history on, zero-copy)
+network job 3 done in 62 ms (72.4 ms waiting for the capture; history on, zero-copy)
+inline: spin used 418083 iterations for a 62 ms job (~412628 iter/ms), cap 400000000
+frames 1200 dispatches 916 (0.98/frame) submitted 52 ready 51 skipped 0 (+0) timeouts 0 route fsr
+job 100 motion: mean |mv| = (0.000, 0.000) x scale (2560.0, 1080.0), depth on, exposure 0.002
+network job 100 done in 78 ms (11.3 ms waiting for the capture; history on, zero-copy)
+job 200 motion: mean |mv| = (0.000, 0.000) x scale (2560.0, 1080.0), depth on, exposure 0.002
+network job 200 done in 78 ms (11.9 ms waiting for the capture; history on, zero-copy)
+inline: spin used 416495 iterations for a 78 ms job (~406670 iter/ms), cap 400000000
+overlay cannot draw (ready 1, queue 000001E3A25ECE30, enabled 0)

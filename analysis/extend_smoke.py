@@ -1,0 +1,11 @@
+from pathlib import Path
+p=Path('analysis/smoke.cpp');s=p.read_text();s=s.replace(' UINT passes=argc>2?_wtoi(argv[2]):1;',' UINT passes=argc>2?_wtoi(argv[2]):1;\n UINT size=argc>3?_wtoi(argv[3]):128; UINT active=argc>4?_wtoi(argv[4]):size;\n if(size<64 || size>2048 || active<64 || active>size)return 2;')
+s=s.replace('rd.Width=128;rd.Height=128','rd.Width=size;rd.Height=size').replace('y<128','y<size').replace('x<128','x<size')
+s=s.replace('frame.width=128;frame.height=128;frame.motionScaleX=128;frame.motionScaleY=128','frame.width=active;frame.height=active;frame.motionScaleX=(float)active;frame.motionScaleY=(float)active')
+s=s.replace(' auto out=backend->Record',' size_t badFrames=0;\n for(int iteration=0;iteration<5;++iteration) {\n frame.reset=(iteration==3);\n auto out=backend->Record',1)
+s=s.replace('size_t changed=0,invalid=0;for(UINT y=0;y<size;++y)for(UINT x=0;x<size;++x)','size_t changed=0,invalid=0;for(UINT y=0;y<active;++y)for(UINT x=0;x<active;++x)')
+s=s.replace('for(UINT y=0;y<size;++y)raw.write(reinterpret_cast<char*>(data+y*fp.Footprint.RowPitch),128*8)','for(UINT y=0;y<active;++y)raw.write(reinterpret_cast<char*>(data+y*fp.Footprint.RowPitch),active*8)')
+s=s.replace('std::cout<<"passes="','std::cout<<"frame="<<iteration<<" active="<<active<<" passes="')
+s=s.replace(' // The runtime\'s process-lifetime worker cannot be unloaded by a stack destructor.',' badFrames+=(changed==0 || invalid>0);\n if(iteration<4){ck(alloc->Reset());ck(cmd->Reset(alloc.Get(),nullptr));}\n }\n // Stop and join the recovered workers before process teardown.')
+s=s.replace('ExitProcess(changed>0 && invalid==0?0:3);','ExitProcess(badFrames==0?0:3);')
+p.write_text(s)

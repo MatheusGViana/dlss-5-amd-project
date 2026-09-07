@@ -1,0 +1,916 @@
+{
+  "sha256": "106223723fd9266c44d38dc2fb77933948ab37803f46bfcea2bae3a0a474ac84",
+  "machine": "0x8664",
+  "image_base": "0x180000000",
+  "exports": [
+    {
+      "name": "GetFileVersionInfoA",
+      "ordinal": 1,
+      "rva": "0x19d0"
+    },
+    {
+      "name": "GetFileVersionInfoByHandle",
+      "ordinal": 2,
+      "rva": "0x19e0"
+    },
+    {
+      "name": "GetFileVersionInfoExA",
+      "ordinal": 3,
+      "rva": "0x19f0"
+    },
+    {
+      "name": "GetFileVersionInfoExW",
+      "ordinal": 4,
+      "rva": "0x1a00"
+    },
+    {
+      "name": "GetFileVersionInfoSizeA",
+      "ordinal": 5,
+      "rva": "0x1a10"
+    },
+    {
+      "name": "GetFileVersionInfoSizeExA",
+      "ordinal": 6,
+      "rva": "0x1a20"
+    },
+    {
+      "name": "GetFileVersionInfoSizeExW",
+      "ordinal": 7,
+      "rva": "0x1a30"
+    },
+    {
+      "name": "GetFileVersionInfoSizeW",
+      "ordinal": 8,
+      "rva": "0x1a40"
+    },
+    {
+      "name": "GetFileVersionInfoW",
+      "ordinal": 9,
+      "rva": "0x1a50"
+    },
+    {
+      "name": "VerFindFileA",
+      "ordinal": 10,
+      "rva": "0x1a60"
+    },
+    {
+      "name": "VerFindFileW",
+      "ordinal": 11,
+      "rva": "0x1a70"
+    },
+    {
+      "name": "VerInstallFileA",
+      "ordinal": 12,
+      "rva": "0x1a80"
+    },
+    {
+      "name": "VerInstallFileW",
+      "ordinal": 13,
+      "rva": "0x1a90"
+    },
+    {
+      "name": "VerLanguageNameA",
+      "ordinal": 14,
+      "rva": "0x1aa0"
+    },
+    {
+      "name": "VerLanguageNameW",
+      "ordinal": 15,
+      "rva": "0x1ab0"
+    },
+    {
+      "name": "VerQueryValueA",
+      "ordinal": 16,
+      "rva": "0x1ac0"
+    },
+    {
+      "name": "VerQueryValueW",
+      "ordinal": 17,
+      "rva": "0x1ad0"
+    }
+  ],
+  "imports": {
+    "d3d12.dll": [
+      "D3D12SerializeRootSignature"
+    ],
+    "dxgi.dll": [
+      "CreateDXGIFactory1"
+    ],
+    "D3DCOMPILER_47.dll": [
+      "D3DCompile"
+    ],
+    "USER32.dll": [
+      "CallWindowProcW",
+      "ClipCursor",
+      "CreateWindowExA",
+      "DefWindowProcA",
+      "DefWindowProcW",
+      "DestroyWindow",
+      "DrawTextA",
+      "FillRect",
+      "GetAsyncKeyState",
+      "GetForegroundWindow",
+      "GetRawInputData",
+      "MessageBoxA",
+      "RegisterClassA",
+      "SetWindowLongPtrW",
+      "ShowCursor"
+    ],
+    "GDI32.dll": [
+      "CreateCompatibleDC",
+      "CreateDIBSection",
+      "CreateFontA",
+      "DeleteDC",
+      "DeleteObject",
+      "GdiFlush",
+      "GetStockObject",
+      "SelectObject",
+      "SetBkColor",
+      "SetTextColor"
+    ],
+    "COMDLG32.dll": [
+      "GetOpenFileNameW"
+    ],
+    "VERSION.dll": [
+      "GetFileVersionInfoA",
+      "GetFileVersionInfoSizeA",
+      "VerQueryValueA"
+    ],
+    "amdhip64_7.dll": [
+      "__hipPopCallConfiguration",
+      "__hipPushCallConfiguration",
+      "__hipRegisterFatBinary",
+      "__hipRegisterFunction",
+      "__hipRegisterVar",
+      "__hipUnregisterFatBinary",
+      "hipDestroyExternalMemory",
+      "hipDeviceSynchronize",
+      "hipDriverGetVersion",
+      "hipEventCreate",
+      "hipEventElapsedTime",
+      "hipEventRecord",
+      "hipEventSynchronize",
+      "hipExternalMemoryGetMappedBuffer",
+      "hipFree",
+      "hipGetDeviceCount",
+      "hipGetDevicePropertiesR0600",
+      "hipGetErrorString",
+      "hipGetLastError",
+      "hipImportExternalMemory",
+      "hipLaunchKernel",
+      "hipMalloc",
+      "hipMemcpy",
+      "hipMemcpyAsync",
+      "hipMemcpyToSymbol",
+      "hipMemset",
+      "hipMemsetAsync",
+      "hipRuntimeGetVersion",
+      "hipSetDevice"
+    ],
+    "bcrypt.dll": [
+      "BCryptCloseAlgorithmProvider",
+      "BCryptCreateHash",
+      "BCryptDestroyHash",
+      "BCryptFinishHash",
+      "BCryptHashData",
+      "BCryptOpenAlgorithmProvider"
+    ],
+    "KERNEL32.dll": [
+      "AcquireSRWLockExclusive",
+      "AddVectoredExceptionHandler",
+      "CloseHandle",
+      "CompareStringW",
+      "CopyFileA",
+      "CreateDirectoryA",
+      "CreateEventA",
+      "CreateFileA",
+      "CreateFileW",
+      "CreateThread",
+      "DecodePointer",
+      "DeleteCriticalSection",
+      "DisableThreadLibraryCalls",
+      "EncodePointer",
+      "EnterCriticalSection",
+      "EnumSystemLocalesW",
+      "ExitProcess",
+      "ExitThread",
+      "FindClose",
+      "FindFirstFileExW",
+      "FindNextFileW",
+      "FindResourceW",
+      "FlsAlloc",
+      "FlsFree",
+      "FlsGetValue",
+      "FlsSetValue",
+      "FlushFileBuffers",
+      "FlushInstructionCache",
+      "FreeEnvironmentStringsW",
+      "FreeLibrary",
+      "FreeLibraryAndExitThread",
+      "GetACP",
+      "GetCPInfo",
+      "GetCommandLineA",
+      "GetCommandLineW",
+      "GetConsoleMode",
+      "GetConsoleOutputCP",
+      "GetCurrentProcess",
+      "GetCurrentProcessId",
+      "GetCurrentThread",
+      "GetCurrentThreadId",
+      "GetEnvironmentStringsW",
+      "GetEnvironmentVariableA",
+      "GetExitCodeThread",
+      "GetFileAttributesA",
+      "GetFileAttributesW",
+      "GetFileSizeEx",
+      "GetFileType",
+      "GetLastError",
+      "GetLocaleInfoW",
+      "GetModuleFileNameA",
+      "GetModuleFileNameW",
+      "GetModuleHandleA",
+      "GetModuleHandleExW",
+      "GetModuleHandleW",
+      "GetOEMCP",
+      "GetPrivateProfileIntA",
+      "GetPrivateProfileStringA",
+      "GetProcAddress",
+      "GetProcessHeap",
+      "GetStartupInfoW",
+      "GetStdHandle",
+      "GetStringTypeW",
+      "GetSystemDirectoryA",
+      "GetSystemTimeAsFileTime",
+      "GetSystemTimePreciseAsFileTime",
+      "GetTempPathA",
+      "GetThreadContext",
+      "GetTickCount64",
+      "GetUserDefaultLCID",
+      "HeapAlloc",
+      "HeapFree",
+      "HeapReAlloc",
+      "HeapSize",
+      "InitializeCriticalSectionEx",
+      "InitializeSListHead",
+      "InterlockedFlushSList",
+      "IsDebuggerPresent",
+      "IsProcessorFeaturePresent",
+      "IsValidCodePage",
+      "IsValidLocale",
+      "LCMapStringEx",
+      "LCMapStringW",
+      "LeaveCriticalSection",
+      "LoadLibraryA",
+      "LoadLibraryExW",
+      "LoadResource",
+      "LockResource",
+      "MultiByteToWideChar",
+      "QueryPerformanceCounter",
+      "QueryPerformanceFrequency",
+      "RaiseException",
+      "ReadConsoleW",
+      "ReadFile",
+      "ReleaseSRWLockExclusive",
+      "ResumeThread",
+      "RtlCaptureContext",
+      "RtlLookupFunctionEntry",
+      "RtlPcToFileHeader",
+      "RtlUnwind",
+      "RtlUnwindEx",
+      "RtlVirtualUnwind",
+      "SetEndOfFile",
+      "SetEnvironmentVariableW",
+      "SetFilePointerEx",
+      "SetLastError",
+      "SetStdHandle",
+      "SetThreadContext",
+      "SetUnhandledExceptionFilter",
+      "SizeofResource",
+      "Sleep",
+      "SleepConditionVariableSRW",
+      "SuspendThread",
+      "TerminateProcess",
+      "TryAcquireSRWLockExclusive",
+      "UnhandledExceptionFilter",
+      "VirtualAlloc",
+      "VirtualFree",
+      "VirtualProtect",
+      "VirtualQuery",
+      "WaitForSingleObject",
+      "WaitForSingleObjectEx",
+      "WakeAllConditionVariable",
+      "WideCharToMultiByte",
+      "WriteConsoleW",
+      "WriteFile",
+      "WritePrivateProfileStringA"
+    ]
+  },
+  "sections": [
+    {
+      "name": ".text",
+      "rva": "0x1000",
+      "raw_size": 347648
+    },
+    {
+      "name": ".rdata",
+      "rva": "0x56000",
+      "raw_size": 119296
+    },
+    {
+      "name": ".data",
+      "rva": "0x74000",
+      "raw_size": 8704
+    },
+    {
+      "name": ".pdata",
+      "rva": "0x79000",
+      "raw_size": 14336
+    },
+    {
+      "name": ".fptable",
+      "rva": "0x7d000",
+      "raw_size": 512
+    },
+    {
+      "name": ".hipFatB",
+      "rva": "0x7e000",
+      "raw_size": 512
+    },
+    {
+      "name": ".hip_fat",
+      "rva": "0x7f000",
+      "raw_size": 6649344
+    },
+    {
+      "name": ".retarc",
+      "rva": "0x6d7000",
+      "raw_size": 8704
+    },
+    {
+      "name": ".retard",
+      "rva": "0x6da000",
+      "raw_size": 512
+    },
+    {
+      "name": ".tls",
+      "rva": "0x6db000",
+      "raw_size": 512
+    },
+    {
+      "name": "_RDATA",
+      "rva": "0x6dc000",
+      "raw_size": 512
+    },
+    {
+      "name": ".reloc",
+      "rva": "0x6dd000",
+      "raw_size": 4608
+    }
+  ],
+  "strings": [
+    {
+      "offset": "0x248",
+      "text": ".hipFatB"
+    },
+    {
+      "offset": "0x26f",
+      "text": "@.hip_fat"
+    },
+    {
+      "offset": "0x23e2",
+      "text": "DlssNrOnH"
+    },
+    {
+      "offset": "0xdc0e",
+      "text": "dlssnr_oH"
+    },
+    {
+      "offset": "0xef72",
+      "text": "7dlssC"
+    },
+    {
+      "offset": "0x119a4",
+      "text": "DLSSNRW1I9"
+    },
+    {
+      "offset": "0x62d7b",
+      "text": "dlssnr_dummy"
+    },
+    {
+      "offset": "0x62e98",
+      "text": "first ffxDispatch type 0x%x"
+    },
+    {
+      "offset": "0x62eb4",
+      "text": "dlssnr_outraw"
+    },
+    {
+      "offset": "0x62ff3",
+      "text": "ffxCreateContext"
+    },
+    {
+      "offset": "0x63008",
+      "text": "dlssnr_hist"
+    },
+    {
+      "offset": "0x63157",
+      "text": "UseFsrInputs"
+    },
+    {
+      "offset": "0x632c2",
+      "text": "env: HIP device %d: %s, arch %s, %d CUs, %.0f MB%s%s"
+    },
+    {
+      "offset": "0x632f7",
+      "text": "dlssnr_amd %s (build %s) loaded (standalone version.dll proxy) from %s; log %s; settings %s%s"
+    },
+    {
+      "offset": "0x63355",
+      "text": "env: using HIP device %d (%s): %s, arch %s, %d CUs, %.0f MB%s"
+    },
+    {
+      "offset": "0x6357b",
+      "text": "interop: hipImportExternalMemory: %s"
+    },
+    {
+      "offset": "0x635a0",
+      "text": "interop: hipExternalMemoryGetMappedBuffer: %s"
+    },
+    {
+      "offset": "0x635f6",
+      "text": "env: HIP: %d device(s), driver %d, runtime %d; kernels in this build: %s"
+    },
+    {
+      "offset": "0x6367e",
+      "text": "FSR active   job %d: %llu ms   %s   %s"
+    },
+    {
+      "offset": "0x636a5",
+      "text": "weights build from nvngx_dlssnr.dll: %s"
+    },
+    {
+      "offset": "0x6445d",
+      "text": "dlssnr_on_amd_weights.bin"
+    },
+    {
+      "offset": "0x644bb",
+      "text": "no dlssnr_on_amd_weights.bin and no nvngx_dlssnr.dll next to version.dll"
+    },
+    {
+      "offset": "0x6450d",
+      "text": "ffx_fsr3upscaler_x64.dll"
+    },
+    {
+      "offset": "0x64526",
+      "text": "ffx_fsr3_x64.dll"
+    },
+    {
+      "offset": "0x6454f",
+      "text": "amd_fidelityfx_upscaler_dx12.dll"
+    },
+    {
+      "offset": "0x64599",
+      "text": "env: WARNING: the game renders on an adapter HIP does not expose; staging cannot be shared with it and the pass may fall back to readback or fail"
+    },
+    {
+      "offset": "0x646e0",
+      "text": "_dlssnr_on_amd.ini"
+    },
+    {
+      "offset": "0x646f3",
+      "text": "HipDevice in the ini"
+    },
+    {
+      "offset": "0x647d6",
+      "text": "ffxDispatch"
+    },
+    {
+      "offset": "0x647e2",
+      "text": "first ffxFsr3UpscalerContextDispatch"
+    },
+    {
+      "offset": "0x64807",
+      "text": "_dlssnr_on_amd.log"
+    },
+    {
+      "offset": "0x64a37",
+      "text": "ffxFsr3UpscalerContextCreate"
+    },
+    {
+      "offset": "0x64a54",
+      "text": "ffxFsr3ContextCreate"
+    },
+    {
+      "offset": "0x64ad7",
+      "text": "no HIP device matches the game's adapter; best supported one"
+    },
+    {
+      "offset": "0x64bdd",
+      "text": "first ffxFsr3ContextDispatchUpscale"
+    },
+    {
+      "offset": "0x64c27",
+      "text": "HipDevice"
+    },
+    {
+      "offset": "0x64cb6",
+      "text": "DlssNrOnAmd"
+    },
+    {
+      "offset": "0x64f17",
+      "text": "dlssnr_imgenc"
+    },
+    {
+      "offset": "0x64f8b",
+      "text": "DlssNrOnAmd\\"
+    },
+    {
+      "offset": "0x65081",
+      "text": "DLSSNR_SLOW_PREPOST"
+    },
+    {
+      "offset": "0x65095",
+      "text": "DLSSNR_NOPOSTHIST"
+    },
+    {
+      "offset": "0x650a7",
+      "text": "DLSSNR_STAGES"
+    },
+    {
+      "offset": "0x650c4",
+      "text": "DLSSNR_NO_REPACK"
+    },
+    {
+      "offset": "0x650d5",
+      "text": "DLSSNR_WBLOG"
+    },
+    {
+      "offset": "0x650eb",
+      "text": "DLSSNR_NOBLEND"
+    },
+    {
+      "offset": "0x650fa",
+      "text": "DLSS-NR on AMD"
+    },
+    {
+      "offset": "0x65114",
+      "text": "  -- hipSetDevice FAILED"
+    },
+    {
+      "offset": "0x6523f",
+      "text": "DLSSNRW1"
+    },
+    {
+      "offset": "0x65305",
+      "text": "Writes dlssnr_in/mv/depth/out<job>.raw next to the DLL for offline analysis."
+    },
+    {
+      "offset": "0x653c0",
+      "text": "Weights missing: nvngx_dlssnr.dll was not found next to version.dll. Select your copy with the row above."
+    },
+    {
+      "offset": "0x654fe",
+      "text": "FSR is not active: enable FSR (any quality mode) in the game's graphics settings to use DLSS-NR."
+    },
+    {
+      "offset": "0x6555f",
+      "text": "WARNING: %.2f%% of the pre-block output is zero (healthy is ~0.1%%). Output stores are being dropped -- see hip/TINT_INVESTIGATION.md section 11."
+    },
+    {
+      "offset": "0x655f1",
+      "text": "Select nvngx_dlssnr.dll..."
+    },
+    {
+      "offset": "0x65657",
+      "text": "Your own copy of nvngx_dlssnr.dll (DLSS 5 Neural Rendering 310.8.0.0, shipped with games that support DLSS 5)."
+    },
+    {
+      "offset": "0x659a5",
+      "text": "env: HIP: no usable device (%s)"
+    },
+    {
+      "offset": "0x65aab",
+      "text": "FAILED (no dlssnr_on_amd_weights.bin)"
+    },
+    {
+      "offset": "0x65b99",
+      "text": "Danielblnc's DLSS-NR on AMD v0.2.14   (End to close)"
+    },
+    {
+      "offset": "0x65d69",
+      "text": "nvngx_dlssnr.dll 310.8.0.0 (DLSS 5 Neural Rendering, 2026-08)"
+    },
+    {
+      "offset": "0x65df4",
+      "text": "%zu of %zu tensors do not match DLSS NR 310.8.0.0: "
+    },
+    {
+      "offset": "0x66060",
+      "text": "all %zu tensors match DLSS NR 310.8.0.0 exactly; using it"
+    },
+    {
+      "offset": "0x660fb",
+      "text": "DlssNrEngine: %s"
+    },
+    {
+      "offset": "0x6610d",
+      "text": "cannot write dlssnr_on_amd_weights.bin"
+    },
+    {
+      "offset": "0x66135",
+      "text": "wrote %zu blobs, %.1f MB -> dlssnr_on_amd_weights.bin"
+    },
+    {
+      "offset": "0x661d3",
+      "text": "this DLL build is not one the mod knows (expected DLSS NR 310.8.0.0); checking its tensors instead"
+    },
+    {
+      "offset": "0x662ac",
+      "text": "DLSS-NR on AMD: weight files are missing."
+    },
+    {
+      "offset": "0x662d7",
+      "text": "nvngx_dlssnr.dll was not found in the game folder. To work, this mod needs nvngx_dlssnr.dll (DLSS 5 Neural Rendering 310.8.0.0, shipped with games that support DLSS 5)."
+    },
+    {
+      "offset": "0x6b5c6",
+      "text": "__hipPopCallConfiguration"
+    },
+    {
+      "offset": "0x6b5e2",
+      "text": "__hipPushCallConfiguration"
+    },
+    {
+      "offset": "0x6b600",
+      "text": "__hipRegisterFatBinary"
+    },
+    {
+      "offset": "0x6b61a",
+      "text": "__hipRegisterFunction"
+    },
+    {
+      "offset": "0x6b632",
+      "text": "__hipRegisterVar"
+    },
+    {
+      "offset": "0x6b646",
+      "text": "__hipUnregisterFatBinary"
+    },
+    {
+      "offset": "0x6b662",
+      "text": "hipDestroyExternalMemory"
+    },
+    {
+      "offset": "0x6b67e",
+      "text": "hipDeviceSynchronize"
+    },
+    {
+      "offset": "0x6b696",
+      "text": "hipDriverGetVersion"
+    },
+    {
+      "offset": "0x6b6ac",
+      "text": "hipEventCreate"
+    },
+    {
+      "offset": "0x6b6be",
+      "text": "hipEventElapsedTime"
+    },
+    {
+      "offset": "0x6b6d4",
+      "text": "hipEventRecord"
+    },
+    {
+      "offset": "0x6b6e6",
+      "text": "hipEventSynchronize"
+    },
+    {
+      "offset": "0x6b6fc",
+      "text": "hipExternalMemoryGetMappedBuffer"
+    },
+    {
+      "offset": "0x6b720",
+      "text": "hipFree"
+    },
+    {
+      "offset": "0x6b72a",
+      "text": "hipGetDeviceCount"
+    },
+    {
+      "offset": "0x6b73e",
+      "text": "hipGetDevicePropertiesR0600"
+    },
+    {
+      "offset": "0x6b75c",
+      "text": "hipGetErrorString"
+    },
+    {
+      "offset": "0x6b770",
+      "text": "hipGetLastError"
+    },
+    {
+      "offset": "0x6b782",
+      "text": "hipImportExternalMemory"
+    },
+    {
+      "offset": "0x6b79c",
+      "text": "hipLaunchKernel"
+    },
+    {
+      "offset": "0x6b7ae",
+      "text": "hipMalloc"
+    },
+    {
+      "offset": "0x6b7ba",
+      "text": "hipMemcpy"
+    },
+    {
+      "offset": "0x6b7c6",
+      "text": "hipMemcpyAsync"
+    },
+    {
+      "offset": "0x6b7d8",
+      "text": "hipMemcpyToSymbol"
+    },
+    {
+      "offset": "0x6b7ec",
+      "text": "hipMemset"
+    },
+    {
+      "offset": "0x6b7f8",
+      "text": "hipMemsetAsync"
+    },
+    {
+      "offset": "0x6b80a",
+      "text": "hipRuntimeGetVersion"
+    },
+    {
+      "offset": "0x6b822",
+      "text": "hipSetDevice"
+    },
+    {
+      "offset": "0x6c2aa",
+      "text": "amdhip64_7.dll"
+    },
+    {
+      "offset": "0x7826e",
+      "text": "hipv4-amdgcn-amd-amdhsa--gfx10-3-generic"
+    },
+    {
+      "offset": "0x782ae",
+      "text": "hipv4-amdgcn-amd-amdhsa--gfx11-generic"
+    },
+    {
+      "offset": "0x782ec",
+      "text": "hipv4-amdgcn-amd-amdhsa--gfx1100"
+    },
+    {
+      "offset": "0x78324",
+      "text": "hipv4-amdgcn-amd-amdhsa--gfx1101"
+    },
+    {
+      "offset": "0x7835c",
+      "text": "hipv4-amdgcn-amd-amdhsa--gfx1102"
+    },
+    {
+      "offset": "0x78394",
+      "text": "hipv4-amdgcn-amd-amdhsa--gfx1200"
+    },
+    {
+      "offset": "0x783cc",
+      "text": "hipv4-amdgcn-amd-amdhsa--gfx1201"
+    },
+    {
+      "offset": "0x78404",
+      "text": "hipv4-amdgcn-amd-amdhsa--gfx9-generic"
+    },
+    {
+      "offset": "0x83326",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x8335e",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x1024c8",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x102500",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x10d336",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x10d36e",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x220e42",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x220e7a",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x22c32e",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x22c366",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x33de0a",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x33de42",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x34932e",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x349366",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x45ae0a",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x45ae42",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x466336",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x46636e",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x579e42",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x579e7a",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x58532e",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x585366",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x5e2928",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x5e2960",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x5ed32e",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x5ed366",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x64a928",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x64a960",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x654f8e",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x654fc6",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    },
+    {
+      "offset": "0x6cf248",
+      "text": "_ZN12DlssNrEngine2SHE"
+    },
+    {
+      "offset": "0x6cf280",
+      "text": "__hip_cuid_56c5ba387478d0ff"
+    }
+  ]
+}

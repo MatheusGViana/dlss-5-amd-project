@@ -1,0 +1,20 @@
+{
+  "original_sha256": "106223723fd9266c44d38dc2fb77933948ab37803f46bfcea2bae3a0a474ac84",
+  "patched_sha256": "e145ff963b1ef6146aee39a7b074268eb1b031a94d3aadbbcaf9da37e91fa9ad",
+  "changes": [
+    {
+      "rva": "0x2bfc",
+      "offset": "0x1ffc",
+      "before": "ff15d6910600",
+      "after": "31c090909090",
+      "reason": "disable standalone hook installer thread"
+    },
+    {
+      "rva": "0x4653",
+      "offset": "0x3a53",
+      "before": "ff15e7280700",
+      "after": "909090909090",
+      "reason": "notification after actual ExecuteCommandLists; do not execute twice"
+    }
+  ]
+}
