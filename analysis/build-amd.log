@@ -1,0 +1,447 @@
+Compilação de 07/09/2026 03:57:09 iniciada.
+O detalhamento do log está definido como: Normal.
+     1>Projeto "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler.sln" no nó 1 (Build destino(s)).
+     1>ValidateSolutionConfiguration:
+         Compilando a configuração de solução "Release|x64".
+     1>O projeto "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler.sln" (1) está compilando "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj" (2) no nó 1 (destinos padrão).
+     2>PrepareForBuild:
+         A saída estruturada está habilitada. A formatação do diagnóstico do compilador refletirá a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+     1>O projeto "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler.sln" (1) está compilando "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\dlssnr\forwarder\dlssnr_forwarder.vcxproj" (3) no nó 2 (destinos padrão).
+     3>PrepareForBuild:
+         A saída estruturada está habilitada. A formatação do diagnóstico do compilador refletirá a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+     2>InitializeBuildStatus:
+         Criando "x64\Release\OptiScaler.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+     3>InitializeBuildStatus:
+         Criando "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\dlssnr_forwarder\dlssnr_forwarder.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+     2>InitializeBuildStatus:
+         Tocando "x64\Release\OptiScaler.tlog\unsuccessfulbuild".
+     3>InitializeBuildStatus:
+         Tocando "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\dlssnr_forwarder\dlssnr_forwarder.tlog\unsuccessfulbuild".
+     2>ComputeStdModulesCompileInputs:
+         Lendo o arquivo de manifesto da biblioteca 'F:\build\VC\Tools\MSVC\14.41.34120\modules\modules.json' que fornece dados para a biblioteca 'microsoft/STL'.
+         Adicionando a fonte do módulo 'F:\build\VC\Tools\MSVC\14.41.34120\modules\std.ixx' da biblioteca 'microsoft/STL' a ser construída com este projeto.
+         Adicionando a fonte do módulo 'F:\build\VC\Tools\MSVC\14.41.34120\modules\std.compat.ixx' da biblioteca 'microsoft/STL' a ser construída com este projeto.
+     3>ClCompile:
+         Todas as saídas estão atualizadas.
+       Link:
+         Todas as saídas estão atualizadas.
+         dlssnr_forwarder.vcxproj -> C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\a\nvngx.dll_dlssnr.dll
+     2>ClCompile:
+         Todas as saídas estão atualizadas.
+     3>FinalizeBuildStatus:
+         Excluindo o arquivo "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\dlssnr_forwarder\dlssnr_forwarder.tlog\unsuccessfulbuild".
+         Tocando "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\dlssnr_forwarder\dlssnr_forwarder.tlog\dlssnr_forwarder.lastbuildstate".
+     3>Projeto de compilação pronto "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\dlssnr\forwarder\dlssnr_forwarder.vcxproj" (destinos padrão).
+     2>ClCompile:
+         F:\build\VC\Tools\MSVC\14.41.34120\bin\HostX86\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /MP /O2 /Ot /GL /D NDEBUG /D _DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR /D _WINDOWS /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:queue /w34996 dlssnr\amd\AmdPreSr.cpp
+         AmdPreSr.cpp
+         F:\build\VC\Tools\MSVC\14.41.34120\bin\HostX86\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /MP /O2 /Ot /GL /D NDEBUG /D _DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR /D _WINDOWS /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++latest /permissive- /Yu"pch.h" /Fp"x64\Release\OptiScaler.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:queue /w34996 dllmain.cpp hooks\D3D12_Hooks.cpp hooks\LibraryLoad_Hooks.cpp inputs\FG\FSR3_Dx12_FG.cpp inputs\FSR2_Dx11.cpp inputs\FSR2_Dx12.cpp inputs\FSR2_Vk.cpp inputs\FSR3_Dx12.cpp inputs\FfxApiExe_Dx12.cpp inputs\FfxApi_Dx12.cpp inputs\FfxApi_Vk.cpp inputs\NVNGX_DLSS_Vk.cpp inputs\XeSS_Common.cpp inputs\XeSS_Dx11.cpp inputs\XeSS_Dx12.cpp inputs\XeSS_Vulkan.cpp menu\menu_common.cpp menu\menu_dx_base.cpp menu\menu_overlay_base.cpp upscalers\FeatureProvider_Dx11.cpp upscalers\FeatureProvider_Dx12.cpp upscalers\FeatureProvider_Vk.cpp upscalers\xess\XeSSFeature.cpp upscalers\xess\XeSSFeature_Dx11.cpp upscalers\xess\XeSSFeature_Dx11on12.cpp upscalers\xess\XeSSFeature_Dx12.cpp upscalers\xess\XeSSFeature_Vk.cpp version_check.cpp
+         dllmain.cpp
+         D3D12_Hooks.cpp
+         LibraryLoad_Hooks.cpp
+         FSR3_Dx12_FG.cpp
+         FSR2_Dx11.cpp
+         FSR2_Dx12.cpp
+         FSR2_Vk.cpp
+         FSR3_Dx12.cpp
+         FfxApiExe_Dx12.cpp
+         FfxApi_Dx12.cpp
+         FfxApi_Vk.cpp
+         NVNGX_DLSS_Vk.cpp
+         XeSS_Common.cpp
+         XeSS_Dx11.cpp
+         XeSS_Dx12.cpp
+         XeSS_Vulkan.cpp
+         menu_common.cpp
+         menu_dx_base.cpp
+         menu_overlay_base.cpp
+         FeatureProvider_Dx11.cpp
+         FeatureProvider_Dx12.cpp
+         FeatureProvider_Vk.cpp
+         XeSSFeature.cpp
+         XeSSFeature_Dx11.cpp
+         XeSSFeature_Dx11on12.cpp
+         XeSSFeature_Dx12.cpp
+         XeSSFeature_Vk.cpp
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx11on12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+             consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx11on12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+             consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+         
+         version_check.cpp
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+             consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/xess/XeSSFeature_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+             consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+             consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+             consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+             consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+             consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+             consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+             consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+             consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+             consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+             consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+             consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+             consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+             consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+             consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+             consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx11.h(47,27):
+             consulte a declaração de 'IFeature_Dx11::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx11.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx11.h(48,10):
+             consulte a declaração de 'IFeature_Dx11::ReadDetailedGpuTimes'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+             consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+             consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(51,27):
+             consulte a declaração de 'IFeature_Dx12::ReadUpscalerTime'
+         
+     2>C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         (compilando o arquivo fonte '/upscalers/FeatureProvider_Dx12.cpp')
+             C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\IFeature_Dx12.h(52,10):
+             consulte a declaração de 'IFeature_Dx12::ReadDetailedGpuTimes'
+         
+       ResourceCompile:
+         C:\PROGRA~2\WINDOW~1\10\bin\10.0.26100.0\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Release\OptiScaler.res" OptiScaler.rc 
+       Link:
+         F:\build\VC\Tools\MSVC\14.41.34120\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\OptiScaler.dll" /NOLOGO bcrypt.lib winhttp.lib WindowsApp.lib Dbghelp.lib dxgi.lib d3d11.lib d3d12.lib "vulkan-1.lib" dxguid.lib freetype.lib ffx_fsr2_api_x64.lib ffx_fsr2_api_dx11_x64.lib ffx_fsr2_api_dx12_x64.lib ffx_fsr2_api_vk_x64.lib ffx_fsr2_212_api_dx12_x64.lib ffx_fsr2_212_api_vk_x64.lib ffx_fsr2_212_api_x64.lib d3dcompiler.lib ffx_backend_dx11_x64.lib ffx_fsr3_x64.lib ffx_frameinterpolation_x64.lib ffx_fsr3upscaler_x64.lib ffx_opticalflow_x64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DEF:"Source.def" /DELAYLOAD:"vulkan-1.dll" /DELAYLOAD:dxgi.dll /DELAYLOAD:d3d12.dll /DELAYLOAD:D3DCOMPILER_47.dll /MANIFEST /MANIFESTUAC:NO /manifest:embed /PDB:"C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\OptiScaler.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"x64\Release\OptiScaler.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\OptiScaler.lib" /MACHINE:X64 /ignore:4099 /DLL x64\Release\OptiScaler.res
+         x64\Release\AmdPreSr.obj
+         x64\Release\AmdBridge.obj
+         x64\Release\Nvngx_Combo.obj
+         x64\Release\FSR4Upgrade.obj
+         x64\Release\GpuTime_Dx11.obj
+         x64\Release\GpuTime_Dx12.obj
+         x64\Release\Amdxc64_Hooks.obj
+         x64\Release\DLSSG_Dx12.obj
+         x64\Release\FSRFG_Dx12.obj
+         x64\Release\IFGFeature.obj
+         x64\Release\IFGFeature_Dx12.obj
+         x64\Release\Nvngx_FG.obj
+         x64\Release\FSR4ModelSelection.obj
+         x64\Release\D3D12_Hooks.obj
+         x64\Release\DxgiFactory_Hooks.obj
+         x64\Release\DxgiFactory_WrappedCalls.obj
+         x64\Release\Dxgi_Hooks.obj
+         x64\Release\FG_Hooks.obj
+         x64\Release\Kernel_Hooks.obj
+         x64\Release\LibraryLoad_Hooks.obj
+         x64\Release\VulkanwDx12_Hooks.obj
+         x64\Release\Xell_Hooks.obj
+         x64\Release\Streamline_Inputs_Sl1_Dx12.obj
+         x64\Release\device_info.obj
+         x64\Release\Upscaler_Inputs_Dx11wDx12.obj
+         x64\Release\input_common.obj
+         x64\Release\input_reflex.obj
+         x64\Release\input_xell.obj
+         x64\Release\input_antilag2.obj
+         x64\Release\Magnifier_Dx11.obj
+         x64\Release\input_system.obj
+         x64\Release\input_system_cursor.obj
+         x64\Release\input_system_detours.obj
+         x64\Release\input_system_directinput.obj
+         x64\Release\input_system_gameinput.obj
+         x64\Release\input_system_hid.obj
+         x64\Release\input_system_messages.obj
+         x64\Release\input_system_raw.obj
+         x64\Release\input_system_window.obj
+         x64\Release\input_system_windows_hooks.obj
+         x64\Release\input_system_xinput.obj
+         x64\Release\IdentifyGpu.obj
+         x64\Release\FSR2_Dx11.obj
+         x64\Release\FSR2_Vk.obj
+         x64\Release\XeSS_Dx11.obj
+         x64\Release\ll_util.obj
+         x64\Release\log.obj
+         x64\Release\low_latency.obj
+         x64\Release\low_latency_d3d.obj
+         x64\Release\ll_antilag2.obj
+         x64\Release\ll_antilag_vk.obj
+         x64\Release\ll_latencyflex.obj
+         x64\Release\ll_xell.obj
+         x64\Release\low_latency_vk.obj
+         x64\Release\nvapi_calls.obj
+         x64\Release\Nvngx_FFX.obj
+         x64\Release\Nvngx_Nukems.obj
+         x64\Release\Nvngx_Arturs.obj
+         x64\Release\NVNGX_Parameter.obj
+         x64\Release\Nvngx_DllProxy.obj
+         x64\Release\OptiTypes.obj
+         x64\Release\pch.obj
+         x64\Release\DI_Dx12.obj
+         x64\Release\HCC_Dx12.obj
+         x64\Release\HudCopy_Dx12.obj
+         x64\Release\DT_Vk.obj
+         x64\Release\Magnifier_Common.obj
+         x64\Release\Magnifier_Dx12.obj
+         x64\Release\Magnifier_Vk.obj
+         x64\Release\OS_Vk.obj
+         x64\Release\RCAS_Common.obj
+         x64\Release\RCAS_Vk.obj
+         x64\Release\Shader_Common.obj
+         x64\Release\RUI_Dx12.obj
+         x64\Release\RC_Vk.obj
+         x64\Release\Shader_Dx12.obj
+         x64\Release\Shader_Vk.obj
+         x64\Release\SkipSpoof.obj
+         x64\Release\Shader_Dx11.obj
+         x64\Release\Dxgi_Spoofing.obj
+         x64\Release\User32_Spoofing.obj
+         x64\Release\Vulkan_Spoofing.obj
+         x64\Release\input_uell.obj
+         x64\Release\FSR2Feature_VkOnDx12_212.obj
+         x64\Release\FFXFeature_VkOn12.obj
+         x64\Release\FSR31Feature.obj
+         x64\Release\IFeature_Vk.obj
+         x64\Release\IFeature_VkwDx12.obj
+         x64\Release\UpscalerTime_Vk.obj
+         x64\Release\dx11_with_dx12.obj
+         x64\Release\with_dx12.obj
+         x64\Release\dx11_with_dx12_sc.obj
+         x64\Release\wrapped_factory.obj
+         x64\Release\FSR3_Dx12_FG.obj
+         x64\Release\Streamline_Inputs_Dx12.obj
+         x64\Release\XeFG_Dx12.obj
+         x64\Release\Streamline_Hooks.obj
+         x64\Release\Hudfix_Dx12.obj
+         x64\Release\imgui_impl_dx11.obj
+         x64\Release\imgui_impl_dx12.obj
+         x64\Release\imgui_impl_uwp.obj
+         x64\Release\imgui_impl_vulkan.obj
+         x64\Release\imgui_impl_win32.obj
+         x64\Release\parameters.obj
+         x64\Release\FfxApiExe_Dx12.obj
+         x64\Release\FfxApi_Dx12_FG.obj
+         x64\Release\FfxApi_Vk.obj
+         x64\Release\Upscaler_Inputs_Dx12.obj
+         x64\Release\XeSS_Base.obj
+         x64\Release\XeSS_Common.obj
+         x64\Release\XeSS_Dbg.obj
+         x64\Release\XeSS_Vulkan.obj
+         x64\Release\FrameLimit.obj
+         x64\Release\fakenvapi.obj
+         x64\Release\NvApiHooks.obj
+         x64\Release\NvApiTypes.obj
+         x64\Release\Reflex_Hooks.obj
+         x64\Release\ResTrack_dx12.obj
+         x64\Release\HC_Dx12.obj
+         x64\Release\RF_Dx12.obj
+         x64\Release\DS_Dx12.obj
+         x64\Release\DT_Dx11.obj
+         x64\Release\DLSSDFeature.obj
+         x64\Release\DLSSDFeature_Dx11.obj
+         x64\Release\DLSSDFeature_Dx12.obj
+         x64\Release\DLSSDFeature_Vk.obj
+         x64\Release\DLSSFeature.obj
+         x64\Release\DLSSFeature_Dx11.obj
+         x64\Release\DLSSFeature_Dx11On12.obj
+         x64\Release\DLSSFeature_VkOn12.obj
+         x64\Release\DLSSFeature_Dx12.obj
+         x64\Release\DLSSFeature_Vk.obj
+         x64\Release\FeatureProvider_Dx11.obj
+         x64\Release\FeatureProvider_Dx12.obj
+         x64\Release\FeatureProvider_Vk.obj
+         x64\Release\FSR2Feature_212.obj
+         x64\Release\FSR2Feature_Dx11On12_212.obj
+         x64\Release\FSR2Feature_Dx12_212.obj
+         x64\Release\FSR2Feature_Vk_212.obj
+         x64\Release\FFXFeature.obj
+         x64\Release\FSR31Feature_Dx11.obj
+         x64\Release\FFXFeature_Dx11On12.obj
+         x64\Release\FFXFeature_Dx12.obj
+         x64\Release\FFXFeature_Vk.obj
+         x64\Release\IFeature_Dx11.obj
+         x64\Release\IFeature_Dx11wDx12.obj
+         x64\Release\Config.obj
+         x64\Release\FSR2Feature.obj
+         x64\Release\FSR2Feature_Dx11.obj
+         x64\Release\FSR2Feature_Dx11On12.obj
+         x64\Release\FSR2Feature_Dx12.obj
+         x64\Release\FSR2Feature_Vk.obj
+         x64\Release\IFeature.obj
+         x64\Release\IFeature_Dx12.obj
+         x64\Release\FfxApi_Dx12.obj
+         x64\Release\FSR2_Dx12.obj
+         x64\Release\FSR3_Dx12.obj
+         x64\Release\D3D11_Hooks.obj
+         x64\Release\Vulkan_Hooks.obj
+         x64\Release\menu_common.obj
+         x64\Release\menu_dx_base.obj
+         x64\Release\menu_dx11.obj
+         x64\Release\menu_dx12.obj
+         x64\Release\menu_overlay_base.obj
+         x64\Release\menu_overlay_dx.obj
+         x64\Release\menu_overlay_vk.obj
+         x64\Release\wrapped_swapchain.obj
+         x64\Release\imgui.obj
+         x64\Release\imgui_draw.obj
+         x64\Release\imgui_tables.obj
+         x64\Release\imgui_widgets.obj
+         x64\Release\imgui_freetype.obj
+         x64\Release\Logger.obj
+         x64\Release\NVNGX.obj
+         x64\Release\NVNGX_DLSS_Dx11.obj
+         x64\Release\DlssNr_Dx12.obj
+         x64\Release\DlssNr_Vk.obj
+         x64\Release\DlssNrFeature_Vk.obj
+         x64\Release\DlssNr_ExposureScan.obj
+         x64\Release\DlssNr_Proxy.obj
+         x64\Release\DlssNr_Menu.obj
+         x64\Release\NVNGX_DLSS_Dx12.obj
+         x64\Release\dllmain.obj
+         x64\Release\NVNGX_DLSS_Vk.obj
+         x64\Release\XeSSFeature.obj
+         x64\Release\XeSSFeature_Dx11.obj
+         x64\Release\XeSSFeature_Dx11on12.obj
+         x64\Release\XeSSFeature_Dx12.obj
+         x64\Release\scanner.obj
+         x64\Release\Bias_Dx11.obj
+         x64\Release\Bias_Dx12.obj
+         x64\Release\FT_Dx12.obj
+         x64\Release\OS_Dx11.obj
+         x64\Release\OS_Dx12.obj
+         x64\Release\RCAS_Dx11.obj
+         x64\Release\RCAS_Dx12.obj
+         x64\Release\XeSSFeature_Vk.obj
+         x64\Release\Util.obj
+         x64\Release\version_check.obj
+         x64\Release\XeSS_Debug.obj
+         x64\Release\XeSS_Dx12.obj
+     2>LINK : warning C4744: 'static struct std::atomic<class std::shared_ptr<class LowLatencyTech> > InputCommon::currently_active_tech' possui tipo diferente em 'c:\users\mathe\desktop\projeto\funcional\optiscaler-dlssnr-presr-multipass-main\optiscaler\nvapi\fakenvapi\low_latency_d3d.cpp' e em 'c:\users\mathe\desktop\projeto\funcional\optiscaler-dlssnr-presr-multipass-main\optiscaler\hooks\amdxc64_hooks.cpp': '__declspec(align(16)) struct (16 bytes)' e 'struct (16 bytes)' [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+            Criando biblioteca C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\OptiScaler.lib e objeto C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\OptiScaler.exp
+     2>LINK : warning LNK4098: defaultlib 'LIBCMT' conflita com uso de outras bibliotecas; use /NODEFAULTLIB:library [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         Gerando código
+         35 of 37712 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+           2 functions were new in current compilation
+           302 functions had inline decision re-evaluated but remain unchanged
+         Finalizada a geraçao de código
+         OptiScaler.vcxproj -> C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\x64\Release\OptiScaler.dll
+       FinalizeBuildStatus:
+         Excluindo o arquivo "x64\Release\OptiScaler.tlog\unsuccessfulbuild".
+         Tocando "x64\Release\OptiScaler.tlog\OptiScaler.lastbuildstate".
+     2>Projeto de compilação pronto "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj" (destinos padrão).
+     1>Projeto de compilação pronto "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler.sln" (Build destino(s)).
+
+Compilação com êxito.
+
+       "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler.sln" (Build destino) (1) ->
+       "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj" (destino padrão) (2) ->
+       (ClCompile destino) -> 
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlss\DLSSFeature_Dx12.h(7,7): warning C4250: 'DLSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx12.h(7,7): warning C4250: 'DLSSDFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2\FSR2Feature_Dx12.h(8,7): warning C4250: 'FSR2FeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2_212\FSR2Feature_Dx12_212.h(8,7): warning C4250: 'FSR2FeatureDx12_212': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlss\DLSSFeature_Dx11.h(6,7): warning C4250: 'DLSSFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\dlssd\DLSSDFeature_Dx11.h(6,7): warning C4250: 'DLSSDFeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr2\FSR2Feature_Dx11.h(10,7): warning C4250: 'FSR2FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\fsr31\FSR31Feature_Dx11.h(10,7): warning C4250: 'FSR31FeatureDx11': herda 'IFeature_Dx11::IFeature_Dx11::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\ffx\FFXFeature_Dx12.h(8,7): warning C4250: 'FFXFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadUpscalerTime' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\upscalers\xess\XeSSFeature_Dx12.h(6,7): warning C4250: 'XeSSFeatureDx12': herda 'IFeature_Dx12::IFeature_Dx12::ReadDetailedGpuTimes' via domínio [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+
+
+       "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler.sln" (Build destino) (1) ->
+       "C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj" (destino padrão) (2) ->
+       (Link destino) -> 
+         LINK : warning C4744: 'static struct std::atomic<class std::shared_ptr<class LowLatencyTech> > InputCommon::currently_active_tech' possui tipo diferente em 'c:\users\mathe\desktop\projeto\funcional\optiscaler-dlssnr-presr-multipass-main\optiscaler\nvapi\fakenvapi\low_latency_d3d.cpp' e em 'c:\users\mathe\desktop\projeto\funcional\optiscaler-dlssnr-presr-multipass-main\optiscaler\hooks\amdxc64_hooks.cpp': '__declspec(align(16)) struct (16 bytes)' e 'struct (16 bytes)' [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+         LINK : warning LNK4098: defaultlib 'LIBCMT' conflita com uso de outras bibliotecas; use /NODEFAULTLIB:library [C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-DLSSNR-PreSR-Multipass-main\OptiScaler\OptiScaler.vcxproj]
+
+    26 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:28.84

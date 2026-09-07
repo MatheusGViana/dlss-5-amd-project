@@ -1,0 +1,137 @@
+2605812 HIP adapter: AMD Radeon RX 9060 XT
+2607296 Initialized independent AMD pass 1
+2607375 Recorded pre-SR 128x128 passes=1
+2627421 HIP adapter: AMD Radeon RX 9060 XT
+2628437 Initialized independent AMD pass 1
+2629281 Initialized independent AMD pass 2
+2629359 Recorded pre-SR 128x128 passes=2
+2675359 HIP adapter: AMD Radeon RX 9060 XT
+2676359 Initialized independent AMD pass 1
+2677203 Initialized independent AMD pass 2
+2678046 Initialized independent AMD pass 3
+2678140 Recorded pre-SR 128x128 passes=3
+2768265 HIP adapter: AMD Radeon RX 9060 XT
+2769421 Initialized independent AMD pass 1
+2770375 Initialized independent AMD pass 2
+2771203 Initialized independent AMD pass 3
+2771296 Recorded pre-SR 128x128 passes=3
+2771343 Workers stopped outside loader lock
+19841625 HIP adapter: AMD Radeon RX 9060 XT
+19842828 Initialized independent AMD pass 1
+19843671 Initialized independent AMD pass 2
+19844515 Initialized independent AMD pass 3
+19844625 Recorded pre-SR 192x192 passes=3
+19844671 Completed AMD pre-SR passes=3 at 192x192
+19844671 Recorded pre-SR 192x192 passes=3
+19844687 Completed AMD pre-SR passes=3 at 192x192
+19844687 Recorded pre-SR 192x192 passes=3
+19844718 Completed AMD pre-SR passes=3 at 192x192
+19844796 Workers stopped outside loader lock
+19959328 HIP adapter: AMD Radeon RX 9060 XT
+19960343 Initialized independent AMD pass 1
+19961156 Initialized independent AMD pass 2
+19962000 Initialized independent AMD pass 3
+19962109 Recorded pre-SR 192x192 passes=3
+19962140 Completed AMD pre-SR passes=3 at 192x192
+19962140 Recorded pre-SR 192x192 passes=3
+19962171 Completed AMD pre-SR passes=3 at 192x192
+19962265 Recorded pre-SR 160x160 passes=3
+19962281 Completed AMD pre-SR passes=3 at 160x160
+19962375 Workers stopped outside loader lock
+20021078 HIP adapter: AMD Radeon RX 9060 XT
+20022171 Initialized independent AMD pass 1
+20022218 Recorded pre-SR 256x256 passes=1
+20022234 Completed AMD pre-SR passes=1 at 256x256
+20022234 Recorded pre-SR 256x256 passes=1
+20022250 Completed AMD pre-SR passes=1 at 256x256
+20022281 Recorded pre-SR 224x224 passes=1
+20022296 Completed AMD pre-SR passes=1 at 224x224
+20022312 Workers stopped outside loader lock
+20141859 HIP adapter: AMD Radeon RX 9060 XT
+20142890 Initialized independent AMD pass 1
+20143781 Initialized independent AMD pass 2
+20144656 Initialized independent AMD pass 3
+20144765 Recorded pre-SR 192x192 passes=3
+20144796 Completed AMD pre-SR passes=3 at 192x192
+20144796 Recorded pre-SR 192x192 passes=3
+20144828 Completed AMD pre-SR passes=3 at 192x192
+20144828 Recorded pre-SR 192x192 passes=3
+20144843 Completed AMD pre-SR passes=3 at 192x192
+20144968 Recorded pre-SR 160x160 passes=3
+20145093 Workers stopped outside loader lock
+25037968 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+25037968 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=39 flags=2 samples=1 array=1 dimension=3
+25038046 HIP adapter: AMD Radeon RX 9060 XT
+25039203 Initialized independent AMD pass 1
+25039265 Recorded pre-SR 192x192 passes=1
+25039281 Completed AMD pre-SR passes=1 at 192x192
+25039281 Recorded pre-SR 192x192 passes=1
+25039296 Completed AMD pre-SR passes=1 at 192x192
+25039296 Recorded pre-SR 192x192 passes=1
+25039312 Completed AMD pre-SR passes=1 at 192x192
+25039328 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+25039328 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=39 flags=2 samples=1 array=1 dimension=3
+25039359 Recorded pre-SR 160x160 passes=1
+25039406 Workers stopped outside loader lock
+25058328 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+25058328 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+25058328 HIP adapter: AMD Radeon RX 9060 XT
+25059390 Initialized independent AMD pass 1
+25059421 Recorded pre-SR 192x192 passes=1
+25059437 Completed AMD pre-SR passes=1 at 192x192
+25059437 Recorded pre-SR 192x192 passes=1
+25059453 Completed AMD pre-SR passes=1 at 192x192
+25059453 Recorded pre-SR 192x192 passes=1
+25059468 Completed AMD pre-SR passes=1 at 192x192
+25059484 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+25059484 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+25059500 Recorded pre-SR 160x160 passes=1
+25059546 Workers stopped outside loader lock
+25059703 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+25059703 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=53 flags=2 samples=1 array=1 dimension=3
+25059703 HIP adapter: AMD Radeon RX 9060 XT
+25060828 Initialized independent AMD pass 1
+25061718 Initialized independent AMD pass 2
+25062640 Initialized independent AMD pass 3
+25062750 Recorded pre-SR 192x192 passes=3
+25062781 Completed AMD pre-SR passes=3 at 192x192
+25062781 Recorded pre-SR 192x192 passes=3
+25062812 Completed AMD pre-SR passes=3 at 192x192
+25062812 Recorded pre-SR 192x192 passes=3
+25062843 Completed AMD pre-SR passes=3 at 192x192
+25062875 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+25062875 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=53 flags=2 samples=1 array=1 dimension=3
+25062953 Recorded pre-SR 160x160 passes=3
+25063093 Workers stopped outside loader lock
+25063281 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+25063281 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=44 flags=2 samples=1 array=1 dimension=3
+25063281 HIP adapter: AMD Radeon RX 9060 XT
+25064375 Initialized independent AMD pass 1
+25065234 Initialized independent AMD pass 2
+25066140 Initialized independent AMD pass 3
+25066250 Recorded pre-SR 192x192 passes=3
+25066296 Completed AMD pre-SR passes=3 at 192x192
+25066296 Recorded pre-SR 192x192 passes=3
+25066328 Completed AMD pre-SR passes=3 at 192x192
+25066328 Recorded pre-SR 192x192 passes=3
+25066359 Completed AMD pre-SR passes=3 at 192x192
+25066390 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+25066390 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=44 flags=2 samples=1 array=1 dimension=3
+25066468 Recorded pre-SR 160x160 passes=3
+25066609 Workers stopped outside loader lock
+25066796 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+25066796 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+25066812 HIP adapter: AMD Radeon RX 9060 XT
+25068000 Initialized independent AMD pass 1
+25068859 Initialized independent AMD pass 2
+25069687 Initialized independent AMD pass 3
+25069796 Recorded pre-SR 192x192 passes=3
+25069828 Completed AMD pre-SR passes=3 at 192x192
+25069828 Recorded pre-SR 192x192 passes=3
+25069859 Completed AMD pre-SR passes=3 at 192x192
+25069859 Recorded pre-SR 192x192 passes=3
+25069890 Completed AMD pre-SR passes=3 at 192x192
+25069921 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+25069921 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+25070000 Recorded pre-SR 160x160 passes=3
+25070156 Workers stopped outside loader lock

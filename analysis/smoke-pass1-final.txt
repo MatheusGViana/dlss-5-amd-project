@@ -1,0 +1,5 @@
+frame=0 active=256 passes=1 changed_pixels=65536 nonfinite=0 elapsed_ms=16 status=Completed AMD pre-SR passes=1 at 256x256
+frame=1 active=256 passes=1 changed_pixels=65536 nonfinite=0 elapsed_ms=16 status=Completed AMD pre-SR passes=1 at 256x256
+frame=2 active=224 passes=1 changed_pixels=50175 nonfinite=0 elapsed_ms=15 status=Completed AMD pre-SR passes=1 at 224x224
+frame=3 active=224 passes=1 changed_pixels=50175 nonfinite=0 elapsed_ms=0 status=Completed AMD pre-SR passes=1 at 224x224
+frame=4 active=224 passes=1 changed_pixels=50175 nonfinite=0 elapsed_ms=16 status=Completed AMD pre-SR passes=1 at 224x224

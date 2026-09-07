@@ -1,0 +1,41 @@
+INFO  Using log config file: jar:file:/C:/Users/mathe/Desktop/projeto/hidra-12.1.2/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (774 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2458 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\ghidra-scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\FunctionID\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\Users\mathe\Desktop\projeto\funcional\analysis\ghidra\amd-presr (HeadlessAnalyzer)  
+INFO  Opening project: C:\Users\mathe\Desktop\projeto\funcional\analysis\ghidra\amd-presr (HeadlessProject)  
+INFO  REPORT: Processing read-only project file: /version.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExportFunctionsAndCallers.java 'C:/Users/mathe/Desktop/projeto/funcional/analysis/teardown-decompile.txt' '18000c520' '18000f9a0'  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\mathe\Desktop\projeto\ghidra-scripts\ExportFunctionsAndCallers.java (HeadlessAnalyzer)  

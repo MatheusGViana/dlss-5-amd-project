@@ -1,0 +1,219 @@
+INFO  Using log config file: jar:file:/C:/Users/mathe/Desktop/projeto/hidra-12.1.2/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1142 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (3394 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\ghidra-scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\FunctionID\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\mathe\Desktop\projeto\funcional\analysis\ghidra\amd-presr (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\mathe\Desktop\projeto\funcional\analysis\ghidra\amd-presr (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: C:\Users\mathe\Desktop\projeto\funcional\analysis\ghidra\amd-presr (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///C:/Users/mathe/Desktop/projeto/funcional/version.dll (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:64:default:clangwindows (ProgramLoader)  
+INFO  Using Library Search Path: [., C:\Windows\SysWOW64, C:\Program Files\Eclipse Adoptium\jdk-21.0.12.101-hotspot\bin, C:\Windows\Sun\Java\bin, C:\Windows\system32, C:\Windows, C:\Users\mathe\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell, C:\Users\mathe\.codex\tmp\arg0\codex-arg0HLDwKd, C:\Users\mathe\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin, C:\Users\mathe\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin, C:\Users\mathe\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin, C:\Users\mathe\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files\Cloudflare\Cloudflare WARP\, C:\Program Files\dotnet\, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Users\mathe\AppData\Local\Programs\Python\Python312\Scripts\, C:\Users\mathe\AppData\Local\Programs\Python\Python312\, C:\Users\mathe\AppData\Local\Programs\Python\Launcher\, C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\, C:\Program Files\CMake\bin, C:\Program Files\BraveSoftware\Brave-Browser\Application, C:\Users\mathe\AppData\Local\Microsoft\WindowsApps, c:\steam\ext\bin, C:\Users\mathe\AppData\Local\Python\bin, c:\program files (x86)\steam\ext\bin, C:\Users\mathe\.aftman\bin, C:\Users\mathe\.dotnet\tools, C:\Users\mathe\AppData\Local\Python\pythoncore-3.14-64, C:\Users\mathe\AppData\Local\Programs\Python\Python39\Scripts, C:\Users\mathe\AppData\Local\Python\pythoncore-3.14-64\Scripts, F:\powertools\DSCModules\, C:\Users\mathe\AppData\Roaming\npm, C:\Users\mathe\AppData\Local\Microsoft\WinGet\Packages\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe, H:\steam\ext\bin, F:\TV\Microsoft VS Code\bin, F:\SteamLibrary\steamapps\common\DSX\Main_v3_Beta\, F:\SteamLibrary\steamapps\common\DSX\Main_v3_Beta\Console, C:\Users\mathe\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback, C:\Users\mathe\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin, C:\Users\mathe\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd, C:\Users\mathe\AppData\Local\OpenAI\Codex\bin\b592626b34cbe333, C:\Users\mathe\AppData\Local\OpenAI\Codex\bin\1e3e57cdf0634c02] (ProgramLoader)  
+INFO  TLS callbacks at 18006b188 (TLSDirectory)  
+INFO  TLS callbacks at 1809bdcb0 (TLSDirectory)  
+INFO  TLS callbacks at 1800c0370 (TLSDirectory)  
+INFO  TLS callbacks at 180016c10 (TLSDirectory)  
+INFO  TLS callbacks at 180399b78 (TLSDirectory)  
+INFO  TLS callbacks at 1800d67a0 (TLSDirectory)  
+WARN  Invalid or missing function at 1800c0888 (ExportDataDirectory)  
+INFO  Additional info:
+Loading file:///C:/Users/mathe/Desktop/projeto/funcional/version.dll?MD5=deab31827eb02e0659dd845ba3d8a292...
+------------------------------------------------
+
+Searching 37 paths for library AMDHIP64_7.DLL...
+Loading file:///C:/Windows/System32/amdhip64_7.dll?MD5=283a654ce219d98a544fb648d6b1c357...
+[amdhip64_7.dll]: failed to create TerminatedCString at 1810aa460: Failed to resolve data length for TerminatedCString
+Created exports file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\amdhip64_7.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 37 paths for library BCRYPT.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/bcrypt.dll
+Loading file:///C:/Windows/System32/bcrypt.dll?MD5=e21e916fe537897a35014e4367b8e939...
+[bcrypt.dll]: failed to create WEVTResource at 1800284d0: Failed to resolve data length for WEVTResource
+Using existing exports file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\bcrypt.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 37 paths for library COMDLG32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/comdlg32.dll
+Loading file:///C:/Windows/System32/comdlg32.dll?MD5=1565b2fba76b74a92e912ad9edbd730e...
+Using existing exports file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\comdlg32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 37 paths for library D3D12.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/D3D12.dll
+Loading file:///C:/Windows/System32/D3D12.dll?MD5=5523d744a71ec73d02e387f181eb8c36...
+Using existing exports file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\d3d12.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 37 paths for library D3DCOMPILER_47.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/D3DCompiler_47.dll
+Loading file:///C:/Windows/System32/D3DCompiler_47.dll?MD5=cdbf36edda773e179de0addad5a7e51e...
+Using existing exports file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\d3dcompiler_47.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 37 paths for library DXGI.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/dxgi.dll
+Loading file:///C:/Windows/System32/dxgi.dll?MD5=3450fe7f6ff9723ff50b39d11667c815...
+[dxgi.dll]: failed to create WEVTResource at 180120b28: Failed to resolve data length for WEVTResource
+Using existing exports file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\dxgi.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 37 paths for library GDI32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/gdi32.dll
+Loading file:///C:/Windows/System32/gdi32.dll?MD5=16785efee8300012efe53f530ea399e6...
+Using existing exports file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\gdi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 37 paths for library KERNEL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/kernel32.dll
+Loading file:///C:/Windows/System32/kernel32.dll?MD5=a4ceaf0979e5e714288b431f6f2015d7...
+Using existing exports file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 37 paths for library USER32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/user32.dll
+Loading file:///C:/Windows/System32/user32.dll?MD5=70dee7319768f1a567c504a825e3a7b3...
+[user32.dll]: failed to create WEVTResource at 1800dfa70: Failed to resolve data length for WEVTResource
+Using existing exports file: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\d3d12.exports
+Applying C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\dxgi.exports
+Applying C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\d3dcompiler_47.exports
+Applying C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\user32.exports
+Applying C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\gdi32.exports
+Applying C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\comdlg32.exports
+Applying cached symbols from AMDHIP64_7.DLL
+Applying C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\bcrypt.exports
+Applying C:\Users\mathe\Desktop\projeto\ghidra-user-1212\settings\ghidra\ghidra_12.1.2_PUBLIC\symbols\win64\kernel32.exports
+Linking the External Programs of 'version.dll' to imported libraries...
+  [D3D12.DLL] -> not found in project
+  [DXGI.DLL] -> not found in project
+  [D3DCOMPILER_47.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [COMDLG32.DLL] -> not found in project
+  [VERSION.DLL] -> [version.dll]
+  [AMDHIP64_7.DLL] -> not found in project
+  [BCRYPT.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///C:/Users/mathe/Desktop/projeto/funcional/version.dll (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: C:\Users\mathe\Desktop\projeto\ghidra-user-1212\cache\ghidra\packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  
+WARN  ghidra.app.script.GhidraScriptLoadException: The class could not be found. It must be the public class of the .java file: Failed to get OSGi bundle containing script: C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\Decompiler\ghidra_scripts\WindowsResourceReference.java (java)  
+ghidra.app.script.GhidraScriptLoadException: The class could not be found. It must be the public class of the .java file: Failed to get OSGi bundle containing script: C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\Decompiler\ghidra_scripts\WindowsResourceReference.java
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:114)
+	at ghidra.app.plugin.prototype.MicrosoftCodeAnalyzerPlugin.WindowsResourceReferenceAnalyzer.runScript(WindowsResourceReferenceAnalyzer.java:98)
+	at ghidra.app.plugin.prototype.MicrosoftCodeAnalyzerPlugin.WindowsResourceReferenceAnalyzer.added(WindowsResourceReferenceAnalyzer.java:72)
+	at ghidra.app.plugin.core.analysis.AnalysisScheduler.runAnalyzer(AnalysisScheduler.java:186)
+	at ghidra.app.plugin.core.analysis.AnalysisTask.applyTo(AnalysisTask.java:37)
+	at ghidra.app.plugin.core.analysis.AnalysisTask.applyTo(AnalysisTask.java:24)
+	at ghidra.app.plugin.core.analysis.AutoAnalysisManager$AnalysisTaskWrapper.run(AutoAnalysisManager.java:660)
+	at ghidra.app.plugin.core.analysis.AutoAnalysisManager.startAnalysis(AutoAnalysisManager.java:760)
+	at ghidra.app.plugin.core.analysis.AutoAnalysisManager.startAnalysis(AutoAnalysisManager.java:639)
+	at ghidra.app.plugin.core.analysis.AutoAnalysisManager.startAnalysis(AutoAnalysisManager.java:604)
+	at ghidra.app.util.headless.HeadlessAnalyzer.analyzeProgram(HeadlessAnalyzer.java:1064)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFileWithImport(HeadlessAnalyzer.java:1595)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithLoader(HeadlessAnalyzer.java:1755)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithImport(HeadlessAnalyzer.java:1696)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithImport(HeadlessAnalyzer.java:1780)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processLocal(HeadlessAnalyzer.java:464)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:199)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:81)
+	at ghidra.Ghidra.main(Ghidra.java:54)
+Caused by: java.lang.ClassNotFoundException: Failed to get OSGi bundle containing script: C:\Users\mathe\Desktop\projeto\hidra-12.1.2\Ghidra\Features\Decompiler\ghidra_scripts\WindowsResourceReference.java
+	at ghidra.app.script.JavaScriptProvider.loadClass(JavaScriptProvider.java:163)
+	at ghidra.app.script.JavaScriptProvider.getScriptInstance(JavaScriptProvider.java:97)
+	... 18 more
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.912 secs
+    Apply Data Archives                        0.217 secs
+    Call Convention ID                         0.021 secs
+    Call-Fixup Installer                       0.021 secs
+    Create Address Tables                      0.102 secs
+    Create Address Tables - One Time           0.868 secs
+    Create Function                            0.108 secs
+    Data Reference                             0.124 secs
+    Decompiler Switch Analysis                11.075 secs
+    Demangler Microsoft                        0.055 secs
+    Disassemble Entry Points                   2.483 secs
+    Disassemble Entry Points - One Time        0.006 secs
+    Embedded Media                             0.052 secs
+    External Entry References                  0.000 secs
+    Function ID                                1.186 secs
+    Non-Returning Functions - Discovered       0.522 secs
+    Non-Returning Functions - Known            0.009 secs
+    PDB Universal                              0.002 secs
+    Reference                                  0.118 secs
+    Scalar Operand References                  0.706 secs
+    Shared Return Calls                        0.173 secs
+    Stack                                      2.989 secs
+    Subroutine References                      0.130 secs
+    Subroutine References - One Time           0.005 secs
+    Windows x86 PE Exception Handling          1.981 secs
+    Windows x86 PE RTTI Analyzer               1.124 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.015 secs
+    WindowsResourceReference                   0.146 secs
+    x86 Constant Reference Analyzer            2.797 secs
+-----------------------------------------------------
+     Total Time   27 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///C:/Users/mathe/Desktop/projeto/funcional/version.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExportFunctionsAndCallers.java 'C:/Users/mathe/Desktop/projeto/funcional/analysis/integration-decompile.txt' '180004a50' '180004640' '18000dc80' '18000cc30' '180012380'  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\mathe\Desktop\projeto\ghidra-scripts\ExportFunctionsAndCallers.java (HeadlessAnalyzer)  
+INFO  ANALYZING changes made by post scripts: file:///C:/Users/mathe/Desktop/projeto/funcional/version.dll (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///C:/Users/mathe/Desktop/projeto/funcional/version.dll (HeadlessAnalyzer)  
+INFO  /version.dll: file created (mathe) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /version.dll (amd-presr:/version.dll) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

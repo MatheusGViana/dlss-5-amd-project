@@ -1,0 +1,5 @@
+[console_scripts]
+clang-format = clang_format:clang_format
+git-clang-format = clang_format.git_clang_format:main
+clang-format-diff.py = clang_format.clang_format_diff:main
+
