@@ -1,0 +1,1103 @@
+[10:42:59.326456] [W] OptiScaler v10.0.0-dev (amd-presr-multipass-local) (20260907_075847) loaded
+[10:42:59.326520] [W] ---------------------------------
+[10:42:59.326529] [W] OptiScaler is freely downloadable from
+[10:42:59.326535] [W] GitHub : https://github.com/optiscaler/OptiScaler/releases
+[10:42:59.326540] [W] Nexus  : https://www.nexusmods.com/site/mods/986
+[10:42:59.326545] [W] If you paid for these files, you've been scammed!
+[10:42:59.326550] [W] DO NOT USE IN MULTIPLAYER GAMES
+[10:42:59.326555] [I] 
+[10:42:59.326563] [I] LogLevel: 2
+[10:42:59.326568] [I] 
+[10:42:59.326583] [I] Windows version: Windows 11 (10.0.26200)
+[10:42:59.326589] [I] 
+[10:42:59.326594] [I] Config parameters:
+[10:42:59.326601] [I] Upscalers.Dx12Upscaler: ffx
+[10:42:59.326606] [I] FrameGen.Enabled: false
+[10:42:59.326611] [I] FrameGen.External: false
+[10:42:59.326616] [I] DlssNr.Enabled: true
+[10:42:59.326621] [I] DlssNr.RunBeforeSR: true
+[10:42:59.326626] [I] DlssNr.ApplyAfterRR: false
+[10:42:59.326631] [I] DlssNr.Passes: 1
+[10:42:59.326636] [I] DlssNr.LocalStructure: 1
+[10:42:59.326641] [I] DlssNr.LocalTone: 0
+[10:42:59.326646] [I] DlssNr.SkinStructure: 1
+[10:42:59.326651] [I] Log.LogToFile: true
+[10:42:59.326655] [I] Log.LogLevel: 2
+[10:42:59.326661] [I] 
+[10:42:59.326667] [I] Setting DllPath to C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler
+[10:42:59.326672] [I] 
+[10:42:59.326700] [I] 
+[10:42:59.326713] [W] IsRunningOnWine Wine not detected
+[10:42:59.326757] [I] 
+[10:42:59.326765] [I] Check for DLSS files
+[10:42:59.326961] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64
+[10:42:59.327149] [I] Util::FindFilePath nvngx_dlssd.dll found at C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64
+[10:42:59.327321] [I] Util::FindFilePath nvngx_dlssg.dll found at C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64
+[10:42:59.327331] [I] 
+[10:42:59.327520] [I] CheckQuirks Game's Exe: Cyberpunk2077.exe
+[10:42:59.327531] [I] CheckQuirks Game Name: Cyberpunk 2077
+[10:42:59.327537] [I] CheckQuirks Game Version: 2.31
+[10:42:59.327542] [I] CheckQuirks Game Engine: Other
+[10:42:59.327648] [I] Quirk: Fixing DLSSG's hudless state in Cyberpunk
+[10:42:59.327657] [I] Quirk: FSR FG hudless mismatch fixup
+[10:42:59.327662] [I] Quirk: Dxgi spoofing disabled by default
+[10:42:59.327668] [I] 
+[10:42:59.328404] [I] CheckWorkingMode OptiScaler working as dxgi.dll, system dll loaded
+[10:42:59.328464] [W] Config::CheckUpscalerFiles nvngx.dll not found!
+[10:42:59.328512] [I] Util::FindFilePath nvngx_dlss.dll found at C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64
+[10:42:59.328536] [I] Config::CheckUpscalerFiles libxess.dll found in game folder
+[10:42:59.329216] [I] StreamlineHooks::hookInterposer Streamline version: 2.7.1
+[10:42:59.332301] [I] Util::LoadProxyLibrary libxess.dll already loaded at memory: 7FFF006C0000
+[10:42:59.336766] [I] Util::LoadProxyLibrary libxess.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\libxess.dll
+[10:42:59.336786] [I] XeSSProxy::InitXeSS Loaded from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\libxess.dll
+[10:42:59.336957] [I] XeSSProxy::InitXeSS LoadResult: true
+[10:42:59.337107] [I] 
+[10:42:59.337454] [I] Util::LoadProxyLibrary amd_fidelityfx_loader_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[10:42:59.337467] [I] FfxApiProxy::InitFfxDx12 Loaded from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\amd_fidelityfx_loader_dx12.dll
+[10:42:59.337524] [I] 
+[10:42:59.337983] [I] Util::LoadProxyLibrary amd_fidelityfx_upscaler_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\amd_fidelityfx_upscaler_dx12.dll
+[10:42:59.340005] [I] FfxApiProxy::InitFfxDx12_SR Loaded from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\amd_fidelityfx_upscaler_dx12.dll
+[10:42:59.340074] [I] FfxApiProxy::InitFfxDx12_SR LoadResult: true
+[10:42:59.340084] [I] 
+[10:42:59.340644] [I] Util::LoadProxyLibrary amd_fidelityfx_framegeneration_dx12.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[10:42:59.340657] [I] FfxApiProxy::InitFfxDx12_FG Loaded from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\amd_fidelityfx_framegeneration_dx12.dll
+[10:42:59.340687] [I] FfxApiProxy::InitFfxDx12_FG LoadResult: true
+[10:42:59.340696] [I] 
+[10:42:59.340996] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[10:42:59.341006] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[10:42:59.341012] [I] 
+[10:42:59.341266] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[10:42:59.341278] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[10:42:59.341284] [I] FfxApiProxy::InitFfxDx12 LoadResult: true
+[10:42:59.341289] [I] 
+[10:42:59.341524] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_denoiser_dx12.dll, returning nullptr!
+[10:42:59.341533] [I] FfxApiProxy::InitFfxDx12_Denoiser LoadResult: false
+[10:42:59.341538] [I] 
+[10:42:59.341771] [W] Util::LoadProxyLibrary Can't find amd_fidelityfx_radiancecache_dx12.dll, returning nullptr!
+[10:42:59.341780] [I] FfxApiProxy::InitFfxDx12_Radiance LoadResult: false
+[10:42:59.342102] [I] Util::LoadProxyLibrary libxess_dx11.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\libxess_dx11.dll
+[10:42:59.342114] [I] XeSSProxy::InitXeSSDx11 Loaded from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\libxess_dx11.dll
+[10:42:59.342186] [I] XeSSProxy::InitXeSSDx11 LoadResult: true
+[10:42:59.342200] [I] Util::LoadProxyLibrary libxess_fg.dll already loaded at memory: 7FFF18CB0000
+[10:42:59.343582] [I] Util::LoadProxyLibrary libxess_fg.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\libxess_fg.dll
+[10:42:59.343599] [I] XeFGProxy::InitXeFG Loaded from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\libxess_fg.dll
+[10:42:59.343606] [I] 
+[10:42:59.343617] [I] XeFGProxy::HookXeFG LoadResult: true
+[10:42:59.343631] [I] Util::LoadProxyLibrary libxell.dll already loaded at memory: 7FFFB76A0000
+[10:42:59.344028] [I] Util::LoadProxyLibrary libxell.dll loaded from Opti dll path: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\libxell.dll
+[10:42:59.344169] [I] XeLLProxy::InitXeLLProper Loaded from C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\OptiScaler\libxell.dll
+[10:42:59.344177] [I] 
+[10:42:59.344185] [I] XeLLProxy::HookXeLL LoadResult: true
+[10:42:59.344225] [I] NVNGXProxy::InitNVNGX 
+[10:42:59.344492] [W] Util::LoadProxyLibrary Can't find _nvngx.dll, returning nullptr!
+[10:42:59.344766] [W] Util::LoadProxyLibrary Can't find nvngx.dll, returning nullptr!
+[10:42:59.344775] [I] Util::NvngxPath trying to load nvngx from registry path!
+[10:42:59.344800] [I] 
+[10:42:59.344819] [I] HookFSR2ExeInputs Trying to hook FSR2 methods
+[10:42:59.351725] [I] HookFSR3Inputs Trying to hook FSR3 methods
+[10:42:59.351786] [I] HookFSR3Dx12Inputs Trying to hook FSR3 methods
+[10:42:59.351794] [I] HookFSR3ExeInputs Trying to hook FSR3 methods
+[10:42:59.351822] [I] 
+[10:42:59.351827] [I] Init done
+[10:42:59.351833] [I] ---------------------------------------------
+[10:42:59.351838] [I] 
+[10:42:59.403464] [I] LibraryLoadHooks::LoadLibraryCheckW Calling CreateDxgiFactory methods for overlay!
+[10:42:59.419784] [I] Amdxc64Hooks::Init amdxc64.dll loaded
+[10:42:59.975161] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[10:42:59.977993] [W] DxgiSpoofing::AttachToAdapter DxgiSpoofing and DxgiVRAM is disabled, skipping hooking
+[10:43:00.483378] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:160ms:541us]sl.cpp:285[operator ()] Seems like some DX/VK APIs were invoked before slInit()!!! This may result in incorrect behaviour.
+[10:43:00.483422] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:160ms:611us]pluginManager.cpp:489[setHostSDKVersion] Streamline v2.7.1.3afe5cc2 - built on Fri Jan 10 15:26:57 2025 - host SDK v2.7.1
+[10:43:00.483437] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:160ms:628us]file.h:96[open] File 'C:\ProgramData/NVIDIA/NGX/models/nvngx_config.txt' does not exist
+[10:43:00.483450] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:160ms:641us]ota.cpp:255[readServerManifest] Failed to open manifest file at: C:\ProgramData/NVIDIA/NGX/models/nvngx_config.txt
+[10:43:00.491815] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[10:43:00.491868] [I] NvApiHooks::Hook NvAPI_QueryInterface found, hooking!
+[10:43:00.492665] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:169ms:849us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.492741] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:169ms:929us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.492759] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:169ms:949us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.492772] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:169ms:963us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api bootstrap
+[10:43:00.492785] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:169ms:976us]ota.cpp:382[checkForOTA] Requesting optional updates!
+[10:43:00.492798] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:169ms:989us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.492812] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:002us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.492827] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:018us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.492840] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:170ms:031us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.492852] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:043us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api bootstrap
+[10:43:00.492870] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:061us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.492883] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:074us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.492895] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:086us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.492907] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:170ms:099us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.492920] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:111us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_g_0 -api bootstrap
+[10:43:00.492937] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:128us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_g_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.492953] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:144us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.492967] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:158us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.492980] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:170ms:171us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.492993] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:184us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api bootstrap
+[10:43:00.493010] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:201us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.493026] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:217us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.493039] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:229us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.493052] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:170ms:242us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.493065] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:256us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api bootstrap
+[10:43:00.493082] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:273us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.493095] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:286us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.493108] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:299us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.493120] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:170ms:311us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.493133] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:324us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api bootstrap
+[10:43:00.493149] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:340us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.493162] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:352us]pluginManager.cpp:618[findPlugins] Looking for plugins in C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\ ...
+[10:43:00.493255] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:440us]pluginManager.cpp:1086[loadPlugins] Searching for OTA'd plugins...
+[10:43:00.493280] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:470us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.493296] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:486us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.493315] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:170ms:500us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: reflex_0
+[10:43:00.493379] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:567us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.493396] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:587us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.493410] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:170ms:600us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: dlss_0
+[10:43:00.493422] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:613us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.493435] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:626us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.493448] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:170ms:639us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: dlss_g_0
+[10:43:00.493461] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:652us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.493471] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:663us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.493481] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:170ms:673us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: dlss_d_0
+[10:43:00.493491] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:683us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.493501] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:693us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.493512] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:170ms:703us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: common_0
+[10:43:00.493522] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:714us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.493532] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:170ms:724us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.493543] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:170ms:734us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: pcl_0
+[10:43:00.493553] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19140][1s:170ms:745us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api bootstrap
+[10:43:00.493564] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19140][1s:170ms:755us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api bootstrap
+[10:43:00.493574] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:16032][1s:170ms:766us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api bootstrap
+[10:43:00.493584] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:16032][1s:170ms:776us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api bootstrap
+[10:43:00.493612] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:6412][1s:170ms:803us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api bootstrap
+[10:43:00.493627] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:6412][1s:170ms:816us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api bootstrap
+[10:43:00.493814] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19128][1s:170ms:997us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.493841] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:17648][1s:171ms:029us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_g_0 -api bootstrap
+[10:43:00.493858] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:17648][1s:171ms:047us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_g_0 -api bootstrap
+[10:43:00.493874] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19128][1s:171ms:064us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.494043] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19120][1s:171ms:229us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_g_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.494067] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19120][1s:171ms:255us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_g_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.494084] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:4692][1s:171ms:273us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api bootstrap
+[10:43:00.494100] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:4692][1s:171ms:290us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api bootstrap
+[10:43:00.494190] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:12796][1s:171ms:378us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.494208] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:12796][1s:171ms:398us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.494291] [I] `anonymous-namespace'::RunVersionCheck OptiScaler is up to date (current 10.0.0)
+[10:43:00.494478] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:16416][1s:171ms:661us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.494507] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:16416][1s:171ms:692us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.494546] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:18804][1s:171ms:732us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.494565] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:18820][1s:171ms:756us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api bootstrap
+[10:43:00.494577] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:18804][1s:171ms:769us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.494591] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:18820][1s:171ms:782us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api bootstrap
+[10:43:00.494756] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:18812][1s:171ms:943us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.494783] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:18812][1s:171ms:972us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.503879] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:181ms:060us]commonInterface.cpp:148[getSystemCaps] Enumerating up to 8 adapters but only one of them can be used to create a device - no mGPU support in this SDK
+[10:43:00.508551] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:185ms:736us]commonEntry.cpp:1625[getOSVersionAndUpdateTimerResolution] Changed high resolution timer resolution to 5004 [100 ns units].
+[10:43:00.508574] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:185ms:764us]commonEntry.cpp:1700[updateEmbeddedJSON] Detected Windows OS version 10.0.26200
+[10:43:00.508685] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:185ms:869us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.common' - version 2.7.1.3afe5cc2 - id 4294967295 - priority 0 - adapter mask 0x1 - interposer 'no'
+[10:43:00.570005] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\nvngx.dll, returning this dll!
+[10:43:00.570556] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:247ms:730us]commonEntry.cpp:740[getNGXFeatureRequirements] NGX feature 1 requirements - minOS 10.0.0 minHW 0x0
+[10:43:00.570638] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:247ms:821us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeDepth' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureDLSS`
+[10:43:00.570664] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:247ms:853us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeMotionVectors' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureDLSS`
+[10:43:00.570679] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:247ms:869us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeScalingInputColor' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureDLSS`
+[10:43:00.570692] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:247ms:882us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeScalingOutputColor' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureDLSS`
+[10:43:00.572570] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:249ms:754us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.dlss' - version 2.7.1.3afe5cc2 - id 0 - priority 100 - adapter mask 0x1 - interposer 'no'
+[10:43:00.580405] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:257ms:586us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.dlss_d' - version 2.7.1.3afe5cc2 - id 1001 - priority 100 - adapter mask 0x0 - interposer 'no'
+[10:43:00.587856] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:265ms:036us]dlss_gEntry.cpp:327[updateEmbeddedJSON] Disabling DLSS-G since it is not supported on current hardware
+[10:43:00.588015] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:265ms:204us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.dlss_g' - version 2.7.1.3afe5cc2 - id 1000 - priority 1000 - adapter mask 0x0 - interposer 'no'
+[10:43:00.596698] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:273ms:878us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeScalingInputColor' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureNIS`
+[10:43:00.596732] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:273ms:920us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeScalingOutputColor' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureNIS`
+[10:43:00.596748] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:273ms:938us]pluginManager.cpp:886[mapPlugins] Ignoring plugin 'sl.nis' since it is was not requested by the host
+[10:43:00.604625] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:281ms:803us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.pcl' - version 2.7.1.3afe5cc2 - id 4 - priority 2 - adapter mask 0x1 - interposer 'no'
+[10:43:00.612241] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:289ms:423us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.reflex' - version 2.7.1.3afe5cc2 - id 3 - priority 100 - adapter mask 0x1 - interposer 'no'
+[10:43:00.612274] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:289ms:462us]pluginManager.cpp:1240[loadPlugins] Plugin execution order based on priority:
+[10:43:00.612291] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:289ms:480us]pluginManager.cpp:1243[loadPlugins] P0 - sl.common
+[10:43:00.612304] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:289ms:495us]pluginManager.cpp:1243[loadPlugins] P2 - sl.pcl
+[10:43:00.612318] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:289ms:508us]pluginManager.cpp:1243[loadPlugins] P100 - sl.dlss
+[10:43:00.612332] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:289ms:522us]pluginManager.cpp:1243[loadPlugins] P100 - sl.dlss_d
+[10:43:00.612345] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:289ms:535us]pluginManager.cpp:1243[loadPlugins] P100 - sl.reflex
+[10:43:00.612358] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:289ms:549us]pluginManager.cpp:1243[loadPlugins] P1000 - sl.dlss_g
+[10:43:00.612370] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:289ms:561us]pluginManager.cpp:1254[unloadPlugins] Unloading all plugins ...
+[10:43:00.614234] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:419us]pluginManager.cpp:489[setHostSDKVersion] Streamline v2.7.1.3afe5cc2 - built on Fri Jan 10 15:26:57 2025 - host SDK v2.7.1
+[10:43:00.614259] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:291ms:449us]file.h:96[open] File 'C:\ProgramData/NVIDIA/NGX/models/nvngx_config.txt' does not exist
+[10:43:00.614272] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:291ms:463us]ota.cpp:255[readServerManifest] Failed to open manifest file at: C:\ProgramData/NVIDIA/NGX/models/nvngx_config.txt
+[10:43:00.614283] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:475us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.614296] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:485us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614307] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:291ms:498us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.614371] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:561us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api bootstrap
+[10:43:00.614385] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:577us]ota.cpp:382[checkForOTA] Requesting optional updates!
+[10:43:00.614396] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:587us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.614407] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:598us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.614419] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:609us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614429] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:291ms:620us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.614439] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:630us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api bootstrap
+[10:43:00.614452] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:644us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.614463] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:655us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.614476] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:665us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614486] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:291ms:678us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.614496] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:688us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api bootstrap
+[10:43:00.614510] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:702us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.614520] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:712us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.614531] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:722us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614541] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:291ms:733us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.614551] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:743us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api bootstrap
+[10:43:00.614564] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:756us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.614574] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:766us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.614585] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:776us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614595] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:291ms:787us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.614607] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:798us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api bootstrap
+[10:43:00.614621] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:813us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.614632] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:823us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB670]: 1
+[10:43:00.614642] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:834us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614653] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:19608][1s:291ms:844us]ota.cpp:223[getDriverPath] unable to find driver path
+[10:43:00.614663] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:854us]ota.cpp:357[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api bootstrap
+[10:43:00.614677] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:868us]ota.cpp:393[checkForOTA] Running \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.614687] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:878us]pluginManager.cpp:618[findPlugins] Looking for plugins in C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\ ...
+[10:43:00.614698] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:18876][1s:291ms:889us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api bootstrap
+[10:43:00.614711] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:18876][1s:291ms:902us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api bootstrap
+[10:43:00.614722] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:913us]pluginManager.cpp:1086[loadPlugins] Searching for OTA'd plugins...
+[10:43:00.614733] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:925us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.614744] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:935us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614754] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:291ms:946us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: reflex_0
+[10:43:00.614765] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:956us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.614777] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:967us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614794] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:291ms:985us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: dlss_0
+[10:43:00.614809] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:291ms:998us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.614826] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:292ms:014us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614843] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:292ms:032us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: dlss_d_0
+[10:43:00.614865] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:292ms:054us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.614889] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:292ms:075us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614913] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:292ms:104us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.614932] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:292ms:120us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.614953] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:292ms:142us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: common_0
+[10:43:00.614972] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:292ms:161us]ota.cpp:314[getNVDAArchitecture] Found NVIDIA GPUs, [00000065F87FB560]: 1
+[10:43:00.614992] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:292ms:180us]ota.cpp:320[getNVDAArchitecture] Found GPU 0, arch=0x190
+[10:43:00.615010] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:292ms:200us]ota.cpp:426[getOTAPluginForFeature] Could not find version matching for plugin: pcl_0
+[10:43:00.615028] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:20360][1s:292ms:218us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api bootstrap
+[10:43:00.615047] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:20360][1s:292ms:236us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api bootstrap
+[10:43:00.615066] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:3948][1s:292ms:254us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615083] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:3948][1s:292ms:272us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_reflex_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615102] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:18856][1s:292ms:290us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api bootstrap
+[10:43:00.615119] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:18856][1s:292ms:309us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api bootstrap
+[10:43:00.615164] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:18436][1s:292ms:326us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615202] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:18436][1s:292ms:385us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615340] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:20296][1s:292ms:524us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api bootstrap
+[10:43:00.615367] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:20276][1s:292ms:555us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615387] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:20296][1s:292ms:576us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api bootstrap
+[10:43:00.615414] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:20276][1s:292ms:603us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615437] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:18500][1s:292ms:627us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api bootstrap
+[10:43:00.615459] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:18500][1s:292ms:648us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api bootstrap
+[10:43:00.615553] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:8160][1s:292ms:737us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615581] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:8160][1s:292ms:769us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_dlss_d_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615708] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:18100][1s:292ms:893us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api bootstrap
+[10:43:00.615730] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:18100][1s:292ms:919us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api bootstrap
+[10:43:00.615810] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:18852][1s:292ms:999us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615828] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:18852][1s:293ms:016us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_common_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615916] [E] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][error][tid:14412][1s:293ms:102us]ota.cpp:136[execThreadProc] Failed to create process \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.615936] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:14412][1s:293ms:126us]ota.cpp:147[execThreadProc] execThreadProc: \nvngx_update.exe -cmsid 0 -feature sl_pcl_0 -api update -type dll -gpuarch 0x190 -optional
+[10:43:00.623198] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:300ms:385us]commonInterface.cpp:148[getSystemCaps] Enumerating up to 8 adapters but only one of them can be used to create a device - no mGPU support in this SDK
+[10:43:00.627718] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:304ms:905us]commonEntry.cpp:1700[updateEmbeddedJSON] Detected Windows OS version 10.0.26200
+[10:43:00.627822] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:305ms:012us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.common' - version 2.7.1.3afe5cc2 - id 4294967295 - priority 0 - adapter mask 0x1 - interposer 'no'
+[10:43:00.685310] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\nvngx.dll, returning this dll!
+[10:43:00.685662] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:362ms:839us]commonEntry.cpp:740[getNGXFeatureRequirements] NGX feature 1 requirements - minOS 10.0.0 minHW 0x0
+[10:43:00.685741] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:362ms:924us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeDepth' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureDLSS`
+[10:43:00.685768] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:362ms:958us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeMotionVectors' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureDLSS`
+[10:43:00.685783] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:362ms:974us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeScalingInputColor' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureDLSS`
+[10:43:00.685795] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:362ms:986us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeScalingOutputColor' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureDLSS`
+[10:43:00.687165] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:364ms:353us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.dlss' - version 2.7.1.3afe5cc2 - id 0 - priority 100 - adapter mask 0x1 - interposer 'no'
+[10:43:00.693617] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:370ms:805us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.dlss_d' - version 2.7.1.3afe5cc2 - id 1001 - priority 100 - adapter mask 0x0 - interposer 'no'
+[10:43:00.700345] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:377ms:531us]dlss_gEntry.cpp:327[updateEmbeddedJSON] Disabling DLSS-G since it is not supported on current hardware
+[10:43:00.700498] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:377ms:688us]pluginManager.cpp:886[mapPlugins] Ignoring plugin 'sl.dlss_g' since it is was not requested by the host
+[10:43:00.707625] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:384ms:809us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeScalingInputColor' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureNIS`
+[10:43:00.707648] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:384ms:838us]commonEntry.cpp:1071[updateCommonEmbeddedJSONConfig] Registering required tag 'kBufferTypeScalingOutputColor' life-cycle 'ResourceLifecycle::eValidUntilEvaluate' for feature `kFeatureNIS`
+[10:43:00.707661] [W] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][warn][tid:19608][1s:384ms:851us]pluginManager.cpp:886[mapPlugins] Ignoring plugin 'sl.nis' since it is was not requested by the host
+[10:43:00.713651] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:390ms:837us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.pcl' - version 2.7.1.3afe5cc2 - id 4 - priority 2 - adapter mask 0x1 - interposer 'no'
+[10:43:00.719917] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:397ms:101us]pluginManager.cpp:1001[mapPlugins] Loaded plugin 'sl.reflex' - version 2.7.1.3afe5cc2 - id 3 - priority 100 - adapter mask 0x1 - interposer 'no'
+[10:43:00.719942] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:397ms:132us]pluginManager.cpp:1240[loadPlugins] Plugin execution order based on priority:
+[10:43:00.719956] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:397ms:147us]pluginManager.cpp:1243[loadPlugins] P0 - sl.common
+[10:43:00.719969] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:397ms:160us]pluginManager.cpp:1243[loadPlugins] P2 - sl.pcl
+[10:43:00.719981] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:397ms:172us]pluginManager.cpp:1243[loadPlugins] P100 - sl.dlss
+[10:43:00.719993] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:397ms:184us]pluginManager.cpp:1243[loadPlugins] P100 - sl.dlss_d
+[10:43:00.720009] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:397ms:200us]pluginManager.cpp:1243[loadPlugins] P100 - sl.reflex
+[10:43:00.737053] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[10:43:00.738452] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:415ms:635us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:00.738478] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:415ms:667us]dxgiFactory.cpp:171[checkAndUpgradeInterface] Upgraded IDXGIFactory v0 to v2
+[10:43:00.738493] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:415ms:683us]dxgiFactory.cpp:171[checkAndUpgradeInterface] Upgraded IDXGIFactory v2 to v5
+[10:43:00.738506] [I] StreamlineHooks::streamlineLogCallback [10-43-00][streamline][info][tid:19608][1s:415ms:697us]dxgiFactory.cpp:171[checkAndUpgradeInterface] Upgraded IDXGIFactory v5 to v6
+[10:43:00.861722] [I] Detected GPUs:
+                      AMD Radeon RX 9070 XT
+                          vendorId: 1002, deviceId: 7550, VRAM: 16188MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: fp8, dlss: false
+                      Microsoft Basic Render Driver
+                          vendorId: 1414, deviceId: 8C, VRAM: 0MB
+                          dxvk: false, vkd3d-proton: false
+                          Upscaler support - fsr4: false, dlss: false
+
+[10:43:00.861747] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 9070 XT
+[10:43:00.878515] [I] hkD3D12CreateDevice Adapter Desc: Microsoft Basic Render Driver
+[10:43:00.878535] [W] hkD3D12CreateDevice D3D12Device created with non-primary GPU
+[10:43:01.018062] [I] hkD3D11CreateDevice Device captured
+[10:43:01.282922] [I] hkD3D12CreateDevice Adapter Desc: AMD Radeon RX 9070 XT
+[10:43:01.354889] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:032ms:067us]sl.cpp:733[operator ()] Upgrading ID3D12Device to use SL proxy ...
+[10:43:01.354923] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:032ms:112us]d3d12Device.cpp:341[checkAndUpgradeInterface] Upgraded ID3D12Device v0 to v10
+[10:43:01.439876] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:055us]pluginManager.cpp:1435[initializePlugins] Initializing plugins - api 0.0.1 - application ID 100152211
+[10:43:01.440499] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:683us]d3d12.cpp:1201[createKernel] Creating DXBC kernel copy_to_buffer.cs:main hash 12564409127886710297
+[10:43:01.440527] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:716us]commonEntry.cpp:1190[slOnPluginStartup] At least one plugin requires NGX, trying to initialize ...
+[10:43:01.440574] [I] NVSDK_NGX_D3D12_Init_Ext AppId: 100152211
+[10:43:01.440588] [I] NVSDK_NGX_D3D12_Init_Ext SDK: 15
+[10:43:01.440595] [I] NVSDK_NGX_D3D12_Init_Ext InApplicationDataPath C:\Users\Hikarlos\AppData\Local\Temp\
+[10:43:01.440644] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:831us]commonEntry.cpp:1316[slOnPluginStartup] NGX loaded - app id 100152211 - application data path C:\Users\Hikarlos\AppData\Local\Temp\
+[10:43:01.440665] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:856us]pluginManager.cpp:1542[mapPluginCallbacks] Callback sl.common:slSetData:0x0
+[10:43:01.440677] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:869us]pluginManager.cpp:1543[mapPluginCallbacks] Callback sl.common:slGetData:0x0
+[10:43:01.440690] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:881us]pluginManager.cpp:1544[mapPluginCallbacks] Callback sl.common:slAllocateResources:0x0
+[10:43:01.440704] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:895us]pluginManager.cpp:1545[mapPluginCallbacks] Callback sl.common:slFreeResources:0x0
+[10:43:01.440716] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:907us]pluginManager.cpp:1546[mapPluginCallbacks] Callback sl.common:slEvaluateFeature:0x7fff7961f690
+[10:43:01.440727] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:918us]pluginManager.cpp:1547[mapPluginCallbacks] Callback sl.common:slSetTag:0x7fff7961e620
+[10:43:01.440738] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:929us]pluginManager.cpp:1548[mapPluginCallbacks] Callback sl.common:slSetConsts:0x7fff7961f440
+[10:43:01.440749] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:940us]pluginManager.cpp:1319[processPluginHooks] Hook sl.common:slHookVkPresent:before - skipped
+[10:43:01.440759] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:951us]pluginManager.cpp:1319[processPluginHooks] Hook sl.common:slHookVkAfterPresent:after - skipped
+[10:43:01.440769] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:961us]pluginManager.cpp:1319[processPluginHooks] Hook sl.common:slHookVkCmdBindPipeline:after - skipped
+[10:43:01.440779] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:971us]pluginManager.cpp:1319[processPluginHooks] Hook sl.common:slHookVkCmdBindDescriptorSets:after - skipped
+[10:43:01.440789] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:981us]pluginManager.cpp:1319[processPluginHooks] Hook sl.common:slHookVkBeginCommandBuffer:after - skipped
+[10:43:01.440799] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:117ms:991us]pluginManager.cpp:1343[processPluginHooks] Hook sl.common:slHookResizeSwapChainPre:before - OK
+[10:43:01.440810] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:001us]pluginManager.cpp:1343[processPluginHooks] Hook sl.common:slHookPresent:before - OK
+[10:43:01.440820] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:012us]pluginManager.cpp:1343[processPluginHooks] Hook sl.common:slHookAfterPresent:after - OK
+[10:43:01.440830] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:022us]pluginManager.cpp:1343[processPluginHooks] Hook sl.common:slHookPresent1:before - OK
+[10:43:01.440844] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:036us]pluginManager.cpp:1542[mapPluginCallbacks] Callback sl.pcl:slSetData:0x7fff9e7e8a30
+[10:43:01.440853] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:045us]pluginManager.cpp:1543[mapPluginCallbacks] Callback sl.pcl:slGetData:0x7fff9e7e8a40
+[10:43:01.440863] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:055us]pluginManager.cpp:1544[mapPluginCallbacks] Callback sl.pcl:slAllocateResources:0x0
+[10:43:01.440873] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:065us]pluginManager.cpp:1545[mapPluginCallbacks] Callback sl.pcl:slFreeResources:0x0
+[10:43:01.440883] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:075us]pluginManager.cpp:1546[mapPluginCallbacks] Callback sl.pcl:slEvaluateFeature:0x0
+[10:43:01.440893] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:085us]pluginManager.cpp:1547[mapPluginCallbacks] Callback sl.pcl:slSetTag:0x0
+[10:43:01.440902] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:094us]pluginManager.cpp:1548[mapPluginCallbacks] Callback sl.pcl:slSetConsts:0x0
+[10:43:01.440914] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:106us]pluginManager.cpp:1304[processPluginHooks] Plugin 'sl.pcl' has no registered hooks
+[10:43:01.440926] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:118ms:117us]d3d12.cpp:1201[createKernel] Creating DXBC kernel mvec.cs:main hash 16878813813918631183
+[10:43:01.486298] [I] LibraryLoadHooks::LoadLibraryCheckW nvngx call: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\nvngx.dll, returning this dll!
+[10:43:01.486607] [I] NVSDK_NGX_UpdateFeature Update ApplicationId: 5F83393
+[10:43:01.486666] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:163ms:847us]pluginManager.cpp:1542[mapPluginCallbacks] Callback sl.dlss:slSetData:0x7fffa043a4b0
+[10:43:01.486688] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:163ms:878us]pluginManager.cpp:1543[mapPluginCallbacks] Callback sl.dlss:slGetData:0x7fffa043e7a0
+[10:43:01.486700] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:163ms:891us]pluginManager.cpp:1544[mapPluginCallbacks] Callback sl.dlss:slAllocateResources:0x7fffa043ee20
+[10:43:01.486712] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:163ms:902us]pluginManager.cpp:1545[mapPluginCallbacks] Callback sl.dlss:slFreeResources:0x7fffa043eec0
+[10:43:01.486725] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:163ms:916us]pluginManager.cpp:1546[mapPluginCallbacks] Callback sl.dlss:slEvaluateFeature:0x0
+[10:43:01.486735] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:163ms:927us]pluginManager.cpp:1547[mapPluginCallbacks] Callback sl.dlss:slSetTag:0x0
+[10:43:01.486746] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:163ms:937us]pluginManager.cpp:1548[mapPluginCallbacks] Callback sl.dlss:slSetConsts:0x0
+[10:43:01.486756] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:163ms:947us]pluginManager.cpp:1304[processPluginHooks] Plugin 'sl.dlss' has no registered hooks
+[10:43:01.486767] [E] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][error][tid:19608][2s:163ms:959us]dlss_dEntry.cpp:1243[slOnPluginStartup] NGX indicates DLSSDContext is not available - DLSSDContext cannot run
+[10:43:01.486817] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:008us]pluginManager.cpp:1542[mapPluginCallbacks] Callback sl.reflex:slSetData:0x7fff877b8d60
+[10:43:01.486831] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:022us]pluginManager.cpp:1543[mapPluginCallbacks] Callback sl.reflex:slGetData:0x7fff877b9650
+[10:43:01.486842] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:033us]pluginManager.cpp:1544[mapPluginCallbacks] Callback sl.reflex:slAllocateResources:0x0
+[10:43:01.486852] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:044us]pluginManager.cpp:1545[mapPluginCallbacks] Callback sl.reflex:slFreeResources:0x0
+[10:43:01.486862] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:054us]pluginManager.cpp:1546[mapPluginCallbacks] Callback sl.reflex:slEvaluateFeature:0x0
+[10:43:01.486872] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:064us]pluginManager.cpp:1547[mapPluginCallbacks] Callback sl.reflex:slSetTag:0x0
+[10:43:01.486882] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:074us]pluginManager.cpp:1548[mapPluginCallbacks] Callback sl.reflex:slSetConsts:0x0
+[10:43:01.486892] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:084us]pluginManager.cpp:1304[processPluginHooks] Plugin 'sl.reflex' has no registered hooks
+[10:43:01.486940] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:130us]pluginManager.cpp:579[setFeatureEnabled] Feature 'kFeatureDLSS' unloaded
+[10:43:01.486980] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:170us]pluginManager.cpp:579[setFeatureEnabled] Feature 'kFeatureReflex' unloaded
+[10:43:01.486992] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:184us]pluginManager.cpp:579[setFeatureEnabled] Feature 'kFeatureDLSS' loaded
+[10:43:01.487012] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:164ms:204us]pluginManager.cpp:579[setFeatureEnabled] Feature 'kFeatureReflex' loaded
+[10:43:01.497210] [I] LibraryLoadHooks::LoadLibraryCheckW nvapi64.dll call!
+[10:43:01.501837] [I] AntiLag2::init FSR Anti-Lag 2.0 DX12 initialized
+[10:43:01.501850] [I] LowLatency::update_low_latency_tech LowLatency algo: FSR Anti-Lag 2.0
+[10:43:01.503787] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:43:01.504681] [W] Util::LoadProxyLibrary Can't find amdxcffx64.dll, returning nullptr!
+[10:43:01.505378] [I] AmdExtFfxApi::UpdateFfxApiProvider amdxcffx64 loaded from C:\WINDOWS\System32\DriverStore\FileRepository\u0203304.inf_amd64_a6e5a337568ce3f0\B026373\amdxcffx64.dll
+[10:43:01.547638] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:43:01.547675] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:43:01.552723] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:43:01.558055] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:43:01.558098] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:43:01.558122] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:43:01.558146] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:43:01.558156] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:43:01.558169] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:43:01.558178] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:43:01.558187] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:43:01.558448] [I] XeSSProxy::Version XeSS Version: v2.0.2
+[10:43:01.594099] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #1: UAV dim 1 65536x1x1 fmt 0 (filter rejected)
+[10:43:01.595361] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:272ms:543us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:01.597281] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:274ms:465us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x19c2d003140 - native factory 0x19c2d0b7420 ref count 1
+[10:43:01.598413] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:275ms:598us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:01.600439] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:277ms:626us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x19c2d0033b0 - native factory 0x19c2d02fc90 ref count 1
+[10:43:01.601899] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:279ms:081us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:01.604730] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:281ms:915us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x19c2d002c90 - native factory 0x19c2d034e90 ref count 1
+[10:43:01.605891] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:283ms:079us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:01.607816] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:284ms:999us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x19c2d002e10 - native factory 0x19c2d040a40 ref count 1
+[10:43:01.608911] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:286ms:098us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:01.610793] [I] StreamlineHooks::streamlineLogCallback [10-43-01][streamline][info][tid:19608][2s:287ms:979us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x19c2d003140 - native factory 0x19c2d054470 ref count 1
+[10:43:02.038201] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:715ms:379us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:02.039412] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:716ms:595us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x19c2d2ce080 - native factory 0x1bd3397f210 ref count 1
+[10:43:02.040692] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:717ms:879us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:02.042906] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:720ms:090us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x19c2d2cde70 - native factory 0x1bd33994250 ref count 1
+[10:43:02.044140] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:721ms:326us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:02.046912] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:724ms:097us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x19c2c6a1ca0 - native factory 0x1bd337cf050 ref count 1
+[10:43:02.126668] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 1 -- buffer, 20 bytes
+[10:43:02.126699] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 2 -- buffer, 20 bytes
+[10:43:02.151511] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 3 -- buffer, 28 bytes
+[10:43:02.152935] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 4 -- buffer, 4 bytes
+[10:43:02.153976] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #2: UAV dim 1 49152x1x1 fmt 0 (filter rejected)
+[10:43:02.154001] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #3: UAV dim 1 142992x1x1 fmt 0 (filter rejected)
+[10:43:02.154606] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 5 -- buffer, 24 bytes
+[10:43:02.154624] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 6 -- buffer, 96 bytes
+[10:43:02.160377] [W] FGHooks::CreateSwapChainForHwnd Can't init FG Feature or invalid FGOutput setting!
+[10:43:02.160417] [W] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][warn][tid:19608][2s:837ms:570us]dxgiFactory.cpp:59[queryDevice] Detected base interface 'ID3D12CommandQueue' while expecting SL proxy - please use slUpgradeDevice to obtain SL proxies for DXGI/D3D interfaces
+[10:43:02.182706] [I] WrappedIDXGISwapChain4::WrappedIDXGISwapChain4 1 created, real: 1BD38F4EDA0, refCount: 2
+[10:43:02.182925] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:860ms:090us]dxgiSwapchain.cpp:95[checkAndUpgradeInterface] Upgraded IDXGISwapChain v0 to v4
+[10:43:02.183007] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:860ms:187us]dxgiSwapchain.cpp:299[operator ()] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 0
+[10:43:02.183534] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:860ms:719us]dxgiSwapchain.cpp:299[operator ()] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 0
+[10:43:02.191854] [I] WrappedIDXGISwapChain4::SetColorSpace1 DLSS-NR: swapchain colour space 0 -- sRGB (SDR) (relative -- no scale to be had)
+[10:43:02.192011] [I] ffxCreateContext_Dx12 Custom context index:7912
+[10:43:02.192045] [I] ffxCreateContext_Dx12 context created: 1EE8
+[10:43:02.192063] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface Killing native AL2
+[10:43:02.194224] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:871ms:404us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:02.196138] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:873ms:323us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x19c2cfffa80 - native factory 0x1bd33f006a0 ref count 1
+[10:43:02.197274] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:874ms:464us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:43:02.200496] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:877ms:681us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x19c2d001070 - native factory 0x1bd33c8aeb0 ref count 1
+[10:43:02.204977] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:882ms:157us]dxgiSwapchain.cpp:299[operator ()] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 0
+[10:43:02.214906] [I] WrappedIDXGISwapChain4::SetColorSpace1 DLSS-NR: swapchain colour space 0 -- sRGB (SDR) (relative -- no scale to be had)
+[10:43:02.237111] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #4: UAV dim 3 3840x2160x1 fmt 10 (filter rejected)
+[10:43:02.239244] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #5: UAV dim 3 3840x2160x1 fmt 27 (filter rejected)
+[10:43:02.240309] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #6: UAV dim 3 1920x1080x1 fmt 27 (filter rejected)
+[10:43:02.240385] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #7: UAV dim 3 256x256x1 fmt 24 (filter rejected)
+[10:43:02.240413] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #8: UAV dim 1 259200x1x1 fmt 0 (filter rejected)
+[10:43:02.240433] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 7 -- buffer, 24 bytes
+[10:43:02.240463] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #9: UAV dim 3 3840x2160x1 fmt 10 (filter rejected)
+[10:43:02.240478] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #10: UAV dim 3 3840x2160x1 fmt 27 (filter rejected)
+[10:43:02.240493] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #11: UAV dim 3 1920x1080x1 fmt 27 (filter rejected)
+[10:43:02.240508] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #12: UAV dim 3 1920x1080x1 fmt 27 (filter rejected)
+[10:43:02.240522] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #13: UAV dim 3 256x256x1 fmt 24 (filter rejected)
+[10:43:02.240532] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #14: UAV dim 1 259200x1x1 fmt 0 (filter rejected)
+[10:43:02.240546] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #15: UAV dim 3 240x135x1 fmt 61 (filter rejected)
+[10:43:02.240559] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #16: UAV dim 3 240x135x1 fmt 61 (filter rejected)
+[10:43:02.240569] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 8 -- buffer, 24 bytes
+[10:43:02.244420] [W] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][warn][tid:13088][2s:921ms:600us]commonEntry.cpp:402[validateCommonConstants] Value consts.cameraPinholeOffset should not be left as invalid
+[10:43:02.247793] [I] OptiInput::Initialize Initialize requested target:0x50cec input:0x0 isUwp:0 useSubclass:1 currentPid:6608
+[10:43:02.247815] [I] OptiInput::SetTargetWindow target window set hwnd:0x50cec root:0x50cec pid:6608 tid:19608 currentPid:6608 external:0 isUwp:0 useSubclass:1
+[10:43:02.247825] [I] OptiInput::SetInputWindow input window set hwnd:0x50cec root:0x50cec pid:6608 tid:19608 explicitInput:0 useSubclass:1
+[10:43:02.247838] [I] OptiInput::InstallWindowSubclass subclass installed hwnd:0x50cec previousWndProc:140700000695996 optiWndProc:140734054326976
+[10:43:02.247846] [I] OptiInput::InstallHooks installing Win32 input hooks currentPid:6608 targetPid:6608 inputPid:6608
+[10:43:02.247887] [I] OptiInput::InstallHooks Win32 message hooks installed
+[10:43:02.247912] [I] OptiInput::InstallHooks Win32 key state hooks installed
+[10:43:02.247942] [I] OptiInput::InstallHooks Win32 GetMessagePos hooks installed
+[10:43:02.247961] [I] OptiInput::InstallHooks Win32 clip cursor hooks installed
+[10:43:02.248003] [I] OptiInput::InstallHooks Win32 message hooks installed
+[10:43:02.248041] [I] OptiInput::InstallHooks Win32 HID hooks installed
+[10:43:02.248066] [I] OptiInput::InstallHooks Win32 raw input hooks installed
+[10:43:02.248091] [I] OptiInput::InstallHooks Win32 windows input hooks installed
+[10:43:02.248114] [I] OptiInput::InstallHooks Win32 position input hooks installed
+[10:43:02.248121] [I] OptiInput::Initialize Initialize completed hooksInstalled:1 target:0x50cec targetPid:6608 input:0x50cec inputPid:6608 externalTarget:0 subclassed:1
+[10:43:02.248155] [I] OptiInput::UpdateXInputIntegrationLocked XInput hooks installed module:0x7fffb49f0000 getState:1 getStateEx:1 getKeystroke:1 setState:1
+[10:43:02.262202] [I] CreateRenderTargetDx12 done!
+[10:43:02.262222] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:20208][2s:939ms:391us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.08 GB
+[10:43:02.264773] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:20208][2s:941ms:955us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.09 GB
+[10:43:02.277797] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:16960][2s:954ms:978us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.10 GB
+[10:43:02.295950] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][2s:973ms:020us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.12 GB
+[10:43:02.306838] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:16960][2s:983ms:981us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.12 GB
+[10:43:02.319301] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:18732][2s:996ms:441us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.14 GB
+[10:43:02.322271] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:21336][2s:999ms:419us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.15 GB
+[10:43:02.331314] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:3840][3s:008ms:456us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.15 GB
+[10:43:02.340369] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19240][3s:017ms:510us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.16 GB
+[10:43:02.347660] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:20208][3s:024ms:802us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.17 GB
+[10:43:02.372397] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19608][3s:049ms:272us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.18 GB
+[10:43:02.377546] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19240][3s:054ms:696us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.19 GB
+[10:43:02.410034] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:10792][3s:087ms:139us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.20 GB
+[10:43:02.430016] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:17036][3s:107ms:192us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.20 GB
+[10:43:02.449382] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:3840][3s:126ms:533us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.28 GB
+[10:43:02.451702] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:14776][3s:128ms:877us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.29 GB
+[10:43:02.455287] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19240][3s:132ms:469us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.30 GB
+[10:43:02.457773] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:20952][3s:134ms:958us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.31 GB
+[10:43:02.461434] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:17036][3s:138ms:603us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.32 GB
+[10:43:02.462622] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:1472][3s:139ms:807us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.33 GB
+[10:43:02.466499] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:13088][3s:143ms:668us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.33 GB
+[10:43:02.469243] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:19240][3s:146ms:426us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.34 GB
+[10:43:02.473321] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:13088][3s:150ms:504us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.35 GB
+[10:43:02.475968] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:20952][3s:153ms:152us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.36 GB
+[10:43:02.477420] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:1472][3s:154ms:605us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.37 GB
+[10:43:02.479718] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:13088][3s:156ms:897us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.37 GB
+[10:43:02.482300] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:10792][3s:159ms:483us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.38 GB
+[10:43:02.486245] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:1472][3s:163ms:428us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.39 GB
+[10:43:02.488678] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:20952][3s:165ms:862us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.40 GB
+[10:43:02.492302] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:18732][3s:169ms:481us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.40 GB
+[10:43:02.493269] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:3840][3s:170ms:454us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.41 GB
+[10:43:02.496138] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:17036][3s:173ms:315us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.42 GB
+[10:43:02.498777] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:14776][3s:175ms:960us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.43 GB
+[10:43:02.499929] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:14776][3s:177ms:114us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.44 GB
+[10:43:02.502502] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:14776][3s:179ms:682us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.44 GB
+[10:43:02.537207] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:13088][3s:214ms:389us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.44 GB
+[10:43:02.588644] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:20208][3s:265ms:820us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.45 GB
+[10:43:02.638908] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:20208][3s:316ms:089us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.46 GB
+[10:43:02.689750] [I] StreamlineHooks::streamlineLogCallback [10-43-02][streamline][info][tid:11160][3s:366ms:929us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.47 GB
+[10:43:03.635504] [I] StreamlineHooks::streamlineLogCallback [10-43-03][streamline][info][tid:14776][4s:312ms:676us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.47 GB
+[10:43:03.642331] [I] StreamlineHooks::streamlineLogCallback [10-43-03][streamline][info][tid:20952][4s:319ms:505us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.47 GB
+[10:43:03.653841] [I] StreamlineHooks::streamlineLogCallback [10-43-03][streamline][info][tid:5040][4s:331ms:012us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.47 GB
+[10:43:03.761951] [I] StreamlineHooks::streamlineLogCallback [10-43-03][streamline][info][tid:14776][4s:439ms:125us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.47 GB
+[10:43:04.344293] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #17: UAV dim 1 2560x1x1 fmt 0 (filter rejected)
+[10:43:04.345839] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:11160][5s:023ms:021us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.51 GB
+[10:43:04.347045] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:3840][5s:024ms:231us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.51 GB
+[10:43:04.348120] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:13088][5s:025ms:306us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.52 GB
+[10:43:04.349861] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:5040][5s:027ms:037us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.53 GB
+[10:43:04.351288] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:19240][5s:028ms:472us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.53 GB
+[10:43:04.351454] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #18: UAV dim 1 15360x1x1 fmt 0 (filter rejected)
+[10:43:04.351479] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #19: UAV dim 1 15360x1x1 fmt 0 (filter rejected)
+[10:43:04.352467] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:13088][5s:029ms:648us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.54 GB
+[10:43:04.389857] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:17036][5s:067ms:036us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.55 GB
+[10:43:04.391879] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:20208][5s:069ms:062us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.56 GB
+[10:43:04.395599] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:17036][5s:072ms:760us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.57 GB
+[10:43:04.400957] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:3840][5s:078ms:103us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.57 GB
+[10:43:04.403371] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:13088][5s:080ms:555us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.58 GB
+[10:43:04.408467] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:3840][5s:085ms:633us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.58 GB
+[10:43:04.413917] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:1472][5s:091ms:096us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.59 GB
+[10:43:04.416372] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:5040][5s:093ms:547us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.62 GB
+[10:43:04.448781] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:21336][5s:125ms:956us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.62 GB
+[10:43:04.488504] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:8224][5s:165ms:653us]commonInterface.cpp:585[presentCommon] Total VRAM used: 1.62 GB
+[10:43:04.516428] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #20: UAV dim 1 3168x1x1 fmt 0 (filter rejected)
+[10:43:04.516479] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #21: UAV dim 1 3168x1x1 fmt 0 (filter rejected)
+[10:43:04.516514] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #22: UAV dim 1 3168x1x1 fmt 0 (filter rejected)
+[10:43:04.516531] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #23: UAV dim 1 3168x1x1 fmt 0 (filter rejected)
+[10:43:04.516545] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 9 -- buffer, 128 bytes
+[10:43:04.517318] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #24: UAV dim 1 3168x1x1 fmt 0 (filter rejected)
+[10:43:04.517342] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #25: UAV dim 1 3168x1x1 fmt 0 (filter rejected)
+[10:43:04.517356] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #26: UAV dim 1 3168x1x1 fmt 0 (filter rejected)
+[10:43:04.517367] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #27: UAV dim 1 3168x1x1 fmt 0 (filter rejected)
+[10:43:04.517385] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 10 -- buffer, 4 bytes
+[10:43:04.544347] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #28: UAV dim 3 960x540x1 fmt 26 (filter rejected)
+[10:43:04.544387] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #29: UAV dim 3 960x540x1 fmt 26 (filter rejected)
+[10:43:04.544442] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #30: UAV dim 3 960x540x1 fmt 61 (filter rejected)
+[10:43:04.544479] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #31: UAV dim 3 960x540x1 fmt 61 (filter rejected)
+[10:43:04.544498] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #32: UAV dim 1 34560x1x1 fmt 0 (filter rejected)
+[10:43:04.544548] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #33: UAV dim 1 34560x1x1 fmt 0 (filter rejected)
+[10:43:04.551894] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #34: UAV dim 3 1920x1080x1 fmt 41 (filter rejected)
+[10:43:04.552484] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #35: UAV dim 3 1920x1080x1 fmt 34 (filter rejected)
+[10:43:04.553418] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #36: UAV dim 3 1920x1080x1 fmt 28 (filter rejected)
+[10:43:04.554030] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #37: UAV dim 3 1920x1080x1 fmt 41 (filter rejected)
+[10:43:04.554802] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #38: UAV dim 3 1920x1080x1 fmt 34 (filter rejected)
+[10:43:04.555569] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #39: UAV dim 3 1920x1080x1 fmt 28 (filter rejected)
+[10:43:04.555595] [I] DlssNr::ExposureScan::NoteResource DLSS-NR scan near-miss #40: UAV dim 3 1920x1080x1 fmt 41 (filter rejected)
+[10:43:04.555641] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 11 -- buffer, 28 bytes
+[10:43:04.558334] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 12 -- buffer, 28 bytes
+[10:43:04.558356] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 13 -- buffer, 4 bytes
+[10:43:04.623353] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 14 -- buffer, 96 bytes
+[10:43:04.623393] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 15 -- buffer, 12 bytes
+[10:43:04.623416] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 16 -- buffer, 96 bytes
+[10:43:04.623425] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 17 -- buffer, 36 bytes
+[10:43:04.623434] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 18 -- buffer, 36 bytes
+[10:43:04.623448] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 19 -- buffer, 12 bytes
+[10:43:04.623461] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 20 -- buffer, 4 bytes
+[10:43:04.623469] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 21 -- buffer, 4 bytes
+[10:43:04.623477] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 22 -- buffer, 4 bytes
+[10:43:04.623485] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 23 -- buffer, 4 bytes
+[10:43:04.623492] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 24 -- buffer, 4 bytes
+[10:43:04.623500] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 25 -- buffer, 4 bytes
+[10:43:04.647162] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:1472][5s:324ms:338us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.26 GB
+[10:43:04.648898] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 26 -- buffer, 24 bytes
+[10:43:04.684273] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:8224][5s:361ms:452us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.28 GB
+[10:43:04.706845] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:16960][5s:384ms:008us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.29 GB
+[10:43:04.735271] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:14776][5s:412ms:417us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.30 GB
+[10:43:04.737112] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:20952][5s:414ms:295us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.31 GB
+[10:43:04.739114] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:1472][5s:416ms:299us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.31 GB
+[10:43:04.742673] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:16960][5s:419ms:845us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.32 GB
+[10:43:04.761761] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:20952][5s:438ms:926us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.33 GB
+[10:43:04.765296] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:11160][5s:442ms:467us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.33 GB
+[10:43:04.766914] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:20952][5s:444ms:098us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.34 GB
+[10:43:04.770404] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:14776][5s:447ms:583us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.35 GB
+[10:43:04.772445] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:16960][5s:449ms:628us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.36 GB
+[10:43:04.774269] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:8224][5s:451ms:452us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.36 GB
+[10:43:04.775924] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:20208][5s:453ms:107us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.37 GB
+[10:43:04.782583] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:19240][5s:459ms:765us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.39 GB
+[10:43:04.784493] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:5040][5s:461ms:678us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.40 GB
+[10:43:04.786961] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:14776][5s:464ms:147us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.40 GB
+[10:43:04.788885] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:8224][5s:466ms:071us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.41 GB
+[10:43:04.790729] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:21336][5s:467ms:913us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.42 GB
+[10:43:04.792081] [I] StreamlineHooks::streamlineLogCallback [10-43-04][streamline][info][tid:20952][5s:469ms:266us]commonInterface.cpp:585[presentCommon] Total VRAM used: 4.43 GB
+[10:43:04.836714] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 27 -- buffer, 4 bytes
+[10:43:04.836751] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 28 -- buffer, 4 bytes
+[10:43:04.836848] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 29 -- buffer, 96 bytes
+[10:43:04.836864] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 30 -- buffer, 36 bytes
+[10:43:04.836875] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 31 -- buffer, 4 bytes
+[10:43:04.836886] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 32 -- buffer, 4 bytes
+[10:43:04.836896] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 33 -- buffer, 4 bytes
+[10:43:04.838591] [I] CreateDLSSContext renderWidth: 2560, maxWidth: 3840, ratio: 1.5
+[10:43:04.838626] [I] TryCreateOptiFeature Creating OptiScaler feature, HandleId: 1000000
+[10:43:04.838649] [I] TryCreateOptiFeature Creating FSR 3.X upscaler feature
+[10:43:04.838675] [I] IFeature::SetHandle Handle: 1000000
+[10:43:04.838697] [I] IFeature::SetInitParameters Init Flag AutoExposure: true
+[10:43:04.838709] [I] IFeature::SetInitParameters Init Flag DepthInverted: true
+[10:43:04.838718] [I] IFeature::SetInitParameters Init Flag IsHdr: false
+[10:43:04.838727] [I] IFeature::SetInitParameters Init Flag JitteredMV: false
+[10:43:04.838735] [I] IFeature::SetInitParameters Init Flag LowResMV: true
+[10:43:04.838743] [I] IFeature::SetInitParameters Init Flag SharpenEnabled: false
+[10:43:04.838762] [I] IFeature::SetInitParameters Render Resolution: 2560x1440, Display Resolution 3840x2160, Quality: 2
+[10:43:04.838782] [I] FFXFeatureDx12::FFXFeatureDx12 amd_fidelityfx_dx12.dll methods loaded!
+[10:43:04.838808] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:43:04.838854] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:43:04.838883] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:43:04.838908] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:43:04.838927] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:43:04.838946] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:43:04.838959] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:43:04.838980] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:43:04.838996] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:43:04.839013] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:43:04.839023] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:43:04.839033] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:43:04.839046] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:43:04.839058] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:43:04.839067] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:43:04.839077] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:43:04.839161] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:43:04.839179] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:43:04.861853] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 34 -- 2x1 R32_FLOAT
+[10:43:04.871267] [I] CreateDLSSContext context created: 1EE8
+[10:43:04.871842] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[10:43:05.941733] [I] StreamlineHooks::streamlineLogCallback [10-43-05][streamline][info][tid:5040][6s:618ms:909us]commonInterface.cpp:585[presentCommon] Total VRAM used: 7.38 GB
+[10:43:05.958531] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 35 -- buffer, 36 bytes
+[10:43:06.403302] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 36 -- buffer, 12 bytes
+[10:43:06.403341] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 37 -- buffer, 4 bytes
+[10:43:06.403355] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 38 -- buffer, 4 bytes
+[10:43:06.403395] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 39 -- buffer, 96 bytes
+[10:43:06.403422] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 40 -- buffer, 36 bytes
+[10:43:06.403438] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 41 -- buffer, 36 bytes
+[10:43:06.403450] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 42 -- buffer, 24 bytes
+[10:43:06.403467] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 43 -- buffer, 12 bytes
+[10:43:06.403481] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 44 -- buffer, 4 bytes
+[10:43:06.403493] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 45 -- buffer, 4 bytes
+[10:43:06.403505] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 46 -- buffer, 4 bytes
+[10:43:06.456939] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 47 -- buffer, 36 bytes
+[10:43:06.456975] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 48 -- buffer, 36 bytes
+[10:43:06.456992] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 49 -- buffer, 36 bytes
+[10:43:06.457004] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 50 -- buffer, 4 bytes
+[10:43:06.457015] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 51 -- buffer, 4 bytes
+[10:43:06.457028] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 52 -- buffer, 4 bytes
+[10:43:06.844044] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 53 -- buffer, 36 bytes
+[10:43:06.844087] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 54 -- buffer, 4 bytes
+[10:43:06.899853] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 55 -- buffer, 36 bytes
+[10:43:06.899882] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 56 -- buffer, 36 bytes
+[10:43:06.899898] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 57 -- buffer, 36 bytes
+[10:43:06.899908] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 58 -- buffer, 4 bytes
+[10:43:06.899917] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 59 -- buffer, 4 bytes
+[10:43:06.899930] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 60 -- buffer, 4 bytes
+[10:43:07.162984] [I] LibraryLoadHooks::LoadLibraryCheckW Calling CreateDxgiFactory methods for overlay!
+[10:43:07.236177] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[10:43:17.071620] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0x50cec target:0x50cec
+[10:43:17.071641] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0x50cec target:0x50cec
+[10:43:17.241616] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x50cec focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:43:25.189724] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0x50cec target:0x50cec
+[10:43:25.189752] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:1 deferredNull:0 hasSaved:1 savedActive:1
+[10:43:27.645311] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0x50cec target:0x50cec
+[10:43:27.645334] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0x50cec target:0x50cec
+[10:43:36.241595] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0x50cec target:0x50cec
+[10:43:36.241618] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:1 deferredNull:0 hasSaved:1 savedActive:1
+[10:43:56.409619] [I] StreamlineHooks::streamlineLogCallback [10-43-56][streamline][info][tid:19240][57s:086ms:798us]commonInterface.cpp:585[presentCommon] Total VRAM used: 7.39 GB
+[10:43:56.451283] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 61 -- buffer, 28 bytes
+[10:43:56.529933] [I] StreamlineHooks::streamlineLogCallback [10-43-56][streamline][info][tid:16960][57s:207ms:113us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.00 GB
+[10:43:56.595115] [I] StreamlineHooks::streamlineLogCallback [10-43-56][streamline][info][tid:21336][57s:272ms:292us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.08 GB
+[10:43:56.656086] [I] StreamlineHooks::streamlineLogCallback [10-43-56][streamline][info][tid:5040][57s:333ms:260us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.10 GB
+[10:44:01.344588] [I] StreamlineHooks::streamlineLogCallback [10-44-01][streamline][info][tid:20208][62s:021ms:764us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.13 GB
+[10:44:01.411241] [I] StreamlineHooks::streamlineLogCallback [10-44-01][streamline][info][tid:13088][62s:088ms:417us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.18 GB
+[10:44:01.473838] [I] StreamlineHooks::streamlineLogCallback [10-44-01][streamline][info][tid:20208][62s:151ms:012us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.19 GB
+[10:44:01.538265] [I] StreamlineHooks::streamlineLogCallback [10-44-01][streamline][info][tid:3840][62s:215ms:441us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.19 GB
+[10:44:01.675320] [I] StreamlineHooks::streamlineLogCallback [10-44-01][streamline][info][tid:11160][62s:352ms:495us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.23 GB
+[10:44:01.739819] [I] StreamlineHooks::streamlineLogCallback [10-44-01][streamline][info][tid:17036][62s:416ms:993us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.24 GB
+[10:44:02.005288] [I] StreamlineHooks::streamlineLogCallback [10-44-02][streamline][info][tid:13088][62s:682ms:461us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.26 GB
+[10:44:02.204710] [I] StreamlineHooks::streamlineLogCallback [10-44-02][streamline][info][tid:10792][62s:881ms:875us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.27 GB
+[10:44:02.270631] [I] StreamlineHooks::streamlineLogCallback [10-44-02][streamline][info][tid:17036][62s:947ms:807us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.28 GB
+[10:44:03.059733] [I] StreamlineHooks::streamlineLogCallback [10-44-03][streamline][info][tid:11160][63s:736ms:909us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.28 GB
+[10:44:03.191506] [I] StreamlineHooks::streamlineLogCallback [10-44-03][streamline][info][tid:16960][63s:868ms:682us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.29 GB
+[10:44:03.389107] [I] StreamlineHooks::streamlineLogCallback [10-44-03][streamline][info][tid:1472][64s:066ms:284us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.30 GB
+[10:44:03.619805] [I] StreamlineHooks::streamlineLogCallback [10-44-03][streamline][info][tid:18732][64s:296ms:981us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.35 GB
+[10:44:03.685320] [I] StreamlineHooks::streamlineLogCallback [10-44-03][streamline][info][tid:11160][64s:362ms:498us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.36 GB
+[10:44:03.748685] [I] StreamlineHooks::streamlineLogCallback [10-44-03][streamline][info][tid:3840][64s:425ms:863us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.38 GB
+[10:44:03.813969] [I] StreamlineHooks::streamlineLogCallback [10-44-03][streamline][info][tid:13088][64s:491ms:145us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.44 GB
+[10:44:03.879961] [I] StreamlineHooks::streamlineLogCallback [10-44-03][streamline][info][tid:14776][64s:557ms:139us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.46 GB
+[10:44:03.946909] [I] StreamlineHooks::streamlineLogCallback [10-44-03][streamline][info][tid:1472][64s:624ms:087us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.47 GB
+[10:44:04.012415] [I] StreamlineHooks::streamlineLogCallback [10-44-04][streamline][info][tid:10792][64s:689ms:592us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.47 GB
+[10:44:04.078430] [I] StreamlineHooks::streamlineLogCallback [10-44-04][streamline][info][tid:11160][64s:755ms:606us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.47 GB
+[10:44:04.145489] [I] StreamlineHooks::streamlineLogCallback [10-44-04][streamline][info][tid:14776][64s:822ms:665us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.48 GB
+[10:44:04.211481] [I] StreamlineHooks::streamlineLogCallback [10-44-04][streamline][info][tid:18732][64s:888ms:658us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.48 GB
+[10:44:04.276989] [I] StreamlineHooks::streamlineLogCallback [10-44-04][streamline][info][tid:17036][64s:954ms:162us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.52 GB
+[10:44:05.312430] [I] StreamlineHooks::streamlineLogCallback [10-44-05][streamline][info][tid:10792][65s:989ms:607us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.53 GB
+[10:44:05.378434] [I] StreamlineHooks::streamlineLogCallback [10-44-05][streamline][info][tid:1472][66s:055ms:612us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.53 GB
+[10:44:05.445436] [I] StreamlineHooks::streamlineLogCallback [10-44-05][streamline][info][tid:20952][66s:122ms:612us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.53 GB
+[10:44:05.578482] [I] StreamlineHooks::streamlineLogCallback [10-44-05][streamline][info][tid:5040][66s:255ms:659us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.58 GB
+[10:44:05.645555] [I] StreamlineHooks::streamlineLogCallback [10-44-05][streamline][info][tid:13088][66s:322ms:729us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.59 GB
+[10:44:05.774626] [I] StreamlineHooks::streamlineLogCallback [10-44-05][streamline][info][tid:3840][66s:451ms:801us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.60 GB
+[10:44:05.839657] [I] StreamlineHooks::streamlineLogCallback [10-44-05][streamline][info][tid:11160][66s:516ms:833us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.64 GB
+[10:44:05.905192] [I] StreamlineHooks::streamlineLogCallback [10-44-05][streamline][info][tid:21336][66s:582ms:369us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.64 GB
+[10:44:20.358696] [I] StreamlineHooks::streamlineLogCallback [10-44-20][streamline][info][tid:19608][81s:035ms:877us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:44:20.360809] [I] StreamlineHooks::streamlineLogCallback [10-44-20][streamline][info][tid:19608][81s:037ms:994us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1c0129df190 - native factory 0x1bf2d8375a0 ref count 1
+[10:44:20.362013] [I] StreamlineHooks::streamlineLogCallback [10-44-20][streamline][info][tid:19608][81s:039ms:200us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:44:20.365055] [I] StreamlineHooks::streamlineLogCallback [10-44-20][streamline][info][tid:19608][81s:042ms:241us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1c0129df9d0 - native factory 0x1bf2d837980 ref count 1
+[10:44:20.408006] [I] StreamlineHooks::streamlineLogCallback [10-44-20][streamline][info][tid:19608][81s:085ms:184us]dxgiSwapchain.cpp:299[operator ()] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 0
+[10:44:20.426487] [I] WrappedIDXGISwapChain4::SetColorSpace1 DLSS-NR: swapchain colour space 0 -- sRGB (SDR) (relative -- no scale to be had)
+[10:44:20.426604] [I] NVSDK_NGX_D3D12_ReleaseFeature releasing feature with id 1000000
+[10:44:20.437581] [I] ffxCreateContext_Dx12 Custom context index:7913
+[10:44:20.437617] [I] ffxCreateContext_Dx12 context created: 1EE9
+[10:44:20.445019] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[10:44:20.493663] [I] CreateRenderTargetDx12 done!
+[10:44:22.318809] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 1 -- buffer, 28 bytes
+[10:44:22.348683] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 2 -- buffer, 96 bytes
+[10:44:22.348719] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 3 -- buffer, 12 bytes
+[10:44:22.348739] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 4 -- buffer, 96 bytes
+[10:44:22.348751] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 5 -- buffer, 36 bytes
+[10:44:22.348761] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 6 -- buffer, 36 bytes
+[10:44:22.348771] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 7 -- buffer, 24 bytes
+[10:44:22.348780] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 8 -- buffer, 12 bytes
+[10:44:22.348790] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 9 -- buffer, 4 bytes
+[10:44:22.348800] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 10 -- buffer, 4 bytes
+[10:44:22.348810] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 11 -- buffer, 4 bytes
+[10:44:22.348819] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 12 -- buffer, 4 bytes
+[10:44:22.348827] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 13 -- buffer, 4 bytes
+[10:44:22.348835] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 14 -- buffer, 4 bytes
+[10:44:22.351300] [I] CreateDLSSContext renderWidth: 1920, maxWidth: 3840, ratio: 2
+[10:44:22.351325] [I] TryCreateOptiFeature Creating OptiScaler feature, HandleId: 1000001
+[10:44:22.351340] [I] TryCreateOptiFeature Creating FSR 3.X upscaler feature
+[10:44:22.351352] [I] IFeature::SetHandle Handle: 1000001
+[10:44:22.351360] [I] IFeature::SetInitParameters Init Flag AutoExposure: true
+[10:44:22.351367] [I] IFeature::SetInitParameters Init Flag DepthInverted: true
+[10:44:22.351373] [I] IFeature::SetInitParameters Init Flag IsHdr: false
+[10:44:22.351379] [I] IFeature::SetInitParameters Init Flag JitteredMV: false
+[10:44:22.351385] [I] IFeature::SetInitParameters Init Flag LowResMV: true
+[10:44:22.351391] [I] IFeature::SetInitParameters Init Flag SharpenEnabled: false
+[10:44:22.351399] [I] IFeature::SetInitParameters Render Resolution: 1920x1080, Display Resolution 3840x2160, Quality: 0
+[10:44:22.351406] [I] FFXFeatureDx12::FFXFeatureDx12 amd_fidelityfx_dx12.dll methods loaded!
+[10:44:22.351419] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:44:22.351448] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:44:22.351468] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:44:22.351490] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:44:22.351507] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:44:22.351530] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:44:22.351543] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:44:22.351585] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:44:22.351605] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:44:22.351622] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:44:22.351635] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:44:22.351649] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:44:22.351661] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:44:22.351680] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:44:22.351696] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:44:22.351714] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:44:22.351829] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:44:22.351859] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:44:22.379887] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 15 -- 2x1 R32_FLOAT
+[10:44:22.387578] [I] CreateDLSSContext context created: 1EE9
+[10:44:22.479423] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 16 -- buffer, 36 bytes
+[10:44:55.604918] [I] StreamlineHooks::streamlineLogCallback [10-44-55][streamline][info][tid:19608][116s:282ms:099us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:44:55.607075] [I] StreamlineHooks::streamlineLogCallback [10-44-55][streamline][info][tid:19608][116s:284ms:257us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bf5f3aaa00 - native factory 0x1bf2d837d60 ref count 1
+[10:44:55.608383] [I] StreamlineHooks::streamlineLogCallback [10-44-55][streamline][info][tid:19608][116s:285ms:568us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:44:55.611413] [I] StreamlineHooks::streamlineLogCallback [10-44-55][streamline][info][tid:19608][116s:288ms:595us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bf5f3ab2a0 - native factory 0x1bf2d838ce0 ref count 1
+[10:45:06.685465] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 17 -- buffer, 28 bytes
+[10:45:06.714437] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 18 -- buffer, 96 bytes
+[10:45:06.714473] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 19 -- buffer, 12 bytes
+[10:45:06.714492] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 20 -- buffer, 96 bytes
+[10:45:06.714501] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 21 -- buffer, 36 bytes
+[10:45:06.714511] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 22 -- buffer, 36 bytes
+[10:45:06.714522] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 23 -- buffer, 24 bytes
+[10:45:06.714531] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 24 -- buffer, 12 bytes
+[10:45:06.714539] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 25 -- buffer, 4 bytes
+[10:45:06.714547] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 26 -- buffer, 4 bytes
+[10:45:06.714556] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 27 -- buffer, 4 bytes
+[10:45:06.714564] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 28 -- buffer, 4 bytes
+[10:45:06.714571] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 29 -- buffer, 4 bytes
+[10:45:06.714579] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 30 -- buffer, 4 bytes
+[10:45:06.793856] [I] StreamlineHooks::streamlineLogCallback [10-45-06][streamline][info][tid:10792][127s:471ms:032us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.65 GB
+[10:45:06.798035] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 31 -- buffer, 36 bytes
+[10:45:16.577132] [I] StreamlineHooks::streamlineLogCallback [10-45-16][streamline][info][tid:17036][137s:254ms:309us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.65 GB
+[10:45:16.901433] [I] StreamlineHooks::streamlineLogCallback [10-45-16][streamline][info][tid:14776][137s:578ms:610us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.66 GB
+[10:45:17.065568] [I] StreamlineHooks::streamlineLogCallback [10-45-17][streamline][info][tid:5040][137s:742ms:746us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.66 GB
+[10:45:17.471603] [I] StreamlineHooks::streamlineLogCallback [10-45-17][streamline][info][tid:19240][138s:148ms:782us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.66 GB
+[10:45:17.512537] [I] StreamlineHooks::streamlineLogCallback [10-45-17][streamline][info][tid:10792][138s:189ms:713us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.67 GB
+[10:45:17.552392] [I] StreamlineHooks::streamlineLogCallback [10-45-17][streamline][info][tid:8224][138s:229ms:571us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.67 GB
+[10:45:17.755578] [I] StreamlineHooks::streamlineLogCallback [10-45-17][streamline][info][tid:19240][138s:432ms:755us]commonInterface.cpp:585[presentCommon] Total VRAM used: 8.67 GB
+[10:45:27.704159] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0x50cec target:0x50cec
+[10:45:27.704182] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0x50cec target:0x50cec
+[10:45:27.825434] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x50cec focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:45:39.102092] [I] `anonymous-namespace'::ReportSkipOnce DLSS-NR did not run: it is switched off
+[10:45:43.127227] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x50cec focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:45:50.973789] [I] StreamlineHooks::streamlineLogCallback [10-45-50][streamline][info][tid:5040][171s:650ms:967us]commonInterface.cpp:585[presentCommon] Total VRAM used: 9.81 GB
+[10:46:05.680210] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0x50cec target:0x50cec
+[10:46:05.680238] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:1 deferredNull:0 hasSaved:1 savedActive:1
+[10:47:05.543080] [I] StreamlineHooks::streamlineLogCallback [10-47-05][streamline][info][tid:19608][246s:220ms:260us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:47:05.545131] [I] StreamlineHooks::streamlineLogCallback [10-47-05][streamline][info][tid:19608][246s:222ms:316us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1c006229da0 - native factory 0x1bf2d8394a0 ref count 1
+[10:47:05.546329] [I] StreamlineHooks::streamlineLogCallback [10-47-05][streamline][info][tid:19608][246s:223ms:515us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:47:05.549320] [I] StreamlineHooks::streamlineLogCallback [10-47-05][streamline][info][tid:19608][246s:226ms:505us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1c006229fb0 - native factory 0x1bf2d838520 ref count 1
+[10:47:05.591384] [I] StreamlineHooks::streamlineLogCallback [10-47-05][streamline][info][tid:19608][246s:268ms:564us]dxgiSwapchain.cpp:299[operator ()] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 0
+[10:47:05.608984] [I] WrappedIDXGISwapChain4::SetColorSpace1 DLSS-NR: swapchain colour space 0 -- sRGB (SDR) (relative -- no scale to be had)
+[10:47:05.609084] [I] NVSDK_NGX_D3D12_ReleaseFeature releasing feature with id 1000001
+[10:47:05.616533] [I] ffxCreateContext_Dx12 Custom context index:7914
+[10:47:05.616567] [I] ffxCreateContext_Dx12 context created: 1EEA
+[10:47:05.623406] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[10:47:05.671335] [I] CreateRenderTargetDx12 done!
+[10:47:06.693335] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 1 -- buffer, 28 bytes
+[10:47:06.713119] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 2 -- buffer, 96 bytes
+[10:47:06.713156] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 3 -- buffer, 12 bytes
+[10:47:06.713178] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 4 -- buffer, 96 bytes
+[10:47:06.713189] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 5 -- buffer, 36 bytes
+[10:47:06.713200] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 6 -- buffer, 36 bytes
+[10:47:06.713225] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 7 -- buffer, 24 bytes
+[10:47:06.713238] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 8 -- buffer, 12 bytes
+[10:47:06.713247] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 9 -- buffer, 4 bytes
+[10:47:06.713255] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 10 -- buffer, 4 bytes
+[10:47:06.713264] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 11 -- buffer, 4 bytes
+[10:47:06.713273] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 12 -- buffer, 4 bytes
+[10:47:06.713282] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 13 -- buffer, 4 bytes
+[10:47:06.713290] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 14 -- buffer, 4 bytes
+[10:47:06.716784] [I] CreateDLSSContext renderWidth: 1280, maxWidth: 3840, ratio: 3
+[10:47:06.716805] [I] TryCreateOptiFeature Creating OptiScaler feature, HandleId: 1000002
+[10:47:06.716816] [I] TryCreateOptiFeature Creating FSR 3.X upscaler feature
+[10:47:06.716825] [I] IFeature::SetHandle Handle: 1000002
+[10:47:06.716834] [I] IFeature::SetInitParameters Init Flag AutoExposure: true
+[10:47:06.716839] [I] IFeature::SetInitParameters Init Flag DepthInverted: true
+[10:47:06.716845] [I] IFeature::SetInitParameters Init Flag IsHdr: false
+[10:47:06.716850] [I] IFeature::SetInitParameters Init Flag JitteredMV: false
+[10:47:06.716855] [I] IFeature::SetInitParameters Init Flag LowResMV: true
+[10:47:06.716861] [I] IFeature::SetInitParameters Init Flag SharpenEnabled: false
+[10:47:06.716869] [I] IFeature::SetInitParameters Render Resolution: 1280x720, Display Resolution 3840x2160, Quality: 3
+[10:47:06.716876] [I] FFXFeatureDx12::FFXFeatureDx12 amd_fidelityfx_dx12.dll methods loaded!
+[10:47:06.716890] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:47:06.716920] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:47:06.716939] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:47:06.716969] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:47:06.716981] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:47:06.716991] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:47:06.716999] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:47:06.717011] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:47:06.717021] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:47:06.717031] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:47:06.717040] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:47:06.717054] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:47:06.717065] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:47:06.717075] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:47:06.717084] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:47:06.717094] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:47:06.717169] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:47:06.717182] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:47:06.747715] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 15 -- 2x1 R32_FLOAT
+[10:47:06.755072] [I] CreateDLSSContext context created: 1EEA
+[10:47:06.811873] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 16 -- buffer, 36 bytes
+[10:47:15.951766] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0x50cec target:0x50cec
+[10:47:15.951789] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0x50cec target:0x50cec
+[10:47:16.020285] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x50cec focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:47:29.555735] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x1060a focused:no subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:47:43.031864] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x1060a focused:no subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:47:56.577916] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x1060a focused:no subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:48:10.075820] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x1060a focused:no subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:48:22.709713] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0x50cec target:0x50cec
+[10:48:22.709740] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:1 deferredNull:0 hasSaved:1 savedActive:1
+[10:48:48.895043] [I] StreamlineHooks::streamlineLogCallback [10-48-48][streamline][info][tid:19608][349s:572ms:224us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:48:48.897217] [I] StreamlineHooks::streamlineLogCallback [10-48-48][streamline][info][tid:19608][349s:574ms:402us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bedfcbe2e0 - native factory 0x1bf2d836de0 ref count 1
+[10:48:48.898583] [I] StreamlineHooks::streamlineLogCallback [10-48-48][streamline][info][tid:19608][349s:575ms:768us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:48:48.901372] [I] StreamlineHooks::streamlineLogCallback [10-48-48][streamline][info][tid:19608][349s:578ms:560us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bedfcbe8e0 - native factory 0x1bf5f41afd0 ref count 1
+[10:48:49.864464] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 17 -- buffer, 28 bytes
+[10:48:49.888097] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 18 -- buffer, 96 bytes
+[10:48:49.888136] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 19 -- buffer, 12 bytes
+[10:48:49.888154] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 20 -- buffer, 36 bytes
+[10:48:49.888166] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 21 -- buffer, 24 bytes
+[10:48:49.888176] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 22 -- buffer, 12 bytes
+[10:48:49.888186] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 23 -- buffer, 4 bytes
+[10:48:49.888197] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 24 -- buffer, 4 bytes
+[10:48:49.888207] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 25 -- buffer, 4 bytes
+[10:48:49.888216] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 26 -- buffer, 4 bytes
+[10:48:49.888226] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 27 -- buffer, 4 bytes
+[10:48:49.888236] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 28 -- buffer, 4 bytes
+[10:48:49.888303] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 29 -- buffer, 96 bytes
+[10:48:49.888324] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 30 -- buffer, 36 bytes
+[10:48:49.992881] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 31 -- buffer, 36 bytes
+[10:49:38.890465] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0x50cec target:0x50cec
+[10:49:38.890491] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0x50cec target:0x50cec
+[10:49:38.967379] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x50cec focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:49:42.830171] [I] StreamlineHooks::streamlineLogCallback [10-49-42][streamline][info][tid:21336][403s:507ms:349us]commonInterface.cpp:585[presentCommon] Total VRAM used: 9.90 GB
+[10:49:43.208314] [I] StreamlineHooks::streamlineLogCallback [10-49-43][streamline][info][tid:5040][403s:885ms:491us]commonInterface.cpp:585[presentCommon] Total VRAM used: 9.90 GB
+[10:49:54.141072] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x50cec focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:50:00.128550] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x50cec focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:50:08.830736] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x50cec focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:50:18.482915] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0x50cec target:0x50cec
+[10:50:18.482941] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:1 deferredNull:0 hasSaved:1 savedActive:1
+[10:50:21.115731] [I] StreamlineHooks::streamlineLogCallback [10-50-21][streamline][info][tid:21336][441s:792ms:909us]commonInterface.cpp:585[presentCommon] Total VRAM used: 9.92 GB
+[10:50:25.048143] [I] StreamlineHooks::streamlineLogCallback [10-50-25][streamline][info][tid:19608][445s:725ms:325us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:25.050207] [I] StreamlineHooks::streamlineLogCallback [10-50-25][streamline][info][tid:19608][445s:727ms:389us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bd43b004a0 - native factory 0x1bf5f418cf0 ref count 1
+[10:50:25.642281] [I] StreamlineHooks::streamlineLogCallback [10-50-25][streamline][info][tid:19608][446s:319ms:462us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:25.644454] [I] StreamlineHooks::streamlineLogCallback [10-50-25][streamline][info][tid:19608][446s:321ms:639us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bf22e9bc80 - native factory 0x1bf5f41b790 ref count 1
+[10:50:25.894813] [I] StreamlineHooks::streamlineLogCallback [10-50-25][streamline][info][tid:19608][446s:571ms:996us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:25.896931] [I] StreamlineHooks::streamlineLogCallback [10-50-25][streamline][info][tid:19608][446s:574ms:114us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bee05c2090 - native factory 0x1bf5f418150 ref count 1
+[10:50:26.348473] [I] StreamlineHooks::streamlineLogCallback [10-50-26][streamline][info][tid:19608][447s:025ms:653us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:26.350628] [I] StreamlineHooks::streamlineLogCallback [10-50-26][streamline][info][tid:19608][447s:027ms:812us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bedfe365e0 - native factory 0x1bf5f417d70 ref count 1
+[10:50:27.049361] [I] StreamlineHooks::streamlineLogCallback [10-50-27][streamline][info][tid:19608][447s:726ms:541us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:27.051588] [I] StreamlineHooks::streamlineLogCallback [10-50-27][streamline][info][tid:19608][447s:728ms:772us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bf34f11510 - native factory 0x1bf5f41a050 ref count 1
+[10:50:28.358754] [I] StreamlineHooks::streamlineLogCallback [10-50-28][streamline][info][tid:19608][449s:035ms:935us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:28.360857] [I] StreamlineHooks::streamlineLogCallback [10-50-28][streamline][info][tid:19608][449s:038ms:041us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1c01241a550 - native factory 0x1bf5f419c70 ref count 1
+[10:50:28.362045] [I] StreamlineHooks::streamlineLogCallback [10-50-28][streamline][info][tid:19608][449s:039ms:232us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:28.363967] [I] StreamlineHooks::streamlineLogCallback [10-50-28][streamline][info][tid:19608][449s:041ms:155us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1c01241a100 - native factory 0x1bf5f418910 ref count 1
+[10:50:28.365086] [I] StreamlineHooks::streamlineLogCallback [10-50-28][streamline][info][tid:19608][449s:042ms:274us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:28.367827] [I] StreamlineHooks::streamlineLogCallback [10-50-28][streamline][info][tid:19608][449s:045ms:013us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1c01241a280 - native factory 0x1bf5f418530 ref count 1
+[10:50:28.372134] [I] StreamlineHooks::streamlineLogCallback [10-50-28][streamline][info][tid:19608][449s:049ms:317us]dxgiSwapchain.cpp:299[operator ()] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 0
+[10:50:28.389150] [I] WrappedIDXGISwapChain4::SetColorSpace1 DLSS-NR: swapchain colour space 0 -- sRGB (SDR) (relative -- no scale to be had)
+[10:50:28.389255] [I] NVSDK_NGX_D3D12_ReleaseFeature releasing feature with id 1000002
+[10:50:28.396701] [I] ffxCreateContext_Dx12 Custom context index:7915
+[10:50:28.396742] [I] ffxCreateContext_Dx12 context created: 1EEB
+[10:50:28.428861] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[10:50:28.494633] [I] CreateRenderTargetDx12 done!
+[10:50:35.081559] [I] StreamlineHooks::streamlineLogCallback [10-50-35][streamline][info][tid:19608][455s:758ms:740us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:35.083768] [I] StreamlineHooks::streamlineLogCallback [10-50-35][streamline][info][tid:19608][455s:760ms:952us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bedfe3a450 - native factory 0x1bf5f419890 ref count 1
+[10:50:35.085040] [I] StreamlineHooks::streamlineLogCallback [10-50-35][streamline][info][tid:19608][455s:762ms:226us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:35.087896] [I] StreamlineHooks::streamlineLogCallback [10-50-35][streamline][info][tid:19608][455s:765ms:081us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bedfe39c70 - native factory 0x1bf5f41a430 ref count 1
+[10:50:35.092335] [I] StreamlineHooks::streamlineLogCallback [10-50-35][streamline][info][tid:19608][455s:769ms:518us]dxgiSwapchain.cpp:299[operator ()] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 1
+[10:50:35.216968] [I] StreamlineHooks::streamlineLogCallback [10-50-35][streamline][info][tid:19608][455s:894ms:147us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:35.220141] [I] StreamlineHooks::streamlineLogCallback [10-50-35][streamline][info][tid:19608][455s:897ms:323us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bedfe39bb0 - native factory 0x1bf5f41a810 ref count 1
+[10:50:35.221618] [I] StreamlineHooks::streamlineLogCallback [10-50-35][streamline][info][tid:19608][455s:898ms:801us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:35.225094] [I] StreamlineHooks::streamlineLogCallback [10-50-35][streamline][info][tid:19608][455s:902ms:270us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bedfe39ac0 - native factory 0x1bf5f41abf0 ref count 1
+[10:50:35.244859] [I] WrappedIDXGISwapChain4::SetColorSpace1 DLSS-NR: swapchain colour space 0 -- sRGB (SDR) (relative -- no scale to be had)
+[10:50:35.262037] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[10:50:35.344091] [I] CreateRenderTargetDx12 done!
+[10:50:40.603022] [I] StreamlineHooks::streamlineLogCallback [10-50-40][streamline][info][tid:19608][461s:280ms:201us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:40.605108] [I] StreamlineHooks::streamlineLogCallback [10-50-40][streamline][info][tid:19608][461s:282ms:293us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bf5f3a46d0 - native factory 0x1bf5f4194b0 ref count 1
+[10:50:40.606335] [I] StreamlineHooks::streamlineLogCallback [10-50-40][streamline][info][tid:19608][461s:283ms:521us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:40.609141] [I] StreamlineHooks::streamlineLogCallback [10-50-40][streamline][info][tid:19608][461s:286ms:329us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bf5f3a40d0 - native factory 0x1bf2d83a040 ref count 1
+[10:50:40.652749] [I] StreamlineHooks::streamlineLogCallback [10-50-40][streamline][info][tid:19608][461s:329ms:927us]dxgiSwapchain.cpp:299[operator ()] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 1
+[10:50:40.654400] [I] StreamlineHooks::streamlineLogCallback [10-50-40][streamline][info][tid:19608][461s:331ms:584us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:40.656428] [I] StreamlineHooks::streamlineLogCallback [10-50-40][streamline][info][tid:19608][461s:333ms:615us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1c01bdd82e0 - native factory 0x1bf2d8390c0 ref count 1
+[10:50:40.657622] [I] StreamlineHooks::streamlineLogCallback [10-50-40][streamline][info][tid:19608][461s:334ms:810us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:50:40.660431] [I] StreamlineHooks::streamlineLogCallback [10-50-40][streamline][info][tid:19608][461s:337ms:616us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1c01bdd8040 - native factory 0x1bf2d83a800 ref count 1
+[10:50:40.675149] [I] WrappedIDXGISwapChain4::SetColorSpace1 DLSS-NR: swapchain colour space 0 -- sRGB (SDR) (relative -- no scale to be had)
+[10:50:40.675210] [I] ffxCreateContext_Dx12 Custom context index:7916
+[10:50:40.675233] [I] ffxCreateContext_Dx12 context created: 1EEC
+[10:50:40.681394] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[10:50:40.732038] [I] CreateRenderTargetDx12 done!
+[10:50:42.777034] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 1 -- buffer, 28 bytes
+[10:50:42.801522] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 2 -- buffer, 96 bytes
+[10:50:42.801559] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 3 -- buffer, 12 bytes
+[10:50:42.801578] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 4 -- buffer, 4 bytes
+[10:50:42.801589] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 5 -- buffer, 4 bytes
+[10:50:42.801599] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 6 -- buffer, 4 bytes
+[10:50:42.801608] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 7 -- buffer, 4 bytes
+[10:50:42.801646] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 8 -- buffer, 96 bytes
+[10:50:42.801657] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 9 -- buffer, 36 bytes
+[10:50:42.801667] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 10 -- buffer, 36 bytes
+[10:50:42.801678] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 11 -- buffer, 24 bytes
+[10:50:42.801686] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 12 -- buffer, 12 bytes
+[10:50:42.801694] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 13 -- buffer, 4 bytes
+[10:50:42.801703] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 14 -- buffer, 4 bytes
+[10:50:42.804450] [I] CreateDLSSContext renderWidth: 1506, maxWidth: 2560, ratio: 1.6998672
+[10:50:42.804472] [I] TryCreateOptiFeature Creating OptiScaler feature, HandleId: 1000003
+[10:50:42.804482] [I] TryCreateOptiFeature Creating FSR 3.X upscaler feature
+[10:50:42.804492] [I] IFeature::SetHandle Handle: 1000003
+[10:50:42.804499] [I] IFeature::SetInitParameters Init Flag AutoExposure: true
+[10:50:42.804505] [I] IFeature::SetInitParameters Init Flag DepthInverted: true
+[10:50:42.804510] [I] IFeature::SetInitParameters Init Flag IsHdr: false
+[10:50:42.804516] [I] IFeature::SetInitParameters Init Flag JitteredMV: false
+[10:50:42.804522] [I] IFeature::SetInitParameters Init Flag LowResMV: true
+[10:50:42.804528] [I] IFeature::SetInitParameters Init Flag SharpenEnabled: false
+[10:50:42.804537] [I] IFeature::SetInitParameters Render Resolution: 1506x847, Display Resolution 2560x1440, Quality: 1
+[10:50:42.804543] [I] FFXFeatureDx12::FFXFeatureDx12 amd_fidelityfx_dx12.dll methods loaded!
+[10:50:42.804558] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:50:42.804587] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:50:42.804605] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:50:42.804629] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:50:42.804646] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:50:42.804661] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:50:42.804671] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:50:42.804695] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:50:42.804708] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:50:42.804727] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:50:42.804746] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:50:42.804764] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:50:42.804779] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:50:42.804814] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:50:42.804838] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:50:42.804860] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:50:42.804975] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:50:42.805000] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:50:42.831666] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 15 -- 2x1 R32_FLOAT
+[10:50:42.839747] [I] CreateDLSSContext context created: 1EEC
+[10:50:42.930828] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 16 -- buffer, 36 bytes
+[10:51:12.700792] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0x50cec target:0x50cec
+[10:51:12.700818] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0x50cec target:0x50cec
+[10:51:12.781347] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x50cec focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:51:22.438874] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 1 -> 0 blockMouse:0 blockKeyboard:0 blockCursor:0 input:0x50cec target:0x50cec
+[10:51:22.438901] [I] OptiInput::EndCursorClipBlockLocked end cursor clip block hasDeferred:1 deferredNull:0 hasSaved:1 savedActive:1
+[10:51:30.374086] [I] StreamlineHooks::streamlineLogCallback [10-51-30][streamline][info][tid:19608][511s:051ms:267us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:30.376171] [I] StreamlineHooks::streamlineLogCallback [10-51-30][streamline][info][tid:19608][511s:053ms:357us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bd38bdbf70 - native factory 0x1bf2e1c1940 ref count 1
+[10:51:30.829828] [I] StreamlineHooks::streamlineLogCallback [10-51-30][streamline][info][tid:19608][511s:507ms:009us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:30.832496] [I] StreamlineHooks::streamlineLogCallback [10-51-30][streamline][info][tid:19608][511s:509ms:680us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1be9b5e29c0 - native factory 0x1bf2e1c2ca0 ref count 1
+[10:51:31.186013] [I] StreamlineHooks::streamlineLogCallback [10-51-31][streamline][info][tid:19608][511s:863ms:195us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:31.188042] [I] StreamlineHooks::streamlineLogCallback [10-51-31][streamline][info][tid:19608][511s:865ms:230us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bebb98c980 - native factory 0x1bf2e1c4ba0 ref count 1
+[10:51:32.137968] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:815ms:149us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:32.140738] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:817ms:923us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bd44c73c80 - native factory 0x1bf2e1c3080 ref count 1
+[10:51:32.142333] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:819ms:520us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:32.145244] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:822ms:428us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bd44c73b60 - native factory 0x1bf2e1c43e0 ref count 1
+[10:51:32.146761] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:823ms:947us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:32.151023] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:828ms:207us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bd44c73b60 - native factory 0x1bf2e1c4000 ref count 1
+[10:51:32.157254] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:834ms:435us]dxgiSwapchain.cpp:299[operator ()] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 1
+[10:51:32.158693] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:835ms:877us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:32.161198] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:838ms:381us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bd44c74ca0 - native factory 0x1bf2e1c3460 ref count 1
+[10:51:32.162455] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:839ms:638us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:32.165228] [I] StreamlineHooks::streamlineLogCallback [10-51-32][streamline][info][tid:19608][512s:842ms:414us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bd44c746d0 - native factory 0x1bf2e1c47c0 ref count 1
+[10:51:32.181941] [I] WrappedIDXGISwapChain4::SetColorSpace1 DLSS-NR: swapchain colour space 0 -- sRGB (SDR) (relative -- no scale to be had)
+[10:51:32.182005] [I] NVSDK_NGX_D3D12_ReleaseFeature releasing feature with id 1000003
+[10:51:32.188134] [I] ffxCreateContext_Dx12 Custom context index:7917
+[10:51:32.188163] [I] ffxCreateContext_Dx12 context created: 1EED
+[10:51:32.207198] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[10:51:32.268444] [I] CreateRenderTargetDx12 done!
+[10:51:37.848730] [I] StreamlineHooks::streamlineLogCallback [10-51-37][streamline][info][tid:19608][518s:525ms:912us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:37.850949] [I] StreamlineHooks::streamlineLogCallback [10-51-37][streamline][info][tid:19608][518s:528ms:134us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bef074e6f0 - native factory 0x1bf2e1c1d20 ref count 1
+[10:51:37.852361] [I] StreamlineHooks::streamlineLogCallback [10-51-37][streamline][info][tid:19608][518s:529ms:546us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:37.855116] [I] StreamlineHooks::streamlineLogCallback [10-51-37][streamline][info][tid:19608][518s:532ms:301us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bef074eb40 - native factory 0x1bf2e1c3840 ref count 1
+[10:51:37.897680] [I] StreamlineHooks::streamlineLogCallback [10-51-37][streamline][info][tid:19608][518s:574ms:858us]dxgiSwapchain.cpp:299[operator ()] Redirecting IDXGISwapChain::SetFullscreenState Fullscreen = 1
+[10:51:37.899198] [I] StreamlineHooks::streamlineLogCallback [10-51-37][streamline][info][tid:19608][518s:576ms:382us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:37.901420] [I] StreamlineHooks::streamlineLogCallback [10-51-37][streamline][info][tid:19608][518s:578ms:603us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bef074eba0 - native factory 0x1bf2e1c2100 ref count 1
+[10:51:37.902646] [I] StreamlineHooks::streamlineLogCallback [10-51-37][streamline][info][tid:19608][518s:579ms:828us]dxgi.cpp:306[CreateDXGIFactoryInternal] Using DXGI proxy interface
+[10:51:37.905467] [I] StreamlineHooks::streamlineLogCallback [10-51-37][streamline][info][tid:19608][518s:582ms:652us]dxgiFactory.cpp:221[Release] Destroyed DXGIFactory proxy 0x1bef074fce0 - native factory 0x1bf2e1c3c20 ref count 1
+[10:51:37.923436] [I] WrappedIDXGISwapChain4::SetColorSpace1 DLSS-NR: swapchain colour space 0 -- sRGB (SDR) (relative -- no scale to be had)
+[10:51:37.923506] [I] ffxCreateContext_Dx12 Custom context index:7918
+[10:51:37.923532] [I] ffxCreateContext_Dx12 context created: 1EEE
+[10:51:37.929779] [I] LibraryLoadHooks::LoadLibraryCheckW dxgi.dll call, returning this dll!
+[10:51:37.980513] [I] CreateRenderTargetDx12 done!
+[10:51:43.740206] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 1 -- buffer, 28 bytes
+[10:51:43.779329] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 2 -- buffer, 96 bytes
+[10:51:43.779368] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 3 -- buffer, 12 bytes
+[10:51:43.779387] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 4 -- buffer, 36 bytes
+[10:51:43.779398] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 5 -- buffer, 24 bytes
+[10:51:43.779407] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 6 -- buffer, 12 bytes
+[10:51:43.779416] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 7 -- buffer, 4 bytes
+[10:51:43.779425] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 8 -- buffer, 4 bytes
+[10:51:43.779433] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 9 -- buffer, 4 bytes
+[10:51:43.779442] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 10 -- buffer, 4 bytes
+[10:51:43.779449] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 11 -- buffer, 4 bytes
+[10:51:43.779457] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 12 -- buffer, 4 bytes
+[10:51:43.779481] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 13 -- buffer, 96 bytes
+[10:51:43.779500] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 14 -- buffer, 36 bytes
+[10:51:43.782808] [I] CreateDLSSContext renderWidth: 1920, maxWidth: 3840, ratio: 2
+[10:51:43.782837] [I] TryCreateOptiFeature Creating OptiScaler feature, HandleId: 1000004
+[10:51:43.782852] [I] TryCreateOptiFeature Creating FSR 3.X upscaler feature
+[10:51:43.782864] [I] IFeature::SetHandle Handle: 1000004
+[10:51:43.782874] [I] IFeature::SetInitParameters Init Flag AutoExposure: true
+[10:51:43.782883] [I] IFeature::SetInitParameters Init Flag DepthInverted: true
+[10:51:43.782890] [I] IFeature::SetInitParameters Init Flag IsHdr: false
+[10:51:43.782898] [I] IFeature::SetInitParameters Init Flag JitteredMV: false
+[10:51:43.782906] [I] IFeature::SetInitParameters Init Flag LowResMV: true
+[10:51:43.782914] [I] IFeature::SetInitParameters Init Flag SharpenEnabled: false
+[10:51:43.782925] [I] IFeature::SetInitParameters Render Resolution: 1920x1080, Display Resolution 3840x2160, Quality: 0
+[10:51:43.782935] [I] FFXFeatureDx12::FFXFeatureDx12 amd_fidelityfx_dx12.dll methods loaded!
+[10:51:43.782958] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:51:43.782995] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:51:43.783025] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:51:43.783052] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:51:43.783071] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:51:43.783086] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:51:43.783097] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:51:43.783117] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:51:43.783131] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:51:43.783145] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:51:43.783158] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:51:43.783171] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:51:43.783182] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtFfxApi queried, returning custom AmdExtFfxApi
+[10:51:43.783199] [I] UpdateFfxApiProviderEx for: Upscaling, result: 0x0
+[10:51:43.783219] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:51:43.783236] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:51:43.783335] [I] Amdxc64Hooks::hkAmdExtD3DCreateInterface IAmdExtD3DFactory queried, returning custom AmdExtD3DFactory
+[10:51:43.783356] [I] AmdExtD3DFactory::CreateInterface Custom IAmdExtD3DShaderIntrinsics queried, returning custom AmdExtD3DShaderIntrinsics
+[10:51:43.815623] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 15 -- 2x1 R32_FLOAT
+[10:51:43.823848] [I] CreateDLSSContext context created: 1EEE
+[10:51:43.925914] [I] StreamlineHooks::streamlineLogCallback [10-51-43][streamline][info][tid:20208][524s:603ms:088us]commonInterface.cpp:585[presentCommon] Total VRAM used: 10.64 GB
+[10:51:43.928222] [I] DlssNr::ExposureScan::Adopt DLSS-NR exposure scan: candidate 16 -- buffer, 36 bytes
+[10:51:43.988845] [I] StreamlineHooks::streamlineLogCallback [10-51-43][streamline][info][tid:11160][524s:666ms:023us]commonInterface.cpp:585[presentCommon] Total VRAM used: 10.64 GB
+[10:51:50.127490] [I] OptiInput::ApplyMenuVisibilityChangeLocked menu visibility changed 0 -> 1 blockMouse:1 blockKeyboard:1 blockCursor:1 input:0x50cec target:0x50cec
+[10:51:50.127514] [I] OptiInput::BeginCursorClipBlockLocked begin cursor clip block input:0x50cec target:0x50cec
+[10:51:50.250824] [W] OptiInput::LogInputHealthSnapshotLocked menu is visible but no window/queue/raw input was received this frame. input:0x50cec foreground:0x50cec focused:yes subclassed:yes. Check that InputHwnd is the real overlay/menu HWND and that its message pump runs.
+[10:51:57.057015] [E] LocalPresent Original present result: 887A0005
+[10:51:57.057030] [E] Util::GetDeviceRemovedReason Device removed reason: DXGI_ERROR_DEVICE_HUNG

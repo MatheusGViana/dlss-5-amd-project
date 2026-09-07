@@ -423,9 +423,11 @@ static void ImGui_ImplDX12_DestroyTexture(ImTextureData* tex)
 void ImGui_ImplDX12_UpdateTexture(ImTextureData* tex)
 {
     ImGui_ImplDX12_Data* bd = ImGui_ImplDX12_GetBackendData();
-    bool need_barrier_before_copy = true; // Do we need a resource barrier before we copy new data in?
+    if (!bd || !bd->pd3dDevice || FAILED(bd->pd3dDevice->GetDeviceRemovedReason()))
+        return;
+    bool need_barrier_before_copy = tex->Status != ImTextureStatus_WantCreate;
 
-    if (tex->Status == ImTextureStatus_WantCreate)
+    if (tex->Status == ImTextureStatus_WantCreate && tex->BackendUserData == nullptr)
     {
         // Create and upload new texture to graphics system
         //IMGUI_DEBUG_LOG("UpdateTexture #%03d: WantCreate %dx%d\n", tex->UniqueID, tex->Width, tex->Height);
@@ -454,8 +456,14 @@ void ImGui_ImplDX12_UpdateTexture(ImTextureData* tex)
         desc.Flags = D3D12_RESOURCE_FLAG_NONE;
 
         ID3D12Resource* pTexture = nullptr;
-        bd->pd3dDevice->CreateCommittedResource(&props, D3D12_HEAP_FLAG_NONE, &desc,
+        HRESULT create_hr = bd->pd3dDevice->CreateCommittedResource(&props, D3D12_HEAP_FLAG_NONE, &desc,
             D3D12_RESOURCE_STATE_COPY_DEST, nullptr, IID_PPV_ARGS(&pTexture));
+        if (FAILED(create_hr) || pTexture == nullptr)
+        {
+            bd->InitInfo.SrvDescriptorFreeFn(&bd->InitInfo, backend_tex->hFontSrvCpuDescHandle, backend_tex->hFontSrvGpuDescHandle);
+            IM_DELETE(backend_tex);
+            return;
+        }
 
         // Create SRV
         D3D12_SHADER_RESOURCE_VIEW_DESC srvDesc;
@@ -517,34 +525,55 @@ void ImGui_ImplDX12_UpdateTexture(ImTextureData* tex)
         props.MemoryPoolPreference = D3D12_MEMORY_POOL_UNKNOWN;
 
         // FIXME-OPT: Can upload buffer be reused?
-        ID3D12Resource* uploadBuffer = nullptr;
+        struct UploadCleanup
+        {
+            ID3D12Resource* buffer = nullptr;
+            ID3D12Fence* fence = nullptr;
+            ID3D12CommandAllocator* allocator = nullptr;
+            ID3D12GraphicsCommandList* list = nullptr;
+            HANDLE event = nullptr;
+            bool in_flight = false;
+            ~UploadCleanup()
+            {
+                // A failed signal/wait does not prove the GPU stopped using these
+                // objects. Retain them on that fatal path rather than freeing live resources.
+                if (in_flight) return;
+                SafeRelease(list);
+                SafeRelease(allocator);
+                SafeRelease(fence);
+                SafeRelease(buffer);
+                if (event) ::CloseHandle(event);
+            }
+        } cleanup;
+        auto& uploadBuffer = cleanup.buffer;
         HRESULT hr = bd->pd3dDevice->CreateCommittedResource(&props, D3D12_HEAP_FLAG_NONE, &desc,
             D3D12_RESOURCE_STATE_GENERIC_READ, nullptr, IID_PPV_ARGS(&uploadBuffer));
-        IM_ASSERT(SUCCEEDED(hr));
+        if (FAILED(hr) || uploadBuffer == nullptr) return;
 
         // Create temporary command list and execute immediately
-        ID3D12Fence* fence = nullptr;
+        auto& fence = cleanup.fence;
         hr = bd->pd3dDevice->CreateFence(0, D3D12_FENCE_FLAG_NONE, IID_PPV_ARGS(&fence));
-        IM_ASSERT(SUCCEEDED(hr));
+        if (FAILED(hr) || fence == nullptr) return;
 
-        HANDLE event = ::CreateEvent(0, 0, 0, 0);
-        IM_ASSERT(event != nullptr);
+        auto& event = cleanup.event;
+        event = ::CreateEvent(0, 0, 0, 0);
+        if (event == nullptr) return;
 
         // FIXME-OPT: Create once and reuse?
-        ID3D12CommandAllocator* cmdAlloc = nullptr;
+        auto& cmdAlloc = cleanup.allocator;
         hr = bd->pd3dDevice->CreateCommandAllocator(D3D12_COMMAND_LIST_TYPE_DIRECT, IID_PPV_ARGS(&cmdAlloc));
-        IM_ASSERT(SUCCEEDED(hr));
+        if (FAILED(hr) || cmdAlloc == nullptr) return;
 
         // FIXME-OPT: Can be use the one from user? (pass ID3D12GraphicsCommandList* to ImGui_ImplDX12_UpdateTextures)
-        ID3D12GraphicsCommandList* cmdList = nullptr;
+        auto& cmdList = cleanup.list;
         hr = bd->pd3dDevice->CreateCommandList(0, D3D12_COMMAND_LIST_TYPE_DIRECT, cmdAlloc, nullptr, IID_PPV_ARGS(&cmdList));
-        IM_ASSERT(SUCCEEDED(hr));
+        if (FAILED(hr) || cmdList == nullptr) return;
 
         // Copy to upload buffer
         void* mapped = nullptr;
         D3D12_RANGE range = { 0, upload_size };
         hr = uploadBuffer->Map(0, &range, &mapped);
-        IM_ASSERT(SUCCEEDED(hr));
+        if (FAILED(hr) || mapped == nullptr) return;
         for (int y = 0; y < upload_h; y++)
             memcpy((void*)((uintptr_t)mapped + y * upload_pitch_dst), tex->GetPixelsAt(upload_x, upload_y + y), upload_pitch_src);
         uploadBuffer->Unmap(0, &range);
@@ -589,25 +618,23 @@ void ImGui_ImplDX12_UpdateTexture(ImTextureData* tex)
         }
 
         hr = cmdList->Close();
-        IM_ASSERT(SUCCEEDED(hr));
+        if (FAILED(hr)) return;
 
         ID3D12CommandQueue* cmdQueue = bd->pCommandQueue;
+        if (!cmdQueue) return;
+        cleanup.in_flight = true;
         cmdQueue->ExecuteCommandLists(1, (ID3D12CommandList* const*)&cmdList);
         hr = cmdQueue->Signal(fence, 1);
-        IM_ASSERT(SUCCEEDED(hr));
+        if (FAILED(hr)) return;
 
         // FIXME-OPT: Suboptimal?
         // - To remove this may need to create NumFramesInFlight x ImGui_ImplDX12_FrameContext in backend data (mimick docking version)
         // - Store per-frame in flight: upload buffer?
         // - Where do cmdList and cmdAlloc fit?
-        fence->SetEventOnCompletion(1, event);
-        ::WaitForSingleObject(event, INFINITE);
-
-        cmdList->Release();
-        cmdAlloc->Release();
-        ::CloseHandle(event);
-        fence->Release();
-        uploadBuffer->Release();
+        if (FAILED(fence->SetEventOnCompletion(1, event))) return;
+        if (::WaitForSingleObject(event, 5000) != WAIT_OBJECT_0) return;
+        if (FAILED(bd->pd3dDevice->GetDeviceRemovedReason())) return;
+        cleanup.in_flight = false;
         tex->SetStatus(ImTextureStatus_OK);
     }
 

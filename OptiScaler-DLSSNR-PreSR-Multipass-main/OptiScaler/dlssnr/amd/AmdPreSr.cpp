@@ -138,13 +138,20 @@ struct Backend::Impl
     ComPtr<ID3D12PipelineState> depthPipeline;
     std::array<HMODULE, 3> runtime {};
     std::array<UINT, 3> jobs {};
+    std::array<UINT, 3> observedTimeouts {};
     std::filesystem::path directory;
     std::string status = "AMD pre-SR: not initialized";
     std::atomic<ID3D12CommandList*> pending { nullptr };
     std::atomic<bool> failed { false };
+    std::atomic<bool> resetRequested { true };
+    Settings lastSettings {};
+    bool haveSettings = false;
     std::atomic<UINT64> completion { 0 };
     UINT64 frames = 0, serial = 0;
     UINT64 lastSubmitted = 0;
+    UINT64 retryAfter = 0, timeoutEvents = 0;
+    bool resetAfterTimeout = false;
+    bool firstPublished = false;
     UINT width = 0, height = 0, activePasses = 0, lastPasses = 0;
     HipSetFn hipSet = nullptr;
     int hipDevice = -1;
@@ -287,7 +294,37 @@ ID3D12Resource* Backend::Record(ID3D12GraphicsCommandList* cmd, const Frame& f, 
     std::lock_guard guard(p->lock);
     if (p->failed || !cmd || !f.colour || !f.motion || !f.depth)
         return nullptr;
+    const auto deviceStatus = p->device->GetDeviceRemovedReason();
+    if (FAILED(deviceStatus))
+    {
+        p->failed = true;
+        p->Log("AMD stopped: D3D12 device lost, HRESULT=" + std::to_string(static_cast<UINT>(deviceStatus)));
+        return nullptr;
+    }
     if (p->pending.load() || p->fence->GetCompletedValue() < p->completion.load())
+        return nullptr;
+    bool timedOut = false;
+    for (UINT i = 0; i < p->runtime.size(); ++i)
+        if (auto h = p->runtime[i])
+        {
+            UINT count = static_cast<UINT>(
+                InterlockedCompareExchange(reinterpret_cast<volatile LONG*>(&At<UINT>(h, 0x76c18)), 0, 0));
+            if (count > p->observedTimeouts[i])
+            {
+                p->timeoutEvents += count - p->observedTimeouts[i];
+                timedOut = true;
+            }
+            // The native count resets when staging is recreated.
+            p->observedTimeouts[i] = count;
+        }
+    if (timedOut)
+    {
+        p->retryAfter = GetTickCount64() + 1000;
+        p->resetAfterTimeout = true;
+        p->Log("AMD timeout: current input preserved; retry in 1s with fresh history. Events=" +
+               std::to_string(p->timeoutEvents));
+    }
+    if (GetTickCount64() < p->retryAfter)
         return nullptr;
     try
     {
@@ -459,13 +496,17 @@ ID3D12Resource* Backend::Record(ID3D12GraphicsCommandList* cmd, const Frame& f, 
         else
             copyGuide(f.depth, depth);
         UINT accepted = 0;
+        const bool settingsChanged = !p->haveSettings || cfg.tone != p->lastSettings.tone ||
+                                     cfg.structure != p->lastSettings.structure || cfg.skin != p->lastSettings.skin;
+        const bool explicitReset = p->resetRequested.exchange(false);
+        const bool gap = p->lastSubmitted && GetTickCount64() - p->lastSubmitted > 250;
         for (UINT i = 0; i < p->activePasses; ++i)
         {
             auto r = p->runtime[i];
             At<uint8_t>(r, 0x76e1d) = 1;
             // Engine +0x120 is the history-valid flag, +0x118 is the current
             // borrowed history view. Clear only at a quiescent frame boundary.
-            if (f.reset || resize || passChange)
+            if (f.reset || resize || passChange || p->resetAfterTimeout || settingsChanged || explicitReset || gap)
             {
                 At<uint8_t>(r, 0x765f8) = 0;
                 At<void*>(r, 0x765f0) = nullptr;
@@ -487,16 +528,33 @@ ID3D12Resource* Backend::Record(ID3D12GraphicsCommandList* cmd, const Frame& f, 
             packet.exposureState = 4;
             packet.scaleX = f.motionScaleX;
             packet.scaleY = f.motionScaleY;
-            UINT before = At<UINT>(r, 0x76d74);
             reinterpret_cast<RecordFn>(reinterpret_cast<uintptr_t>(r) + 0xa0b0)(&packet);
             p->jobs[i] = At<UINT>(r, 0x76d74);
-            if (At<uint8_t>(r, 0x767fa) || p->jobs[i] == before)
+            // Staging recreation resets the native job counter. After a resize,
+            // job 1 can follow job 1, so counter equality does not mean rejection.
+            // The native pending-list pointer is the actual submission contract.
+            const bool recorded = At<ID3D12CommandList*>(r, 0x76d68) == cmd;
+            if (recorded)
+            {
+                // Recreated staging restarts job IDs, but the mapped watchdog
+                // abort word can retain a larger ID from the preceding extent.
+                // At this point the preceding GPU fence and HIP job have retired,
+                // and this list has not been submitted. Clear the obsolete abort
+                // token; the watchdog remains active once Notify publishes this job.
+                if (auto abortWord = At<volatile LONG*>(r, 0x76c68))
+                    InterlockedExchange(abortWord, 0);
+                ++accepted;
+            }
+            if (At<uint8_t>(r, 0x767fa) || !recorded)
             {
                 p->failed = true;
-                p->Log("AMD pass rejected frame: " + std::to_string(i + 1));
+                p->Log("AMD pass rejected frame: " + std::to_string(i + 1) + " job=" + std::to_string(p->jobs[i]) +
+                       " pending=" + std::to_string(recorded) +
+                       " nativeFailure=" + std::to_string(At<uint8_t>(r, 0x767fa)));
+                // Even on failure, any recorded work must be published after
+                // submission so its GPU-side wait is not left without a worker.
                 break;
             }
-            ++accepted;
         }
         Barrier(cmd, f.motion, D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE, f.motionState);
         Barrier(cmd, f.depth, D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE, f.depthState);
@@ -505,10 +563,14 @@ ID3D12Resource* Backend::Record(ID3D12GraphicsCommandList* cmd, const Frame& f, 
         if (accepted)
         {
             ++p->frames;
+            p->firstPublished = false;
             p->pending.store(cmd, std::memory_order_release);
         }
         if (p->failed)
             return nullptr;
+        p->resetAfterTimeout = false;
+        p->lastSettings = cfg;
+        p->haveSettings = true;
         if (p->frames <= 3 || resize)
             p->Log("Recorded pre-SR " + std::to_string(w) + "x" + std::to_string(h) +
                    " passes=" + std::to_string(p->activePasses));
@@ -521,7 +583,7 @@ ID3D12Resource* Backend::Record(ID3D12GraphicsCommandList* cmd, const Frame& f, 
         return nullptr;
     }
 }
-void Backend::Submitted(ID3D12CommandQueue* queue, UINT n, ID3D12CommandList* const* lists)
+void Backend::Submitting(ID3D12CommandQueue* queue, UINT n, ID3D12CommandList* const* lists)
 {
     auto pending = p->pending.load(std::memory_order_acquire);
     if (!pending || !queue)
@@ -532,7 +594,7 @@ void Backend::Submitted(ID3D12CommandQueue* queue, UINT n, ID3D12CommandList* co
     if (!found)
         return;
     std::lock_guard guard(p->lock);
-    if (p->pending.load() != pending)
+    if (p->pending.load() != pending || p->firstPublished)
         return;
     // Match the recorded list, not the swapchain's presentation queue. FG can
     // replace the latter, and the renderer may also migrate between queues.
@@ -552,10 +614,35 @@ void Backend::Submitted(ID3D12CommandQueue* queue, UINT n, ID3D12CommandList* co
         p->queue = queue;
         p->Log("Render submission queue changed; AMD pre-SR remains enabled");
     }
+    // Notify is patched not to execute the list. It merely wakes the HIP worker,
+    // which waits for capture on the GPU. Do not wait on the submitting thread.
+    if (p->activePasses)
+    {
+        auto h = p->runtime[0];
+        reinterpret_cast<NotifyFn>(reinterpret_cast<uintptr_t>(h) + 0x4640)(queue, n, lists);
+        p->firstPublished = true;
+    }
+}
+void Backend::Submitted(ID3D12CommandQueue* queue, UINT n, ID3D12CommandList* const* lists)
+{
+    // Fallback for callers using the original post-submit API.
+    Submitting(queue, n, lists);
+    auto pending = p->pending.load(std::memory_order_acquire);
+    if (!pending || !queue)
+        return;
+    bool found = false;
+    for (UINT i = 0; i < n; ++i)
+        found |= lists[i] == pending;
+    if (!found)
+        return;
+    std::lock_guard guard(p->lock);
+    if (p->pending.load() != pending)
+        return;
     for (UINT i = 0; i < p->activePasses; ++i)
     {
         auto h = p->runtime[i];
-        reinterpret_cast<NotifyFn>(reinterpret_cast<uintptr_t>(h) + 0x4640)(queue, n, lists);
+        if (i != 0 || !p->firstPublished)
+            reinterpret_cast<NotifyFn>(reinterpret_cast<uintptr_t>(h) + 0x4640)(queue, n, lists);
         // All runtimes use HIP stream 0. Publish the next pass only once the previous
         // worker finished; otherwise its capture-wait kernel could block the first pass.
         auto start = GetTickCount64();
@@ -580,19 +667,27 @@ void Backend::Submitted(ID3D12CommandQueue* queue, UINT n, ID3D12CommandList* co
     p->completion.store(value);
     p->pending.store(nullptr, std::memory_order_release);
     p->lastSubmitted = GetTickCount64();
-    if (!p->failed && (p->frames <= 3 || p->frames % 120 == 0))
-        p->Log("Completed AMD pre-SR passes=" + std::to_string(p->activePasses) + " at " + std::to_string(p->width) +
-               "x" + std::to_string(p->height));
+    if (!p->failed)
+    {
+        auto completed = "Completed AMD pre-SR passes=" + std::to_string(p->activePasses) + " at " +
+                         std::to_string(p->width) + "x" + std::to_string(p->height);
+        if (p->frames <= 3 || p->frames % 120 == 0)
+            p->Log(completed);
+        else
+            p->status = completed;
+    }
 }
 std::string Backend::Status() const
 {
     std::lock_guard guard(p->lock);
     if (!p->failed && p->lastSubmitted)
         return p->status + " | completed frames=" + std::to_string(p->frames) + " last completion " +
-               std::to_string((GetTickCount64() - p->lastSubmitted) / 1000) + "s ago";
+               std::to_string((GetTickCount64() - p->lastSubmitted) / 1000) +
+               "s ago | timeout events=" + std::to_string(p->timeoutEvents);
     return p->status;
 }
 UINT64 Backend::RecordedFrames() const { return p->frames; }
+void Backend::InvalidateHistory() { p->resetRequested.store(true); }
 bool Backend::Shutdown()
 {
     std::lock_guard guard(p->lock);

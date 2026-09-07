@@ -1,11 +1,11 @@
 param([string]$GameDir=$PSScriptRoot)
 $ErrorActionPreference='Stop'
 $game=(Resolve-Path -LiteralPath $GameDir).Path
-Write-Output 'OptiScaler AMD Pre-SR v1.2 - diagnostico somente leitura'
+Write-Output 'OptiScaler AMD Pre-SR v1.6 - diagnostico somente leitura'
 Write-Output ('Data: '+(Get-Date -Format o))
 Write-Output ('Pasta: '+$game)
 Get-CimInstance Win32_VideoController | Select-Object Name,DriverVersion,Status | Format-List
-foreach($name in @('dxgi.dll','OptiScaler.dll','version.dll','dlssnr_amd_pass1.dll','dlssnr_amd_pass2.dll','dlssnr_amd_pass3.dll','dlssnr_on_amd_weights.bin')) {
+foreach($name in @('dxgi.dll','winmm.dll','OptiScaler.dll','version.dll','dlssnr_amd_pass1.dll','dlssnr_amd_pass2.dll','dlssnr_amd_pass3.dll','dlssnr_on_amd_weights.bin')) {
     $file=Join-Path $game $name
     if(Test-Path -LiteralPath $file -PathType Leaf) {
         $item=Get-Item -LiteralPath $file

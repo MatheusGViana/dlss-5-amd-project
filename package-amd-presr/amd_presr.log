@@ -173,3 +173,312 @@
 39639062 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
 39639093 Recorded pre-SR 160x160 passes=1
 39639156 Workers stopped outside loader lock
+5515421 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5515421 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+5515437 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+5515453 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+5515453 HIP adapter: AMD Radeon RX 9060 XT
+5516906 Initialized independent AMD pass 1
+5516953 Recorded pre-SR 256x256 passes=1
+5516968 Completed AMD pre-SR passes=1 at 256x256
+5516968 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5516968 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+5517000 AMD pass rejected frame: 1
+5567796 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5567796 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+5567796 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+5567812 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+5567812 HIP adapter: AMD Radeon RX 9060 XT
+5569156 Initialized independent AMD pass 1
+5569218 Recorded pre-SR 256x256 passes=1
+5569218 Completed AMD pre-SR passes=1 at 256x256
+5569218 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5569218 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+5569250 Recorded pre-SR 128x128 passes=1
+5569265 Completed AMD pre-SR passes=1 at 128x128
+5569265 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5569265 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+5569296 Recorded pre-SR 256x256 passes=1
+5569312 Completed AMD pre-SR passes=1 at 256x256
+5569312 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5569312 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+5569343 Recorded pre-SR 128x128 passes=1
+5569343 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5569343 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+5569375 Recorded pre-SR 256x256 passes=1
+5569390 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5569390 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+5569421 Recorded pre-SR 128x128 passes=1
+5569421 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5569421 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+5569468 Recorded pre-SR 256x256 passes=1
+5569468 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5569468 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+5569500 Recorded pre-SR 128x128 passes=1
+5569531 Workers stopped outside loader lock
+5587609 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5587609 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+5587609 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+5587625 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+5587625 HIP adapter: AMD Radeon RX 9060 XT
+5588968 Initialized independent AMD pass 1
+5589921 Initialized independent AMD pass 2
+5590781 Initialized independent AMD pass 3
+5590890 Recorded pre-SR 256x256 passes=3
+5590890 Render submission queue changed; AMD pre-SR remains enabled
+5590906 Completed AMD pre-SR passes=3 at 256x256
+5590921 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5590921 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+5590984 Recorded pre-SR 128x128 passes=3
+5591015 Completed AMD pre-SR passes=3 at 128x128
+5591015 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5591015 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+5591093 Recorded pre-SR 256x256 passes=3
+5591093 Render submission queue changed; AMD pre-SR remains enabled
+5591109 Completed AMD pre-SR passes=3 at 256x256
+5591109 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5591109 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+5591187 Recorded pre-SR 128x128 passes=3
+5591218 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5591218 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+5591296 Recorded pre-SR 256x256 passes=3
+5591296 Render submission queue changed; AMD pre-SR remains enabled
+5591328 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5591328 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+5591406 Recorded pre-SR 128x128 passes=3
+5591437 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5591437 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+5591515 Recorded pre-SR 256x256 passes=3
+5591531 Render submission queue changed; AMD pre-SR remains enabled
+5591546 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+5591546 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+5591640 Recorded pre-SR 128x128 passes=3
+5591687 Workers stopped outside loader lock
+6870046 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+6870046 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+6870062 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+6870078 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+6870078 HIP adapter: AMD Radeon RX 9060 XT
+6871562 Initialized independent AMD pass 1
+6871640 Recorded pre-SR 192x192 passes=1
+6871656 Completed AMD pre-SR passes=1 at 192x192
+6871656 Recorded pre-SR 192x192 passes=1
+6871671 Completed AMD pre-SR passes=1 at 192x192
+6871671 Recorded pre-SR 192x192 passes=1
+6871781 Completed AMD pre-SR passes=1 at 192x192
+6871781 AMD timeout: current input preserved; retry in 1s with fresh history. Events=1
+6872906 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+6872906 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+6872937 Recorded pre-SR 160x160 passes=1
+6872968 AMD timeout: current input preserved; retry in 1s with fresh history. Events=2
+6874078 AMD timeout: current input preserved; retry in 1s with fresh history. Events=3
+6875203 Workers stopped outside loader lock
+6959531 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+6959531 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+6959531 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+6959546 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+6959546 HIP adapter: AMD Radeon RX 9060 XT
+6960906 Initialized independent AMD pass 1
+6960953 Recorded pre-SR 192x192 passes=1
+6960984 Completed AMD pre-SR passes=1 at 192x192
+6960984 Recorded pre-SR 192x192 passes=1
+6960984 Completed AMD pre-SR passes=1 at 192x192
+6961000 Recorded pre-SR 192x192 passes=1
+6961109 Completed AMD pre-SR passes=1 at 192x192
+6961109 AMD timeout: current input preserved; retry in 1s with fresh history. Events=1
+6962218 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+6962218 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+6962250 Recorded pre-SR 160x160 passes=1
+6962312 Workers stopped outside loader lock
+6988218 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+6988218 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+6988218 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+6988234 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+6988234 HIP adapter: AMD Radeon RX 9060 XT
+6989562 Initialized independent AMD pass 1
+6990734 Initialized independent AMD pass 2
+6992062 Initialized independent AMD pass 3
+6992171 Recorded pre-SR 192x192 passes=3
+6992171 Render submission queue changed; AMD pre-SR remains enabled
+6992218 Completed AMD pre-SR passes=3 at 192x192
+6992218 Recorded pre-SR 192x192 passes=3
+6992250 Completed AMD pre-SR passes=3 at 192x192
+6992250 Recorded pre-SR 192x192 passes=3
+6992359 Render submission queue changed; AMD pre-SR remains enabled
+6992390 Completed AMD pre-SR passes=3 at 192x192
+6992390 AMD timeout: current input preserved; retry in 1s with fresh history. Events=3
+6993531 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+6993531 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+6993609 Recorded pre-SR 160x160 passes=3
+6993609 Render submission queue changed; AMD pre-SR remains enabled
+6993671 Render submission queue changed; AMD pre-SR remains enabled
+6993765 Workers stopped outside loader lock
+7097640 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7097640 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7097640 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+7097656 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+7097656 HIP adapter: AMD Radeon RX 9060 XT
+7099093 Initialized independent AMD pass 1
+7100250 Initialized independent AMD pass 2
+7101125 Initialized independent AMD pass 3
+7101218 Recorded pre-SR 256x256 passes=3
+7101218 Render submission queue changed; AMD pre-SR remains enabled
+7101265 Completed AMD pre-SR passes=3 at 256x256
+7101265 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7101265 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7101359 Recorded pre-SR 128x128 passes=3
+7101375 Completed AMD pre-SR passes=3 at 128x128
+7101390 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7101390 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7101484 Recorded pre-SR 256x256 passes=3
+7101484 Render submission queue changed; AMD pre-SR remains enabled
+7101515 Completed AMD pre-SR passes=3 at 256x256
+7101515 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7101515 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7101609 Recorded pre-SR 128x128 passes=3
+7101640 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7101640 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7101718 Recorded pre-SR 256x256 passes=3
+7101718 Render submission queue changed; AMD pre-SR remains enabled
+7101750 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7101750 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7101843 Recorded pre-SR 128x128 passes=3
+7101875 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7101875 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7101968 Recorded pre-SR 256x256 passes=3
+7101968 Render submission queue changed; AMD pre-SR remains enabled
+7102000 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7102000 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7102093 Recorded pre-SR 128x128 passes=3
+7102156 Workers stopped outside loader lock
+7606140 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7606140 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7606140 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+7606171 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+7606171 HIP adapter: AMD Radeon RX 9060 XT
+7607687 Initialized independent AMD pass 1
+7608828 Initialized independent AMD pass 2
+7610078 Initialized independent AMD pass 3
+7610250 Recorded pre-SR 256x256 passes=3
+7610250 Render submission queue changed; AMD pre-SR remains enabled
+7610281 Completed AMD pre-SR passes=3 at 256x256
+7610281 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7610281 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7610375 Recorded pre-SR 128x128 passes=3
+7610406 Completed AMD pre-SR passes=3 at 128x128
+7610406 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7610406 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7610500 Recorded pre-SR 256x256 passes=3
+7610500 Render submission queue changed; AMD pre-SR remains enabled
+7610531 Completed AMD pre-SR passes=3 at 256x256
+7610531 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7610531 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7610640 Recorded pre-SR 128x128 passes=3
+7610671 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7610671 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7610765 Recorded pre-SR 256x256 passes=3
+7610765 Render submission queue changed; AMD pre-SR remains enabled
+7610796 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7610796 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7610890 Recorded pre-SR 128x128 passes=3
+7610921 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7610921 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7611046 Recorded pre-SR 256x256 passes=3
+7611046 Render submission queue changed; AMD pre-SR remains enabled
+7611078 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+7611078 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+7611171 Recorded pre-SR 128x128 passes=3
+7611218 Workers stopped outside loader lock
+12198250 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+12198250 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+12198250 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+12198343 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+12198343 HIP adapter: AMD Radeon RX 9060 XT
+12199937 Initialized independent AMD pass 1
+12200000 Recorded pre-SR 192x192 passes=1
+12200015 Completed AMD pre-SR passes=1 at 192x192
+12200031 Recorded pre-SR 192x192 passes=1
+12200031 Completed AMD pre-SR passes=1 at 192x192
+12200031 Recorded pre-SR 192x192 passes=1
+12200109 Completed AMD pre-SR passes=1 at 192x192
+12200109 AMD timeout: current input preserved; retry in 1s with fresh history. Events=1
+12201218 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+12201218 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+12201265 Recorded pre-SR 160x160 passes=1
+12201312 Workers stopped outside loader lock
+12295328 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+12295328 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+12295328 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+12295343 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+12295343 HIP adapter: AMD Radeon RX 9060 XT
+12296656 Initialized independent AMD pass 1
+12296703 Recorded pre-SR 256x256 passes=1
+12296703 Render submission queue changed; AMD pre-SR remains enabled
+12296718 Completed AMD pre-SR passes=1 at 256x256
+12296734 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+12296734 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+12297781 Initialized independent AMD pass 2
+12297859 Recorded pre-SR 128x128 passes=2
+12297890 Completed AMD pre-SR passes=2 at 128x128
+12297890 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+12297890 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+12298984 Initialized independent AMD pass 3
+12299078 Recorded pre-SR 256x256 passes=3
+12299078 Render submission queue changed; AMD pre-SR remains enabled
+12299125 Completed AMD pre-SR passes=3 at 256x256
+12299125 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+12299125 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+12299156 Recorded pre-SR 128x128 passes=1
+12299171 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+12299171 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+12299203 Recorded pre-SR 256x256 passes=2
+12299203 Render submission queue changed; AMD pre-SR remains enabled
+12299218 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+12299218 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+12299312 Recorded pre-SR 128x128 passes=3
+12299343 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+12299343 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+12299375 Recorded pre-SR 256x256 passes=1
+12299375 Render submission queue changed; AMD pre-SR remains enabled
+12299375 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+12299390 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+12299406 Recorded pre-SR 128x128 passes=2
+12299453 Workers stopped outside loader lock
+13408125 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+13408125 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+13408140 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+13408203 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+13408203 HIP adapter: AMD Radeon RX 9060 XT
+13409406 Initialized independent AMD pass 1
+13409453 Recorded pre-SR 256x256 passes=1
+13409453 Render submission queue changed; AMD pre-SR remains enabled
+13409468 Completed AMD pre-SR passes=1 at 256x256
+13409468 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+13409468 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+13410515 Initialized independent AMD pass 2
+13410593 Recorded pre-SR 128x128 passes=2
+13410609 Completed AMD pre-SR passes=2 at 128x128
+13410609 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+13410609 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+13411890 Initialized independent AMD pass 3
+13412000 Recorded pre-SR 256x256 passes=3
+13412000 Render submission queue changed; AMD pre-SR remains enabled
+13412031 Completed AMD pre-SR passes=3 at 256x256
+13412031 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+13412031 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+13412062 Recorded pre-SR 128x128 passes=1
+13412078 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+13412078 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+13412109 Recorded pre-SR 256x256 passes=2
+13412109 Render submission queue changed; AMD pre-SR remains enabled
+13412125 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+13412125 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+13412203 Recorded pre-SR 128x128 passes=3
+13412234 Input active=256x256 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+13412234 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+13412265 Recorded pre-SR 256x256 passes=1
+13412265 Render submission queue changed; AMD pre-SR remains enabled
+13412281 Input active=128x128 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+13412281 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+13412312 Recorded pre-SR 128x128 passes=2
+13412343 Workers stopped outside loader lock

@@ -1,0 +1,4 @@
+Normal texture upload and destruction passed
+RemoveDevice returned, reason=887a0005
+Lost-device update returned, status=2
+Removed-device texture update skipped without dereferencing a failed allocation

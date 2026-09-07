@@ -1,4 +1,4 @@
-param([string]$PackageName='OptiScaler-AMD-PreSR-Multipass-v1.2')
+param([string]$PackageName='OptiScaler-AMD-PreSR-Multipass-v1.6')
 $ErrorActionPreference='Stop'
 $source=Join-Path $PSScriptRoot 'OptiScaler-DLSSNR-PreSR-Multipass-main'
 $stage=Join-Path $PSScriptRoot $PackageName

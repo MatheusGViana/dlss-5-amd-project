@@ -31,9 +31,12 @@ class Backend
     Backend(ID3D12Device*, ID3D12CommandQueue*, const std::filesystem::path& directory);
     // Records pre-SR work. Returns a FP16 input for the upscaler, or nullptr on skip/failure.
     ID3D12Resource* Record(ID3D12GraphicsCommandList*, const Frame&, const Settings&);
+    // Publish the first worker without waiting, immediately BEFORE queue submission.
+    void Submitting(ID3D12CommandQueue*, UINT, ID3D12CommandList* const*);
     // Must run immediately AFTER real queue submission, including non-upscale lists.
     void Submitted(ID3D12CommandQueue*, UINT, ID3D12CommandList* const*);
     bool Shutdown(); // call before loader-lock teardown, after all submissions
+    void InvalidateHistory(); // applied at the next safe recording boundary
     std::string Status() const;
     UINT64 RecordedFrames() const;
 };

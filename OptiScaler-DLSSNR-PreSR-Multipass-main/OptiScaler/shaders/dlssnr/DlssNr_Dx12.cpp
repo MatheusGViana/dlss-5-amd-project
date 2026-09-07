@@ -2954,6 +2954,7 @@ void EvaluateInternal(ID3D12GraphicsCommandList* cmdList, NVSDK_NGX_Parameter* p
 
     if (!cfg.DlssNrEnabled.value_or_default())
     {
+        DlssNr::AmdBridge::InvalidateHistory();
         ReportSkipOnce("it is switched off");
         return;
     }
@@ -2969,7 +2970,11 @@ void EvaluateInternal(ID3D12GraphicsCommandList* cmdList, NVSDK_NGX_Parameter* p
     if (DlssNr::AmdBridge::HasFiles())
     {
         if (!beforeUpscale || !cfg.DlssNrRunBeforeSr.value_or_default() || forcePost)
+        {
+            if (!cfg.DlssNrRunBeforeSr.value_or_default())
+                DlssNr::AmdBridge::InvalidateHistory();
             return;
+        }
         if (DlssNr::AmdBridge::Before(cmdList, params, timingQueue))
             return;
     }

@@ -6,6 +6,7 @@
 #include <detours/detours.h>
 #include <atomic>
 #include <mutex>
+#include <unordered_set>
 
 namespace DlssNr::AmdBridge
 {
@@ -19,6 +20,8 @@ ExitFn exitOriginal = nullptr;
 std::string message = "AMD pre-SR: waiting for a DirectX 12 SR frame";
 std::mutex messageMutex;
 std::mutex initMutex;
+std::mutex observedMutex;
+std::unordered_set<ID3D12CommandList*> observedLists;
 void Message(const char* s)
 {
     std::lock_guard l(messageMutex);
@@ -28,7 +31,16 @@ thread_local NVSDK_NGX_Parameter* replacedParams = nullptr;
 thread_local ID3D12Resource* originalColour = nullptr;
 void STDMETHODCALLTYPE Execute(ID3D12CommandQueue* q, UINT n, ID3D12CommandList* const* c)
 {
+    if (auto b = backend.load())
+        b->Submitting(q, n, c);
     executeOriginal(q, n, c);
+    {
+        std::lock_guard guard(observedMutex);
+        if (observedLists.size() > 256)
+            observedLists.clear();
+        for (UINT i = 0; i < n; ++i)
+            observedLists.insert(c[i]);
+    }
     if (auto b = backend.load())
         b->Submitted(q, n, c);
 }
@@ -66,8 +78,12 @@ bool IsAmd(ID3D12Device* d)
 } // namespace
 bool HasFiles()
 {
-    std::error_code ec;
-    return std::filesystem::exists(Directory() / L"dlssnr_amd_pass1.dll", ec);
+    static const bool present = []
+    {
+        std::error_code ec;
+        return std::filesystem::exists(Directory() / L"dlssnr_amd_pass1.dll", ec);
+    }();
+    return present;
 }
 bool Before(ID3D12GraphicsCommandList* cmd, NVSDK_NGX_Parameter* params, ID3D12CommandQueue* q)
 {
@@ -76,7 +92,15 @@ bool Before(ID3D12GraphicsCommandList* cmd, NVSDK_NGX_Parameter* params, ID3D12C
     ID3D12Device* device = nullptr;
     if (!cmd || !params || FAILED(cmd->GetDevice(IID_PPV_ARGS(&device))))
         return true;
-    const bool amd = IsAmd(device);
+    thread_local LUID checkedAdapter {};
+    thread_local bool checked = false, amd = false;
+    const auto adapter = device->GetAdapterLuid();
+    if (!checked || adapter.HighPart != checkedAdapter.HighPart || adapter.LowPart != checkedAdapter.LowPart)
+    {
+        amd = IsAmd(device);
+        checkedAdapter = adapter;
+        checked = true;
+    }
     if (!amd)
     {
         device->Release();
@@ -126,6 +150,14 @@ bool Before(ID3D12GraphicsCommandList* cmd, NVSDK_NGX_Parameter* params, ID3D12C
         backend.store(b);
     }
     device->Release();
+    {
+        std::lock_guard guard(observedMutex);
+        if (!observedLists.contains(cmd))
+        {
+            Message("AMD pre-SR: waiting to observe SR list submission; current frame bypassed");
+            return true;
+        }
+    }
     Message("");
     // The swapchain's present queue can change when FG is enabled. It is
     // only a bootstrap hint; Submitted identifies the queue executing our list.
@@ -188,6 +220,11 @@ void Restore(NVSDK_NGX_Parameter* params)
         replacedParams = nullptr;
         originalColour = nullptr;
     }
+}
+void InvalidateHistory()
+{
+    if (auto b = backend.load())
+        b->InvalidateHistory();
 }
 std::string Status()
 {
