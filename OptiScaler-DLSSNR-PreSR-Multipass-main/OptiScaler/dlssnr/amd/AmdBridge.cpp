@@ -19,7 +19,6 @@ ExitFn exitOriginal = nullptr;
 std::string message = "AMD pre-SR: waiting for a DirectX 12 SR frame";
 std::mutex messageMutex;
 std::mutex initMutex;
-ID3D12CommandQueue* installedQueue = nullptr;
 void Message(const char* s)
 {
     std::lock_guard l(messageMutex);
@@ -96,6 +95,15 @@ bool Before(ID3D12GraphicsCommandList* cmd, NVSDK_NGX_Parameter* params, ID3D12C
     if (!b)
     {
         executeOriginal = reinterpret_cast<ExecuteFn>((*reinterpret_cast<void***>(q))[10]);
+        // FG can expose a proxy present queue. Hook the device's execution
+        // implementation so actual render submissions are still observed.
+        ID3D12CommandQueue* probe = nullptr;
+        D3D12_COMMAND_QUEUE_DESC queueDesc {};
+        if (SUCCEEDED(device->CreateCommandQueue(&queueDesc, IID_PPV_ARGS(&probe))))
+        {
+            executeOriginal = reinterpret_cast<ExecuteFn>((*reinterpret_cast<void***>(probe))[10]);
+            probe->Release();
+        }
         exitOriginal = reinterpret_cast<ExitFn>(GetProcAddress(GetModuleHandleW(L"ntdll.dll"), "RtlExitUserProcess"));
         LONG err = DetourTransactionBegin();
         if (err == NO_ERROR)
@@ -115,16 +123,12 @@ bool Before(ID3D12GraphicsCommandList* cmd, NVSDK_NGX_Parameter* params, ID3D12C
             return true;
         }
         b = new AmdPreSr::Backend(device, q, Directory());
-        installedQueue = q;
         backend.store(b);
     }
     device->Release();
     Message("");
-    if (q != installedQueue)
-    {
-        Message("AMD pre-SR: multiple command queues unsupported");
-        return true;
-    }
+    // The swapchain's present queue can change when FG is enabled. It is
+    // only a bootstrap hint; Submitted identifies the queue executing our list.
     AmdPreSr::Frame f {};
     f.colour = Resource(params, NVSDK_NGX_Parameter_Color);
     f.motion = Resource(params, NVSDK_NGX_Parameter_MotionVectors);

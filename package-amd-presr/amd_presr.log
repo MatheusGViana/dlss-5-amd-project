@@ -135,3 +135,41 @@
 25069921 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
 25070000 Recorded pre-SR 160x160 passes=3
 25070156 Workers stopped outside loader lock
+39508484 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+39508484 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+39508500 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+39508500 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+39508500 HIP adapter: AMD Radeon RX 9060 XT
+39509578 Initialized independent AMD pass 1
+39510437 Initialized independent AMD pass 2
+39511296 Initialized independent AMD pass 3
+39511390 Recorded pre-SR 192x192 passes=3
+39511406 Render submission queue changed; AMD pre-SR remains enabled
+39511437 Completed AMD pre-SR passes=3 at 192x192
+39511437 Recorded pre-SR 192x192 passes=3
+39511468 Completed AMD pre-SR passes=3 at 192x192
+39511468 Recorded pre-SR 192x192 passes=3
+39511468 Render submission queue changed; AMD pre-SR remains enabled
+39511500 Completed AMD pre-SR passes=3 at 192x192
+39511531 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+39511531 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=19 flags=2 samples=1 array=1 dimension=3
+39511609 Recorded pre-SR 160x160 passes=3
+39511609 Render submission queue changed; AMD pre-SR remains enabled
+39511687 Render submission queue changed; AMD pre-SR remains enabled
+39511765 Workers stopped outside loader lock
+39637781 Input active=192x192 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+39637781 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+39637781 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+39637796 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+39637796 HIP adapter: AMD Radeon RX 9060 XT
+39638953 Initialized independent AMD pass 1
+39639015 Recorded pre-SR 192x192 passes=1
+39639031 Completed AMD pre-SR passes=1 at 192x192
+39639031 Recorded pre-SR 192x192 passes=1
+39639046 Completed AMD pre-SR passes=1 at 192x192
+39639046 Recorded pre-SR 192x192 passes=1
+39639062 Completed AMD pre-SR passes=1 at 192x192
+39639062 Input active=160x160 colour=256x256 format=10 flags=0 samples=1 array=1 dimension=3
+39639062 Input motion=256x256 format=34 flags=0 samples=1 array=1 dimension=3 depth=256x256 format=41 flags=0 samples=1 array=1 dimension=3
+39639093 Recorded pre-SR 160x160 passes=1
+39639156 Workers stopped outside loader lock
