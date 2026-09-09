@@ -1,0 +1,3 @@
+C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DiffuseDepth.hlsl(101,21-63): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+compilation object save succeeded; see C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DownsampleDepthCS.cso

@@ -1,7 +1,7 @@
 param([string]$GameDir=$PSScriptRoot)
 $ErrorActionPreference='Stop'
 $game=(Resolve-Path -LiteralPath $GameDir).Path
-Write-Output 'OptiScaler AMD Pre-SR v1.6 - diagnostico somente leitura'
+Write-Output 'OptiScaler AMD Pre-SR v2.7 - diagnostico somente leitura'
 Write-Output ('Data: '+(Get-Date -Format o))
 Write-Output ('Pasta: '+$game)
 Get-CimInstance Win32_VideoController | Select-Object Name,DriverVersion,Status | Format-List
@@ -21,7 +21,7 @@ foreach($dir in @($game,[Environment]::SystemDirectory)) {
         }
     }
 }
-foreach($name in @('amd_presr.log','dlssnr_on_amd.log','OptiScaler.log')) {
+foreach($name in @('amd_presr.log','amd_bridge.log','dlssnr_on_amd.log','OptiScaler.log')) {
     $file=Join-Path $game $name
     Write-Output ('Log: '+$name)
     if(Test-Path -LiteralPath $file) {Get-Content -LiteralPath $file -Tail 60} else {Write-Output 'Log ausente'}

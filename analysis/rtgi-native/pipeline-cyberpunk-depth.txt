@@ -1,0 +1,6 @@
+case=0 size=128x64 changed=0 bad=0
+case=1 size=129x64 changed=0 bad=0
+case=2 size=128x64 changed=0 bad=0
+case=3 size=129x64 changed=0 bad=0
+case=4 size=128x64 changed=8192 bad=0
+case=5 size=129x64 changed=8256 bad=0

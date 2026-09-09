@@ -1,0 +1,3 @@
+frame=0 active=2048 passes=1 changed_pixels=4056064 nonfinite=0 tone_errors=0 elapsed_ms=203 status=Completed AMD pre-SR passes=1 at 2048x2048 | completed frames=1 last completion 0s ago | timeout events=0
+frame=1 active=2048 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=141 status=Completed AMD pre-SR passes=1 at 2048x2048 | completed frames=2 last completion 0s ago | timeout events=0
+AMD timeout: current input preserved; retry in 1s with fresh history. Events=2 | completed frames=2 last completion 0s ago | timeout events=2

@@ -1,0 +1,6 @@
+case=0 size=64x64 depth=0.5 reversed=0 bad=0
+case=1 size=65x33 depth=0.5 reversed=1 bad=0
+case=2 size=64x64 depth=0 reversed=0 bad=0
+case=3 size=65x33 depth=0 reversed=1 bad=0
+case=4 size=64x64 depth=1 reversed=0 bad=0
+case=5 size=65x33 depth=1 reversed=1 bad=0

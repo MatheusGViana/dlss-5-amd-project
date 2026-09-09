@@ -42,11 +42,11 @@ off = original.index(prefix)
 end = original.index(b'\0', off)
 old = original[off:end]
 assert old.count(b'i < maxIter') == 1
-new = re.sub(rb'//[^\n]*', b'', old).replace(b'i < maxIter', b'i < min(maxIter, 262144u)')
+new = re.sub(rb'//[^\n]*', b'', old).replace(b'i < maxIter', b'i < min(maxIter, 2097152u)')
 assert len(new) <= len(old)
 new = new.ljust(len(old), b' ')
 patched[off:end] = new
-changes.append(dict(offset=hex(off), before=old.hex(), after=new.hex(), reason='bound GPU wait shader to 262144 iterations'))
+changes.append(dict(offset=hex(off), before=old.hex(), after=new.hex(), reason='bound GPU wait shader to 2097152 iterations'))
 out = root / 'package-amd-presr'
 out.mkdir(exist_ok=True)
 for i in range(1, 4):

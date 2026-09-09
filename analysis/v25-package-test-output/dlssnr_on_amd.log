@@ -1,0 +1,18 @@
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-AMD-PreSR-Multipass-v2.5\; log C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-AMD-PreSR-Multipass-v2.5\dlssnr_on_amd.log; settings C:\Users\mathe\Desktop\projeto\funcional\OptiScaler-AMD-PreSR-Multipass-v2.5\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 2048x2048 dxgi 10 (pix 0, tonemap 1); motion 2048x2048 dxgi 34; depth 2048x2048 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.539 -> exposure 0.8074
+network job 1 done in 172 ms (3.4 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 125 ms (122.1 ms waiting for the capture; history on, zero-copy)
+self-check: pre-block zero bytes 0.078% (healthy)
+network job 3 done in 125 ms (17.9 ms waiting for the capture; history on, zero-copy)
+inline: spin used 595849 iterations for a 125 ms job (~187526 iter/ms), cap 337546745
+staging ready: colour 2016x2016 dxgi 10 (pix 0, tonemap 1); motion 2048x2048 dxgi 34; depth 2048x2048 dxgi 41 (inverted 0); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+network job 1 done in 125 ms (0.5 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 125 ms (126.8 ms waiting for the capture; history off, zero-copy)
+network job 3 done in 125 ms (123.2 ms waiting for the capture; history on, zero-copy)
+inline: spin used 563631 iterations for a 125 ms job (~552453 iter/ms), cap 400000000

@@ -1,0 +1,5 @@
+Instalado em: C:\Users\mathe\Desktop\projeto\funcional\analysis\setup-v22-test-20260907-183240
+Proxy: winmm.dll
+Backup em: C:\Users\mathe\Desktop\projeto\funcional\analysis\setup-v22-test-20260907-183240\backup-amd-presr-20260907-183240
+Ative FSR no jogo. Abra o menu do OptiScaler com Insert. Comece com uma passagem.
+Setup verified: C:\Users\mathe\Desktop\projeto\funcional\analysis\setup-v22-test-20260907-183240

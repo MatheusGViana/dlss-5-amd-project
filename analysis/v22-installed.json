@@ -1,0 +1,14 @@
+[
+  {
+    "GameDir": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64",
+    "Backup": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cyberpunk 2077\\bin\\x64\\backup-amd-v22-20260907-183217",
+    "SHA256": "B18664F37D9D3BE3DCA16D4E76DACBD71E2220E8B71CF178B089AB184F24EB05",
+    "Verified": true
+  },
+  {
+    "GameDir": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\StellarBladeDemo\\SB\\Binaries\\Win64",
+    "Backup": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\StellarBladeDemo\\SB\\Binaries\\Win64\\backup-amd-v22-20260907-183217",
+    "SHA256": "B18664F37D9D3BE3DCA16D4E76DACBD71E2220E8B71CF178B089AB184F24EB05",
+    "Verified": true
+  }
+]

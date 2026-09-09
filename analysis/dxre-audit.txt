@@ -1,0 +1,79 @@
+dxre\nvngx_dlssnr.dll SHA256 e67dee209320cdafe0e93e45675d7aa34323a53acc57a72b2e40a181581c989a
+imports: VERSION.dll, ADVAPI32.dll, USER32.dll, KERNEL32.dll
+exports: NVSDK_NGX_CUDA_CreateFeature, NVSDK_NGX_CUDA_CreateFeature1, NVSDK_NGX_CUDA_EvaluateFeature, NVSDK_NGX_CUDA_GetFeatureRequirements, NVSDK_NGX_CUDA_GetScratchBufferSize, NVSDK_NGX_CUDA_Init, NVSDK_NGX_CUDA_Init1, NVSDK_NGX_CUDA_Init_Ext, NVSDK_NGX_CUDA_Init_Ext1, NVSDK_NGX_CUDA_PopulateParameters_Impl, NVSDK_NGX_CUDA_ReleaseFeature, NVSDK_NGX_CUDA_Shutdown, NVSDK_NGX_CUDA_Shutdown1, NVSDK_NGX_D3D11_CreateFeature, NVSDK_NGX_D3D11_EvaluateFeature, NVSDK_NGX_D3D11_GetFeatureRequirements, NVSDK_NGX_D3D11_GetScratchBufferSize, NVSDK_NGX_D3D11_Init, NVSDK_NGX_D3D11_Init_Ext, NVSDK_NGX_D3D11_PopulateParameters_Impl, NVSDK_NGX_D3D11_ReleaseFeature, NVSDK_NGX_D3D11_Shutdown, NVSDK_NGX_D3D11_Shutdown1, NVSDK_NGX_D3D12_CreateFeature, NVSDK_NGX_D3D12_EvaluateFeature, NVSDK_NGX_D3D12_GetFeatureRequirements, NVSDK_NGX_D3D12_GetScratchBufferSize, NVSDK_NGX_D3D12_Init, NVSDK_NGX_D3D12_Init_Ext, NVSDK_NGX_D3D12_PopulateParameters_Impl, NVSDK_NGX_D3D12_ReleaseFeature, NVSDK_NGX_D3D12_Shutdown, NVSDK_NGX_D3D12_Shutdown1, NVSDK_NGX_GetAPIVersion, NVSDK_NGX_GetApplicationId, NVSDK_NGX_GetDriverVersionEx, NVSDK_NGX_GetGPUArchitecture, NVSDK_NGX_GetSnippetVersion, NVSDK_NGX_SetOverrideStatusCallback, NVSDK_NGX_SetRuntimeParamsCallback, NVSDK_NGX_SetTelemetryEvaluateCallback, NVSDK_NGX_VULKAN_CreateFeature, NVSDK_NGX_VULKAN_CreateFeature1, NVSDK_NGX_VULKAN_EvaluateFeature, NVSDK_NGX_VULKAN_GetFeatureDeviceExtensionRequirements, NVSDK_NGX_VULKAN_GetFeatureInstanceExtensionRequirements, NVSDK_NGX_VULKAN_GetFeatureRequirements, NVSDK_NGX_VULKAN_GetScratchBufferSize, NVSDK_NGX_VULKAN_Init, NVSDK_NGX_VULKAN_Init_Ext, NVSDK_NGX_VULKAN_Init_Ext2, NVSDK_NGX_VULKAN_PopulateParameters_Impl, NVSDK_NGX_VULKAN_ReleaseFeature, NVSDK_NGX_VULKAN_Shutdown, NVSDK_NGX_VULKAN_Shutdown1
+DLSSNR.LocalToneStrength
+DLSSNR.SkinStructureStrength
+DLSSNR: enabled=%d localTone=%.3f localStructure=%.3f intensity=%.3f
+dxre\renodx-dlss.addon64 SHA256 1d855cf226857dce890cffbf7206ba9b6497ce1d471b217c1c8b44b6cd5d27e9
+imports: ADVAPI32.dll, KERNEL32.dll, USER32.dll, SHELL32.dll, VERSION.dll
+exports: DESCRIPTION, NAME
+RenoDX DH
+RENODX-DH
+RenoDX DLSS-NR source evaluation completed: source={} application_frame={} size={}x{} replace_source={} return_output={}.
+RenoDX DLSS
+RenoDX DLSS controller
+DllMain(DLL_PROCESS_ATTACH) failed to register RenoDX DLSS.
+DllMain(DLL_PROCESS_DETACH) from FreeLibrary ignored; RenoDX DLSS expects to stay resident.
+RenoDX DLSS-NR source evaluation failed: source={} application_frame={} reason={}.
+[RenoDX] DLSS-NR direct: {}
+DLSSNR.LocalToneStrength
+DLSSNR.SkinStructureStrength
+DirectNeuralRenderingLocalToneStrength
+DLSSNR.LocalToneStrength. The shared backend default is 1 and the supplied binaries consume this value without range validation. The slider uses the normalized range 0 to 1; manually entered values are forwarded unchanged.
+DirectNeuralRenderingSkinStructureStrength
+Controls structure intensity of detected characters (SkinStructureStrength).
+RenoDX DLSS could not attach the direct nvngx_dlssnr.dll runtime.
+https://github.com/clshortfuse/renodx/wiki/Mods
+https://github.com/clshortfuse/renodx
+RENODX-DLSS
+RenoDX DLSS attached; ReShade logical unload will be ignored.
+RenoDX DLSS-NR failed to retain the D3D11 DLSS temporal inputs for presentation; preserving the native upscaling output.
+RenoDX DLSS-NR D3D11 proxy evaluation failed; preserving the native upscaling output.
+RenoDX DLSS-NR cannot preserve unsupported D3D11 motion format {}; native DLSS output remains authoritative.
+RenoDX DLSS-NR failed to create/open the proxy-shared RG32F motion resource; native DLSS output remains authoritative.
+RenoDX DLSS-NR cannot extract unsupported D3D11 depth format {}; native DLSS output remains authoritative.
+RenoDX DLSS-NR failed to create/open the proxy-shared R32_FLOAT depth carrier; native DLSS output remains authoritative.
+RenoDX DLSS-NR failed to record D3D11 depth extraction; native DLSS output remains authoritative.
+RenoDX DLSS-NR submitted the first bit-exact proxy-shared D3D11-to-D3D12 RG32F motion resource with R32_FLOAT depth extraction.
+RenoDX DLSS-NR copied the first D3D12 NR replacement to the native D3D11 DLSS output.
+RenoDX NR temporal pool is pinned by live recordings/consumers or failed fences; capture will retry when a safe slot becomes available (32-pair limit).
+$KRenoDX NR could not observe successful native Reset; temporal recordings remain pinned until command-list destruction (bounded pool, no speculative discard).
+RenoDX DLSS-NR 
+RenoDX DLSS-NR FG skipped: wrapped command list has no restorable compute state.
+RenoDX NR FG encoding skipped: 
+RenoDX NR FG encoding: unknown native compute bindings cannot be restored from the tracked snapshot. Continuing at the existing NGX boundary; downstream native evaluation must establish its own bindings. Vendor layouts are not universally verified.
+ngx_evaluate.dlssg_copyback source-role={} original_list={} nr_native_list={} native_device={} input={} intermediate={} compute_state_replay_returned={} expected_input_state=NON_PIXEL_SHADER_RESOURCE experimental=true backbuffer-pointer-and-subrect-unchanged=true evaluate-ui-inputs-unchanged=true vendor-fg-behavior=unverified
+Hb$ERenoDX DLSS-NR post-upscaling evaluation failed: output={} resource={}x{} subrect={},{} {}x{} render={}x{} replacement={}.
+RenoDX DLSS-NR pre-DLSS-G backbuffer evaluation failed; the original Streamline tag was retained.
+FRenoDX DLSS Streamline Present failed to acquire native backbuffer {}: result=0x{:08X}.
+RenoDX DLSS Streamline Present rejected native backbuffer: dimension={}, width={}, height={}, samples={}, format={}, flags=0x{:X}.
+RenoDX DLSS Streamline Present failed to query the native backbuffer device: result=0x{:08X}, source={}.
+RenoDX DLSS Streamline Present temporal device mismatch: temporal_device={}, queue_device={}.
+RenoDX DLSS Streamline Present cannot submit to a foreign native backbuffer: source_device={}, ReShade_queue_device={}, source={}. The late-loaded ReShade API does not expose the command queue that created this Streamline swapchain.
+RenoDX DLSS Streamline Present command-slot fence wait failed: result=0x{:08X}, fence_value={}.
+RenoDX DLSS Streamline Present failed to reset its D3D12 command allocator: result=0x{:08X}, allocator={}.
+RenoDX DLSS Streamline Present failed to reset its D3D12 command list: result=0x{:08X}, command_list={}, allocator={}.
+RenoDX DLSS Streamline Present bridge fence wait failed: result=0x{:08X}, fence_value={}.
+RenoDX DLSS Streamline Present submission fence wait failed: result=0x{:08X}, fence_value={}.
+RenoDX DLSS init_swapchain begin: swapchain={}, native={}, device={}, api={}, resize={}
+RenoDX DLSS init_swapchain end: color_space={}
+RenoDX DLSS destroy_swapchain begin: swapchain={}, resize={}
+RenoDX DLSS destroy_swapchain end.
+RenoDX DLSS-NR detected Streamline v2 before addon attachment; runtime Common Present correlation will determine whether ReShade is downstream of Streamline and requires pre-DLSS-G evaluation.
+RenoDX DLSS-NR attached before Streamline v2; runtime Common Present correlation will determine wrapper order.
+RenoDX DLSS-NR detected legacy Streamline v1; the Streamline v2 early-load ordering gate is not applied.
+RenoDX DLSS upgrading native D3D9 device creation to D3D9Ex for Neural Rendering shared-resource transport.
+RenoDX DLSS init_device begin: device={}, native={}, api={}
+RenoDX DLSS init_device end.
+RenoDX DLSS destroy_device begin: device={}
+RenoDX DLSS destroy_device end.
+RenoDX DLSS first present: queue={}, native={}, swapchain={}, api={}
+renodx-dlss.pdb
+renodx-dlss.addon64
+renodx-dev
+.?AV?$_Ref_count_obj2@UTemporalRecordingCompletion@neural_rendering@dlss@addons@renodx@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@is_enabled@Setting@settings@utils@renodx@@_N$$V@std@@
+.?AV<lambda_1>@is_enabled@Setting@settings@utils@renodx@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@parse@Setting@settings@utils@renodx@@MM@std@@
+.?AV<lambda_1>@parse@Setting@settings@utils@renodx@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@on_change@Setting@settings@utils@renodx@@X$$V@std@@

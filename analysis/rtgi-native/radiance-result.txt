@@ -1,0 +1,6 @@
+case=0 size=64x64 depth=2 normal_axis=0 stages=5 bad=0
+case=1 size=65x33 depth=2 normal_axis=1 stages=5 bad=0
+case=2 size=64x64 depth=2 normal_axis=2 stages=5 bad=0
+case=3 size=65x33 depth=2 normal_axis=0 stages=5 bad=0
+case=4 size=64x64 depth=1001 normal_axis=1 stages=5 bad=0
+case=5 size=65x33 depth=1001 normal_axis=2 stages=5 bad=0

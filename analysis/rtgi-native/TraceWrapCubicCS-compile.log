@@ -1,0 +1,5 @@
+C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DiffuseTrace.hlsl(293,27-47): warning X3203: signed/unsigned mismatch, unsigned assumed
+C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DiffuseTrace.hlsl(293,5-60): warning X3557: loop only executes for 1 iteration(s), consider removing [loop]
+warning X4714: sum of temp registers and indexable temp registers times 1024 threads exceeds the recommended total 16384.  Performance may be reduced
+
+compilation object save succeeded; see C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\TraceWrapCubicCS.cso

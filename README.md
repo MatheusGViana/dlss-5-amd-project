@@ -1,1 +1,1 @@
-"# dlss-5-amd-project" 
+This is the final update for this experimental project. I’m making the latest version available, in case anyone is interested. It was great seeing you all test it out. I might create a new version from scratch in the future. Thanks, everyone! :D

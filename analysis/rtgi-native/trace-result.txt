@@ -1,0 +1,6 @@
+case=0 size=64x64 maxLight=0 bad=0
+case=1 size=65x33 maxLight=0 bad=0
+case=2 size=64x64 maxLight=0 bad=0
+case=3 size=65x33 maxLight=0 bad=0
+case=4 size=64x64 maxLight=0.326979 bad=0
+case=5 size=65x33 maxLight=0.307875 bad=0

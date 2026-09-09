@@ -1,0 +1,18 @@
+29357203 Input active=2048x2048 colour=2048x2048 format=10 flags=0 samples=1 array=1 dimension=3
+29357203 Input motion=2048x2048 format=34 flags=0 samples=1 array=1 dimension=3 depth=2048x2048 format=41 flags=0 samples=1 array=1 dimension=3
+29357203 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+29357218 HIP candidate 0 code=0 name=AMD Radeon RX 9060 XT
+29357218 HIP adapter: AMD Radeon RX 9060 XT
+29358234 Initialized independent AMD pass 1
+29358250 Guide mapping: motion=0x0 resampled=0 exposure=auto preExposure=1.000000 tone=0.000000
+29358296 Recorded pre-SR 2048x2048 passes=1
+29358484 Completed AMD pre-SR passes=1 at 2048x2048
+29358515 Recorded pre-SR 2048x2048 passes=1
+29358640 Completed AMD pre-SR passes=1 at 2048x2048
+29358671 Recorded pre-SR 2048x2048 passes=1
+29358796 Completed AMD pre-SR passes=1 at 2048x2048
+29358968 Input active=2016x2016 colour=2048x2048 format=10 flags=0 samples=1 array=1 dimension=3
+29358968 Input motion=2048x2048 format=34 flags=0 samples=1 array=1 dimension=3 depth=2048x2048 format=41 flags=0 samples=1 array=1 dimension=3
+29358968 Guide mapping: motion=0x0 resampled=0 exposure=auto preExposure=1.000000 tone=0.000000
+29359015 Recorded pre-SR 2016x2016 passes=1
+29359687 Workers stopped outside loader lock

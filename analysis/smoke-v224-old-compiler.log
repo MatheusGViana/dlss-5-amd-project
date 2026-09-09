@@ -1,0 +1,16 @@
+frame=0 active=96 passes=1 changed_pixels=9215 nonfinite=0 tone_errors=0 elapsed_ms=16 status=Completed AMD pre-SR passes=1 at 96x96 | completed frames=1 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+frame=1 active=96 passes=1 changed_pixels=9216 nonfinite=0 tone_errors=0 elapsed_ms=0 status=Completed AMD pre-SR passes=1 at 96x96 | completed frames=2 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+frame=2 active=96 passes=1 changed_pixels=9215 nonfinite=0 tone_errors=0 elapsed_ms=15 status=Completed AMD pre-SR passes=1 at 96x96 | completed frames=3 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+frame=3 active=96 passes=1 changed_pixels=9214 nonfinite=0 tone_errors=0 elapsed_ms=0 status=Completed AMD pre-SR passes=1 at 96x96 | completed frames=4 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+native job=5 exposure=2 motion pixel scale=96
+verified exposure=2 motion pixel scale=96
+frame=4 active=96 passes=1 changed_pixels=9216 nonfinite=0 tone_errors=0 elapsed_ms=16 status=Completed AMD pre-SR passes=1 at 96x96 | completed frames=5 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+native job=6 exposure=2 motion pixel scale=96
+verified exposure=2 motion pixel scale=96
+frame=5 active=96 passes=1 changed_pixels=9216 nonfinite=0 tone_errors=0 elapsed_ms=16 status=Completed AMD pre-SR passes=1 at 96x96 | completed frames=6 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+native job=7 exposure=2 motion pixel scale=96
+verified exposure=2 motion pixel scale=96
+frame=6 active=96 passes=1 changed_pixels=9216 nonfinite=0 tone_errors=0 elapsed_ms=0 status=Completed AMD pre-SR passes=1 at 96x96 | completed frames=7 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+native job=8 exposure=2 motion pixel scale=96
+verified exposure=2 motion pixel scale=96
+frame=7 active=96 passes=1 changed_pixels=9216 nonfinite=0 tone_errors=0 elapsed_ms=15 status=Completed AMD pre-SR passes=1 at 96x96 | completed frames=8 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0

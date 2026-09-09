@@ -1,0 +1,16 @@
+frame=0 active=1624 passes=1 changed_pixels=2637365 nonfinite=0 tone_errors=0 elapsed_ms=141 status=Completed AMD pre-SR passes=1 at 1624x1624 | completed frames=1 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+frame=1 active=1624 passes=1 changed_pixels=2637362 nonfinite=0 tone_errors=0 elapsed_ms=125 status=Completed AMD pre-SR passes=1 at 1624x1624 | completed frames=2 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+frame=2 active=1624 passes=1 changed_pixels=2637366 nonfinite=0 tone_errors=0 elapsed_ms=110 status=Completed AMD pre-SR passes=1 at 1624x1624 | completed frames=3 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+frame=3 active=1624 passes=1 changed_pixels=2637365 nonfinite=0 tone_errors=0 elapsed_ms=110 status=Completed AMD pre-SR passes=1 at 1624x1624 | completed frames=4 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+native job=5 exposure=2 motion pixel scale=1624
+verified exposure=2 motion pixel scale=1624
+frame=4 active=1624 passes=1 changed_pixels=2637374 nonfinite=0 tone_errors=0 elapsed_ms=93 status=Completed AMD pre-SR passes=1 at 1624x1624 | completed frames=5 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+native job=6 exposure=2 motion pixel scale=1624
+verified exposure=2 motion pixel scale=1624
+frame=5 active=1624 passes=1 changed_pixels=2637351 nonfinite=0 tone_errors=0 elapsed_ms=94 status=Completed AMD pre-SR passes=1 at 1624x1624 | completed frames=6 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+native job=7 exposure=2 motion pixel scale=1624
+verified exposure=2 motion pixel scale=1624
+frame=6 active=1624 passes=1 changed_pixels=2637372 nonfinite=0 tone_errors=0 elapsed_ms=78 status=Completed AMD pre-SR passes=1 at 1624x1624 | completed frames=7 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0
+native job=8 exposure=2 motion pixel scale=1624
+verified exposure=2 motion pixel scale=1624
+frame=7 active=1624 passes=1 changed_pixels=2637370 nonfinite=0 tone_errors=0 elapsed_ms=94 status=Completed AMD pre-SR passes=1 at 1624x1624 | completed frames=8 last completion 0s ago | timeout events=0 | skipped pending/GPU=0/0

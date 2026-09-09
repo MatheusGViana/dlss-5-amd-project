@@ -1,0 +1,17 @@
+frame=0 active=128 passes=1 changed_pixels=16383 nonfinite=0 tone_errors=0 elapsed_ms=16 status=Completed AMD pre-SR passes=1 at 128x128 | RTGI Diffuse active | completed frames=1 last completion 0s ago | timeout events=0
+frame=1 active=128 passes=1 changed_pixels=16384 nonfinite=0 tone_errors=0 elapsed_ms=16 status=Completed AMD pre-SR passes=1 at 128x128 | RTGI Diffuse active | completed frames=2 last completion 0s ago | timeout events=0
+frame=2 active=128 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=93 status=AMD timeout: current input preserved; recovery pending | RTGI Diffuse active | completed frames=2 last completion 0s ago | timeout events=1
+Cooldown observed; waiting to test recovery
+frame=3 active=128 passes=1 changed_pixels=16383 nonfinite=0 tone_errors=0 elapsed_ms=15 status=Completed AMD pre-SR passes=1 at 128x128 | RTGI Diffuse active | completed frames=3 last completion 0s ago | timeout events=1
+native job=5 exposure=2 motion pixel scale=128
+verified exposure=2 motion pixel scale=128
+frame=4 active=128 passes=1 changed_pixels=16384 nonfinite=0 tone_errors=0 elapsed_ms=0 status=Completed AMD pre-SR passes=1 at 128x128 | RTGI Diffuse active | completed frames=4 last completion 0s ago | timeout events=1
+native job=6 exposure=2 motion pixel scale=128
+verified exposure=2 motion pixel scale=128
+frame=5 active=128 passes=1 changed_pixels=16384 nonfinite=0 tone_errors=0 elapsed_ms=0 status=Completed AMD pre-SR passes=1 at 128x128 | RTGI Diffuse active | completed frames=5 last completion 0s ago | timeout events=1
+native job=7 exposure=2 motion pixel scale=128
+verified exposure=2 motion pixel scale=128
+frame=6 active=128 passes=1 changed_pixels=16384 nonfinite=0 tone_errors=0 elapsed_ms=16 status=Completed AMD pre-SR passes=1 at 128x128 | RTGI Diffuse active | completed frames=6 last completion 0s ago | timeout events=1
+native job=8 exposure=2 motion pixel scale=128
+verified exposure=2 motion pixel scale=128
+frame=7 active=128 passes=1 changed_pixels=16384 nonfinite=0 tone_errors=0 elapsed_ms=0 status=Completed AMD pre-SR passes=1 at 128x128 | RTGI Diffuse active | completed frames=7 last completion 0s ago | timeout events=1

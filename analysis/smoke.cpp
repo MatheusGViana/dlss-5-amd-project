@@ -1,5 +1,6 @@
 #include "AmdPreSr.h"
 #include <cstring>
+#include <cmath>
 #include <d3d12sdklayers.h>
 #include <dxgi1_6.h>
 #include <fstream>
@@ -32,10 +33,13 @@ int wmain(int argc, wchar_t **argv) {
     bool forceTimeout = argc > 8 && _wtoi(argv[8]) != 0;
     bool delayedNotification = argc > 9 && _wtoi(argv[9]) != 0;
     bool varySettings = argc > 10 && _wtoi(argv[10]) != 0;
+    bool guideConversion = argc > 11 && _wtoi(argv[11]) != 0;
+    int lookMode = argc > 12 ? _wtoi(argv[12]) : 0;
+    int rtgiMode = argc > 13 ? _wtoi(argv[13]) : 0;
     if (size < 64 || size > 2048 || active < 64 || active > size)
       return 2;
     ComPtr<ID3D12Debug> debug;
-    if (SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&debug))))
+    if (argc <= 19 && SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&debug))))
       debug->EnableDebugLayer();
     ComPtr<IDXGIFactory6> factory;
     ck(CreateDXGIFactory1(IID_PPV_ARGS(&factory)));
@@ -138,13 +142,20 @@ int wmain(int argc, wchar_t **argv) {
         for (UINT x = 0; x < size; ++x) {
           auto p = data + y * fp.Footprint.RowPitch;
           if (kind == 0) {
-            uint16_t pixel[4] = {static_cast<uint16_t>(0x3000 + (x * 12)),
-                                 static_cast<uint16_t>(0x3400 + y * 8), 0x3800,
+            uint16_t pixel[4] = {static_cast<uint16_t>(0x3000 + ((x % 128) * 12)),
+                                 static_cast<uint16_t>(0x3400 + (y % 128) * 8), 0x3800,
                                  0x3c00};
+            if (lookMode == 5) for (int channel=0; channel<3; ++channel) pixel[channel] += 0x2000;
             std::memcpy(p + x * 8, pixel, 8);
           } else if (kind == 2) {
             float z = 0.5f;
             std::memcpy(p + x * 4, &z, 4);
+          } else if (kind == 3) {
+            float e[4] { 4.0f, 99.0f, 99.0f, 99.0f };
+            std::memcpy(p + x * 16, e, 16);
+          } else if (kind == 1 && guideConversion) {
+            uint16_t mv[2] { 0x3000, 0x3400 }; // nonzero .125, .25
+            std::memcpy(p + x * (argc>16?8:4), mv, 4);
           }
         }
       up->Unmap(0, nullptr);
@@ -162,8 +173,10 @@ int wmain(int argc, wchar_t **argv) {
       return r;
     };
     auto colour = tex(DXGI_FORMAT_R16G16B16A16_FLOAT, 0);
-    auto motion = tex(DXGI_FORMAT_R16G16_FLOAT, 1);
+    auto motion = tex(argc>16 ? DXGI_FORMAT_R16G16B16A16_FLOAT : DXGI_FORMAT_R16G16_FLOAT, 1);
     auto depth = tex(DXGI_FORMAT_R32_FLOAT, 2);
+    ComPtr<ID3D12Resource> exposure;
+    if (guideConversion) exposure = tex(DXGI_FORMAT_R32G32B32A32_FLOAT, 3);
     auto backend = new AmdPreSr::Backend(device.Get(), queueChanges ? presentQueue.Get() : queue.Get(), argv[1]);
     AmdPreSr::Frame frame{};
     frame.colour = colour.Get();
@@ -173,27 +186,61 @@ int wmain(int argc, wchar_t **argv) {
     frame.height = active;
     frame.motionScaleX = (float)active;
     frame.motionScaleY = (float)active;
+    if (guideConversion) {
+      frame.motionWidth = frame.motionHeight = size;
+      frame.motionScaleX = frame.motionScaleY = (float)size;
+      frame.exposure = exposure.Get();
+      frame.preExposure = 2.0f;
+    }
     AmdPreSr::Settings settings{};
+    if(argc>21) settings.encoding=_wtoi(argv[21]);
+    settings.modelScale = argc > 14 ? float(_wtof(argv[14])) : 1.f;
+    settings.rtgi.enabled = rtgiMode != 0;
+    if (rtgiMode == 2) { settings.rtgi.lighting = 0; settings.rtgi.occlusion = 0; settings.rtgi.ambient = 1; }
     settings.passes = passes;
+    if(argc>17){settings.toneChannels=true;settings.tone=float(_wtof(argv[17]));}
+    settings.look.enabled = lookMode != 0;
+    if (lookMode == 2 || lookMode == 5) {
+      settings.look.mix = 0;
+      settings.look.tone = 1;
+      settings.look.exposureEV = 1;
+    }
+    if (lookMode == 3) settings.look.mix = 0; // neutral identity
+    if (lookMode == 4) settings.look.inspect = 1;
     size_t badFrames = 0;
     for (int iteration = 0; iteration < 8; ++iteration) {
+      if (lookMode == 4) {
+        settings.look.inspect = 1 + iteration % 3;
+        settings.look.appearance = iteration % 4;
+      }
       if (varySettings) {
         settings.passes = 1 + iteration % passes;
         settings.tone = iteration % 2 ? 0.5f : 0.0f;
         settings.structure = iteration % 2 ? 0.75f : 1.0f;
       }
+      if(argc>15 && _wtoi(argv[15])) {
+        const float scales[]{1.f,.5f,.25f,.75f};
+        settings.modelScale=scales[iteration%4];
+      }
       if (resizeEveryFrame) {
         active = iteration % 2 == 0 ? size : size / 2;
         frame.width = active;
         frame.height = active;
-      } else if (iteration == 4 && active >= 128) {
+      } else if (!guideConversion && iteration == 4 && active >= 128) {
         active -= 32;
         frame.width = active;
         frame.height = active;
       }
-      frame.reset = (iteration == 5);
+      frame.reset = argc > 20 || (iteration == 5);
       if (iteration == 3) backend->InvalidateHistory();
       auto out = backend->Record(cmd.Get(), frame, settings);
+      if (!out && forceTimeout) {
+        auto until = GetTickCount64() + 5000;
+        while (!out && backend->Status().find("still pending") != std::string::npos && GetTickCount64() < until) {
+          Sleep(10);
+          out = backend->Record(cmd.Get(), frame, settings);
+        }
+      }
       if (!out && forceTimeout && backend->Status().find("retry in 1s") != std::string::npos) {
         std::cout << "Cooldown observed; waiting to test recovery" << std::endl;
         Sleep(1100);
@@ -249,6 +296,11 @@ int wmain(int argc, wchar_t **argv) {
       backend->Submitting(presentQueue.Get(), 0, nullptr);
       backend->Submitted(presentQueue.Get(), 0, nullptr);
       if (!(forced && delayedNotification)) backend->Submitting(submitQueue, 1, lists);
+      ComPtr<ID3D12Fence> submissionGate;
+      if (argc > 18 && _wtoi(argv[18])) {
+        ck(device->CreateFence(0, D3D12_FENCE_FLAG_NONE, IID_PPV_ARGS(&submissionGate)));
+        ck(submitQueue->Wait(submissionGate.Get(), 1));
+      }
       submitQueue->ExecuteCommandLists(1, lists);
       if (forced && delayedNotification) {
         ComPtr<ID3D12Fence> boundedFence;
@@ -261,7 +313,13 @@ int wmain(int argc, wchar_t **argv) {
         if (result != WAIT_OBJECT_0) throw std::runtime_error("GPU did not exit bounded wait without notification");
         std::cout << "GPU completed before worker notification in " << GetTickCount64()-start << "ms" << std::endl;
       } else if (forced) Sleep(100);
+      auto submitStart = GetTickCount64();
       backend->Submitted(submitQueue, 1, lists);
+      if (submissionGate) {
+        auto elapsed = GetTickCount64() - submitStart;
+        ck(submissionGate->Signal(1));
+        if (elapsed > 1000) throw std::runtime_error("Submission blocked a later game signal");
+      }
       ComPtr<ID3D12Fence> fence;
       ck(device->CreateFence(0, D3D12_FENCE_FLAG_NONE, IID_PPV_ARGS(&fence)));
       ck(submitQueue->Signal(fence.Get(), 1));
@@ -270,19 +328,46 @@ int wmain(int argc, wchar_t **argv) {
       if (WaitForSingleObject(event, 15000) != WAIT_OBJECT_0)
         throw std::runtime_error("GPU fence timeout");
       CloseHandle(event);
+      // The native exposure readback rotates over four slots.
+      if (guideConversion && iteration >= 4 && !resizeEveryFrame) {
+        auto native = reinterpret_cast<unsigned char*>(GetModuleHandleW(L"dlssnr_amd_pass1.dll"));
+        auto job = *reinterpret_cast<UINT*>(native + 0x76d74);
+        float usedExposure = reinterpret_cast<float*>(native + 0x74c70)[job % 4];
+        float usedScale = reinterpret_cast<float*>(native + 0x76b6c)[job % 4];
+        std::cout << "native job=" << job << " exposure=" << usedExposure << " motion pixel scale=" << usedScale << std::endl;
+        if (usedExposure < 1.99f || usedExposure > 2.01f || usedScale != float((std::max)(32u,UINT(std::lround(active*settings.modelScale)))))
+        {
+          backend->Shutdown();
+          throw std::runtime_error("Guide conversion did not preserve exposure or render-pixel motion scale");
+        }
+        std::cout << "verified exposure=" << usedExposure << " motion pixel scale=" << usedScale << std::endl;
+      }
       unsigned char *data;
       ck(read->Map(0, nullptr, reinterpret_cast<void **>(&data)));
       size_t changed = 0, invalid = 0;
+      size_t toneErrors = 0;
+      auto halfValue = [](uint16_t bits) {
+        int exponent = (bits >> 10) & 31;
+        float value = exponent ? std::ldexp(1.0f + (bits & 1023) / 1024.0f, exponent - 15) :
+                                 std::ldexp(float(bits & 1023), -24);
+        return bits & 0x8000 ? -value : value;
+      };
       for (UINT y = 0; y < active; ++y)
         for (UINT x = 0; x < active; ++x) {
           auto p = reinterpret_cast<uint16_t *>(
               data + y * fp.Footprint.RowPitch + x * 8);
-          if (p[0] != (0x3000 + x * 12) || p[1] != (0x3400 + y * 8) ||
+          if (p[0] != (0x3000 + (x % 128) * 12) || p[1] != (0x3400 + (y % 128) * 8) ||
               p[2] != 0x3800)
             ++changed;
           for (int c = 0; c < 3; ++c)
             if ((p[c] & 0x7c00) == 0x7c00)
               ++invalid;
+          if (forced && (lookMode == 2 || lookMode == 5)) {
+            const UINT offset = lookMode == 5 ? 0x2000 : 0;
+            const uint16_t input[3] { uint16_t(0x3000+(x % 128)*12+offset), uint16_t(0x3400+(y % 128)*8+offset), uint16_t(0x3800+offset) };
+            for (int c = 0; c < 3; ++c)
+              if (std::abs(halfValue(p[c]) - 2*halfValue(input[c])) > .005f * 2*halfValue(input[c])) ++toneErrors;
+          }
         }
       std::ofstream raw(
           std::filesystem::path(argv[1]) /
@@ -296,9 +381,11 @@ int wmain(int argc, wchar_t **argv) {
       std::cout << "frame=" << iteration << " active=" << active
                 << " passes=" << settings.passes << " changed_pixels=" << changed
                 << " nonfinite=" << invalid
+                << " tone_errors=" << toneErrors
                 << " elapsed_ms=" << GetTickCount64() - start
                 << " status=" << backend->Status() << std::endl;
-      badFrames += ((forced ? changed != 0 : changed == 0) || invalid > 0);
+      const bool expectUnchanged = forced && (lookMode == 0 || lookMode == 3);
+      badFrames += ((expectUnchanged ? changed != 0 : changed == 0) || invalid > 0 || toneErrors > 0);
       if (iteration < 7) {
         ck(alloc->Reset());
         ck(cmd->Reset(alloc.Get(), nullptr));

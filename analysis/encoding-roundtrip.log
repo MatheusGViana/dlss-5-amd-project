@@ -1,0 +1,8 @@
+frame=0 active=128 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=0 status=AMD pre-SR: not initialized
+frame=1 active=128 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=0 status=AMD pre-SR: not initialized
+frame=2 active=128 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=0 status=AMD pre-SR: not initialized
+frame=3 active=128 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=0 status=AMD pre-SR: not initialized
+frame=4 active=96 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=0 status=AMD pre-SR: not initialized
+frame=5 active=96 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=0 status=AMD pre-SR: not initialized
+frame=6 active=96 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=15 status=AMD pre-SR: not initialized
+frame=7 active=96 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=0 status=AMD pre-SR: not initialized

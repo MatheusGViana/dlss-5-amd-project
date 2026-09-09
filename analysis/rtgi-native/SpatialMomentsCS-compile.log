@@ -1,0 +1,8 @@
+C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DiffuseTemporal.hlsl(163,21): warning X3078: 'x': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DiffuseTemporal.hlsl(164,21): warning X3078: 'y': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DiffuseTemporal.hlsl(439,8-32): warning X3203: signed/unsigned mismatch, unsigned assumed
+C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DiffuseTemporal.hlsl(506,13): warning X3078: 'j': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DiffuseTemporal.hlsl(509,34-65): warning X3203: signed/unsigned mismatch, unsigned assumed
+C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DiffuseTemporal.hlsl(539,8-33): warning X3203: signed/unsigned mismatch, unsigned assumed
+
+compilation object save succeeded; see C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\SpatialMomentsCS.cso

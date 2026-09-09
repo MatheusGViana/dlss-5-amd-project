@@ -1,5 +1,24 @@
-param([Parameter(Mandatory=$true)][string]$GameDir)
+param(
+    [Parameter(Mandatory=$true)][string]$GameDir,
+    [ValidateSet('auto','dxgi.dll','winmm.dll','version.dll','winhttp.dll','wininet.dll','dbghelp.dll')]
+    [string]$ProxyName='auto'
+)
 $ErrorActionPreference='Stop'
+# Check the complete backend before changing any game files. These binaries
+# expose a private ABI and cannot be mixed with another OptiScaler AMD release.
+$runtimeHash='3C9CA13F0F5FC36A690BA424C457003BCFCC1080B4B785974CDD7E9AE2BC1DD8'
+foreach ($pass in 1..3) {
+    $runtime=Join-Path $PSScriptRoot "dlssnr_amd_pass$pass.dll"
+    if (!(Test-Path -LiteralPath $runtime -PathType Leaf) -or (Get-FileHash -LiteralPath $runtime).Hash -ne $runtimeHash) {
+        throw "Missing or incompatible AMD pass $pass. Extract the complete release package before running Setup."
+    }
+}
+foreach ($required in @('OptiScaler.dll','OptiScaler.ini','dlssnr_on_amd_weights.bin','OptiScaler')) {
+    if (!(Test-Path -LiteralPath (Join-Path $PSScriptRoot $required))) {throw "Incomplete package: $required is missing."}
+}
+foreach ($required in @('GatherCS.cso','ResolveCS.cso')) {
+    if (!(Test-Path -LiteralPath (Join-Path $PSScriptRoot ('experimental_lighting/'+$required)) -PathType Leaf)) {throw "Incomplete RTGI package: $required is missing."}
+}
 $game=(Resolve-Path -LiteralPath $GameDir).Path
 if (!(Test-Path -LiteralPath $game -PathType Container)) {throw 'Informe a pasta do executavel do jogo.'}
 $running=Get-Process -ErrorAction SilentlyContinue | Where-Object {try {$_.Path -and ([IO.Path]::GetDirectoryName($_.Path) -eq $game)} catch {$false}}
@@ -12,7 +31,12 @@ $proxies=@('dxgi.dll','winmm.dll','version.dll','winhttp.dll','wininet.dll','dbg
     }
 }
 if(@($proxies).Count -gt 1){throw ('Mais de um proxy OptiScaler encontrado: '+($proxies -join ', ')+'. Mantenha apenas o proxy que deseja usar antes de atualizar.')}
-$proxyName=if(@($proxies).Count -eq 1){@($proxies)[0]}else{'dxgi.dll'}
+$proxyName=if($ProxyName -eq 'auto') {
+    if(@($proxies).Count -eq 1){@($proxies)[0]}else{'dxgi.dll'}
+} else {$ProxyName.ToLowerInvariant()}
+if(@($proxies).Count -eq 1 -and $ProxyName -ne 'auto' -and @($proxies)[0] -ne $proxyName) {
+    throw ('OptiScaler is already installed as '+@($proxies)[0]+'. Move it before selecting '+$proxyName+'.')
+}
 $backup=Join-Path $game ('backup-amd-presr-'+(Get-Date -Format 'yyyyMMdd-HHmmss'))
 New-Item -ItemType Directory -Path $backup | Out-Null
 $records=[Collections.Generic.List[object]]::new()
@@ -46,6 +70,10 @@ $deps=Join-Path $PSScriptRoot 'OptiScaler'
 Get-ChildItem -LiteralPath $deps -Recurse -File | ForEach-Object {
     $relative='OptiScaler\'+$_.FullName.Substring($deps.Length).TrimStart('\')
     Install-File $_.FullName $relative
+}
+$rtgi=Join-Path $PSScriptRoot 'experimental_lighting'
+Get-ChildItem -LiteralPath $rtgi -File | ForEach-Object {
+    Install-File $_.FullName ('experimental_lighting\'+$_.Name)
 }
 $records | ConvertTo-Json -Depth 3 | Set-Content -LiteralPath (Join-Path $backup 'manifest.json')
 Write-Host "Instalado em: $game"

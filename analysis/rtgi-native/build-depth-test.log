@@ -1,0 +1,9 @@
+pipeline_test.cpp
+RtgiNative.cpp
+Gerando Código...
+case=0 size=64x64 changed=0 bad=0
+case=1 size=65x33 changed=0 bad=0
+case=2 size=64x64 changed=4096 bad=0
+case=3 size=65x33 changed=2137 bad=0
+case=4 size=64x64 changed=4096 bad=0
+case=5 size=65x33 changed=2145 bad=0

@@ -1,0 +1,3 @@
+C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\DiffuseInput.hlsl(11,26-45): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+compilation object save succeeded; see C:\Users\mathe\Desktop\projeto\funcional\analysis\rtgi-native\PrepareInputCS.cso

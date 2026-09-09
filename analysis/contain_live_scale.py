@@ -1,0 +1,5 @@
+from pathlib import Path
+r=Path('OptiScaler-DLSSNR-PreSR-Multipass-main/OptiScaler')
+p=r/'dlssnr/amd/AmdBridge.cpp';s=p.read_text();s=s.replace('const float requestedScale=Config::Instance()->AmdNrScale.value_or_default();','static const float sessionScale=Config::Instance()->AmdNrScale.value_or_default();\n    const float requestedScale=sessionScale;').replace('s.modelScale = cfg.AmdNrScale.value_or_default();','s.modelScale = sessionScale;');p.write_text(s)
+p=r/'dlssnr/DlssNr_Menu.cpp';s=p.read_text();s=s.replace('            int passes = (int) config->DlssNrPasses', '            ImGui::TextDisabled("Save settings and restart the game to apply NR resolution.");\n            int passes = (int) config->DlssNrPasses',1).replace('AMD skin structure','AMD character structure');p.write_text(s)
+p=r/'dlssnr/amd/AmdPreSr.cpp';s=p.read_text().replace('At<float>(r, 0x76e38) = cfg.skin;','At<float>(r, 0x76e38) = cfg.skin;\n            At<UINT>(r, 0x76e40) = 1; // Enable native semantic character-mask channel.');p.write_text(s)

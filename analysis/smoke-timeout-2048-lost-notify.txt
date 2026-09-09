@@ -1,0 +1,10 @@
+frame=0 active=2048 passes=1 changed_pixels=4194211 nonfinite=0 tone_errors=0 elapsed_ms=187 status=Completed AMD pre-SR passes=1 at 2048x2048 | completed frames=1 last completion 0s ago | timeout events=0
+frame=1 active=2048 passes=1 changed_pixels=4194210 nonfinite=0 tone_errors=0 elapsed_ms=140 status=Completed AMD pre-SR passes=1 at 2048x2048 | completed frames=2 last completion 0s ago | timeout events=0
+GPU completed before worker notification in 313ms
+frame=2 active=2048 passes=1 changed_pixels=0 nonfinite=0 tone_errors=0 elapsed_ms=453 status=AMD timeout: current input preserved; recovery pending | completed frames=2 last completion 0s ago | timeout events=0
+Cooldown observed; waiting to test recovery
+frame=3 active=2048 passes=1 changed_pixels=4194207 nonfinite=0 tone_errors=0 elapsed_ms=172 status=Completed AMD pre-SR passes=1 at 2048x2048 | completed frames=3 last completion 0s ago | timeout events=1
+frame=4 active=2016 passes=1 changed_pixels=4064156 nonfinite=0 tone_errors=0 elapsed_ms=203 status=Completed AMD pre-SR passes=1 at 2016x2016 | completed frames=4 last completion 0s ago | timeout events=1
+frame=5 active=2016 passes=1 changed_pixels=4064140 nonfinite=0 tone_errors=0 elapsed_ms=188 status=Completed AMD pre-SR passes=1 at 2016x2016 | completed frames=5 last completion 0s ago | timeout events=1
+frame=6 active=2016 passes=1 changed_pixels=4064179 nonfinite=0 tone_errors=0 elapsed_ms=188 status=Completed AMD pre-SR passes=1 at 2016x2016 | completed frames=6 last completion 0s ago | timeout events=1
+frame=7 active=2016 passes=1 changed_pixels=4064155 nonfinite=0 tone_errors=0 elapsed_ms=203 status=Completed AMD pre-SR passes=1 at 2016x2016 | completed frames=7 last completion 0s ago | timeout events=1

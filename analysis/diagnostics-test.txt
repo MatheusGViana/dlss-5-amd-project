@@ -1,0 +1,1026 @@
+OptiScaler consolidated diagnostics
+Collected: 2026-09-08T18:45:50.3532022-03:00
+Game directory: C:\Users\mathe\Desktop\projeto\funcional\logs 1\slide neuro
+
+Name          : AMD Radeon RX 9060 XT
+DriverVersion : 32.0.31041.3013
+Status        : OK
+
+
+
+===== OptiScaler.ini =====
+[not present]
+
+===== dlssnr_on_amd.ini =====
+[not present]
+
+===== OptiScaler.log =====
+[not present]
+
+===== amd_presr.log =====
+Last write: 2026-09-08T17:20:01.3879247-03:00; bytes: 5024
+1581171 Input active=853x480 colour=853x480 format=10 flags=5 samples=1 array=1 dimension=3
+1581171 Input motion=853x480 format=10 flags=1 samples=1 array=1 dimension=3 depth=853x480 format=19 flags=2 samples=1 array=1 dimension=3
+1581187 HIP runtime: C:\Windows\SYSTEM32\amdhip64_7.dll
+1581265 HIP candidate 0 code=0 name=AMD Radeon RX 9070 GRE
+1581265 HIP adapter: AMD Radeon RX 9070 GRE
+1582734 Initialized independent AMD pass 1
+1582859 Guide mapping: motion=0x0 resampled=0 exposure=auto preExposure=1.000000 tone=0.000000
+1582859 AMD history reset: frame=0 game=0 resize=1 guides=1 passes=1 timeout=0 settings=1 explicit=1 gap=0
+1582906 Recorded pre-SR 853x480 passes=1
+1582906 Render submission queue changed; AMD pre-SR remains enabled
+1582937 Completed AMD pre-SR passes=1 at 853x480
+1582953 AMD history reset: frame=1 game=0 resize=0 guides=0 passes=0 timeout=0 settings=0 explicit=1 gap=0
+1582953 Recorded pre-SR 853x480 passes=1
+1582968 Completed AMD pre-SR passes=1 at 853x480
+1582968 Recorded pre-SR 853x480 passes=1
+1582984 Completed AMD pre-SR passes=1 at 853x480
+1583031 AMD history reset: frame=3 game=0 resize=0 guides=0 passes=0 timeout=0 settings=0 explicit=1 gap=0
+1583078 AMD history reset: frame=5 game=0 resize=0 guides=0 passes=0 timeout=0 settings=0 explicit=1 gap=0
+1583250 AMD history reset: frame=13 game=0 resize=0 guides=0 passes=0 timeout=0 settings=0 explicit=1 gap=0
+1627187 AMD history reset: frame=86 game=0 resize=0 guides=0 passes=0 timeout=0 settings=1 explicit=1 gap=1
+1628296 Completed AMD pre-SR passes=1 at 853x480
+1632187 Completed AMD pre-SR passes=1 at 853x480
+1636015 Completed AMD pre-SR passes=1 at 853x480
+1639703 Completed AMD pre-SR passes=1 at 853x480
+1643281 Completed AMD pre-SR passes=1 at 853x480
+1644796 AMD history reset: frame=641 game=0 resize=0 guides=0 passes=0 timeout=0 settings=0 explicit=0 gap=1
+1647109 Completed AMD pre-SR passes=1 at 853x480
+1650656 Completed AMD pre-SR passes=1 at 853x480
+1654203 Completed AMD pre-SR passes=1 at 853x480
+1655671 Unsupported display motion format: 853x480 format=10 flags=1 samples=1 array=1 dimension=3
+1818859 Workers stopped outside loader lock
+1829750 Input active=1707x960 colour=1707x960 format=10 flags=5 samples=1 array=1 dimension=3
+1829750 Input motion=1707x960 format=10 flags=1 samples=1 array=1 dimension=3 depth=1707x960 format=19 flags=2 samples=1 array=1 dimension=3
+1829750 Unsupported display motion format: 1707x960 format=10 flags=1 samples=1 array=1 dimension=3
+1841578 Workers stopped outside loader lock
+1934734 Input active=1707x960 colour=1707x960 format=10 flags=5 samples=1 array=1 dimension=3
+1934734 Input motion=1707x960 format=10 flags=1 samples=1 array=1 dimension=3 depth=1707x960 format=19 flags=2 samples=1 array=1 dimension=3
+1934734 Unsupported display motion format: 1707x960 format=10 flags=1 samples=1 array=1 dimension=3
+2133218 Workers stopped outside loader lock
+2181015 Input active=1707x960 colour=1707x960 format=10 flags=5 samples=1 array=1 dimension=3
+2181015 Input motion=1707x960 format=10 flags=1 samples=1 array=1 dimension=3 depth=1707x960 format=19 flags=2 samples=1 array=1 dimension=3
+2181015 Unsupported display motion format: 1707x960 format=10 flags=1 samples=1 array=1 dimension=3
+2276203 Input active=1707x960 colour=1707x960 format=10 flags=5 samples=1 array=1 dimension=3
+2276203 Input motion=1707x960 format=10 flags=1 samples=1 array=1 dimension=3 depth=1707x960 format=19 flags=2 samples=1 array=1 dimension=3
+2276203 Unsupported display motion format: 1707x960 format=10 flags=1 samples=1 array=1 dimension=3
+2627421 Input active=1707x960 colour=1707x960 format=10 flags=5 samples=1 array=1 dimension=3
+2627421 Input motion=1707x960 format=10 flags=1 samples=1 array=1 dimension=3 depth=1707x960 format=19 flags=2 samples=1 array=1 dimension=3
+2627421 Unsupported display motion format: 1707x960 format=10 flags=1 samples=1 array=1 dimension=3
+2644390 Workers stopped outside loader lock
+2664703 Input active=1707x960 colour=1707x960 format=10 flags=5 samples=1 array=1 dimension=3
+2664703 Input motion=1707x960 format=10 flags=1 samples=1 array=1 dimension=3 depth=1707x960 format=19 flags=2 samples=1 array=1 dimension=3
+2664703 Unsupported display motion format: 1707x960 format=10 flags=1 samples=1 array=1 dimension=3
+2703078 Input active=1707x960 colour=1707x960 format=10 flags=5 samples=1 array=1 dimension=3
+2703078 Input motion=1707x960 format=10 flags=1 samples=1 array=1 dimension=3 depth=1707x960 format=19 flags=2 samples=1 array=1 dimension=3
+2703078 Unsupported display motion format: 1707x960 format=10 flags=1 samples=1 array=1 dimension=3
+2732421 Input active=1707x960 colour=1707x960 format=10 flags=5 samples=1 array=1 dimension=3
+2732421 Input motion=1707x960 format=10 flags=1 samples=1 array=1 dimension=3 depth=1707x960 format=19 flags=2 samples=1 array=1 dimension=3
+2732421 Unsupported display motion format: 1707x960 format=10 flags=1 samples=1 array=1 dimension=3
+
+===== amd_bridge.log =====
+Last write: 2026-09-08T17:19:53.3770895-03:00; bytes: 69317
+1580812 thread=7620 AMD neural: waiting for resolution settings to settle
+1580828 thread=10396 AMD neural: waiting for resolution settings to settle
+1580828 thread=6544 AMD neural: waiting for resolution settings to settle
+1580828 thread=2580 AMD neural: waiting for resolution settings to settle
+1580843 thread=6544 AMD neural: waiting for resolution settings to settle
+1580843 thread=2580 AMD neural: waiting for resolution settings to settle
+1580843 thread=19880 AMD neural: waiting for resolution settings to settle
+1580859 thread=6544 AMD neural: waiting for resolution settings to settle
+1580859 thread=8728 AMD neural: waiting for resolution settings to settle
+1580875 thread=6544 AMD neural: waiting for resolution settings to settle
+1580875 thread=7620 AMD neural: waiting for resolution settings to settle
+1580890 thread=19224 AMD neural: waiting for resolution settings to settle
+1580890 thread=19880 AMD neural: waiting for resolution settings to settle
+1580890 thread=10396 AMD neural: waiting for resolution settings to settle
+1580906 thread=8728 AMD neural: waiting for resolution settings to settle
+1580906 thread=2580 AMD neural: waiting for resolution settings to settle
+1580906 thread=19880 AMD neural: waiting for resolution settings to settle
+1580921 thread=10896 AMD neural: waiting for resolution settings to settle
+1580921 thread=19224 AMD neural: waiting for resolution settings to settle
+1580921 thread=2580 AMD neural: waiting for resolution settings to settle
+1580937 thread=19880 AMD neural: waiting for resolution settings to settle
+1580937 thread=19224 AMD neural: waiting for resolution settings to settle
+1580937 thread=19880 AMD neural: waiting for resolution settings to settle
+1580953 thread=8728 AMD neural: waiting for resolution settings to settle
+1580953 thread=10896 AMD neural: waiting for resolution settings to settle
+1580953 thread=10396 AMD neural: waiting for resolution settings to settle
+1580968 thread=19880 AMD neural: waiting for resolution settings to settle
+1580968 thread=2580 AMD neural: waiting for resolution settings to settle
+1580984 thread=10896 AMD neural: waiting for resolution settings to settle
+1580984 thread=8728 AMD neural: waiting for resolution settings to settle
+1580984 thread=19328 AMD neural: waiting for resolution settings to settle
+1581000 thread=19224 AMD neural: waiting for resolution settings to settle
+1581000 thread=6152 AMD neural: waiting for resolution settings to settle
+1581000 thread=19224 AMD neural: waiting for resolution settings to settle
+1581015 thread=19880 AMD neural: waiting for resolution settings to settle
+1581015 thread=19224 AMD neural: waiting for resolution settings to settle
+1581015 thread=19328 AMD neural: waiting for resolution settings to settle
+1581031 thread=19328 AMD neural: waiting for resolution settings to settle
+1581031 thread=8728 AMD neural: waiting for resolution settings to settle
+1581031 thread=6152 AMD neural: waiting for resolution settings to settle
+1581046 thread=19880 AMD neural: waiting for resolution settings to settle
+1581046 thread=19880 AMD neural: waiting for resolution settings to settle
+1581062 thread=19224 AMD neural: waiting for resolution settings to settle
+1581062 thread=8728 AMD neural: waiting for resolution settings to settle
+1581062 thread=19328 AMD neural: waiting for resolution settings to settle
+1581078 thread=7620 AMD neural: waiting for resolution settings to settle
+1581078 thread=6152 AMD neural: waiting for resolution settings to settle
+1581078 thread=7620 AMD neural: waiting for resolution settings to settle
+1581093 thread=19328 AMD neural: waiting for resolution settings to settle
+1581093 thread=10896 AMD neural: waiting for resolution settings to settle
+1581093 thread=10396 AMD neural: waiting for resolution settings to settle
+1581109 thread=10896 AMD neural: waiting for resolution settings to settle
+1581109 thread=6544 AMD neural: waiting for resolution settings to settle
+1581125 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1581125 thread=7620 AMD pre-SR: warming up after an upscaler/resource change
+1581125 thread=19880 AMD pre-SR: warming up after an upscaler/resource change
+1581140 thread=19328 AMD pre-SR: warming up after an upscaler/resource change
+1581140 thread=6152 AMD pre-SR: warming up after an upscaler/resource change
+1581140 thread=19880 AMD pre-SR: warming up after an upscaler/resource change
+1581156 thread=19224 AMD pre-SR: warming up after an upscaler/resource change
+1581156 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1581156 thread=19328 AMD pre-SR: warming up after an upscaler/resource change
+1582937 thread=16576 AMD pre-SR: warming up after an upscaler/resource change
+1582953 thread=6152 AMD pre-SR: warming up after an upscaler/resource change
+1582968 thread=16576 AMD pre-SR: warming up after an upscaler/resource change
+1583000 thread=2580 AMD pre-SR: warming up after an upscaler/resource change
+1583000 thread=19224 AMD pre-SR: warming up after an upscaler/resource change
+1583000 thread=7620 AMD pre-SR: warming up after an upscaler/resource change
+1583015 thread=16160 AMD pre-SR: warming up after an upscaler/resource change
+1583015 thread=2580 AMD pre-SR: warming up after an upscaler/resource change
+1583062 thread=10896 AMD pre-SR: warming up after an upscaler/resource change
+1583062 thread=16160 AMD pre-SR: warming up after an upscaler/resource change
+1583218 thread=8728 AMD pre-SR: warming up after an upscaler/resource change
+1583234 thread=6544 AMD pre-SR: warming up after an upscaler/resource change
+1583406 thread=6544 AMD pre-SR: warming up after an upscaler/resource change
+1583421 thread=10896 AMD pre-SR: warming up after an upscaler/resource change
+1583484 thread=8728 AMD pre-SR: warming up after an upscaler/resource change
+1655359 thread=6544 AMD neural: waiting for resolution settings to settle
+1655375 thread=19328 AMD neural: waiting for resolution settings to settle
+1655390 thread=8728 AMD neural: waiting for resolution settings to settle
+1655421 thread=19328 AMD neural: waiting for resolution settings to settle
+1655437 thread=19880 AMD neural: waiting for resolution settings to settle
+1655468 thread=19880 AMD neural: waiting for resolution settings to settle
+1655484 thread=10396 AMD neural: waiting for resolution settings to settle
+1655515 thread=19224 AMD neural: waiting for resolution settings to settle
+1655546 thread=19328 AMD neural: waiting for resolution settings to settle
+1655562 thread=6152 AMD neural: waiting for resolution settings to settle
+1655593 thread=10396 AMD neural: waiting for resolution settings to settle
+1655609 thread=6152 AMD neural: waiting for resolution settings to settle
+1655625 thread=10396 AMD neural: waiting for resolution settings to settle
+1655656 thread=19880 AMD neural: waiting for resolution settings to settle
+1672468 thread=2580 AMD neural: waiting for resolution settings to settle
+1672500 thread=19880 AMD neural: waiting for resolution settings to settle
+1672531 thread=10896 AMD neural: waiting for resolution settings to settle
+1672546 thread=10396 AMD neural: waiting for resolution settings to settle
+1672562 thread=2580 AMD neural: waiting for resolution settings to settle
+1672593 thread=6544 AMD neural: waiting for resolution settings to settle
+1672609 thread=6152 AMD neural: waiting for resolution settings to settle
+1672625 thread=16576 AMD neural: waiting for resolution settings to settle
+1672640 thread=16576 AMD neural: waiting for resolution settings to settle
+1672656 thread=10396 AMD neural: waiting for resolution settings to settle
+1672687 thread=16160 AMD neural: waiting for resolution settings to settle
+1672703 thread=6152 AMD neural: waiting for resolution settings to settle
+1672718 thread=16160 AMD neural: waiting for resolution settings to settle
+1672734 thread=10396 AMD neural: waiting for resolution settings to settle
+1672750 thread=6152 AMD neural: waiting for resolution settings to settle
+1672781 thread=6152 AMD pre-SR: warming up after an upscaler/resource change
+1672796 thread=6544 AMD pre-SR: warming up after an upscaler/resource change
+1672812 thread=19328 AMD pre-SR: warming up after an upscaler/resource change
+1672828 thread=2580 AMD pre-SR: warming up after an upscaler/resource change
+1672859 thread=8728 AMD pre-SR: warming up after an upscaler/resource change
+1672875 thread=8728 AMD pre-SR: warming up after an upscaler/resource change
+1672890 thread=6544 AMD pre-SR: warming up after an upscaler/resource change
+1672906 thread=7620 AMD pre-SR: warming up after an upscaler/resource change
+1672921 thread=19328 AMD pre-SR: warming up after an upscaler/resource change
+1672953 thread=16576 AMD pre-SR: warming up after an upscaler/resource change
+1672968 thread=19880 AMD pre-SR: warming up after an upscaler/resource change
+1672984 thread=19224 AMD pre-SR: warming up after an upscaler/resource change
+1673000 thread=2580 AMD pre-SR: warming up after an upscaler/resource change
+1673015 thread=6152 AMD pre-SR: warming up after an upscaler/resource change
+1673109 thread=16576 AMD pre-SR: warming up after an upscaler/resource change
+1673125 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1673140 thread=19224 AMD pre-SR: warming up after an upscaler/resource change
+1673187 thread=10896 AMD pre-SR: warming up after an upscaler/resource change
+1673218 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1673312 thread=19880 AMD pre-SR: warming up after an upscaler/resource change
+1673406 thread=10896 AMD pre-SR: warming up after an upscaler/resource change
+1673437 thread=7620 AMD pre-SR: warming up after an upscaler/resource change
+1674406 thread=16160 AMD pre-SR: warming up after an upscaler/resource change
+1676578 thread=16160 AMD pre-SR: warming up after an upscaler/resource change
+1688562 thread=10896 AMD neural: waiting for resolution settings to settle
+1688578 thread=6544 AMD neural: waiting for resolution settings to settle
+1688593 thread=19328 AMD neural: waiting for resolution settings to settle
+1688609 thread=19328 AMD neural: waiting for resolution settings to settle
+1688625 thread=19224 AMD neural: waiting for resolution settings to settle
+1688640 thread=7620 AMD neural: waiting for resolution settings to settle
+1688656 thread=10396 AMD neural: waiting for resolution settings to settle
+1688671 thread=10396 AMD neural: waiting for resolution settings to settle
+1688687 thread=19328 AMD neural: waiting for resolution settings to settle
+1688703 thread=2580 AMD neural: waiting for resolution settings to settle
+1688718 thread=7620 AMD neural: waiting for resolution settings to settle
+1688734 thread=8728 AMD neural: waiting for resolution settings to settle
+1688750 thread=6152 AMD neural: waiting for resolution settings to settle
+1688765 thread=19224 AMD neural: waiting for resolution settings to settle
+1688781 thread=19224 AMD neural: waiting for resolution settings to settle
+1688796 thread=19880 AMD neural: waiting for resolution settings to settle
+1688812 thread=7620 AMD neural: waiting for resolution settings to settle
+1688843 thread=6544 AMD neural: waiting for resolution settings to settle
+1688859 thread=19224 AMD neural: waiting for resolution settings to settle
+1725125 thread=10396 AMD neural: waiting for resolution settings to settle
+1725140 thread=2580 AMD neural: waiting for resolution settings to settle
+1725156 thread=6544 AMD neural: waiting for resolution settings to settle
+1725171 thread=2580 AMD neural: waiting for resolution settings to settle
+1725187 thread=10896 AMD neural: waiting for resolution settings to settle
+1725203 thread=6544 AMD neural: waiting for resolution settings to settle
+1725218 thread=10896 AMD neural: waiting for resolution settings to settle
+1725234 thread=10896 AMD neural: waiting for resolution settings to settle
+1725250 thread=19880 AMD neural: waiting for resolution settings to settle
+1725281 thread=6544 AMD neural: waiting for resolution settings to settle
+1725296 thread=16576 AMD neural: waiting for resolution settings to settle
+1725312 thread=2580 AMD neural: waiting for resolution settings to settle
+1725328 thread=19328 AMD neural: waiting for resolution settings to settle
+1725343 thread=6152 AMD neural: waiting for resolution settings to settle
+1725359 thread=16576 AMD neural: waiting for resolution settings to settle
+1725375 thread=16576 AMD neural: waiting for resolution settings to settle
+1725390 thread=6544 AMD neural: waiting for resolution settings to settle
+1725406 thread=8728 AMD neural: waiting for resolution settings to settle
+1725421 thread=10396 AMD neural: waiting for resolution settings to settle
+1748890 thread=6152 AMD neural: waiting for resolution settings to settle
+1748906 thread=8728 AMD neural: waiting for resolution settings to settle
+1748921 thread=19880 AMD neural: waiting for resolution settings to settle
+1748937 thread=6152 AMD neural: waiting for resolution settings to settle
+1748968 thread=6544 AMD neural: waiting for resolution settings to settle
+1748984 thread=10896 AMD neural: waiting for resolution settings to settle
+1749000 thread=6152 AMD neural: waiting for resolution settings to settle
+1749015 thread=6544 AMD neural: waiting for resolution settings to settle
+1749031 thread=16576 AMD neural: waiting for resolution settings to settle
+1749046 thread=19880 AMD neural: waiting for resolution settings to settle
+1749078 thread=19224 AMD neural: waiting for resolution settings to settle
+1749093 thread=8728 AMD neural: waiting for resolution settings to settle
+1749109 thread=2580 AMD neural: waiting for resolution settings to settle
+1749125 thread=6544 AMD neural: waiting for resolution settings to settle
+1749140 thread=8728 AMD neural: waiting for resolution settings to settle
+1749156 thread=10396 AMD neural: waiting for resolution settings to settle
+1749171 thread=19328 AMD neural: waiting for resolution settings to settle
+1749187 thread=19880 AMD neural: waiting for resolution settings to settle
+1749218 thread=19880 AMD pre-SR: warming up after an upscaler/resource change
+1749234 thread=6152 AMD pre-SR: warming up after an upscaler/resource change
+1749250 thread=19224 AMD pre-SR: warming up after an upscaler/resource change
+1749265 thread=2580 AMD pre-SR: warming up after an upscaler/resource change
+1749296 thread=19328 AMD pre-SR: warming up after an upscaler/resource change
+1749312 thread=19224 AMD pre-SR: warming up after an upscaler/resource change
+1749328 thread=7620 AMD pre-SR: warming up after an upscaler/resource change
+1749343 thread=7620 AMD pre-SR: warming up after an upscaler/resource change
+1749375 thread=8728 AMD pre-SR: warming up after an upscaler/resource change
+1749390 thread=6544 AMD pre-SR: warming up after an upscaler/resource change
+1749453 thread=19328 AMD pre-SR: warming up after an upscaler/resource change
+1749468 thread=6152 AMD pre-SR: warming up after an upscaler/resource change
+1749484 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1749500 thread=10896 AMD pre-SR: warming up after an upscaler/resource change
+1749515 thread=16576 AMD pre-SR: warming up after an upscaler/resource change
+1749562 thread=10896 AMD pre-SR: warming up after an upscaler/resource change
+1749671 thread=6544 AMD pre-SR: warming up after an upscaler/resource change
+1749687 thread=8728 AMD pre-SR: warming up after an upscaler/resource change
+1749703 thread=19880 AMD pre-SR: warming up after an upscaler/resource change
+1749750 thread=2580 AMD pre-SR: warming up after an upscaler/resource change
+1749875 thread=16576 AMD pre-SR: warming up after an upscaler/resource change
+1750015 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1750156 thread=16160 AMD pre-SR: warming up after an upscaler/resource change
+1750453 thread=16160 AMD pre-SR: warming up after an upscaler/resource change
+1761828 thread=6544 AMD neural: waiting for resolution settings to settle
+1761843 thread=16576 AMD neural: waiting for resolution settings to settle
+1761859 thread=6544 AMD neural: waiting for resolution settings to settle
+1761890 thread=10396 AMD neural: waiting for resolution settings to settle
+1761906 thread=19328 AMD neural: waiting for resolution settings to settle
+1761921 thread=2580 AMD neural: waiting for resolution settings to settle
+1761937 thread=19328 AMD neural: waiting for resolution settings to settle
+1761953 thread=6544 AMD neural: waiting for resolution settings to settle
+1761968 thread=6152 AMD neural: waiting for resolution settings to settle
+1761984 thread=19224 AMD neural: waiting for resolution settings to settle
+1762000 thread=8728 AMD neural: waiting for resolution settings to settle
+1762015 thread=7620 AMD neural: waiting for resolution settings to settle
+1762031 thread=7620 AMD neural: waiting for resolution settings to settle
+1762062 thread=19224 AMD neural: waiting for resolution settings to settle
+1762078 thread=6152 AMD neural: waiting for resolution settings to settle
+1762093 thread=10396 AMD neural: waiting for resolution settings to settle
+1762109 thread=6152 AMD neural: waiting for resolution settings to settle
+1762125 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1762140 thread=19880 AMD pre-SR: warming up after an upscaler/resource change
+1762156 thread=8728 AMD pre-SR: warming up after an upscaler/resource change
+1762171 thread=19328 AMD pre-SR: warming up after an upscaler/resource change
+1762187 thread=19224 AMD pre-SR: warming up after an upscaler/resource change
+1762218 thread=2580 AMD pre-SR: warming up after an upscaler/resource change
+1762234 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1762250 thread=2580 AMD pre-SR: warming up after an upscaler/resource change
+1762265 thread=19328 AMD pre-SR: warming up after an upscaler/resource change
+1762281 thread=6544 AMD pre-SR: warming up after an upscaler/resource change
+1762296 thread=6152 AMD pre-SR: warming up after an upscaler/resource change
+1762312 thread=19880 AMD pre-SR: warming up after an upscaler/resource change
+1762328 thread=19224 AMD pre-SR: warming up after an upscaler/resource change
+1762343 thread=10896 AMD pre-SR: warming up after an upscaler/resource change
+1762406 thread=16576 AMD pre-SR: warming up after an upscaler/resource change
+1762437 thread=6152 AMD pre-SR: warming up after an upscaler/resource change
+1762453 thread=7620 AMD pre-SR: warming up after an upscaler/resource change
+1762484 thread=10896 AMD pre-SR: warming up after an upscaler/resource change
+1762515 thread=8728 AMD pre-SR: warming up after an upscaler/resource change
+1762593 thread=6544 AMD pre-SR: warming up after an upscaler/resource change
+1762656 thread=16160 AMD pre-SR: warming up after an upscaler/resource change
+1762796 thread=16576 AMD pre-SR: warming up after an upscaler/resource change
+1762984 thread=16160 AMD pre-SR: warming up after an upscaler/resource change
+1763046 thread=7620 AMD pre-SR: warming up after an upscaler/resource change
+1768906 thread=19328 AMD neural: waiting for resolution settings to settle
+1768921 thread=10396 AMD neural: waiting for resolution settings to settle
+1768937 thread=2580 AMD neural: waiting for resolution settings to settle
+1768968 thread=19224 AMD neural: waiting for resolution settings to settle
+1768984 thread=6544 AMD neural: waiting for resolution settings to settle
+1769000 thread=19328 AMD neural: waiting for resolution settings to settle
+1769015 thread=16576 AMD neural: waiting for resolution settings to settle
+1769031 thread=6152 AMD neural: waiting for resolution settings to settle
+1769046 thread=19880 AMD neural: waiting for resolution settings to settle
+1769062 thread=16576 AMD neural: waiting for resolution settings to settle
+1769078 thread=8728 AMD neural: waiting for resolution settings to settle
+1769109 thread=6544 AMD neural: waiting for resolution settings to settle
+1769125 thread=16576 AMD neural: waiting for resolution settings to settle
+1769140 thread=8728 AMD neural: waiting for resolution settings to settle
+1769156 thread=6152 AMD neural: waiting for resolution settings to settle
+1769171 thread=16576 AMD neural: waiting for resolution settings to settle
+1769187 thread=6152 AMD neural: waiting for resolution settings to settle
+1769203 thread=6544 AMD neural: waiting for resolution settings to settle
+1771609 thread=2580 AMD neural: waiting for resolution settings to settle
+1771625 thread=2580 AMD neural: waiting for resolution settings to settle
+1771640 thread=19224 AMD neural: waiting for resolution settings to settle
+1771656 thread=6544 AMD neural: waiting for resolution settings to settle
+1771671 thread=8728 AMD neural: waiting for resolution settings to settle
+1771687 thread=2580 AMD neural: waiting for resolution settings to settle
+1771718 thread=10396 AMD neural: waiting for resolution settings to settle
+1771734 thread=2580 AMD neural: waiting for resolution settings to settle
+1771750 thread=19224 AMD neural: waiting for resolution settings to settle
+1771765 thread=6152 AMD neural: waiting for resolution settings to settle
+1771781 thread=19224 AMD neural: waiting for resolution settings to settle
+1771796 thread=16576 AMD neural: waiting for resolution settings to settle
+1771812 thread=7620 AMD neural: waiting for resolution settings to settle
+1771843 thread=19328 AMD neural: waiting for resolution settings to settle
+1771859 thread=2580 AMD neural: waiting for resolution settings to settle
+1771875 thread=2580 AMD neural: waiting for resolution settings to settle
+1771890 thread=19224 AMD neural: waiting for resolution settings to settle
+1771906 thread=10396 AMD neural: waiting for resolution settings to settle
+1809171 thread=6152 AMD neural: waiting for resolution settings to settle
+1809187 thread=6152 AMD neural: waiting for resolution settings to settle
+1809203 thread=19224 AMD neural: waiting for resolution settings to settle
+1809218 thread=6544 AMD neural: waiting for resolution settings to settle
+1809234 thread=16576 AMD neural: waiting for resolution settings to settle
+1809250 thread=6544 AMD neural: waiting for resolution settings to settle
+1809281 thread=19224 AMD neural: waiting for resolution settings to settle
+1809296 thread=6544 AMD neural: waiting for resolution settings to settle
+1809312 thread=10896 AMD neural: waiting for resolution settings to settle
+1809328 thread=10896 AMD neural: waiting for resolution settings to settle
+1809343 thread=10396 AMD neural: waiting for resolution settings to settle
+1809359 thread=19880 AMD neural: waiting for resolution settings to settle
+1809375 thread=16576 AMD neural: waiting for resolution settings to settle
+1809406 thread=2580 AMD neural: waiting for resolution settings to settle
+1809421 thread=10396 AMD neural: waiting for resolution settings to settle
+1809437 thread=10396 AMD neural: waiting for resolution settings to settle
+1809453 thread=19328 AMD neural: waiting for resolution settings to settle
+1809468 thread=7620 AMD neural: waiting for resolution settings to settle
+1829343 thread=10600 AMD neural: waiting for resolution settings to settle
+1829359 thread=19912 AMD neural: waiting for resolution settings to settle
+1829375 thread=19784 AMD neural: waiting for resolution settings to settle
+1829390 thread=18956 AMD neural: waiting for resolution settings to settle
+1829390 thread=19784 AMD neural: waiting for resolution settings to settle
+1829406 thread=2012 AMD neural: waiting for resolution settings to settle
+1829406 thread=10600 AMD neural: waiting for resolution settings to settle
+1829421 thread=15852 AMD neural: waiting for resolution settings to settle
+1829453 thread=10600 AMD neural: waiting for resolution settings to settle
+1829468 thread=13856 AMD neural: waiting for resolution settings to settle
+1829484 thread=19912 AMD neural: waiting for resolution settings to settle
+1829484 thread=15852 AMD neural: waiting for resolution settings to settle
+1829500 thread=15852 AMD neural: waiting for resolution settings to settle
+1829500 thread=2720 AMD neural: waiting for resolution settings to settle
+1829515 thread=2012 AMD neural: waiting for resolution settings to settle
+1829515 thread=15852 AMD neural: waiting for resolution settings to settle
+1829531 thread=10600 AMD neural: waiting for resolution settings to settle
+1829546 thread=6636 AMD neural: waiting for resolution settings to settle
+1829562 thread=8040 AMD neural: waiting for resolution settings to settle
+1829562 thread=15852 AMD neural: waiting for resolution settings to settle
+1829578 thread=19912 AMD neural: waiting for resolution settings to settle
+1829578 thread=8040 AMD neural: waiting for resolution settings to settle
+1829593 thread=8040 AMD neural: waiting for resolution settings to settle
+1829593 thread=19784 AMD neural: waiting for resolution settings to settle
+1829609 thread=10084 AMD neural: waiting for resolution settings to settle
+1829609 thread=13856 AMD neural: waiting for resolution settings to settle
+1829625 thread=13856 AMD neural: waiting for resolution settings to settle
+1829640 thread=15852 AMD neural: waiting for resolution settings to settle
+1829640 thread=10084 AMD neural: waiting for resolution settings to settle
+1829656 thread=6636 AMD pre-SR: warming up after an upscaler/resource change
+1829656 thread=19912 AMD pre-SR: warming up after an upscaler/resource change
+1829671 thread=18956 AMD pre-SR: warming up after an upscaler/resource change
+1829671 thread=10600 AMD pre-SR: warming up after an upscaler/resource change
+1829687 thread=19912 AMD pre-SR: warming up after an upscaler/resource change
+1829703 thread=10084 AMD pre-SR: warming up after an upscaler/resource change
+1829703 thread=10084 AMD pre-SR: warming up after an upscaler/resource change
+1829718 thread=19784 AMD pre-SR: warming up after an upscaler/resource change
+1829718 thread=10600 AMD pre-SR: warming up after an upscaler/resource change
+1829734 thread=19784 AMD pre-SR: warming up after an upscaler/resource change
+1829734 thread=13856 AMD pre-SR: warming up after an upscaler/resource change
+1829765 thread=2012 AMD pre-SR: warming up after an upscaler/resource change
+1829765 thread=2012 AMD pre-SR: warming up after an upscaler/resource change
+1829781 thread=15852 AMD pre-SR: warming up after an upscaler/resource change
+1829812 thread=6636 AMD pre-SR: warming up after an upscaler/resource change
+1829843 thread=18956 AMD pre-SR: warming up after an upscaler/resource change
+1829859 thread=3112 AMD pre-SR: warming up after an upscaler/resource change
+1829875 thread=3112 AMD pre-SR: warming up after an upscaler/resource change
+1829906 thread=8040 AMD pre-SR: warming up after an upscaler/resource change
+1829921 thread=8040 AMD pre-SR: warming up after an upscaler/resource change
+1829937 thread=15852 AMD pre-SR: warming up after an upscaler/resource change
+1829968 thread=13856 AMD pre-SR: warming up after an upscaler/resource change
+1830031 thread=2720 AMD pre-SR: warming up after an upscaler/resource change
+1830078 thread=2720 AMD pre-SR: warming up after an upscaler/resource change
+1934296 thread=5312 AMD neural: waiting for resolution settings to settle
+1934312 thread=1724 AMD neural: waiting for resolution settings to settle
+1934328 thread=9100 AMD neural: waiting for resolution settings to settle
+1934343 thread=10396 AMD neural: waiting for resolution settings to settle
+1934343 thread=8612 AMD neural: waiting for resolution settings to settle
+1934359 thread=10396 AMD neural: waiting for resolution settings to settle
+1934359 thread=19300 AMD neural: waiting for resolution settings to settle
+1934359 thread=8612 AMD neural: waiting for resolution settings to settle
+1934406 thread=20148 AMD neural: waiting for resolution settings to settle
+1934406 thread=5312 AMD neural: waiting for resolution settings to settle
+1934421 thread=10396 AMD neural: waiting for resolution settings to settle
+1934437 thread=9428 AMD neural: waiting for resolution settings to settle
+1934453 thread=10224 AMD neural: waiting for resolution settings to settle
+1934453 thread=9428 AMD neural: waiting for resolution settings to settle
+1934468 thread=10224 AMD neural: waiting for resolution settings to settle
+1934468 thread=9428 AMD neural: waiting for resolution settings to settle
+1934484 thread=1724 AMD neural: waiting for resolution settings to settle
+1934500 thread=20232 AMD neural: waiting for resolution settings to settle
+1934515 thread=16836 AMD neural: waiting for resolution settings to settle
+1934515 thread=20148 AMD neural: waiting for resolution settings to settle
+1934531 thread=10396 AMD neural: waiting for resolution settings to settle
+1934531 thread=1724 AMD neural: waiting for resolution settings to settle
+1934546 thread=10396 AMD neural: waiting for resolution settings to settle
+1934562 thread=20232 AMD neural: waiting for resolution settings to settle
+1934562 thread=20232 AMD neural: waiting for resolution settings to settle
+1934578 thread=20232 AMD neural: waiting for resolution settings to settle
+1934593 thread=1724 AMD neural: waiting for resolution settings to settle
+1934593 thread=8612 AMD neural: waiting for resolution settings to settle
+1934609 thread=19300 AMD pre-SR: warming up after an upscaler/resource change
+1934625 thread=8612 AMD pre-SR: warming up after an upscaler/resource change
+1934625 thread=20232 AMD pre-SR: warming up after an upscaler/resource change
+1934640 thread=20232 AMD pre-SR: warming up after an upscaler/resource change
+1934640 thread=5312 AMD pre-SR: warming up after an upscaler/resource change
+1934656 thread=8612 AMD pre-SR: warming up after an upscaler/resource change
+1934671 thread=20148 AMD pre-SR: warming up after an upscaler/resource change
+1934671 thread=9100 AMD pre-SR: warming up after an upscaler/resource change
+1934687 thread=16836 AMD pre-SR: warming up after an upscaler/resource change
+1934687 thread=10224 AMD pre-SR: warming up after an upscaler/resource change
+1934703 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1934718 thread=4204 AMD pre-SR: warming up after an upscaler/resource change
+1934718 thread=9428 AMD pre-SR: warming up after an upscaler/resource change
+1934734 thread=19300 AMD pre-SR: warming up after an upscaler/resource change
+1934750 thread=1724 AMD pre-SR: warming up after an upscaler/resource change
+1934765 thread=9428 AMD pre-SR: warming up after an upscaler/resource change
+1934765 thread=9100 AMD pre-SR: warming up after an upscaler/resource change
+1934781 thread=10224 AMD pre-SR: warming up after an upscaler/resource change
+1934781 thread=4204 AMD pre-SR: warming up after an upscaler/resource change
+1934828 thread=20148 AMD pre-SR: warming up after an upscaler/resource change
+1934937 thread=16836 AMD pre-SR: warming up after an upscaler/resource change
+1935046 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1935078 thread=1724 AMD pre-SR: warming up after an upscaler/resource change
+1935171 thread=5312 AMD pre-SR: warming up after an upscaler/resource change
+1943812 thread=9428 AMD neural: waiting for resolution settings to settle
+1943812 thread=20232 AMD neural: waiting for resolution settings to settle
+1943828 thread=19300 AMD neural: waiting for resolution settings to settle
+1943843 thread=19300 AMD neural: waiting for resolution settings to settle
+1943843 thread=10396 AMD neural: waiting for resolution settings to settle
+1943859 thread=16836 AMD neural: waiting for resolution settings to settle
+1943875 thread=8612 AMD neural: waiting for resolution settings to settle
+1943875 thread=9428 AMD neural: waiting for resolution settings to settle
+1943890 thread=9428 AMD neural: waiting for resolution settings to settle
+1943906 thread=4204 AMD neural: waiting for resolution settings to settle
+1943906 thread=20232 AMD neural: waiting for resolution settings to settle
+1943921 thread=16836 AMD neural: waiting for resolution settings to settle
+1943921 thread=4204 AMD neural: waiting for resolution settings to settle
+1943937 thread=20148 AMD neural: waiting for resolution settings to settle
+1943953 thread=16836 AMD neural: waiting for resolution settings to settle
+1943953 thread=9428 AMD neural: waiting for resolution settings to settle
+1943968 thread=20232 AMD neural: waiting for resolution settings to settle
+1943984 thread=9100 AMD neural: waiting for resolution settings to settle
+1943984 thread=9100 AMD neural: waiting for resolution settings to settle
+1944000 thread=4204 AMD neural: waiting for resolution settings to settle
+1944015 thread=8612 AMD neural: waiting for resolution settings to settle
+1944015 thread=8612 AMD neural: waiting for resolution settings to settle
+1944031 thread=9428 AMD neural: waiting for resolution settings to settle
+1944046 thread=20148 AMD neural: waiting for resolution settings to settle
+1944046 thread=8612 AMD neural: waiting for resolution settings to settle
+1944062 thread=9428 AMD neural: waiting for resolution settings to settle
+1944062 thread=20232 AMD neural: waiting for resolution settings to settle
+1944078 thread=9100 AMD neural: waiting for resolution settings to settle
+1944093 thread=8612 AMD neural: waiting for resolution settings to settle
+1944093 thread=1724 AMD neural: waiting for resolution settings to settle
+1944109 thread=9428 AMD neural: waiting for resolution settings to settle
+1947187 thread=4204 AMD neural: waiting for resolution settings to settle
+1947203 thread=5312 AMD neural: waiting for resolution settings to settle
+1947203 thread=5312 AMD neural: waiting for resolution settings to settle
+1947218 thread=16836 AMD neural: waiting for resolution settings to settle
+1947218 thread=19300 AMD neural: waiting for resolution settings to settle
+1947234 thread=20232 AMD neural: waiting for resolution settings to settle
+1947250 thread=9428 AMD neural: waiting for resolution settings to settle
+1947250 thread=9100 AMD neural: waiting for resolution settings to settle
+1947265 thread=10224 AMD neural: waiting for resolution settings to settle
+1947281 thread=20232 AMD neural: waiting for resolution settings to settle
+1947281 thread=1724 AMD neural: waiting for resolution settings to settle
+1947296 thread=20148 AMD neural: waiting for resolution settings to settle
+1947312 thread=10224 AMD neural: waiting for resolution settings to settle
+1947312 thread=20148 AMD neural: waiting for resolution settings to settle
+1947328 thread=16836 AMD neural: waiting for resolution settings to settle
+1947343 thread=20232 AMD neural: waiting for resolution settings to settle
+1947343 thread=4204 AMD neural: waiting for resolution settings to settle
+1947359 thread=9428 AMD neural: waiting for resolution settings to settle
+1947375 thread=1724 AMD neural: waiting for resolution settings to settle
+1947375 thread=20232 AMD neural: waiting for resolution settings to settle
+1947390 thread=19300 AMD neural: waiting for resolution settings to settle
+1947390 thread=9100 AMD neural: waiting for resolution settings to settle
+1947406 thread=1724 AMD neural: waiting for resolution settings to settle
+1947421 thread=10224 AMD neural: waiting for resolution settings to settle
+1947421 thread=19300 AMD neural: waiting for resolution settings to settle
+1947437 thread=9428 AMD neural: waiting for resolution settings to settle
+1947453 thread=9428 AMD neural: waiting for resolution settings to settle
+1947453 thread=10224 AMD neural: waiting for resolution settings to settle
+1947468 thread=8612 AMD neural: waiting for resolution settings to settle
+1947484 thread=5312 AMD neural: waiting for resolution settings to settle
+1947484 thread=10224 AMD neural: waiting for resolution settings to settle
+1952328 thread=16836 AMD neural: waiting for resolution settings to settle
+1952343 thread=10396 AMD neural: waiting for resolution settings to settle
+1952343 thread=16836 AMD neural: waiting for resolution settings to settle
+1952359 thread=5312 AMD neural: waiting for resolution settings to settle
+1952375 thread=10224 AMD neural: waiting for resolution settings to settle
+1952375 thread=9428 AMD neural: waiting for resolution settings to settle
+1952390 thread=10396 AMD neural: waiting for resolution settings to settle
+1952406 thread=5312 AMD neural: waiting for resolution settings to settle
+1952406 thread=9428 AMD neural: waiting for resolution settings to settle
+1952421 thread=19300 AMD neural: waiting for resolution settings to settle
+1952437 thread=19300 AMD neural: waiting for resolution settings to settle
+1952437 thread=20232 AMD neural: waiting for resolution settings to settle
+1952453 thread=16836 AMD neural: waiting for resolution settings to settle
+1952468 thread=20232 AMD neural: waiting for resolution settings to settle
+1952468 thread=1724 AMD neural: waiting for resolution settings to settle
+1952484 thread=1724 AMD neural: waiting for resolution settings to settle
+1952500 thread=8612 AMD neural: waiting for resolution settings to settle
+1952500 thread=10224 AMD neural: waiting for resolution settings to settle
+1952515 thread=16836 AMD neural: waiting for resolution settings to settle
+1952515 thread=10396 AMD neural: waiting for resolution settings to settle
+1952531 thread=10224 AMD neural: waiting for resolution settings to settle
+1952546 thread=20232 AMD neural: waiting for resolution settings to settle
+1952546 thread=10224 AMD neural: waiting for resolution settings to settle
+1952562 thread=10224 AMD neural: waiting for resolution settings to settle
+1952578 thread=10224 AMD neural: waiting for resolution settings to settle
+1952578 thread=19300 AMD neural: waiting for resolution settings to settle
+1952593 thread=9428 AMD neural: waiting for resolution settings to settle
+1952609 thread=5312 AMD neural: waiting for resolution settings to settle
+1952609 thread=1724 AMD neural: waiting for resolution settings to settle
+1952625 thread=9428 AMD neural: waiting for resolution settings to settle
+1952625 thread=10224 AMD neural: waiting for resolution settings to settle
+1985468 thread=20232 AMD neural: waiting for resolution settings to settle
+1985484 thread=20232 AMD neural: waiting for resolution settings to settle
+1985500 thread=19300 AMD neural: waiting for resolution settings to settle
+1985531 thread=19300 AMD neural: waiting for resolution settings to settle
+1985546 thread=19300 AMD neural: waiting for resolution settings to settle
+1985562 thread=10224 AMD neural: waiting for resolution settings to settle
+1985578 thread=19300 AMD neural: waiting for resolution settings to settle
+1985593 thread=1724 AMD neural: waiting for resolution settings to settle
+1985609 thread=10224 AMD neural: waiting for resolution settings to settle
+1985625 thread=9428 AMD neural: waiting for resolution settings to settle
+1985640 thread=20232 AMD neural: waiting for resolution settings to settle
+1985656 thread=20232 AMD neural: waiting for resolution settings to settle
+1985671 thread=10224 AMD neural: waiting for resolution settings to settle
+1985687 thread=9100 AMD neural: waiting for resolution settings to settle
+1985703 thread=9100 AMD neural: waiting for resolution settings to settle
+1985718 thread=10396 AMD neural: waiting for resolution settings to settle
+1985750 thread=4204 AMD neural: waiting for resolution settings to settle
+1985765 thread=10396 AMD neural: waiting for resolution settings to settle
+1993812 thread=8612 AMD neural: waiting for resolution settings to settle
+1993843 thread=10396 AMD neural: waiting for resolution settings to settle
+1993859 thread=19300 AMD neural: waiting for resolution settings to settle
+1993875 thread=9428 AMD neural: waiting for resolution settings to settle
+1993890 thread=16836 AMD neural: waiting for resolution settings to settle
+1993921 thread=20148 AMD neural: waiting for resolution settings to settle
+1993937 thread=16836 AMD neural: waiting for resolution settings to settle
+1993953 thread=20232 AMD neural: waiting for resolution settings to settle
+1993968 thread=4204 AMD neural: waiting for resolution settings to settle
+1993984 thread=8612 AMD neural: waiting for resolution settings to settle
+1994000 thread=16836 AMD neural: waiting for resolution settings to settle
+1994015 thread=5312 AMD neural: waiting for resolution settings to settle
+1994046 thread=1724 AMD neural: waiting for resolution settings to settle
+1994062 thread=9100 AMD neural: waiting for resolution settings to settle
+1994078 thread=10224 AMD neural: waiting for resolution settings to settle
+1994093 thread=9100 AMD neural: waiting for resolution settings to settle
+1994109 thread=20148 AMD neural: waiting for resolution settings to settle
+1994140 thread=9428 AMD pre-SR: warming up after an upscaler/resource change
+1994156 thread=16836 AMD pre-SR: warming up after an upscaler/resource change
+1994171 thread=9428 AMD pre-SR: warming up after an upscaler/resource change
+1994187 thread=20232 AMD pre-SR: warming up after an upscaler/resource change
+1994203 thread=9100 AMD pre-SR: warming up after an upscaler/resource change
+1994218 thread=20148 AMD pre-SR: warming up after an upscaler/resource change
+1994250 thread=9100 AMD pre-SR: warming up after an upscaler/resource change
+1994281 thread=4204 AMD pre-SR: warming up after an upscaler/resource change
+1994281 thread=10224 AMD pre-SR: warming up after an upscaler/resource change
+1994328 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1994343 thread=20148 AMD pre-SR: warming up after an upscaler/resource change
+1994406 thread=8612 AMD pre-SR: warming up after an upscaler/resource change
+1994437 thread=1724 AMD pre-SR: warming up after an upscaler/resource change
+1994453 thread=1724 AMD pre-SR: warming up after an upscaler/resource change
+1994468 thread=5312 AMD pre-SR: warming up after an upscaler/resource change
+1994484 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+1994515 thread=10224 AMD pre-SR: warming up after an upscaler/resource change
+1994531 thread=5312 AMD pre-SR: warming up after an upscaler/resource change
+1994609 thread=8612 AMD pre-SR: warming up after an upscaler/resource change
+1994671 thread=19300 AMD pre-SR: warming up after an upscaler/resource change
+1994718 thread=20232 AMD pre-SR: warming up after an upscaler/resource change
+1994765 thread=16836 AMD pre-SR: warming up after an upscaler/resource change
+1995000 thread=19300 AMD pre-SR: warming up after an upscaler/resource change
+1995250 thread=4204 AMD pre-SR: warming up after an upscaler/resource change
+2005250 thread=9428 AMD neural: waiting for resolution settings to settle
+2005265 thread=20148 AMD neural: waiting for resolution settings to settle
+2005281 thread=19300 AMD neural: waiting for resolution settings to settle
+2005296 thread=10396 AMD neural: waiting for resolution settings to settle
+2005312 thread=16836 AMD neural: waiting for resolution settings to settle
+2005328 thread=5312 AMD neural: waiting for resolution settings to settle
+2005343 thread=10224 AMD neural: waiting for resolution settings to settle
+2005359 thread=10224 AMD neural: waiting for resolution settings to settle
+2005375 thread=10224 AMD neural: waiting for resolution settings to settle
+2005390 thread=4204 AMD neural: waiting for resolution settings to settle
+2005406 thread=20148 AMD neural: waiting for resolution settings to settle
+2005421 thread=9428 AMD neural: waiting for resolution settings to settle
+2005437 thread=5312 AMD neural: waiting for resolution settings to settle
+2005453 thread=10224 AMD neural: waiting for resolution settings to settle
+2005468 thread=8612 AMD neural: waiting for resolution settings to settle
+2005484 thread=10396 AMD neural: waiting for resolution settings to settle
+2005500 thread=1724 AMD neural: waiting for resolution settings to settle
+2005515 thread=20232 AMD neural: waiting for resolution settings to settle
+2005531 thread=1724 AMD neural: waiting for resolution settings to settle
+2005546 thread=20148 AMD neural: waiting for resolution settings to settle
+2014890 thread=9100 AMD neural: waiting for resolution settings to settle
+2014906 thread=4204 AMD neural: waiting for resolution settings to settle
+2014921 thread=16836 AMD neural: waiting for resolution settings to settle
+2014937 thread=10224 AMD neural: waiting for resolution settings to settle
+2014968 thread=5312 AMD neural: waiting for resolution settings to settle
+2014984 thread=10396 AMD neural: waiting for resolution settings to settle
+2015000 thread=20148 AMD neural: waiting for resolution settings to settle
+2015015 thread=1724 AMD neural: waiting for resolution settings to settle
+2015031 thread=9100 AMD neural: waiting for resolution settings to settle
+2015046 thread=19300 AMD neural: waiting for resolution settings to settle
+2015062 thread=19300 AMD neural: waiting for resolution settings to settle
+2015078 thread=8612 AMD neural: waiting for resolution settings to settle
+2015093 thread=20148 AMD neural: waiting for resolution settings to settle
+2015109 thread=9100 AMD neural: waiting for resolution settings to settle
+2015125 thread=8612 AMD neural: waiting for resolution settings to settle
+2015140 thread=20148 AMD neural: waiting for resolution settings to settle
+2015156 thread=8612 AMD neural: waiting for resolution settings to settle
+2015171 thread=8612 AMD neural: waiting for resolution settings to settle
+2015187 thread=20148 AMD neural: waiting for resolution settings to settle
+2015203 thread=16836 AMD pre-SR: warming up after an upscaler/resource change
+2015234 thread=20148 AMD pre-SR: warming up after an upscaler/resource change
+2015250 thread=1724 AMD pre-SR: warming up after an upscaler/resource change
+2015265 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+2015281 thread=20232 AMD pre-SR: warming up after an upscaler/resource change
+2015296 thread=8612 AMD pre-SR: warming up after an upscaler/resource change
+2015312 thread=5312 AMD pre-SR: warming up after an upscaler/resource change
+2015328 thread=19300 AMD pre-SR: warming up after an upscaler/resource change
+2015343 thread=20232 AMD pre-SR: warming up after an upscaler/resource change
+2015359 thread=8612 AMD pre-SR: warming up after an upscaler/resource change
+2015375 thread=1724 AMD pre-SR: warming up after an upscaler/resource change
+2015390 thread=20148 AMD pre-SR: warming up after an upscaler/resource change
+2015406 thread=9428 AMD pre-SR: warming up after an upscaler/resource change
+2015437 thread=9100 AMD pre-SR: warming up after an upscaler/resource change
+2015453 thread=10396 AMD pre-SR: warming up after an upscaler/resource change
+2015468 thread=9100 AMD pre-SR: warming up after an upscaler/resource change
+2015484 thread=10224 AMD pre-SR: warming up after an upscaler/resource change
+2015500 thread=9428 AMD pre-SR: warming up after an upscaler/resource change
+2015546 thread=16836 AMD pre-SR: warming up after an upscaler/resource change
+2015625 thread=4204 AMD pre-SR: warming up after an upscaler/resource change
+2015718 thread=19300 AMD pre-SR: warming up after an upscaler/resource change
+2015781 thread=4204 AMD pre-SR: warming up after an upscaler/resource change
+2016171 thread=10224 AMD pre-SR: warming up after an upscaler/resource change
+2016406 thread=5312 AMD pre-SR: warming up after an upscaler/resource change
+2180656 thread=3672 AMD neural: waiting for resolution settings to settle
+2180671 thread=13972 AMD neural: waiting for resolution settings to settle
+2180687 thread=21256 AMD neural: waiting for resolution settings to settle
+2180703 thread=12804 AMD neural: waiting for resolution settings to settle
+2180703 thread=20036 AMD neural: waiting for resolution settings to settle
+2180718 thread=21256 AMD neural: waiting for resolution settings to settle
+2180718 thread=12804 AMD neural: waiting for resolution settings to settle
+2180718 thread=13972 AMD neural: waiting for resolution settings to settle
+2180750 thread=12112 AMD neural: waiting for resolution settings to settle
+2180765 thread=1288 AMD neural: waiting for resolution settings to settle
+2180765 thread=19764 AMD neural: waiting for resolution settings to settle
+2180781 thread=6768 AMD neural: waiting for resolution settings to settle
+2180781 thread=19764 AMD neural: waiting for resolution settings to settle
+2180781 thread=13972 AMD neural: waiting for resolution settings to settle
+2180781 thread=3672 AMD neural: waiting for resolution settings to settle
+2180796 thread=19384 AMD neural: waiting for resolution settings to settle
+2180796 thread=6768 AMD neural: waiting for resolution settings to settle
+2180812 thread=19384 AMD neural: waiting for resolution settings to settle
+2180812 thread=6768 AMD neural: waiting for resolution settings to settle
+2180812 thread=14620 AMD neural: waiting for resolution settings to settle
+2180828 thread=12804 AMD neural: waiting for resolution settings to settle
+2180828 thread=12804 AMD neural: waiting for resolution settings to settle
+2180843 thread=20036 AMD neural: waiting for resolution settings to settle
+2180843 thread=13972 AMD neural: waiting for resolution settings to settle
+2180843 thread=12112 AMD neural: waiting for resolution settings to settle
+2180859 thread=6768 AMD neural: waiting for resolution settings to settle
+2180859 thread=14620 AMD neural: waiting for resolution settings to settle
+2180859 thread=21256 AMD neural: waiting for resolution settings to settle
+2180875 thread=12112 AMD neural: waiting for resolution settings to settle
+2180875 thread=14620 AMD neural: waiting for resolution settings to settle
+2180875 thread=12804 AMD neural: waiting for resolution settings to settle
+2180890 thread=20036 AMD neural: waiting for resolution settings to settle
+2180890 thread=21256 AMD neural: waiting for resolution settings to settle
+2180906 thread=19384 AMD neural: waiting for resolution settings to settle
+2180906 thread=3672 AMD neural: waiting for resolution settings to settle
+2180906 thread=19764 AMD neural: waiting for resolution settings to settle
+2180921 thread=20036 AMD neural: waiting for resolution settings to settle
+2180921 thread=19384 AMD neural: waiting for resolution settings to settle
+2180921 thread=6768 AMD neural: waiting for resolution settings to settle
+2180937 thread=12112 AMD neural: waiting for resolution settings to settle
+2180937 thread=1288 AMD neural: waiting for resolution settings to settle
+2180953 thread=21256 AMD neural: waiting for resolution settings to settle
+2180953 thread=1288 AMD neural: waiting for resolution settings to settle
+2180953 thread=21256 AMD neural: waiting for resolution settings to settle
+2180968 thread=10432 AMD pre-SR: warming up after an upscaler/resource change
+2180968 thread=21256 AMD pre-SR: warming up after an upscaler/resource change
+2180984 thread=21256 AMD pre-SR: warming up after an upscaler/resource change
+2180984 thread=19764 AMD pre-SR: warming up after an upscaler/resource change
+2180984 thread=12804 AMD pre-SR: warming up after an upscaler/resource change
+2181000 thread=14620 AMD pre-SR: warming up after an upscaler/resource change
+2181000 thread=12112 AMD pre-SR: warming up after an upscaler/resource change
+2181000 thread=1288 AMD pre-SR: warming up after an upscaler/resource change
+2181031 thread=14620 AMD pre-SR: warming up after an upscaler/resource change
+2181031 thread=3672 AMD pre-SR: warming up after an upscaler/resource change
+2181031 thread=12112 AMD pre-SR: warming up after an upscaler/resource change
+2181046 thread=13972 AMD pre-SR: warming up after an upscaler/resource change
+2181046 thread=3672 AMD pre-SR: warming up after an upscaler/resource change
+2181046 thread=6768 AMD pre-SR: warming up after an upscaler/resource change
+2181062 thread=20036 AMD pre-SR: warming up after an upscaler/resource change
+2181078 thread=20036 AMD pre-SR: warming up after an upscaler/resource change
+2181078 thread=19764 AMD pre-SR: warming up after an upscaler/resource change
+2181078 thread=13972 AMD pre-SR: warming up after an upscaler/resource change
+2181109 thread=6768 AMD pre-SR: warming up after an upscaler/resource change
+2181125 thread=19384 AMD pre-SR: warming up after an upscaler/resource change
+2181125 thread=12804 AMD pre-SR: warming up after an upscaler/resource change
+2181171 thread=10432 AMD pre-SR: warming up after an upscaler/resource change
+2181187 thread=1288 AMD pre-SR: warming up after an upscaler/resource change
+2181296 thread=19384 AMD pre-SR: warming up after an upscaler/resource change
+2275843 thread=19684 AMD neural: waiting for resolution settings to settle
+2275875 thread=13836 AMD neural: waiting for resolution settings to settle
+2275968 thread=18488 AMD neural: waiting for resolution settings to settle
+2275968 thread=12580 AMD neural: waiting for resolution settings to settle
+2275984 thread=7064 AMD neural: waiting for resolution settings to settle
+2275984 thread=12580 AMD neural: waiting for resolution settings to settle
+2276000 thread=15068 AMD neural: waiting for resolution settings to settle
+2276000 thread=15068 AMD neural: waiting for resolution settings to settle
+2276031 thread=13288 AMD neural: waiting for resolution settings to settle
+2276031 thread=15068 AMD neural: waiting for resolution settings to settle
+2276046 thread=12580 AMD neural: waiting for resolution settings to settle
+2276046 thread=19684 AMD neural: waiting for resolution settings to settle
+2276046 thread=7064 AMD neural: waiting for resolution settings to settle
+2276062 thread=20248 AMD neural: waiting for resolution settings to settle
+2276078 thread=9076 AMD neural: waiting for resolution settings to settle
+2276078 thread=20248 AMD neural: waiting for resolution settings to settle
+2276093 thread=12580 AMD neural: waiting for resolution settings to settle
+2276093 thread=20248 AMD neural: waiting for resolution settings to settle
+2276109 thread=15068 AMD neural: waiting for resolution settings to settle
+2276109 thread=9076 AMD neural: waiting for resolution settings to settle
+2276125 thread=11396 AMD neural: waiting for resolution settings to settle
+2276125 thread=13288 AMD neural: waiting for resolution settings to settle
+2276140 thread=21136 AMD neural: waiting for resolution settings to settle
+2276140 thread=9076 AMD neural: waiting for resolution settings to settle
+2276140 thread=13288 AMD neural: waiting for resolution settings to settle
+2276156 thread=19684 AMD pre-SR: warming up after an upscaler/resource change
+2276156 thread=18488 AMD pre-SR: warming up after an upscaler/resource change
+2276171 thread=12980 AMD pre-SR: warming up after an upscaler/resource change
+2276171 thread=19684 AMD pre-SR: warming up after an upscaler/resource change
+2276187 thread=20248 AMD pre-SR: warming up after an upscaler/resource change
+2276187 thread=21136 AMD pre-SR: warming up after an upscaler/resource change
+2276203 thread=12980 AMD pre-SR: warming up after an upscaler/resource change
+2276203 thread=11396 AMD pre-SR: warming up after an upscaler/resource change
+2276218 thread=20248 AMD pre-SR: warming up after an upscaler/resource change
+2276218 thread=9076 AMD pre-SR: warming up after an upscaler/resource change
+2276234 thread=15068 AMD pre-SR: warming up after an upscaler/resource change
+2276234 thread=15068 AMD pre-SR: warming up after an upscaler/resource change
+2276250 thread=21136 AMD pre-SR: warming up after an upscaler/resource change
+2276265 thread=13836 AMD pre-SR: warming up after an upscaler/resource change
+2276281 thread=18488 AMD pre-SR: warming up after an upscaler/resource change
+2276281 thread=12580 AMD pre-SR: warming up after an upscaler/resource change
+2276312 thread=12580 AMD pre-SR: warming up after an upscaler/resource change
+2276328 thread=9076 AMD pre-SR: warming up after an upscaler/resource change
+2276343 thread=11396 AMD pre-SR: warming up after an upscaler/resource change
+2276359 thread=7064 AMD pre-SR: warming up after an upscaler/resource change
+2276375 thread=7064 AMD pre-SR: warming up after an upscaler/resource change
+2276468 thread=13288 AMD pre-SR: warming up after an upscaler/resource change
+2276562 thread=13288 AMD pre-SR: warming up after an upscaler/resource change
+2276703 thread=13836 AMD pre-SR: warming up after an upscaler/resource change
+2627031 thread=14648 AMD neural: waiting for resolution settings to settle
+2627078 thread=21488 AMD neural: waiting for resolution settings to settle
+2627187 thread=14648 AMD neural: waiting for resolution settings to settle
+2627187 thread=1552 AMD neural: waiting for resolution settings to settle
+2627203 thread=21488 AMD neural: waiting for resolution settings to settle
+2627218 thread=3764 AMD neural: waiting for resolution settings to settle
+2627218 thread=14720 AMD neural: waiting for resolution settings to settle
+2627234 thread=3764 AMD neural: waiting for resolution settings to settle
+2627265 thread=9100 AMD neural: waiting for resolution settings to settle
+2627281 thread=4244 AMD neural: waiting for resolution settings to settle
+2627281 thread=4248 AMD neural: waiting for resolution settings to settle
+2627296 thread=4244 AMD neural: waiting for resolution settings to settle
+2627296 thread=3764 AMD neural: waiting for resolution settings to settle
+2627312 thread=17416 AMD neural: waiting for resolution settings to settle
+2627328 thread=17416 AMD neural: waiting for resolution settings to settle
+2627343 thread=17416 AMD pre-SR: warming up after an upscaler/resource change
+2627359 thread=3764 AMD pre-SR: warming up after an upscaler/resource change
+2627359 thread=21488 AMD pre-SR: warming up after an upscaler/resource change
+2627375 thread=1552 AMD pre-SR: warming up after an upscaler/resource change
+2627390 thread=3300 AMD pre-SR: warming up after an upscaler/resource change
+2627390 thread=1552 AMD pre-SR: warming up after an upscaler/resource change
+2627406 thread=3764 AMD pre-SR: warming up after an upscaler/resource change
+2627421 thread=19552 AMD pre-SR: warming up after an upscaler/resource change
+2627437 thread=21488 AMD pre-SR: warming up after an upscaler/resource change
+2627453 thread=14720 AMD pre-SR: warming up after an upscaler/resource change
+2627468 thread=9100 AMD pre-SR: warming up after an upscaler/resource change
+2627468 thread=14720 AMD pre-SR: warming up after an upscaler/resource change
+2627484 thread=3300 AMD pre-SR: warming up after an upscaler/resource change
+2627500 thread=8452 AMD pre-SR: warming up after an upscaler/resource change
+2627515 thread=19552 AMD pre-SR: warming up after an upscaler/resource change
+2627515 thread=4244 AMD pre-SR: warming up after an upscaler/resource change
+2627531 thread=8452 AMD pre-SR: warming up after an upscaler/resource change
+2627546 thread=4244 AMD pre-SR: warming up after an upscaler/resource change
+2627593 thread=9100 AMD pre-SR: warming up after an upscaler/resource change
+2627609 thread=17416 AMD pre-SR: warming up after an upscaler/resource change
+2627718 thread=4248 AMD pre-SR: warming up after an upscaler/resource change
+2627734 thread=14648 AMD pre-SR: warming up after an upscaler/resource change
+2627750 thread=4248 AMD pre-SR: warming up after an upscaler/resource change
+2627921 thread=14648 AMD pre-SR: warming up after an upscaler/resource change
+2664312 thread=19384 AMD neural: waiting for resolution settings to settle
+2664343 thread=19932 AMD neural: waiting for resolution settings to settle
+2664453 thread=11276 AMD neural: waiting for resolution settings to settle
+2664468 thread=12428 AMD neural: waiting for resolution settings to settle
+2664468 thread=18308 AMD neural: waiting for resolution settings to settle
+2664484 thread=20452 AMD neural: waiting for resolution settings to settle
+2664484 thread=20452 AMD neural: waiting for resolution settings to settle
+2664484 thread=11276 AMD neural: waiting for resolution settings to settle
+2664515 thread=20192 AMD neural: waiting for resolution settings to settle
+2664531 thread=19700 AMD neural: waiting for resolution settings to settle
+2664546 thread=9796 AMD neural: waiting for resolution settings to settle
+2664546 thread=11276 AMD neural: waiting for resolution settings to settle
+2664546 thread=19700 AMD neural: waiting for resolution settings to settle
+2664562 thread=20192 AMD neural: waiting for resolution settings to settle
+2664562 thread=20452 AMD neural: waiting for resolution settings to settle
+2664578 thread=18308 AMD neural: waiting for resolution settings to settle
+2664593 thread=20192 AMD neural: waiting for resolution settings to settle
+2664593 thread=19384 AMD neural: waiting for resolution settings to settle
+2664609 thread=20192 AMD neural: waiting for resolution settings to settle
+2664609 thread=16880 AMD neural: waiting for resolution settings to settle
+2664625 thread=18308 AMD pre-SR: warming up after an upscaler/resource change
+2664625 thread=11276 AMD pre-SR: warming up after an upscaler/resource change
+2664640 thread=20452 AMD pre-SR: warming up after an upscaler/resource change
+2664640 thread=18308 AMD pre-SR: warming up after an upscaler/resource change
+2664640 thread=19932 AMD pre-SR: warming up after an upscaler/resource change
+2664656 thread=19932 AMD pre-SR: warming up after an upscaler/resource change
+2664656 thread=20452 AMD pre-SR: warming up after an upscaler/resource change
+2664671 thread=20960 AMD pre-SR: warming up after an upscaler/resource change
+2664671 thread=12428 AMD pre-SR: warming up after an upscaler/resource change
+2664687 thread=20192 AMD pre-SR: warming up after an upscaler/resource change
+2664687 thread=12428 AMD pre-SR: warming up after an upscaler/resource change
+2664718 thread=20192 AMD pre-SR: warming up after an upscaler/resource change
+2664718 thread=19384 AMD pre-SR: warming up after an upscaler/resource change
+2702718 thread=5848 AMD neural: waiting for resolution settings to settle
+2702750 thread=19268 AMD neural: waiting for resolution settings to settle
+2702859 thread=8488 AMD neural: waiting for resolution settings to settle
+2702859 thread=8408 AMD neural: waiting for resolution settings to settle
+2702875 thread=14596 AMD neural: waiting for resolution settings to settle
+2702875 thread=14596 AMD neural: waiting for resolution settings to settle
+2702875 thread=11644 AMD neural: waiting for resolution settings to settle
+2702890 thread=3452 AMD neural: waiting for resolution settings to settle
+2702921 thread=3452 AMD neural: waiting for resolution settings to settle
+2702921 thread=14596 AMD neural: waiting for resolution settings to settle
+2702937 thread=8488 AMD neural: waiting for resolution settings to settle
+2702937 thread=5848 AMD neural: waiting for resolution settings to settle
+2702937 thread=14596 AMD neural: waiting for resolution settings to settle
+2702953 thread=8488 AMD neural: waiting for resolution settings to settle
+2702968 thread=17908 AMD neural: waiting for resolution settings to settle
+2702968 thread=19268 AMD neural: waiting for resolution settings to settle
+2702984 thread=5848 AMD neural: waiting for resolution settings to settle
+2702984 thread=3900 AMD neural: waiting for resolution settings to settle
+2703000 thread=3452 AMD neural: waiting for resolution settings to settle
+2703000 thread=17204 AMD neural: waiting for resolution settings to settle
+2703000 thread=5848 AMD neural: waiting for resolution settings to settle
+2703015 thread=11644 AMD neural: waiting for resolution settings to settle
+2703015 thread=3452 AMD neural: waiting for resolution settings to settle
+2703031 thread=5848 AMD pre-SR: warming up after an upscaler/resource change
+2703031 thread=3900 AMD pre-SR: warming up after an upscaler/resource change
+2703046 thread=3532 AMD pre-SR: warming up after an upscaler/resource change
+2703046 thread=19268 AMD pre-SR: warming up after an upscaler/resource change
+2703062 thread=17908 AMD pre-SR: warming up after an upscaler/resource change
+2703062 thread=3532 AMD pre-SR: warming up after an upscaler/resource change
+2703062 thread=17204 AMD pre-SR: warming up after an upscaler/resource change
+2703078 thread=17204 AMD pre-SR: warming up after an upscaler/resource change
+2703093 thread=11644 AMD pre-SR: warming up after an upscaler/resource change
+2703109 thread=8488 AMD pre-SR: warming up after an upscaler/resource change
+2703109 thread=8488 AMD pre-SR: warming up after an upscaler/resource change
+2703125 thread=19268 AMD pre-SR: warming up after an upscaler/resource change
+2703125 thread=17908 AMD pre-SR: warming up after an upscaler/resource change
+2703156 thread=10440 AMD pre-SR: warming up after an upscaler/resource change
+2703156 thread=5848 AMD pre-SR: warming up after an upscaler/resource change
+2703187 thread=14596 AMD pre-SR: warming up after an upscaler/resource change
+2703203 thread=3452 AMD pre-SR: warming up after an upscaler/resource change
+2703203 thread=3900 AMD pre-SR: warming up after an upscaler/resource change
+2703218 thread=3452 AMD pre-SR: warming up after an upscaler/resource change
+2703234 thread=8408 AMD pre-SR: warming up after an upscaler/resource change
+2703250 thread=14596 AMD pre-SR: warming up after an upscaler/resource change
+2703328 thread=8408 AMD pre-SR: warming up after an upscaler/resource change
+2703343 thread=10440 AMD pre-SR: warming up after an upscaler/resource change
+2703625 thread=11644 AMD pre-SR: warming up after an upscaler/resource change
+2732062 thread=20388 AMD neural: waiting for resolution settings to settle
+2732093 thread=12580 AMD neural: waiting for resolution settings to settle
+2732187 thread=14012 AMD neural: waiting for resolution settings to settle
+2732187 thread=18488 AMD neural: waiting for resolution settings to settle
+2732187 thread=14012 AMD neural: waiting for resolution settings to settle
+2732203 thread=17464 AMD neural: waiting for resolution settings to settle
+2732203 thread=14012 AMD neural: waiting for resolution settings to settle
+2732218 thread=18488 AMD neural: waiting for resolution settings to settle
+2732250 thread=20388 AMD neural: waiting for resolution settings to settle
+2732265 thread=17992 AMD neural: waiting for resolution settings to settle
+2732281 thread=18488 AMD neural: waiting for resolution settings to settle
+2732296 thread=8020 AMD neural: waiting for resolution settings to settle
+2732296 thread=7520 AMD neural: waiting for resolution settings to settle
+2732312 thread=12580 AMD neural: waiting for resolution settings to settle
+2732328 thread=8020 AMD neural: waiting for resolution settings to settle
+2732328 thread=8020 AMD neural: waiting for resolution settings to settle
+2732343 thread=11276 AMD neural: waiting for resolution settings to settle
+2732343 thread=18488 AMD neural: waiting for resolution settings to settle
+2732359 thread=17992 AMD neural: waiting for resolution settings to settle
+2732375 thread=12580 AMD pre-SR: warming up after an upscaler/resource change
+2732375 thread=13972 AMD pre-SR: warming up after an upscaler/resource change
+2732390 thread=8020 AMD pre-SR: warming up after an upscaler/resource change
+2732390 thread=12580 AMD pre-SR: warming up after an upscaler/resource change
+2732406 thread=8020 AMD pre-SR: warming up after an upscaler/resource change
+2732406 thread=13972 AMD pre-SR: warming up after an upscaler/resource change
+2732421 thread=18488 AMD pre-SR: warming up after an upscaler/resource change
+2732437 thread=7520 AMD pre-SR: warming up after an upscaler/resource change
+2732453 thread=17464 AMD pre-SR: warming up after an upscaler/resource change
+2732468 thread=7520 AMD pre-SR: warming up after an upscaler/resource change
+2732484 thread=9772 AMD pre-SR: warming up after an upscaler/resource change
+2732500 thread=17464 AMD pre-SR: warming up after an upscaler/resource change
+2732515 thread=11276 AMD pre-SR: warming up after an upscaler/resource change
+2732531 thread=17992 AMD pre-SR: warming up after an upscaler/resource change
+2732546 thread=20388 AMD pre-SR: warming up after an upscaler/resource change
+2732546 thread=17992 AMD pre-SR: warming up after an upscaler/resource change
+2732562 thread=9772 AMD pre-SR: warming up after an upscaler/resource change
+2732578 thread=14012 AMD pre-SR: warming up after an upscaler/resource change
+2732578 thread=20388 AMD pre-SR: warming up after an upscaler/resource change
+2732593 thread=11276 AMD pre-SR: warming up after an upscaler/resource change
+2732625 thread=18488 AMD pre-SR: warming up after an upscaler/resource change
+2732640 thread=14012 AMD pre-SR: warming up after an upscaler/resource change
+2733703 thread=21056 AMD pre-SR: warming up after an upscaler/resource change
+2733734 thread=21056 AMD pre-SR: warming up after an upscaler/resource change
+
+===== dlssnr_on_amd.log =====
+Last write: 2026-09-08T17:20:08.2213100-03:00; bytes: 2824
+dlssnr_amd v0.2.14 (build 17cc23b0) loaded (standalone version.dll proxy) from C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077\bin\x64\; log C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077\bin\x64\dlssnr_on_amd.log; settings C:\Program Files (x86)\GOG Galaxy\Games\Cyberpunk 2077\bin\x64\dlssnr_on_amd.ini
+residual apply pipeline ready
+staging ready: colour 853x480 dxgi 10 (pix 0, tonemap 1); motion 853x480 dxgi 10; depth 853x480 dxgi 19 (inverted 1); exposure no; residual on
+interop: inputs shared (zero-copy), output shared (zero-copy); mode inline (same-frame, game waits for the network)
+queue alignment mode [worker thread, job 1]: unaligned accesses honoured (b16 store at +1 -> 00 11 22 00)
+auto-exposure: encoded mean 0.786 -> exposure 0.2500
+network job 1 done in 15 ms (0.1 ms waiting for the capture; history off, zero-copy)
+network job 2 done in 15 ms (11.3 ms waiting for the capture; history off, zero-copy)
+self-check: pre-block zero bytes 0.068% (healthy)
+network job 3 done in 16 ms (3.6 ms waiting for the capture; history on, zero-copy)
+inline: spin used 68355 iterations for a 16 ms job (~16417 iter/ms), cap 29551152
+self-check: pre-block zero bytes 0.168% (healthy)
+auto-exposure: encoded mean 0.491 -> exposure 2.4668
+network job 100 done in 0 ms (13.0 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.506 -> exposure 2.7097
+network job 200 done in 16 ms (9.3 ms waiting for the capture; history on, zero-copy)
+inline: spin used 63152 iterations for a 16 ms job (~52887 iter/ms), cap 95196819
+auto-exposure: encoded mean 0.495 -> exposure 2.0009
+network job 300 done in 16 ms (12.5 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.502 -> exposure 2.4997
+network job 400 done in 15 ms (14.8 ms waiting for the capture; history on, zero-copy)
+inline: spin used 64366 iterations for a 15 ms job (~64366 iter/ms), cap 115858800
+auto-exposure: encoded mean 0.500 -> exposure 2.3386
+network job 500 done in 15 ms (9.3 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.500 -> exposure 2.3299
+network job 600 done in 16 ms (9.3 ms waiting for the capture; history on, zero-copy)
+inline: spin used 64031 iterations for a 16 ms job (~56084 iter/ms), cap 100950324
+auto-exposure: encoded mean 0.500 -> exposure 2.3120
+network job 700 done in 15 ms (12.6 ms waiting for the capture; history on, zero-copy)
+auto-exposure: encoded mean 0.500 -> exposure 2.3173
+network job 800 done in 15 ms (9.3 ms waiting for the capture; history on, zero-copy)
+inline: spin used 62722 iterations for a 15 ms job (~61091 iter/ms), cap 109963602
+auto-exposure: encoded mean 0.500 -> exposure 2.3100
+network job 900 done in 15 ms (9.3 ms waiting for the capture; history on, zero-copy)
+
+===== dlss-enabler.log =====
+[not present]
